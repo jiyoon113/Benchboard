@@ -1293,13 +1293,13 @@
   {
     "id": "medqa-usmle-4-options",
     "name": "MedQA USMLE 4 Options",
-    "category": "agent",
+    "category": "health",
     "type": "deterministic"
   },
   {
     "id": "medqa-usmle-5-options",
     "name": "MedQA USMLE 5 Options",
-    "category": "agent",
+    "category": "health",
     "type": "deterministic"
   },
   {

@@ -191,3 +191,106 @@ export async function buildView(category: CategorySlug): Promise<CategoryView> {
     hiddenBenchmarks,
   };
 }
+
+// ── Tag explorer (landing page) ──────────────────────────────────────────────
+
+export type SchemeId = "ability" | "survey";
+
+/** benchmark-tags.json shape: { ability: {id:[tags]}, survey: {id:[tags]} } */
+export async function loadBenchmarkTags(): Promise<
+  Record<SchemeId, Record<string, string[]>>
+> {
+  return readJson<Record<SchemeId, Record<string, string[]>>>(
+    path.join(DATA, "benchmark-tags.json"),
+    { ability: {}, survey: {} },
+  );
+}
+
+export interface ExplorerBenchmark {
+  id: string;
+  name: string;
+  category: BenchmarkCategory;
+  type: BenchmarkType;
+  modelCount: number;
+}
+
+export interface ExplorerScore {
+  model: string;
+  vendor: string;
+  score: number;
+  config: string;
+}
+
+export interface SchemeData {
+  /** tag id → number of benchmarks carrying it */
+  tagCounts: Record<string, number>;
+  /** benchmark id → tag ids under this scheme */
+  benchTags: Record<string, string[]>;
+}
+
+export interface ExplorerData {
+  schemes: Record<SchemeId, SchemeData>;
+  benchmarks: ExplorerBenchmark[];
+  /** benchmark id → model scores, sorted desc */
+  scores: Record<string, ExplorerScore[]>;
+}
+
+/** Everything the landing-page tag explorer needs, precomputed at build time. */
+export async function loadExplorerData(): Promise<ExplorerData> {
+  const [benchmarks, models, allScores, tagMaps] = await Promise.all([
+    loadBenchmarks(),
+    loadModels(),
+    loadAllScores(),
+    loadBenchmarkTags(),
+  ]);
+  const modelById = new Map(models.map((m) => [m.id, m]));
+
+  // Group scores by benchmark, tracking distinct models for the count.
+  const byBench = new Map<string, ExplorerScore[]>();
+  const modelsByBench = new Map<string, Set<string>>();
+  for (const s of allScores) {
+    const m = modelById.get(s.model_id);
+    let arr = byBench.get(s.benchmark_id);
+    if (!arr) {
+      arr = [];
+      byBench.set(s.benchmark_id, arr);
+    }
+    arr.push({
+      model: m?.name ?? s.model_id,
+      vendor: m?.vendor ?? "Unknown",
+      score: s.score,
+      config: s.config,
+    });
+    let set = modelsByBench.get(s.benchmark_id);
+    if (!set) {
+      set = new Set();
+      modelsByBench.set(s.benchmark_id, set);
+    }
+    set.add(s.model_id);
+  }
+
+  const scores: Record<string, ExplorerScore[]> = {};
+  for (const [bid, arr] of byBench) {
+    scores[bid] = arr.sort((a, b) => b.score - a.score);
+  }
+
+  const benchmarksOut: ExplorerBenchmark[] = benchmarks.map((b) => ({
+    id: b.id,
+    name: b.name,
+    category: b.category,
+    type: b.type,
+    modelCount: modelsByBench.get(b.id)?.size ?? 0,
+  }));
+
+  const schemes = {} as Record<SchemeId, SchemeData>;
+  for (const scheme of ["ability", "survey"] as const) {
+    const map = tagMaps[scheme] ?? {};
+    const tagCounts: Record<string, number> = {};
+    for (const b of benchmarks) {
+      for (const t of map[b.id] ?? []) tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+    }
+    schemes[scheme] = { tagCounts, benchTags: map };
+  }
+
+  return { schemes, benchmarks: benchmarksOut, scores };
+}

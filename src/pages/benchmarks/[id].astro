@@ -5,7 +5,9 @@ import {
   loadAllScores,
   loadBenchmarks,
   loadModels,
+  loadBenchmarkTags,
 } from "../../lib/loadData.ts";
+import { SCHEMES, tagById, surveyPath } from "../../lib/tags.ts";
 import { withBase } from "../../lib/url";
 import "../../styles/global.css";
 
@@ -15,13 +17,23 @@ export async function getStaticPaths() {
 }
 
 const { id } = Astro.params;
-const [benchmarks, models, scores] = await Promise.all([
+const [benchmarks, models, scores, tagMaps] = await Promise.all([
   loadBenchmarks(),
   loadModels(),
   loadAllScores(),
+  loadBenchmarkTags(),
 ]);
 const bench = benchmarks.find((b) => b.id === id);
 if (!bench) throw new Error(`Unknown benchmark: ${id}`);
+
+// Tag set under both schemes. Scheme 1 = flat ability chips; scheme 2 = the
+// taxonomy path (계>문>강 식 breadcrumb).
+const abilityTags = (tagMaps.ability?.[id as string] ?? [])
+  .map((t) => tagById(t))
+  .filter((t): t is NonNullable<ReturnType<typeof tagById>> => Boolean(t));
+const surveyPaths = (tagMaps.survey?.[id as string] ?? []).map((leaf) =>
+  surveyPath(leaf),
+);
 
 const modelById = new Map(models.map((m) => [m.id, m]));
 const here = scores
@@ -131,12 +143,58 @@ const riskColor: Record<RiskLevel, string> = {
     <p class="text-sm text-neutral-600 mb-4 max-w-2xl">{bench.description}</p>
   )}
 
-  {bench.note && (
-    <div class="mb-6 max-w-2xl rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-      <div class="font-semibold mb-1">⚠ 벤치마크 주의사항</div>
-      <p class="whitespace-pre-line">{bench.note}</p>
+  <div class="mb-6 flex flex-col lg:flex-row lg:items-start gap-4">
+    {bench.note && (
+      <div class="lg:flex-1 lg:max-w-2xl rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+        <div class="font-semibold mb-1">⚠ 벤치마크 주의사항</div>
+        <p class="whitespace-pre-line">{bench.note}</p>
+      </div>
+    )}
+    <div class={`rounded border border-neutral-200 bg-neutral-50 px-3 py-2 ${bench.note ? "lg:w-80 shrink-0" : "w-full max-w-2xl"}`}>
+      <div class="text-[10px] uppercase tracking-wider text-neutral-400 mb-1.5">
+        Benchmark tag set
+      </div>
+
+      <div class="mb-2">
+        <div class="text-[10px] text-neutral-500 mb-1">
+          <a href={SCHEMES.ability.url} target="_blank" rel="noopener" class="hover:underline">{SCHEMES.ability.label}</a>
+        </div>
+        <div class="flex flex-wrap gap-1">
+          {abilityTags.length === 0 ? (
+            <span class="text-[10px] text-neutral-300">—</span>
+          ) : (
+            abilityTags.map((t) => (
+              <span class="text-[10px] rounded bg-white border border-neutral-200 px-1.5 py-0.5 text-neutral-600" title={t.description}>
+                {t.label}
+              </span>
+            ))
+          )}
+        </div>
+      </div>
+
+      <div>
+        <div class="text-[10px] text-neutral-500 mb-1">
+          <a href={SCHEMES.survey.url} target="_blank" rel="noopener" class="hover:underline">{SCHEMES.survey.label}</a>
+        </div>
+        {surveyPaths.length === 0 ? (
+          <span class="text-[10px] text-neutral-300">—</span>
+        ) : (
+          <ul class="space-y-0.5">
+            {surveyPaths.map((path) => (
+              <li class="text-[10px] text-neutral-600 flex flex-wrap items-center gap-0.5">
+                {path.map((seg, i) => (
+                  <>
+                    {i > 0 && <span class="text-neutral-300">›</span>}
+                    <span class={i === path.length - 1 ? "font-medium text-neutral-800" : "text-neutral-500"}>{seg}</span>
+                  </>
+                ))}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
-  )}
+  </div>
 
   {sig && risk && (
     <div class={`mb-6 max-w-2xl rounded border px-4 py-3 text-xs ${sig.saturated ? "border-amber-300 bg-amber-50 text-amber-900" : "border-neutral-200 bg-neutral-50 text-neutral-700"}`}>

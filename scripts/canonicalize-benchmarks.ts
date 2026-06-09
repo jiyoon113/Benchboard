@@ -261,6 +261,7 @@ const CATEGORY_OVERRIDE: Record<string, string> = {
   personqa: "factuality", truthfulqa: "factuality",
   "medcalc-bench-verified": "health", "medmcqa-dev": "health",
   "medqa-mainland-china": "health", "medqa-taiwan": "health",
+  "medqa-usmle-4-options": "health", "medqa-usmle-5-options": "health",
 };
 
 function resolveAlias(id: string): { canonical_id: string; configAddon?: string } {

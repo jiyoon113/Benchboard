@@ -1,26 +1,20 @@
 ---
 import Page from "../layouts/Page.astro";
-import CategoryTabs from "../components/CategoryTabs.astro";
-import LeaderboardTable from "../components/LeaderboardTable.tsx";
-import { buildView } from "../lib/loadData.ts";
-import { withBase } from "../lib/url";
+import TagExplorer from "../components/TagExplorer.tsx";
+import { loadExplorerData } from "../lib/loadData.ts";
 import "../styles/global.css";
 
-const view = await buildView("non_deterministic");
-// index redirects to /non-deterministic for canonical URL
+const data = await loadExplorerData();
 ---
 
-<Page title="Non-deterministic">
-  <h1 class="text-2xl font-bold tracking-tight mb-1">LLM Benchmarks</h1>
-  <p class="text-sm text-neutral-500 mb-4">
-    Scores pulled from public sources. Numbers in parentheses are alternative
-    configurations reported for the same (model, benchmark) — hover for source.
+<Page title="Explore">
+  <h1 class="text-2xl font-bold tracking-tight mb-1">LLM Benchmark Explorer</h1>
+  <p class="text-sm text-neutral-500 mb-6 max-w-3xl">
+    능력·도메인 태그로 벤치마크를 탐색하세요. 태그를 고르면 해당 벤치마크가 추려지고,
+    벤치마크를 누르면 그걸로 평가된 모델 점수가 나옵니다. 태그는
+    <a href="https://arxiv.org/abs/2510.01232" target="_blank" rel="noopener" class="underline">Benchmark Profiling</a>의
+    10개 canonical ability + 도메인 태그 기반입니다. 전체 점수표는 상단
+    <strong>Scores</strong>에서 볼 수 있어요.
   </p>
-  <meta http-equiv="refresh" content={`0;url=${withBase("/non-deterministic")}`} />
-  <CategoryTabs active="non-deterministic" />
-  <LeaderboardTable
-    client:load
-    benchmarks={view.benchmarks}
-    rows={view.rows}
-  />
+  <TagExplorer client:load data={data} />
 </Page>

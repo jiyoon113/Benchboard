@@ -19,6 +19,7 @@
     "fetch:seal": "tsx --env-file=.env scripts/fetch-seal.ts",
     "fetch:all": "tsx --env-file=.env scripts/fetch-all.ts",
     "seed": "tsx scripts/seed-from-benchmark-json.ts && tsx scripts/apply-alias-pack.ts && tsx scripts/canonicalize-benchmarks.ts",
+    "tag": "tsx scripts/tag-benchmarks.ts",
     "ingest": "tsx scripts/ingest-tech-report.ts",
     "ingest:watch": "tsx scripts/ingest-watch.ts",
     "publish:drafts": "tsx scripts/publish-drafts.ts",
