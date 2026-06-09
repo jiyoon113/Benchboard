@@ -1,0 +1,80 @@
+export type SourceKind =
+  | "tech_report"
+  | "arena_api"
+  | "alpaca_csv"
+  | "github_repo"
+  | "hf_dataset"
+  | "aggregator_api"
+  | "manual";
+
+export interface ScoreSource {
+  kind: SourceKind;
+  url: string;
+  ref?: string;
+  reported_by?: string;
+  fetched_at: string;
+}
+
+export interface ScoreVariant {
+  score: number;
+  config: string;
+  source: ScoreSource;
+}
+
+export interface ScoreExtra {
+  ci?: number;
+  votes?: number;
+  rank?: number;
+  [k: string]: unknown;
+}
+
+export interface ScoreRecord {
+  model_id: string;
+  benchmark_id: string;
+  score: number;
+  config: string;
+  source: ScoreSource;
+  variants?: ScoreVariant[];
+  extra?: ScoreExtra;
+}
+
+export type BenchmarkType = "deterministic" | "non_deterministic";
+
+export type BenchmarkCategory =
+  | "general"
+  | "instruction"
+  | "math"
+  | "coding"
+  | "agent"
+  | "multimodal"
+  | "multilinguality"
+  | "long"
+  | "factuality"
+  | "safety"
+  | "health"
+  | "preference"
+  | "korean"
+  | "chinese"
+  | "other";
+
+export interface Benchmark {
+  id: string;
+  name: string;
+  category: BenchmarkCategory;
+  type: BenchmarkType;
+  language?: string;
+  source_url?: string;
+  description?: string;
+  /** Optional editorial callout shown on the benchmark detail page — e.g. a
+   *  deprecation / contamination warning. Distinct from `description`. */
+  note?: string;
+}
+
+export interface Model {
+  id: string;
+  name: string;
+  vendor: string;
+  release_date?: string;
+  report_url?: string;
+  aliases: string[];
+}

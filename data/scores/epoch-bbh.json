@@ -1,0 +1,74 @@
+[
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "bbh",
+    "score": 89.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "bbh",
+    "score": 82.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bbh",
+    "score": 82.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 87.5,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "bbh_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "bbh",
+    "score": 75.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  }
+]

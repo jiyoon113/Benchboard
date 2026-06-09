@@ -1,0 +1,2427 @@
+[
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2024",
+    "score": 92,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2024",
+    "score": 85.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 40.1,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aime-2024",
+    "score": 74.3,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2024",
+    "score": 39.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2024",
+    "score": 18.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2024",
+    "score": 11.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2025",
+    "score": 86.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "aime-2025",
+    "score": 81.5,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 24.7,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "aime-2025",
+    "score": 79.2,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "aime-2025",
+    "score": 28.8,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2025",
+    "score": 15,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2025",
+    "score": 7.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 8.94,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 8.94,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 8.91,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 8.86,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 8.64,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 8.42,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "alignbench-v1.1",
+    "score": 7.89,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "arena-hard",
+    "score": 95.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arena-hard",
+    "score": 95.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 96.1,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "arena-hard",
+    "score": 92.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arena-hard",
+    "score": 85.5,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arena-hard",
+    "score": 85.3,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 81.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "autologi",
+    "score": 89,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "autologi",
+    "score": 89,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 83.3,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "autologi",
+    "score": 79.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "autologi",
+    "score": 76.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "autologi",
+    "score": 66.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "autologi",
+    "score": 65.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "average",
+    "score": 78.4,
+    "config": "Thinking Mode",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.24",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bbh",
+    "score": 88.87,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bfcl-v3",
+    "score": 72.5,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "bfcl-v3",
+    "score": 70.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bfcl-v3",
+    "score": 70.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 68,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bfcl-v3",
+    "score": 67.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bfcl-v3",
+    "score": 63.4,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bfcl-v3",
+    "score": 57.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "c-eval",
+    "score": 89.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "c-eval",
+    "score": 89.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 86.1,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "c-eval",
+    "score": 86.5,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "c-eval",
+    "score": 85.5,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "c-eval",
+    "score": 84.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "c-eval",
+    "score": 75.5,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "codeforces",
+    "score": 2056,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "codeforces",
+    "score": 2056,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 1387,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "codeforces",
+    "score": 1891,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "codeforces",
+    "score": 1134,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "codeforces",
+    "score": 864,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "codeforces",
+    "score": 859,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "creative-writing-v3",
+    "score": 84.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "creative-writing-v3",
+    "score": 84.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 80.4,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "creative-writing-v3",
+    "score": 81.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "creative-writing-v3",
+    "score": 81.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "creative-writing-v3",
+    "score": 74,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "creative-writing-v3",
+    "score": 61.8,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "crux-o",
+    "score": 79,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "evalplus",
+    "score": 77.6,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "gpqa",
+    "score": 84,
+    "config": "Thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "gpqa",
+    "score": 78,
+    "config": "Thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "gpqa",
+    "score": 59.1,
+    "config": "Non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "gpqa",
+    "score": 49,
+    "config": "Non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "gpqa",
+    "score": 47.47,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 71.1,
+        "config": "Thinking, Diamond",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 46,
+    "config": "Non-thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "gsm8k",
+    "score": 94.39,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "ifeval",
+    "score": 92.6,
+    "config": "Thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "ifeval",
+    "score": 86.5,
+    "config": "Non-thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "ifeval",
+    "score": 86.1,
+    "config": "Non-thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval",
+    "score": 84.1,
+    "config": "Non-thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "ifeval",
+    "score": 83.4,
+    "config": "Thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "ifeval",
+    "score": 83.4,
+    "config": "Thinking, strict prompt",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 83.2,
+        "config": "Non-thinking, strict prompt",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "include",
+    "score": 84.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "include",
+    "score": 78.8,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "include",
+    "score": 78.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "include",
+    "score": 76.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "include",
+    "score": 73.46,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 78.7,
+        "config": "Thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 75.6,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 89.1,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "include",
+    "score": 69.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livebench",
+    "score": 77.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livebench",
+    "score": 77.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 62.5,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "livebench",
+    "score": 75.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livebench",
+    "score": 60.5,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livebench",
+    "score": 52.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livebench",
+    "score": 51.4,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "livecodebench-v5",
+    "score": 70.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 35.3,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench-v5",
+    "score": 70.4,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "livecodebench-v5",
+    "score": 63.9,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "livecodebench-v5",
+    "score": 33.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livecodebench-v5",
+    "score": 32.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livecodebench-v5",
+    "score": 30.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "math",
+    "score": 71.84,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "math-500",
+    "score": 98,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "math-500",
+    "score": 98,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 91.2,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "math-500",
+    "score": 96.4,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math-500",
+    "score": 90.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math-500",
+    "score": 83.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math-500",
+    "score": 77.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mbpp",
+    "score": 81.4,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mgsm",
+    "score": 83.53,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mlogiqa",
+    "score": 77.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mlogiqa",
+    "score": 77.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 67.6,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 76.2,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mlogiqa",
+    "score": 75.5,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mlogiqa",
+    "score": 59.3,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mlogiqa",
+    "score": 58.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mlogiqa",
+    "score": 57.4,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu",
+    "score": 87.81,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu-pro",
+    "score": 68.18,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmlu-redux",
+    "score": 92.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmlu-redux",
+    "score": 92.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu-redux",
+    "score": 89.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmlu-redux",
+    "score": 87.4,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 92.7,
+        "config": "Thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 89.2,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-redux",
+    "score": 87,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-redux",
+    "score": 86.8,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mmmlu",
+    "score": 88.4,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mmmlu",
+    "score": 86.7,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 84.3,
+        "config": "Thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 79.8,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 86.7,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmmlu",
+    "score": 84.3,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmmlu",
+    "score": 81.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmmlu",
+    "score": 80.3,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmmlu",
+    "score": 76.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mt-aime2024",
+    "score": 80.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "mt-aime2024",
+    "score": 80.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 32.4,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 86.7,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "mt-aime2024",
+    "score": 67.4,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mt-aime2024",
+    "score": 20.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mt-aime2024",
+    "score": 12.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mt-aime2024",
+    "score": 9.2,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "multi-if",
+    "score": 71.9,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multi-if",
+    "score": 71.9,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 70.2,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 74.2,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "multi-if",
+    "score": 65.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "multi-if",
+    "score": 65.3,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "multi-if",
+    "score": 55.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "multi-if",
+    "score": 48.8,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "multipl-e",
+    "score": 65.94,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "polymath",
+    "score": 54.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "polymath",
+    "score": 54.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 27,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 57.3,
+        "config": "Thinking Mode",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "polymath",
+    "score": 38.9,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "polymath",
+    "score": 20.4,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "polymath",
+    "score": 16.9,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "polymath",
+    "score": 13.7,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "ruler",
+    "score": 95,
+    "config": "Non-thinking, Avg",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.23",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 97.7,
+        "config": "Non-thinking, 4K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 97.2,
+        "config": "Non-thinking, 8K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 96.4,
+        "config": "Non-thinking, 16K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 95.1,
+        "config": "Non-thinking, 32K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 93.3,
+        "config": "Non-thinking, 64K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 90.6,
+        "config": "Non-thinking, 128K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 92.2,
+        "config": "Thinking, Avg",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 95.1,
+        "config": "Thinking, 4K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 94.8,
+        "config": "Thinking, 8K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 93,
+        "config": "Thinking, 16K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 92.3,
+        "config": "Thinking, 32K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 92,
+        "config": "Thinking, 64K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      },
+      {
+        "score": 86,
+        "config": "Thinking, 128K",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.23",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "supergpqa",
+    "score": 44.06,
+    "config": "Base",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "writingbench",
+    "score": 8.03,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "writingbench",
+    "score": 8.03,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 7.7,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "writingbench",
+    "score": 7.69,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "writingbench",
+    "score": 7.11,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "writingbench",
+    "score": 7.06,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "writingbench",
+    "score": 6.49,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "zebralogic",
+    "score": 81,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "zebralogic",
+    "score": 80.3,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "zebralogic",
+    "score": 80.3,
+    "config": "Thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    },
+    "variants": [
+      {
+        "score": 37.7,
+        "config": "Non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T08:24:44.188Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "zebralogic",
+    "score": 42.1,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "zebralogic",
+    "score": 27.4,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "zebralogic",
+    "score": 26.6,
+    "config": "Non-thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen3-235b__paper.pdf",
+      "ref": "p.14",
+      "reported_by": "qwen3-235b",
+      "fetched_at": "2026-06-07T08:24:44.188Z"
+    }
+  }
+]

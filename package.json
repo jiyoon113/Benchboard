@@ -1,0 +1,46 @@
+{
+  "name": "benchboard",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch:arena": "tsx --env-file=.env scripts/fetch-arena.ts",
+    "fetch:alpaca": "tsx --env-file=.env scripts/fetch-alpaca-eval.ts",
+    "fetch:arena-hard": "tsx --env-file=.env scripts/fetch-arena-hard.ts",
+    "fetch:wildbench": "tsx --env-file=.env scripts/fetch-wildbench.ts",
+    "fetch:livebench": "tsx --env-file=.env scripts/fetch-livebench.ts",
+    "fetch:tau2": "tsx --env-file=.env scripts/fetch-tau2-bench.ts",
+    "fetch:aider": "tsx --env-file=.env scripts/fetch-aider-polyglot.ts",
+    "fetch:epoch": "tsx --env-file=.env scripts/fetch-epoch.ts",
+    "fetch:aa": "tsx --env-file=.env scripts/fetch-artificial-analysis.ts",
+    "fetch:seal": "tsx --env-file=.env scripts/fetch-seal.ts",
+    "fetch:all": "tsx --env-file=.env scripts/fetch-all.ts",
+    "seed": "tsx scripts/seed-from-benchmark-json.ts && tsx scripts/apply-alias-pack.ts && tsx scripts/canonicalize-benchmarks.ts",
+    "ingest": "tsx scripts/ingest-tech-report.ts",
+    "ingest:watch": "tsx scripts/ingest-watch.ts",
+    "publish:drafts": "tsx scripts/publish-drafts.ts",
+    "canonicalize": "tsx scripts/canonicalize-benchmarks.ts"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.0.0",
+    "@astrojs/tailwind": "^5.1.4",
+    "@tanstack/react-table": "^8.20.6",
+    "@types/pdf-parse": "^1.1.5",
+    "astro": "^5.1.1",
+    "openai": "^6.42.0",
+    "pdf-parse": "^2.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

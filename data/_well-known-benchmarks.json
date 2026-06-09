@@ -1,0 +1,395 @@
+[
+  {
+    "id": "mcp-atlas",
+    "name": "MCP Atlas",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Tool-use benchmark over MCP server tasks. Lab tech-reports commonly include it."
+  },
+  {
+    "id": "bfcl-v3",
+    "name": "BFCL v3",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Berkeley Function-Calling Leaderboard v3 — function-calling correctness."
+  },
+  {
+    "id": "bfcl",
+    "name": "BFCL",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Berkeley Function-Calling Leaderboard — original."
+  },
+  {
+    "id": "vending-bench-2",
+    "name": "Vending-Bench 2",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Long-horizon agentic vending-machine simulation."
+  },
+  {
+    "id": "tau-bench",
+    "name": "tau-Bench",
+    "category": "agent",
+    "type": "deterministic"
+  },
+  {
+    "id": "osworld-verified",
+    "name": "OSWorld Verified",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real desktop environment agent eval."
+  },
+  {
+    "id": "browsecomp",
+    "name": "BrowseComp",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Open-web browsing agent eval."
+  },
+  {
+    "id": "openrca",
+    "name": "OpenRCA",
+    "category": "agent",
+    "type": "deterministic"
+  },
+  {
+    "id": "nexus",
+    "name": "Nexus",
+    "category": "agent",
+    "type": "deterministic"
+  },
+  {
+    "id": "acebench",
+    "name": "AceBench",
+    "category": "agent",
+    "type": "deterministic"
+  },
+  {
+    "id": "cybench",
+    "name": "Cybench",
+    "category": "agent",
+    "type": "deterministic"
+  },
+  {
+    "id": "math-perturb-simple",
+    "name": "MATH-P-Simple",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://math-perturb.github.io",
+    "description": "MATH level-5 문제에 의미를 보존하는 가벼운 변형(simple perturbation) 적용. 표준 MATH와 비교용 통제 조건."
+  },
+  {
+    "id": "math-perturb-hard",
+    "name": "MATH-P-Hard",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://math-perturb.github.io",
+    "description": "MATH level-5 문제에 문제 본질을 바꾸는 hard perturbation 적용. 단순 암기 vs 일반화된 추론을 가르는 강한 평가 — frontier 모델도 10-25%p 하락 (arxiv 2502.06453, ICML 2025)."
+  },
+  {
+    "id": "ko-mt-bench",
+    "name": "Ko-MT-Bench",
+    "category": "korean",
+    "type": "non_deterministic",
+    "language": "ko",
+    "description": "Korean translation of MT-Bench. LLM-as-judge."
+  },
+  {
+    "id": "kmmlu",
+    "name": "KMMLU",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "kmmlu-pro",
+    "name": "KMMLU-Pro",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "kmmlu-redux",
+    "name": "KMMLU-Redux",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "description": "Cleaned variant of KMMLU."
+  },
+  {
+    "id": "ko-ifeval",
+    "name": "Ko-IFEval",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "kobalt",
+    "name": "KoBALT",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "ko-longbench",
+    "name": "Ko-LongBench",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "logickor",
+    "name": "LogicKor",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "komt-bench",
+    "name": "KoMT-Bench",
+    "category": "korean",
+    "type": "non_deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "fortress",
+    "name": "Fortress",
+    "category": "safety",
+    "type": "non_deterministic",
+    "source_url": "https://labs.scale.com/leaderboard/fortress",
+    "description": "Scale SEAL frontier-risk safety eval. Score is risk rate — lower is safer."
+  },
+  {
+    "id": "propensitybench",
+    "name": "PropensityBench",
+    "category": "safety",
+    "type": "non_deterministic",
+    "source_url": "https://labs.scale.com/leaderboard/propensitybench",
+    "description": "Scale SEAL eval of model propensity for harmful agentic behaviors. Lower is safer."
+  },
+  {
+    "id": "multichallenge",
+    "name": "MultiChallenge",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://labs.scale.com/leaderboard/multichallenge",
+    "description": "Scale SEAL multi-turn instruction-following eval, LLM-judge."
+  },
+  {
+    "id": "multinrc",
+    "name": "MultiNRC",
+    "category": "multilinguality",
+    "type": "non_deterministic",
+    "source_url": "https://labs.scale.com/leaderboard/multinrc",
+    "description": "Scale SEAL Multilingual Non-English Reasoning Challenge. LLM-judge."
+  },
+  {
+    "id": "seal-korean",
+    "name": "Coding Korean",
+    "category": "korean",
+    "type": "non_deterministic",
+    "language": "ko",
+    "source_url": "https://labs.scale.com/leaderboard/korean",
+    "description": "Scale Labs Legacy 리더보드의 'Coding' 섹션 아래 위치한 Korean 평가 — 한국어 환경에서의 모델 응답을 사람 페어와이즈로 비교. 정확히 무엇을 측정하는지에 대한 공식 설명이 빈약합니다. (Scale에서 2025-03 deprecated, 과거 점수만 보존)"
+  },
+  {
+    "id": "hae-rae-v1.1",
+    "name": "HAE-RAE v1.1",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "click",
+    "name": "CLiCK",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "hrm8k",
+    "name": "HRM8K",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko"
+  },
+  {
+    "id": "chatbot-arena",
+    "name": "Chatbot Arena",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://lmarena.ai",
+    "description": "ELO from anonymous human pairwise preference battles."
+  },
+  {
+    "id": "alpacaeval-2",
+    "name": "AlpacaEval 2.0",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/tatsu-lab/alpaca_eval",
+    "description": "Length-controlled win rate vs GPT-4-Preview, judged by GPT-4-turbo."
+  },
+  {
+    "id": "arena-hard",
+    "name": "Arena-Hard",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/lmarena/arena-hard-auto",
+    "description": "Auto LLM-as-judge benchmark on 500 hard prompts vs GPT-4."
+  },
+  {
+    "id": "wildbench",
+    "name": "WildBench",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://huggingface.co/spaces/allenai/WildBench",
+    "description": "1024 real user prompts, WB-Score / WB-Reward via GPT-4."
+  },
+  {
+    "id": "livebench",
+    "name": "LiveBench",
+    "category": "general",
+    "type": "deterministic",
+    "source_url": "https://livebench.ai",
+    "description": "Contamination-resistant monthly-refresh benchmark. Verifiable answers across Reasoning/Math/Coding/Language/IF."
+  },
+  {
+    "id": "mt-bench",
+    "name": "MT-Bench",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/lm-sys/FastChat",
+    "description": "80 multi-turn questions scored 1–10 by GPT-4."
+  },
+  {
+    "id": "humaneval-plus",
+    "name": "HumanEval+",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://evalplus.github.io/leaderboard.html",
+    "description": "HumanEval with 80× more test cases. Pass@1."
+  },
+  {
+    "id": "mbpp-plus",
+    "name": "MBPP+",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://evalplus.github.io/leaderboard.html",
+    "description": "MBPP with stricter test suite. Pass@1."
+  },
+  {
+    "id": "bigcodebench-complete",
+    "name": "BigCodeBench Complete",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://bigcode-bench.github.io/",
+    "description": "1140 code-completion tasks with complex library calls. Pass@1."
+  },
+  {
+    "id": "bigcodebench-instruct",
+    "name": "BigCodeBench Instruct",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://bigcode-bench.github.io/",
+    "description": "1140 instruction-following code tasks. Pass@1."
+  },
+  {
+    "id": "tau2-bench-micro-average",
+    "name": "τ²-bench (micro avg)",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench",
+    "description": "LLM-simulated user interactions across airline/retail/telecom domains. Non-deterministic due to LLM user model."
+  },
+  {
+    "id": "tau2-airline",
+    "name": "τ²-bench Airline",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
+  },
+  {
+    "id": "tau2-retail",
+    "name": "τ²-bench Retail",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
+  },
+  {
+    "id": "tau2-telecom",
+    "name": "τ²-bench Telecom",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
+  },
+  {
+    "id": "gray-swan-arena",
+    "name": "Gray Swan Arena",
+    "category": "safety",
+    "type": "non_deterministic",
+    "description": "Adversarial safety evaluation with LLM/human judging."
+  },
+  {
+    "id": "hle",
+    "name": "Humanity's Last Exam",
+    "category": "general",
+    "type": "deterministic",
+    "source_url": "https://lastexam.ai",
+    "description": "2500+ expert-level questions across 100+ disciplines. Near-zero scores for most models at launch."
+  },
+  {
+    "id": "aime-2025",
+    "name": "AIME 2025",
+    "category": "math",
+    "type": "deterministic",
+    "description": "American Invitational Mathematics Examination 2025."
+  },
+  {
+    "id": "livecodebench",
+    "name": "LiveCodeBench",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://livecodebench.github.io",
+    "description": "Contamination-free coding benchmark from live competitive programming contests."
+  },
+  {
+    "id": "swe-bench-verified",
+    "name": "SWE-Bench Verified",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://www.swebench.com",
+    "description": "전체 SWE-bench(2,294문제)에서 사람이 검증한 500문제 부분집합. 실제 GitHub 이슈를 자동 테스트 스위트로 패치 정답 여부를 채점. ※ 전체 SWE-bench와는 다른 벤치마크(부분집합)임.",
+    "note": "OpenAI는 2026-02 SWE-bench Verified 점수 보고를 중단했습니다. 이유: (1) 테스트 케이스 결함 — 감사한 어려운 문제의 59.4%가 기능적으로 올바른 패치를 거부(불필요한 구현 세부사항·미명시 기능을 강제); (2) 학습 데이터 오염 — 문제가 오픈소스 리포에서 수집돼 프런티어 모델이 정답 커밋을 그대로 재현할 수 있음; (3) 변별력 상실 — 점수 향상이 실제 코딩 능력보다 벤치마크 노출 정도를 반영. OpenAI는 대안으로 SWE-bench Pro 보고를 권장합니다. 출처: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/ (이 때문에 최신 모델은 이 컬럼 점수가 비어 있을 수 있음 — 누락이 아니라 의도적 미보고)."
+  },
+  {
+    "id": "ifeval",
+    "name": "IFEval",
+    "category": "instruction",
+    "type": "deterministic",
+    "description": "Instruction-following evaluation — verifiable constraints (e.g. word count, format)."
+  },
+  {
+    "id": "arc-agi",
+    "name": "ARC-AGI",
+    "category": "general",
+    "type": "deterministic",
+    "source_url": "https://arcprize.org",
+    "description": "Abstract visual grid transformation tasks requiring general fluid reasoning."
+  },
+  {
+    "id": "scicode",
+    "name": "SciCode",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://scicode-bench.github.io",
+    "description": "Scientific code-generation benchmark drawn from real research problems."
+  },
+  {
+    "id": "terminal-bench",
+    "name": "Terminal-Bench",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://www.tbench.ai",
+    "description": "End-to-end terminal/CLI agent tasks scored by automated checks. Score depends on the agent harness driving the model, so the harness is recorded in the config."
+  }
+]

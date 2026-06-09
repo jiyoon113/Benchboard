@@ -1,0 +1,416 @@
+[
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 84.2,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      },
+      {
+        "score": 84.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mmlu",
+    "score": 87.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 87.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gemini-1.5-pro",
+    "benchmark_id": "mmlu",
+    "score": 86.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 85.9,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 87.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "mmlu",
+    "score": 84.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu",
+    "score": 84.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 84.4,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "mmlu",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 85,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      },
+      {
+        "score": 85.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      },
+      {
+        "score": 83.4,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 81.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 76.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.2-90b",
+    "benchmark_id": "mmlu",
+    "score": 80.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu",
+    "score": 80.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu",
+    "score": 79.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "mmlu",
+    "score": 79.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "mmlu",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 81.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu",
+    "score": 79.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu",
+    "score": 79.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 86.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 75.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "mmlu",
+    "score": 74.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "claude-3-haiku",
+    "benchmark_id": "mmlu",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "benchmark_id": "mmlu",
+    "score": 72.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    }
+  },
+  {
+    "model_id": "mistral-large",
+    "benchmark_id": "mmlu",
+    "score": 68.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 80,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "mmlu_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      }
+    ]
+  }
+]

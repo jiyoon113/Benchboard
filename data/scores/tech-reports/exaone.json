@@ -1,0 +1,1322 @@
+[
+  {
+    "model_id": "exaone",
+    "benchmark_id": "alpacaeval",
+    "score": 60.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 54.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 37.1,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "arc-c",
+    "score": 91.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 87.6,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 79.2,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "arena-hard",
+    "score": 78.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 68.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 48.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bbh",
+    "score": 75.3,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 69.7,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 62.9,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-gender-sexual-orientation",
+    "score": 91.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 87.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 76.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-job",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 81.9,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 67,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-miscellaneous",
+    "score": 85.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 86.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 73.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-political-affiliation",
+    "score": 82.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 79.9,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 56.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-race-ethnicity-nationality",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 85,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 72.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "bias-region",
+    "score": 87.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 84.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 69.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "few-shot-learning",
+    "score": 80.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 75.1,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "gpqa",
+    "score": 39.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 32.5,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 28.4,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "gsm8k",
+    "score": 91.9,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 87.6,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 82.5,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "hate-gender-sexual-orientation",
+    "score": 95.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 92.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 83.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "hate-job",
+    "score": 91,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 87.8,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 72.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "hate-political-affiliation",
+    "score": 85.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 83.4,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 66.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "hate-race-ethnicity-nationality",
+    "score": 91.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 88.4,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 73.8,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "hate-region",
+    "score": 92,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 87.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 74.1,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "humaneval",
+    "score": 87.2,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 84.2,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 76.2,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "ifeval",
+    "score": 81.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 78.9,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 73.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "illegal-illegal",
+    "score": 92.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 89.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 80.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "kmmlu",
+    "score": 57,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 52.4,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 45.8,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "ko-longrag",
+    "score": 85.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 71.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 74.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "ko-webrag",
+    "score": 82.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 80.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 73,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "komt-bench",
+    "score": 8.05,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 7.96,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 7.24,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "livebench",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 39.8,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "logickor",
+    "score": 9.06,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 9.08,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 8.51,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "longbench",
+    "score": 49.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 46,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 42.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "longrag",
+    "score": 67.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 68.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 63.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "math",
+    "score": 70.5,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 69.8,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 60.2,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "mbpp",
+    "score": 81.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 79.4,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 74.3,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "mmlu",
+    "score": 78.3,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 69,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 60.4,
+        "config": "0-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "mt-bench",
+    "score": 8.51,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 8.29,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 7.81,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "multi-doc-qa",
+    "score": 52.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 47.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "overall",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 85.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 72.2,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "sensitiveness-contentious",
+    "score": 83.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 86.1,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 79,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "sensitiveness-ethical",
+    "score": 81.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 83.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 72.8,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "sensitiveness-predictive",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 82.3,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      },
+      {
+        "score": 71,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.10",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "single-doc-qa",
+    "score": 40.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 38.4,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "exaone",
+    "benchmark_id": "summarization",
+    "score": 23.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+      "ref": "p.19",
+      "fetched_at": "2026-06-08T03:24:40.751Z"
+    },
+    "variants": [
+      {
+        "score": 22.6,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\exaone__paper.pdf",
+          "ref": "p.19",
+          "fetched_at": "2026-06-08T03:24:40.751Z"
+        }
+      }
+    ]
+  }
+]

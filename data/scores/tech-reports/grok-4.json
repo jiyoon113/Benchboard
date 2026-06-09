@@ -1,0 +1,218 @@
+[
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "agentdojo",
+    "score": 0.02,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "agentharm",
+    "score": 0.14,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "biolp-bench",
+    "score": 0.47,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    },
+    "variants": [
+      {
+        "score": 0.44,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-07T10:06:56.105Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "cybench",
+    "score": 0.43,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "makemesay",
+    "score": 0.12,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "mask",
+    "score": 0.43,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "refusal-dataset",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    },
+    "variants": [
+      {
+        "score": 0.01,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-07T10:06:56.105Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "soft-bias-internal",
+    "score": 0.36,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "sycophancy",
+    "score": 0.07,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "vct",
+    "score": 0.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    },
+    "variants": [
+      {
+        "score": 0.71,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-07T10:06:56.105Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-bio",
+    "score": 0.87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    },
+    "variants": [
+      {
+        "score": 0.88,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-07T10:06:56.105Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-chem",
+    "score": 0.83,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    },
+    "variants": [
+      {
+        "score": 0.85,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-07T10:06:56.105Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "wmdp-cyber",
+    "score": 0.79,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-07T10:06:56.105Z"
+    }
+  }
+]

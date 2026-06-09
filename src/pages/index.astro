@@ -1,0 +1,25 @@
+---
+import Page from "../layouts/Page.astro";
+import CategoryTabs from "../components/CategoryTabs.astro";
+import LeaderboardTable from "../components/LeaderboardTable.tsx";
+import { buildView } from "../lib/loadData.ts";
+import "../styles/global.css";
+
+const view = await buildView("non_deterministic");
+// index redirects to /non-deterministic for canonical URL
+---
+
+<Page title="Non-deterministic">
+  <h1 class="text-2xl font-bold tracking-tight mb-1">LLM Benchmarks</h1>
+  <p class="text-sm text-neutral-500 mb-4">
+    Scores pulled from public sources. Numbers in parentheses are alternative
+    configurations reported for the same (model, benchmark) — hover for source.
+  </p>
+  <meta http-equiv="refresh" content="0;url=/non-deterministic" />
+  <CategoryTabs active="non-deterministic" />
+  <LeaderboardTable
+    client:load
+    benchmarks={view.benchmarks}
+    rows={view.rows}
+  />
+</Page>
