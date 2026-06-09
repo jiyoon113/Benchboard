@@ -1,5 +1,6 @@
 ---
 import { buildView } from "../lib/loadData.ts";
+import { withBase } from "../lib/url";
 
 interface Props {
   active: string;
@@ -48,7 +49,7 @@ const counts = tabs.map((_, i) => ({
     {tabs.map((t, i) => (
       <li class:list={[t.separator && "ml-3"]}>
         <a
-          href={t.href}
+          href={withBase(t.href)}
           class:list={[
             "inline-flex items-baseline gap-1.5 px-3 py-2 text-sm border-b-2 -mb-px whitespace-nowrap",
             t.slug === active

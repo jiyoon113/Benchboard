@@ -3,6 +3,7 @@ import Page from "../layouts/Page.astro";
 import CategoryTabs from "../components/CategoryTabs.astro";
 import LeaderboardTable from "../components/LeaderboardTable.tsx";
 import { buildView } from "../lib/loadData.ts";
+import { withBase } from "../lib/url";
 import "../styles/global.css";
 
 const view = await buildView("non_deterministic");
@@ -15,7 +16,7 @@ const view = await buildView("non_deterministic");
     Scores pulled from public sources. Numbers in parentheses are alternative
     configurations reported for the same (model, benchmark) — hover for source.
   </p>
-  <meta http-equiv="refresh" content="0;url=/non-deterministic" />
+  <meta http-equiv="refresh" content={`0;url=${withBase("/non-deterministic")}`} />
   <CategoryTabs active="non-deterministic" />
   <LeaderboardTable
     client:load

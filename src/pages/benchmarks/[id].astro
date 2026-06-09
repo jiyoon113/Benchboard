@@ -6,6 +6,7 @@ import {
   loadBenchmarks,
   loadModels,
 } from "../../lib/loadData.ts";
+import { withBase } from "../../lib/url";
 import "../../styles/global.css";
 
 export async function getStaticPaths() {
@@ -113,7 +114,7 @@ const riskColor: Record<RiskLevel, string> = {
 ---
 
 <Page title={bench.name}>
-  <a href="/" class="text-xs text-neutral-500 hover:underline">&larr; back</a>
+  <a href={withBase("/")} class="text-xs text-neutral-500 hover:underline">&larr; back</a>
   <h1 class="text-2xl font-bold tracking-tight mt-2">{bench.name}</h1>
   <div class="text-sm text-neutral-500 mb-3">
     {bench.category} · {bench.type === "non_deterministic" ? "Non-deterministic" : "Deterministic"}
@@ -159,7 +160,7 @@ const riskColor: Record<RiskLevel, string> = {
         )}
         {sig.hardId && sig.hardGap !== null && (
           <li>
-            <a href={`/benchmarks/${sig.hardId}`} class="underline">{variantName}</a>(contamination-resistant 변형) 대비 평균
+            <a href={withBase(`/benchmarks/${sig.hardId}`)} class="underline">{variantName}</a>(contamination-resistant 변형) 대비 평균
             {" "}<span class={`tabular-nums ${sig.hardGap > 10 ? "font-semibold text-amber-700" : ""}`}>{sig.hardGap > 0 ? "+" : ""}{sig.hardGap.toFixed(1)}pt</span>
             {" "}({sig.hardPairs}쌍)
             {sig.hardGap > 15 && <span class="ml-1">— 큰 격차는 원본 문제 memorization 가능성</span>}
@@ -191,7 +192,7 @@ const riskColor: Record<RiskLevel, string> = {
             <tr class="border-b border-neutral-100">
               <td class="px-3 py-2 text-neutral-400 tabular-nums">{i + 1}</td>
               <td class="px-3 py-2">
-                <a href={`/models/${s.model_id}`} class="hover:underline">
+                <a href={withBase(`/models/${s.model_id}`)} class="hover:underline">
                   {m?.name ?? s.model_id}
                 </a>
                 <span class="ml-2 text-xs text-neutral-400">{m?.vendor}</span>

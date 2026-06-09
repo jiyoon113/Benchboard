@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import type { Benchmark, Model, ScoreRecord } from "../lib/types";
 import ScoreCell from "./ScoreCell";
+import { withBase } from "../lib/url";
 
 interface Row {
   model: Model;
@@ -225,7 +226,7 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
                   title={b.id}
                 >
                   <a
-                    href={`/benchmarks/${b.id}`}
+                    href={withBase(`/benchmarks/${b.id}`)}
                     className="hover:underline"
                     onClick={(e) => e.stopPropagation()}
                   >
@@ -243,7 +244,7 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
               <tr key={row.model.id} className="border-t border-neutral-100">
                 <td className="sticky left-0 z-10 bg-white px-3 py-2">
                   <a
-                    href={`/models/${row.model.id}`}
+                    href={withBase(`/models/${row.model.id}`)}
                     className="font-medium hover:underline"
                   >
                     {row.model.name}
