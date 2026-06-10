@@ -21,6 +21,13 @@
     "description": "Berkeley Function-Calling Leaderboard — original."
   },
   {
+    "id": "bfcl-v2",
+    "name": "BFCL v2",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Berkeley Function-Calling Leaderboard V2 (Aug 2024) — adds live/enterprise function-calling, less contamination."
+  },
+  {
     "id": "vending-bench-2",
     "name": "Vending-Bench 2",
     "category": "agent",

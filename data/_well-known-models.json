@@ -251,10 +251,20 @@
     "aliases": ["Gemini 2.5 Flash", "gemini-2.5-flash", "Gemini 2.5 Flash non-thinking", "Gemini 2.5 Flash thinking"]
   },
   {
+    "id": "llama-3-8b",
+    "name": "Llama 3 8B",
+    "vendor": "Meta",
+    "release_date": "2024-04-18",
+    "report_url": "https://www.llama.com/models/llama-3/",
+    "aliases": ["llama-3-8b", "Llama 3 8B", "Llama 3 8B Instruct", "Meta-Llama-3-8B-Instruct", "llama3-8b"]
+  },
+  {
     "id": "llama-3-70b",
     "name": "Llama 3 70B",
     "vendor": "Meta",
-    "aliases": ["llama-3-70b", "Meta-Llama-3-70B-Instruct", "llama3-70b"]
+    "release_date": "2024-04-18",
+    "report_url": "https://www.llama.com/models/llama-3/",
+    "aliases": ["llama-3-70b", "Llama 3 70B", "Llama 3 70B Instruct", "Meta-Llama-3-70B-Instruct", "llama3-70b"]
   },
   {
     "id": "llama-3.1-405b",

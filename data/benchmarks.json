@@ -188,6 +188,13 @@
     "description": "Berkeley Function-Calling Leaderboard — original."
   },
   {
+    "id": "bfcl-v2",
+    "name": "BFCL v2",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Berkeley Function-Calling Leaderboard V2 (Aug 2024) — adds live/enterprise function-calling, less contamination."
+  },
+  {
     "id": "bfcl-v3",
     "name": "BFCL v3",
     "category": "agent",
@@ -1244,12 +1251,6 @@
   {
     "id": "mbpp",
     "name": "MBPP",
-    "category": "coding",
-    "type": "deterministic"
-  },
-  {
-    "id": "mbpp-evalplus",
-    "name": "MBPP EvalPlus",
     "category": "coding",
     "type": "deterministic"
   },
