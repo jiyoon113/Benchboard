@@ -393,6 +393,13 @@
     "type": "deterministic"
   },
   {
+    "id": "crag",
+    "name": "CRAG",
+    "category": "factuality",
+    "type": "deterministic",
+    "description": "Comprehensive RAG benchmark — retrieval-augmented factual QA."
+  },
+  {
     "id": "creative-writing-v3",
     "name": "Creative Writing v3",
     "category": "general",
@@ -490,6 +497,13 @@
     "type": "deterministic"
   },
   {
+    "id": "egoschema",
+    "name": "EgoSchema",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Long-form egocentric video question answering."
+  },
+  {
     "id": "erqa",
     "name": "ERQA",
     "category": "multimodal",
@@ -524,6 +538,13 @@
     "name": "Finance Agent v1.1",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "finqa",
+    "name": "FinQA",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Numerical reasoning over financial reports."
   },
   {
     "id": "fortress",
@@ -683,6 +704,13 @@
     "category": "safety",
     "type": "non_deterministic",
     "description": "Adversarial safety evaluation with LLM/human judging."
+  },
+  {
+    "id": "groundui-1k",
+    "name": "GroundUI-1K",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "GUI element grounding — predict the 2D location of a described UI element."
   },
   {
     "id": "gsm8k",
@@ -1191,6 +1219,13 @@
     "type": "deterministic"
   },
   {
+    "id": "lvbench",
+    "name": "LVBench",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Long-video understanding QA over YouTube videos."
+  },
+  {
     "id": "makemepay",
     "name": "MakeMePay",
     "category": "safety",
@@ -1344,6 +1379,13 @@
     "name": "MLogiQA",
     "category": "multilinguality",
     "type": "deterministic"
+  },
+  {
+    "id": "mm-mind2web",
+    "name": "MM-Mind2Web",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Multimodal web agent benchmark; per-step action accuracy on Mind2Web."
   },
   {
     "id": "mmlu",
@@ -1897,6 +1939,13 @@
     "type": "deterministic"
   },
   {
+    "id": "squality",
+    "name": "SQuALITY",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Long-document question-focused summarization (ROUGE-L)."
+  },
+  {
     "id": "structural-biology-multiple-choice",
     "name": "Structural Biology Multiple-choice",
     "category": "health",
@@ -2010,6 +2059,13 @@
     "type": "deterministic"
   },
   {
+    "id": "textvqa",
+    "name": "TextVQA",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual question answering that requires reading text within images."
+  },
+  {
     "id": "theoremqa",
     "name": "TheoremQA",
     "category": "math",
@@ -2064,6 +2120,13 @@
     "type": "deterministic"
   },
   {
+    "id": "vatex",
+    "name": "VATEX",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Video captioning benchmark (CIDEr metric)."
+  },
+  {
     "id": "vct",
     "name": "VCT",
     "category": "math",
@@ -2099,6 +2162,13 @@
     "name": "Virology Capabilities Test",
     "category": "safety",
     "type": "deterministic"
+  },
+  {
+    "id": "visualwebbench",
+    "name": "VisualWebBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Multimodal web-browsing tasks (captioning, QA, OCR, grounding)."
   },
   {
     "id": "webarena",
