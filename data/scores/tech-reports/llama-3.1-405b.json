@@ -396,7 +396,7 @@
   },
   {
     "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "mbpp-evalplus",
+    "benchmark_id": "mbpp+",
     "score": 90.5,
     "config": "0-shot",
     "source": {
@@ -409,7 +409,7 @@
   },
   {
     "model_id": "llama-3.1-405b",
-    "benchmark_id": "mbpp-evalplus",
+    "benchmark_id": "mbpp+",
     "score": 88.6,
     "config": "0-shot",
     "source": {
@@ -421,7 +421,7 @@
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "mbpp-evalplus",
+    "benchmark_id": "mbpp+",
     "score": 87.8,
     "config": "0-shot",
     "source": {
@@ -434,7 +434,7 @@
   },
   {
     "model_id": "llama-3-70b",
-    "benchmark_id": "mbpp-evalplus",
+    "benchmark_id": "mbpp+",
     "score": 86,
     "config": "0-shot",
     "source": {

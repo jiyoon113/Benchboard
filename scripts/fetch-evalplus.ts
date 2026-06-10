@@ -1,6 +1,7 @@
 /**
  * EvalPlus — HumanEval+ and MBPP+ pass@1 from evalplus.github.io/results.json.
- * Emits two ScoreRecords per model: benchmark_id "humaneval-plus" and "mbpp-plus".
+ * Emits two ScoreRecords per model under the canonical benchmark ids
+ * "humaneval+" and "mbpp+" (same columns the tech-report ingests fold into).
  */
 import type { ScoreRecord } from "../src/lib/types.ts";
 import { persist, nowIso } from "./lib/fetcher.ts";
@@ -42,7 +43,7 @@ async function main() {
     if (heScore != null) {
       humaneval.push({
         model_id: id,
-        benchmark_id: "humaneval-plus",
+        benchmark_id: "humaneval+",
         score: heScore,
         config: p["humaneval+"] != null ? "HumanEval+" : "HumanEval",
         source: { kind: "github_repo", url: ENDPOINT, fetched_at },
@@ -53,7 +54,7 @@ async function main() {
     if (mbppScore != null) {
       mbpp.push({
         model_id: id,
-        benchmark_id: "mbpp-plus",
+        benchmark_id: "mbpp+",
         score: mbppScore,
         config: p["mbpp+"] != null ? "MBPP+" : "MBPP",
         source: { kind: "github_repo", url: ENDPOINT, fetched_at },

@@ -45,6 +45,14 @@ const ALIAS_MAP: Record<string, AliasTarget> = {
   "mt-aime24": "mt-aime2024",
   // MATH spellings
   "math500": "math-500",
+  // MBPP+ is the EvalPlus-augmented MBPP (35× more tests). "MBPP EvalPlus",
+  // "MBPP+" and "MBPP-Plus" are the same benchmark; fold the verbose spellings
+  // into `mbpp+`. base/plus is a test-split config, not a separate benchmark.
+  // Plain `mbpp` (original 3-shot) stays its own column.
+  "mbpp-evalplus": "mbpp+",
+  "mbpp-plus": "mbpp+",
+  // HumanEval+ likewise — the EvalPlus fetcher's older slug folds into `humaneval+`.
+  "humaneval-plus": "humaneval+",
   // SWE-Bench is NOT collapsed: "SWE-bench" (full set) and "SWE-bench Verified"
   // (the 500-problem human-validated subset) are distinct benchmarks, so no
   // alias here. Vendor reports almost always mean Verified (slug
