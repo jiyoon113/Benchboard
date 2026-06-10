@@ -398,5 +398,75 @@
     "type": "non_deterministic",
     "source_url": "https://www.tbench.ai",
     "description": "End-to-end terminal/CLI agent tasks scored by automated checks. Score depends on the agent harness driving the model, so the harness is recorded in the config."
+  },
+  {
+    "id": "textvqa",
+    "name": "TextVQA",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual question answering that requires reading text within images."
+  },
+  {
+    "id": "vatex",
+    "name": "VATEX",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Video captioning benchmark (CIDEr metric)."
+  },
+  {
+    "id": "egoschema",
+    "name": "EgoSchema",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Long-form egocentric video question answering."
+  },
+  {
+    "id": "visualwebbench",
+    "name": "VisualWebBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Multimodal web-browsing tasks (captioning, QA, OCR, grounding)."
+  },
+  {
+    "id": "mm-mind2web",
+    "name": "MM-Mind2Web",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Multimodal web agent benchmark; per-step action accuracy on Mind2Web."
+  },
+  {
+    "id": "groundui-1k",
+    "name": "GroundUI-1K",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "GUI element grounding — predict the 2D location of a described UI element."
+  },
+  {
+    "id": "squality",
+    "name": "SQuALITY",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Long-document question-focused summarization (ROUGE-L)."
+  },
+  {
+    "id": "lvbench",
+    "name": "LVBench",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Long-video understanding QA over YouTube videos."
+  },
+  {
+    "id": "finqa",
+    "name": "FinQA",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Numerical reasoning over financial reports."
+  },
+  {
+    "id": "crag",
+    "name": "CRAG",
+    "category": "factuality",
+    "type": "deterministic",
+    "description": "Comprehensive RAG benchmark — retrieval-augmented factual QA."
   }
 ]
