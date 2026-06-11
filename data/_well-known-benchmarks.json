@@ -468,5 +468,61 @@
     "category": "factuality",
     "type": "deterministic",
     "description": "Comprehensive RAG benchmark — retrieval-augmented factual QA."
+  },
+  {
+    "id": "frontiercode",
+    "name": "FrontierCode",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Cognition FrontierCode agentic coding eval (Diamond subset). Reported at medium/high effort."
+  },
+  {
+    "id": "blueprint-bench-2",
+    "name": "Blueprint Bench 2",
+    "category": "multimodal",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Spatial-reasoning benchmark over blueprints/diagrams."
+  },
+  {
+    "id": "automationbench",
+    "name": "AutomationBench",
+    "category": "agent",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Tool-use / workflow-automation agent benchmark."
+  },
+  {
+    "id": "legal-agent-benchmark",
+    "name": "Legal Agent Benchmark",
+    "category": "other",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Agentic legal task benchmark."
+  },
+  {
+    "id": "terminal-bench-2.1",
+    "name": "Terminal-Bench 2.1",
+    "category": "agent",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "End-to-end terminal/CLI agent tasks. Score depends on the agent harness, recorded in config."
+  },
+  {
+    "id": "exploitbench",
+    "name": "ExploitBench",
+    "category": "safety",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Capture-the-flag style cybersecurity exploitation benchmark (Cap-F)."
+  },
+  {
+    "id": "healthbench-professional",
+    "name": "HealthBench Professional",
+    "category": "health",
+    "type": "deterministic",
+    "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "description": "Professional-tier HealthBench medical evaluation."
   }
 ]

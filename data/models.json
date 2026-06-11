@@ -87,6 +87,18 @@
     ]
   },
   {
+    "id": "claude-fable-5",
+    "name": "Claude Fable 5",
+    "vendor": "Anthropic",
+    "release_date": "2026-06",
+    "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "aliases": [
+      "Claude Fable 5",
+      "claude-fable-5",
+      "fable-5"
+    ]
+  },
+  {
     "id": "claude-haiku-4.5",
     "name": "Claude Haiku 4.5",
     "vendor": "Anthropic",
@@ -95,6 +107,31 @@
       "claude-haiku-4.5",
       "claude-haiku-4-5",
       "claude-haiku-4-5-20251001"
+    ]
+  },
+  {
+    "id": "claude-mythos-5",
+    "name": "Claude Mythos 5",
+    "vendor": "Anthropic",
+    "release_date": "2026-06",
+    "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "aliases": [
+      "Claude Mythos 5",
+      "claude-mythos-5",
+      "claude-mythos-5-thinking",
+      "mythos-5"
+    ]
+  },
+  {
+    "id": "claude-mythos-preview",
+    "name": "Claude Mythos Preview",
+    "vendor": "Anthropic",
+    "release_date": "2026-06",
+    "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "aliases": [
+      "Claude Mythos Preview",
+      "claude-mythos-preview",
+      "mythos-preview"
     ]
   },
   {
@@ -147,6 +184,19 @@
       "claude-opus-4.7",
       "claude-opus-4-7",
       "claude-opus-4-7-thinking"
+    ]
+  },
+  {
+    "id": "claude-opus-4.8",
+    "name": "Claude Opus 4.8",
+    "vendor": "Anthropic",
+    "release_date": "2026-06",
+    "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "aliases": [
+      "Claude Opus 4.8",
+      "claude-opus-4.8",
+      "claude-opus-4-8",
+      "claude-opus-4-8-thinking"
     ]
   },
   {
@@ -1163,6 +1213,30 @@
       "Solar open",
       "solar-open",
       "Solar open (영어)"
+    ]
+  },
+  {
+    "id": "solar-pro-2",
+    "name": "Solar Pro 2",
+    "vendor": "Upstage",
+    "aliases": [
+      "Solar Pro 2",
+      "solar-pro-2",
+      "solar-pro2",
+      "upstage/solar-pro-2"
+    ]
+  },
+  {
+    "id": "solar-pro-3",
+    "name": "Solar Pro 3",
+    "vendor": "Upstage",
+    "release_date": "2026-01-27",
+    "report_url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
+    "aliases": [
+      "Solar Pro 3",
+      "solar-pro-3",
+      "solar-pro3",
+      "upstage/solar-pro-3"
     ]
   },
   {
