@@ -88,6 +88,28 @@
     ]
   },
   {
+    "model_id": "qwq-32b",
+    "benchmark_id": "aime-2025",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 45.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "o1",
     "benchmark_id": "aime-2025",
     "score": 72.3,
@@ -165,28 +187,6 @@
     }
   },
   {
-    "model_id": "qwq-32b",
-    "benchmark_id": "aime-2025",
-    "score": 45.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 78,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gpt-4.1",
     "benchmark_id": "aime-2025",
     "score": 43.7,
@@ -196,6 +196,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "aime-2025",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 23.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "llama-4-maverick",
@@ -229,28 +251,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "aime-2025",
-    "score": 23.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 43,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-4-turbo",
@@ -288,7 +288,7 @@
   {
     "model_id": "nova-pro",
     "benchmark_id": "aime-2025",
-    "score": 8,
+    "score": 10.7,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
@@ -297,7 +297,7 @@
     },
     "variants": [
       {
-        "score": 10.7,
+        "score": 8,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -418,7 +418,7 @@
     },
     "variants": [
       {
-        "score": 77.7,
+        "score": 84.8,
         "config": "Diamond",
         "source": {
           "kind": "aggregator_api",
@@ -436,7 +436,7 @@
         }
       },
       {
-        "score": 84.8,
+        "score": 77.7,
         "config": "Diamond",
         "source": {
           "kind": "aggregator_api",
@@ -496,6 +496,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "gpqa",
+    "score": 86.1,
+    "config": "Diamond",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 76.4,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gpt-5",
@@ -606,28 +628,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "qwen3-max",
-    "benchmark_id": "gpqa",
-    "score": 76.4,
-    "config": "Diamond",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 86.1,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "mistral-small-3",
@@ -751,6 +751,28 @@
     }
   },
   {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "gpqa",
+    "score": 66.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 51.2,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "deepseek-v3",
     "benchmark_id": "gpqa",
     "score": 65.5,
@@ -771,6 +793,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "gpqa",
+    "score": 59.3,
+    "config": "Diamond",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 55.7,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "llama-4-scout",
@@ -795,50 +839,6 @@
     }
   },
   {
-    "model_id": "qwq-32b",
-    "benchmark_id": "gpqa",
-    "score": 55.7,
-    "config": "Diamond",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 59.3,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "gpqa",
-    "score": 51.2,
-    "config": "Diamond",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 66.4,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "pixtral-large",
     "benchmark_id": "gpqa",
     "score": 50.5,
@@ -848,6 +848,37 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "gpqa",
+    "score": 49.9,
+    "config": "Diamond",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 43.3,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 35.8,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "claude-3-opus",
@@ -927,37 +958,6 @@
     }
   },
   {
-    "model_id": "nova-pro",
-    "benchmark_id": "gpqa",
-    "score": 35.8,
-    "config": "Diamond",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 49.9,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 43.3,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gemini-3-pro",
     "benchmark_id": "hle",
     "score": 44.7,
@@ -991,15 +991,6 @@
     },
     "variants": [
       {
-        "score": 12.5,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
         "score": 22.2,
         "config": "default",
         "source": {
@@ -1010,6 +1001,15 @@
       },
       {
         "score": 19.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 12.5,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -1069,6 +1069,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "hle",
+    "score": 26.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 11.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "grok-4",
@@ -1181,28 +1203,6 @@
     ]
   },
   {
-    "model_id": "qwen3-max",
-    "benchmark_id": "hle",
-    "score": 11.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 26.2,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gpt-oss-20b",
     "benchmark_id": "hle",
     "score": 9.8,
@@ -1215,6 +1215,28 @@
     "variants": [
       {
         "score": 5.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "hle",
+    "score": 8.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 4.8,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -1335,28 +1357,6 @@
     }
   },
   {
-    "model_id": "qwq-32b",
-    "benchmark_id": "hle",
-    "score": 4.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 8.2,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "nova-pro",
     "benchmark_id": "hle",
     "score": 4.7,
@@ -1368,7 +1368,7 @@
     },
     "variants": [
       {
-        "score": 3.4,
+        "score": 4.6,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -1377,7 +1377,7 @@
         }
       },
       {
-        "score": 4.6,
+        "score": 3.4,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -1397,6 +1397,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "hle",
+    "score": 4.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 3.9,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gemini-1.5-flash",
@@ -1452,28 +1474,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "hle",
-    "score": 3.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 4.6,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-3-haiku",
@@ -1747,6 +1747,28 @@
     ]
   },
   {
+    "model_id": "qwq-32b",
+    "benchmark_id": "livecodebench",
+    "score": 63.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 33.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "kimi-k2-instruct",
     "benchmark_id": "livecodebench",
     "score": 61,
@@ -1767,6 +1789,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "livecodebench",
+    "score": 48.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 32.6,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "mistral-large-3",
@@ -1822,50 +1866,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "qwq-32b",
-    "benchmark_id": "livecodebench",
-    "score": 33.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 63.1,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "livecodebench",
-    "score": 32.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 48.3,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-3.5-haiku",
@@ -1967,6 +1967,37 @@
     }
   },
   {
+    "model_id": "nova-pro",
+    "benchmark_id": "livecodebench",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 16.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 14,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "phi-4",
     "benchmark_id": "livecodebench",
     "score": 23.1,
@@ -2009,37 +2040,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "nova-pro",
-    "benchmark_id": "livecodebench",
-    "score": 14,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 23.3,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 16.7,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-5",
@@ -2141,7 +2141,7 @@
     },
     "variants": [
       {
-        "score": 92.4,
+        "score": 94.4,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -2150,7 +2150,7 @@
         }
       },
       {
-        "score": 94.4,
+        "score": 92.4,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -2181,6 +2181,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "math-500",
+    "score": 95.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 91,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "deepseek-v3",
@@ -2216,6 +2238,28 @@
     }
   },
   {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "math-500",
+    "score": 92.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 84.8,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "gpt-4.1",
     "benchmark_id": "math-500",
     "score": 91.3,
@@ -2225,28 +2269,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "qwq-32b",
-    "benchmark_id": "math-500",
-    "score": 91,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 95.7,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "llama-4-maverick",
@@ -2269,28 +2291,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "math-500",
-    "score": 84.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 92.5,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "llama-4-scout",
@@ -2324,6 +2324,37 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "math-500",
+    "score": 78.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 76.5,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 70.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gpt-4-turbo",
@@ -2370,37 +2401,6 @@
     }
   },
   {
-    "model_id": "nova-pro",
-    "benchmark_id": "math-500",
-    "score": 70.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 78.6,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 76.5,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gemini-1.5-flash",
     "benchmark_id": "math-500",
     "score": 68.9,
@@ -2443,6 +2443,46 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "minimax-m1",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 82,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 81.6,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 80.8,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gpt-5",
@@ -2542,46 +2582,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "minimax-m1",
-    "benchmark_id": "mmlu-pro",
-    "score": 82,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 87.5,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 81.6,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 80.8,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "deepseek-v3",
@@ -2716,6 +2716,50 @@
     }
   },
   {
+    "model_id": "gpt-4.1-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 78.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 65.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "mmlu-pro",
+    "score": 76.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 64.8,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "llama-4-scout",
     "benchmark_id": "mmlu-pro",
     "score": 75.2,
@@ -2804,9 +2848,9 @@
     }
   },
   {
-    "model_id": "gpt-4.1-mini",
+    "model_id": "nova-pro",
     "benchmark_id": "mmlu-pro",
-    "score": 65.7,
+    "score": 69.1,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
@@ -2815,7 +2859,16 @@
     },
     "variants": [
       {
-        "score": 78.1,
+        "score": 59,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 53.1,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -2846,28 +2899,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "qwq-32b",
-    "benchmark_id": "mmlu-pro",
-    "score": 64.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 76.4,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-3.5-haiku",
@@ -2901,37 +2932,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "nova-pro",
-    "benchmark_id": "mmlu-pro",
-    "score": 53.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 69.1,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 59,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gemini-3-pro",
@@ -3000,7 +3000,7 @@
     },
     "variants": [
       {
-        "score": 36.1,
+        "score": 42.6,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -3018,7 +3018,7 @@
         }
       },
       {
-        "score": 42.6,
+        "score": 37.8,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -3036,7 +3036,29 @@
         }
       },
       {
-        "score": 37.8,
+        "score": 36.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "scicode",
+    "score": 43.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 38.3,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -3091,9 +3113,9 @@
     }
   },
   {
-    "model_id": "o3-mini",
+    "model_id": "gpt-4.1-mini",
     "benchmark_id": "scicode",
-    "score": 39.8,
+    "score": 40.4,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
@@ -3102,7 +3124,29 @@
     },
     "variants": [
       {
-        "score": 39.9,
+        "score": 25.9,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "scicode",
+    "score": 39.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 39.8,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -3147,28 +3191,6 @@
     "variants": [
       {
         "score": 36,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen3-max",
-    "benchmark_id": "scicode",
-    "score": 38.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 43.1,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -3254,6 +3276,28 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
+  },
+  {
+    "model_id": "qwq-32b",
+    "benchmark_id": "scicode",
+    "score": 35.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 3.8,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "kimi-k2",
@@ -3377,28 +3421,6 @@
     }
   },
   {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "scicode",
-    "score": 25.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 40.4,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-3-opus",
     "benchmark_id": "scicode",
     "score": 23.3,
@@ -3443,6 +3465,37 @@
     }
   },
   {
+    "model_id": "nova-pro",
+    "benchmark_id": "scicode",
+    "score": 20.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+      "fetched_at": "2026-06-09T06:40:51.021Z"
+    },
+    "variants": [
+      {
+        "score": 13.9,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      },
+      {
+        "score": 9.4,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-09T06:40:51.021Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "claude-3-haiku",
     "benchmark_id": "scicode",
     "score": 18.6,
@@ -3463,58 +3516,5 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-09T06:40:51.021Z"
     }
-  },
-  {
-    "model_id": "nova-pro",
-    "benchmark_id": "scicode",
-    "score": 9.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 20.8,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      },
-      {
-        "score": 13.9,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwq-32b",
-    "benchmark_id": "scicode",
-    "score": 3.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-09T06:40:51.021Z"
-    },
-    "variants": [
-      {
-        "score": 35.8,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-09T06:40:51.021Z"
-        }
-      }
-    ]
   }
 ]

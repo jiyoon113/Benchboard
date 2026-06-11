@@ -70,21 +70,21 @@
     },
     "variants": [
       {
-        "score": 38.12808974440021,
-        "config": "length-controlled",
-        "source": {
-          "kind": "alpaca_csv",
-          "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-          "fetched_at": "2026-06-06T07:01:26.819Z"
-        }
-      },
-      {
         "score": 30.18332231673423,
         "config": "length-controlled",
         "source": {
           "kind": "alpaca_csv",
           "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
           "fetched_at": "2026-06-06T07:08:21.755Z"
+        }
+      },
+      {
+        "score": 38.12808974440021,
+        "config": "length-controlled",
+        "source": {
+          "kind": "alpaca_csv",
+          "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+          "fetched_at": "2026-06-06T07:01:26.819Z"
         }
       }
     ]

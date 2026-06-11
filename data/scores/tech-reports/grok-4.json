@@ -6,7 +6,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -18,7 +18,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -30,7 +30,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     },
@@ -40,7 +40,7 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "url": "grok-4__model-card.pdf",
           "ref": "p.6",
           "fetched_at": "2026-06-07T10:06:56.105Z"
         }
@@ -54,7 +54,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -66,7 +66,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -78,7 +78,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -86,21 +86,21 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "refusal-dataset",
-    "score": 0,
+    "score": 0.01,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     },
     "variants": [
       {
-        "score": 0.01,
+        "score": 0,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "url": "grok-4__model-card.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-07T10:06:56.105Z"
         }
@@ -114,7 +114,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -126,7 +126,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }
@@ -134,21 +134,21 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "vct",
-    "score": 0.6,
+    "score": 0.71,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     },
     "variants": [
       {
-        "score": 0.71,
+        "score": 0.6,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "url": "grok-4__model-card.pdf",
           "ref": "p.6",
           "fetched_at": "2026-06-07T10:06:56.105Z"
         }
@@ -158,21 +158,21 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "wmdp-bio",
-    "score": 0.87,
+    "score": 0.88,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     },
     "variants": [
       {
-        "score": 0.88,
+        "score": 0.87,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "url": "grok-4__model-card.pdf",
           "ref": "p.6",
           "fetched_at": "2026-06-07T10:06:56.105Z"
         }
@@ -182,21 +182,21 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "wmdp-chem",
-    "score": 0.83,
+    "score": 0.85,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     },
     "variants": [
       {
-        "score": 0.85,
+        "score": 0.83,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+          "url": "grok-4__model-card.pdf",
           "ref": "p.6",
           "fetched_at": "2026-06-07T10:06:56.105Z"
         }
@@ -210,7 +210,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\grok-4__model-card.pdf",
+      "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
     }

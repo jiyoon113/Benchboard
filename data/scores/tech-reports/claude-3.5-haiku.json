@@ -6,7 +6,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -19,7 +19,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -32,7 +32,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -45,7 +45,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -54,22 +54,22 @@
   {
     "model_id": "claude-3.5-sonnet",
     "benchmark_id": "aime-2024",
-    "score": 9.6,
-    "config": "0-shot CoT",
+    "score": 16.7,
+    "config": "Maj@64 0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
     "variants": [
       {
-        "score": 16.7,
-        "config": "Maj@64 0-shot CoT",
+        "score": 9.6,
+        "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -80,22 +80,22 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "aime-2024",
-    "score": 9.3,
-    "config": "0-shot CoT",
+    "score": 13.4,
+    "config": "Maj@64 0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
     "variants": [
       {
-        "score": 13.4,
-        "config": "Maj@64 0-shot CoT",
+        "score": 9.3,
+        "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -106,22 +106,22 @@
   {
     "model_id": "claude-3-opus",
     "benchmark_id": "aime-2024",
-    "score": 7.9,
-    "config": "0-shot CoT",
+    "score": 12.1,
+    "config": "Maj@64 0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
     "variants": [
       {
-        "score": 12.1,
-        "config": "Maj@64 0-shot CoT",
+        "score": 7.9,
+        "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -132,21 +132,21 @@
   {
     "model_id": "claude-3.5-haiku",
     "benchmark_id": "aime-2024",
-    "score": 5.3,
-    "config": "0-shot CoT",
+    "score": 10.1,
+    "config": "Maj@64 0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
     "variants": [
       {
-        "score": 10.1,
-        "config": "Maj@64 0-shot CoT",
+        "score": 5.3,
+        "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
@@ -160,7 +160,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -171,7 +171,7 @@
         "config": "Maj@64 0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -186,7 +186,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -197,7 +197,7 @@
         "config": "Maj@64 0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -212,7 +212,7 @@
     "config": "3-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -225,7 +225,7 @@
     "config": "3-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -238,7 +238,7 @@
     "config": "3-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -250,7 +250,7 @@
     "config": "3-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -263,7 +263,7 @@
     "config": "3-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -276,7 +276,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -289,7 +289,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -302,7 +302,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -315,7 +315,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -328,7 +328,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -341,7 +341,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -354,7 +354,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -367,7 +367,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -380,7 +380,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -393,7 +393,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -406,7 +406,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -419,7 +419,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -431,7 +431,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -444,7 +444,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -457,7 +457,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -470,7 +470,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -483,7 +483,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -496,7 +496,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -509,7 +509,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -522,7 +522,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -535,7 +535,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -547,7 +547,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -560,7 +560,7 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -573,11 +573,95 @@
     "config": "0-shot CoT, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
+  },
+  {
+    "model_id": "claude-3.5-haiku",
+    "benchmark_id": "human-feedback",
+    "score": 57,
+    "config": "Documents, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 50,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 46,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 45,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 43,
+        "config": "Harmlessness, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 40,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -586,7 +670,7 @@
     "config": "Coding, Win Rate",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.8",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -597,7 +681,7 @@
         "config": "Documents, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -608,7 +692,51 @@
         "config": "Instruction-Following, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 50,
+        "config": "Harmlessness, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -619,227 +747,7 @@
         "config": "Vision Instruction-Following, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 50,
-        "config": "Creative Writing, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 50,
-        "config": "Multilingual, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 50,
-        "config": "Honesty, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 50,
-        "config": "Harmlessness, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-3.5-haiku",
-    "benchmark_id": "human-feedback",
-    "score": 45,
-    "config": "Coding, Win Rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-      "ref": "p.8",
-      "fetched_at": "2026-06-08T05:47:09.604Z"
-    },
-    "variants": [
-      {
-        "score": 57,
-        "config": "Documents, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 40,
-        "config": "Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 50,
-        "config": "Vision Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 46,
-        "config": "Creative Writing, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 30,
-        "config": "Multilingual, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 42,
-        "config": "Honesty, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 43,
-        "config": "Harmlessness, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-3-opus",
-    "benchmark_id": "human-feedback",
-    "score": 39,
-    "config": "Coding, Win Rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-      "ref": "p.8",
-      "reported_by": "claude-3.5-haiku",
-      "fetched_at": "2026-06-08T05:47:09.604Z"
-    },
-    "variants": [
-      {
-        "score": 42,
-        "config": "Documents, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 46,
-        "config": "Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 30,
-        "config": "Vision Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 41,
-        "config": "Creative Writing, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 44,
-        "config": "Multilingual, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 42,
-        "config": "Honesty, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 47,
-        "config": "Harmlessness, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -850,11 +758,11 @@
   {
     "model_id": "claude-3-sonnet",
     "benchmark_id": "human-feedback",
-    "score": 33,
-    "config": "Coding, Win Rate",
+    "score": 49,
+    "config": "Harmlessness, Win Rate",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.8",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -865,29 +773,7 @@
         "config": "Documents, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 33,
-        "config": "Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 25,
-        "config": "Vision Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -898,7 +784,7 @@
         "config": "Creative Writing, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -909,7 +795,29 @@
         "config": "Multilingual, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 33,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -920,18 +828,18 @@
         "config": "Honesty, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
       },
       {
-        "score": 49,
-        "config": "Harmlessness, Win Rate",
+        "score": 25,
+        "config": "Vision Instruction-Following, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -942,11 +850,11 @@
   {
     "model_id": "claude-3-haiku",
     "benchmark_id": "human-feedback",
-    "score": 30,
-    "config": "Coding, Win Rate",
+    "score": 49,
+    "config": "Harmlessness, Win Rate",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.8",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -957,29 +865,7 @@
         "config": "Documents, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 26,
-        "config": "Instruction-Following, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.8",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      },
-      {
-        "score": 31,
-        "config": "Creative Writing, Win Rate",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -990,7 +876,29 @@
         "config": "Multilingual, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 31,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1001,18 +909,110 @@
         "config": "Honesty, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
       },
       {
-        "score": 49,
-        "config": "Harmlessness, Win Rate",
+        "score": 26,
+        "config": "Instruction-Following, Win Rate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "human-feedback",
+    "score": 47,
+    "config": "Harmlessness, Win Rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.8",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 46,
+        "config": "Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 44,
+        "config": "Multilingual, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Documents, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 42,
+        "config": "Honesty, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 41,
+        "config": "Creative Writing, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 39,
+        "config": "Coding, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.8",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "Vision Instruction-Following, Win Rate",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.8",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1027,7 +1027,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1040,7 +1040,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1053,7 +1053,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1066,7 +1066,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1078,7 +1078,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1091,7 +1091,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1104,7 +1104,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1117,7 +1117,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1130,7 +1130,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1143,7 +1143,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1156,7 +1156,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1169,7 +1169,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1181,7 +1181,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1194,7 +1194,7 @@
     "config": "Instruction following",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1207,7 +1207,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1219,7 +1219,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.4",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1232,7 +1232,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.4",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1245,7 +1245,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.4",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1258,7 +1258,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.4",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1271,7 +1271,7 @@
     "config": "4-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1284,7 +1284,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1297,7 +1297,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1310,7 +1310,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1323,7 +1323,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1336,7 +1336,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1348,7 +1348,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1361,7 +1361,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1374,7 +1374,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1387,7 +1387,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1400,7 +1400,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1413,7 +1413,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1426,7 +1426,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1439,7 +1439,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1452,7 +1452,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1465,7 +1465,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1478,7 +1478,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1491,7 +1491,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1504,7 +1504,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1517,7 +1517,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1529,7 +1529,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1542,7 +1542,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1555,7 +1555,7 @@
     "config": "5-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1566,7 +1566,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1577,7 +1577,7 @@
         "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1592,11 +1592,37 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu",
+    "score": 88.6,
+    "config": "0-shot CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-3.5-haiku__model-card.pdf",
+      "ref": "p.6",
+      "reported_by": "claude-3.5-haiku",
+      "fetched_at": "2026-06-08T05:47:09.604Z"
+    },
+    "variants": [
+      {
+        "score": 87.3,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.5-haiku__model-card.pdf",
+          "ref": "p.6",
+          "reported_by": "claude-3.5-haiku",
+          "fetched_at": "2026-06-08T05:47:09.604Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "claude-3-opus",
@@ -1605,7 +1631,7 @@
     "config": "5-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1616,7 +1642,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1627,33 +1653,7 @@
         "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-          "ref": "p.6",
-          "reported_by": "claude-3.5-haiku",
-          "fetched_at": "2026-06-08T05:47:09.604Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "mmlu",
-    "score": 87.3,
-    "config": "5-shot",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
-      "ref": "p.6",
-      "reported_by": "claude-3.5-haiku",
-      "fetched_at": "2026-06-08T05:47:09.604Z"
-    },
-    "variants": [
-      {
-        "score": 88.6,
-        "config": "0-shot CoT",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1668,7 +1668,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1681,7 +1681,7 @@
     "config": "5-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1692,7 +1692,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1703,7 +1703,7 @@
         "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.6",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1718,27 +1718,27 @@
     "config": "5-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
     "variants": [
       {
-        "score": 77.6,
-        "config": "5-shot",
+        "score": 80.3,
+        "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
       },
       {
-        "score": 80.3,
-        "config": "0-shot CoT",
+        "score": 77.6,
+        "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
@@ -1752,7 +1752,7 @@
     "config": "5-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1763,7 +1763,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1774,7 +1774,7 @@
         "config": "0-shot CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.7",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1789,7 +1789,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1802,7 +1802,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1815,7 +1815,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1828,7 +1828,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1841,7 +1841,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1853,7 +1853,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.6",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1866,7 +1866,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.7",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1879,7 +1879,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1892,7 +1892,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1905,7 +1905,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1918,7 +1918,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1931,7 +1931,7 @@
     "config": "0-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1944,7 +1944,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -1956,7 +1956,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1969,7 +1969,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1982,7 +1982,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -1995,7 +1995,7 @@
     "config": "pass^1 (Retail)",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2006,7 +2006,7 @@
         "config": "pass^1 (Airline)",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.3",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2021,7 +2021,7 @@
     "config": "pass^1 (Retail)",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     },
@@ -2031,7 +2031,7 @@
         "config": "pass^1 (Airline)",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T05:47:09.604Z"
         }
@@ -2045,7 +2045,7 @@
     "config": "pass^1 (Retail)",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2056,7 +2056,7 @@
         "config": "pass^1 (Airline)",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.3",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2071,7 +2071,7 @@
     "config": "pass^1 (Retail)",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.3",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2082,7 +2082,7 @@
         "config": "pass^1 (Airline)",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+          "url": "claude-3.5-haiku__model-card.pdf",
           "ref": "p.3",
           "reported_by": "claude-3.5-haiku",
           "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2097,7 +2097,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2110,7 +2110,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2123,7 +2123,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2136,7 +2136,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2149,7 +2149,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -2161,7 +2161,7 @@
     "config": "Correct refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2174,7 +2174,7 @@
     "config": "Correct refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2187,7 +2187,7 @@
     "config": "Correct refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2200,7 +2200,7 @@
     "config": "Correct refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2213,7 +2213,7 @@
     "config": "Correct refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -2225,7 +2225,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2238,7 +2238,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2251,7 +2251,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"
@@ -2264,7 +2264,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:47:09.604Z"
     }
@@ -2276,7 +2276,7 @@
     "config": "Incorrect refusals",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-3.5-haiku__model-card.pdf",
+      "url": "claude-3.5-haiku__model-card.pdf",
       "ref": "p.5",
       "reported_by": "claude-3.5-haiku",
       "fetched_at": "2026-06-08T05:47:09.604Z"

@@ -6,7 +6,7 @@
     "config": "without safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -18,7 +18,7 @@
     "config": "without safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.25",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -27,93 +27,45 @@
   {
     "model_id": "claude-opus-4",
     "benchmark_id": "bbq",
-    "score": -0.6,
-    "config": "Disambiguated bias, BBQ",
+    "score": 99.8,
+    "config": "Ambiguous accuracy, BBQ",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-      "ref": "p.18",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
-      {
-        "score": 0.21,
-        "config": "Ambiguous bias, BBQ",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.18",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
       {
         "score": 91.1,
         "config": "Disambiguated accuracy, BBQ",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.19",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 99.8,
-        "config": "Ambiguous accuracy, BBQ",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.19",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-sonnet-4",
-    "benchmark_id": "bbq",
-    "score": -1.16,
-    "config": "Disambiguated bias, BBQ",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-      "ref": "p.18",
-      "reported_by": "claude-sonnet-4.5",
-      "fetched_at": "2026-06-07T09:50:33.068Z"
-    },
-    "variants": [
-      {
-        "score": 0.61,
+        "score": 0.21,
         "config": "Ambiguous bias, BBQ",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.18",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 86.3,
-        "config": "Disambiguated accuracy, BBQ",
+        "score": -0.6,
+        "config": "Disambiguated bias, BBQ",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.19",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
-        "score": 99.4,
-        "config": "Ambiguous accuracy, BBQ",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.19",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -123,42 +75,90 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "bbq",
-    "score": -2.21,
-    "config": "Disambiguated bias, BBQ",
+    "score": 99.7,
+    "config": "Ambiguous accuracy, BBQ",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-      "ref": "p.18",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
-      {
-        "score": 0.25,
-        "config": "Ambiguous bias, BBQ",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.18",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
       {
         "score": 82.2,
         "config": "Disambiguated accuracy, BBQ",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.19",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 99.7,
-        "config": "Ambiguous accuracy, BBQ",
+        "score": 0.25,
+        "config": "Ambiguous bias, BBQ",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": -2.21,
+        "config": "Disambiguated bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bbq",
+    "score": 99.4,
+    "config": "Ambiguous accuracy, BBQ",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-sonnet-4.5__system-card.pdf",
+      "ref": "p.19",
+      "reported_by": "claude-sonnet-4.5",
+      "fetched_at": "2026-06-07T09:50:33.068Z"
+    },
+    "variants": [
+      {
+        "score": 86.3,
+        "config": "Disambiguated accuracy, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.19",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 0.61,
+        "config": "Ambiguous bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": -1.16,
+        "config": "Disambiguated bias, BBQ",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.18",
+          "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       }
@@ -171,7 +171,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -184,7 +184,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -197,7 +197,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -209,7 +209,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -222,7 +222,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -235,7 +235,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -247,7 +247,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -260,7 +260,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -273,7 +273,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -285,7 +285,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -298,7 +298,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -311,7 +311,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -319,21 +319,21 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "computer-use-evaluation",
-    "score": 78,
-    "config": "without safeguards",
+    "score": 82.6,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.30",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 82.6,
-        "config": "with safeguards",
+        "score": 78,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.30",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -343,22 +343,22 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "computer-use-evaluation",
-    "score": 74.3,
-    "config": "without safeguards",
+    "score": 82.6,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.30",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 82.6,
-        "config": "with safeguards",
+        "score": 74.3,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.30",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -373,7 +373,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -386,7 +386,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -399,7 +399,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -411,7 +411,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -424,7 +424,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -437,7 +437,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -445,51 +445,31 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "malicious-use-of-claude-code",
-    "score": 95.56,
-    "config": "without mitigations",
+    "score": 100,
+    "config": "with mitigations",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.26",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 52.42,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
-        "score": 87,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
-        "score": 100,
-        "config": "with mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
         "score": 96.31,
         "config": "with mitigations",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 95.56,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.26",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -499,7 +479,27 @@
         "config": "with mitigations",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 87,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 52.42,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.26",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -509,55 +509,33 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "malicious-use-of-claude-code",
-    "score": 80,
-    "config": "without mitigations",
+    "score": 98.89,
+    "config": "with mitigations",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.26",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 77,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
-        "score": 54.33,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
-        "score": 98.89,
-        "config": "with mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
-          "ref": "p.26",
-          "reported_by": "claude-sonnet-4.5",
-          "fetched_at": "2026-06-07T09:50:33.068Z"
-        }
-      },
-      {
         "score": 95.33,
         "config": "with mitigations",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 80,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.26",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -568,7 +546,29 @@
         "config": "with mitigations",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 77,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
+          "ref": "p.26",
+          "reported_by": "claude-sonnet-4.5",
+          "fetched_at": "2026-06-07T09:50:33.068Z"
+        }
+      },
+      {
+        "score": 54.33,
+        "config": "without mitigations",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.26",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -579,21 +579,21 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "model-context-protocol-mcp-evaluation",
-    "score": 92,
-    "config": "without safeguards",
+    "score": 94,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.29",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 94,
-        "config": "with safeguards",
+        "score": 92,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.29",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -603,22 +603,22 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "model-context-protocol-mcp-evaluation",
-    "score": 91.1,
-    "config": "without safeguards",
+    "score": 92.9,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.29",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 92.9,
-        "config": "with safeguards",
+        "score": 91.1,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.29",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -633,7 +633,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -646,7 +646,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -659,7 +659,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }
@@ -667,22 +667,22 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "single-turn-benign-request-evaluation",
-    "score": 0.15,
-    "config": "default",
+    "score": 0.28,
+    "config": "standard thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 0.28,
-        "config": "standard thinking",
+        "score": 0.15,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -693,7 +693,7 @@
         "config": "extended thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -704,22 +704,22 @@
   {
     "model_id": "claude-opus-4",
     "benchmark_id": "single-turn-benign-request-evaluation",
-    "score": 0.05,
-    "config": "default",
+    "score": 0.09,
+    "config": "standard thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 0.09,
-        "config": "standard thinking",
+        "score": 0.05,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -730,7 +730,7 @@
         "config": "extended thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -741,21 +741,21 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "single-turn-benign-request-evaluation",
-    "score": 0.02,
-    "config": "default",
+    "score": 0.05,
+    "config": "standard thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 0.05,
-        "config": "standard thinking",
+        "score": 0.02,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -765,7 +765,7 @@
         "config": "extended thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -775,31 +775,31 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "single-turn-violative-request-evaluation",
-    "score": 99.29,
-    "config": "default",
+    "score": 99.43,
+    "config": "extended thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 99.16,
-        "config": "standard thinking",
+        "score": 99.29,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 99.43,
-        "config": "extended thinking",
+        "score": 99.16,
+        "config": "standard thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -809,33 +809,33 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "single-turn-violative-request-evaluation",
-    "score": 98.22,
-    "config": "default",
+    "score": 98.97,
+    "config": "extended thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 97.46,
-        "config": "standard thinking",
+        "score": 98.22,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 98.97,
-        "config": "extended thinking",
+        "score": 97.46,
+        "config": "standard thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -846,33 +846,33 @@
   {
     "model_id": "claude-opus-4",
     "benchmark_id": "single-turn-violative-request-evaluation",
-    "score": 97.27,
-    "config": "default",
+    "score": 97.67,
+    "config": "extended thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.12",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 96.88,
-        "config": "standard thinking",
+        "score": 97.27,
+        "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
       },
       {
-        "score": 97.67,
-        "config": "extended thinking",
+        "score": 96.88,
+        "config": "standard thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.12",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -883,21 +883,21 @@
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "tool-use-evaluation",
-    "score": 96,
-    "config": "without safeguards",
+    "score": 99.4,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.30",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 99.4,
-        "config": "with safeguards",
+        "score": 96,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.30",
           "fetched_at": "2026-06-07T09:50:33.068Z"
         }
@@ -907,22 +907,22 @@
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "tool-use-evaluation",
-    "score": 90.6,
-    "config": "without safeguards",
+    "score": 99.2,
+    "config": "with safeguards",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.30",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     },
     "variants": [
       {
-        "score": 99.2,
-        "config": "with safeguards",
+        "score": 90.6,
+        "config": "without safeguards",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+          "url": "claude-sonnet-4.5__system-card.pdf",
           "ref": "p.30",
           "reported_by": "claude-sonnet-4.5",
           "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -937,7 +937,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -950,7 +950,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "reported_by": "claude-sonnet-4.5",
       "fetched_at": "2026-06-07T09:50:33.068Z"
@@ -963,7 +963,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\claude-sonnet-4.5__system-card.pdf",
+      "url": "claude-sonnet-4.5__system-card.pdf",
       "ref": "p.48",
       "fetched_at": "2026-06-07T09:50:33.068Z"
     }

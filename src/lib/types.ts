@@ -12,6 +12,12 @@ export interface ScoreSource {
   url: string;
   ref?: string;
   reported_by?: string;
+  /** When the score itself was produced/published (ISO date) — distinct from
+   *  `fetched_at`, which is only when our scraper pulled it. Drives which of
+   *  several scores for a (model, benchmark) is the representative. Often
+   *  unknown; selection then falls back to source reliability, then
+   *  `fetched_at`. */
+  published?: string;
   fetched_at: string;
 }
 

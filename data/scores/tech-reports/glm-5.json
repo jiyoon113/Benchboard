@@ -6,7 +6,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -19,7 +19,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -32,7 +32,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -44,27 +44,27 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     },
     "variants": [
       {
-        "score": 55.3,
-        "config": "w/o keep-recent-k",
+        "score": 62,
+        "config": "w/ keep-recent-k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+          "url": "glm-5__paper.pdf",
           "ref": "p.19",
           "fetched_at": "2026-06-07T07:15:57.748Z"
         }
       },
       {
-        "score": 62,
-        "config": "w/ keep-recent-k",
+        "score": 55.3,
+        "config": "w/o keep-recent-k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+          "url": "glm-5__paper.pdf",
           "ref": "p.19",
           "fetched_at": "2026-06-07T07:15:57.748Z"
         }
@@ -78,7 +78,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -91,7 +91,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -104,7 +104,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -116,7 +116,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -129,7 +129,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -142,7 +142,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.2",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -154,7 +154,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -166,7 +166,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -179,7 +179,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -192,7 +192,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -205,7 +205,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -217,7 +217,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -230,7 +230,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -243,7 +243,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -255,7 +255,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -268,7 +268,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -281,7 +281,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }
@@ -293,7 +293,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -306,7 +306,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -319,7 +319,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "reported_by": "glm-5",
       "fetched_at": "2026-06-07T07:15:57.748Z"
@@ -332,7 +332,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\glm-5__paper.pdf",
+      "url": "glm-5__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T07:15:57.748Z"
     }

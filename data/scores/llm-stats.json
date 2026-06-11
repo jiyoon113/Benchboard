@@ -44,21 +44,21 @@
     },
     "variants": [
       {
-        "score": 91.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      },
-      {
         "score": 92,
         "config": "default",
         "source": {
           "kind": "github_repo",
           "url": "https://llm-stats.com/benchmarks/aime-2025",
           "fetched_at": "2026-06-08T06:48:52.608Z"
+        }
+      },
+      {
+        "score": 91.7,
+        "config": "default",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://llm-stats.com/benchmarks/aime-2025",
+          "fetched_at": "2026-06-08T06:46:13.369Z"
         }
       }
     ]
@@ -401,21 +401,21 @@
     },
     "variants": [
       {
-        "score": 87.5,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      },
-      {
         "score": 85.7,
         "config": "default",
         "source": {
           "kind": "github_repo",
           "url": "https://llm-stats.com/benchmarks/gpqa",
           "fetched_at": "2026-06-08T06:48:52.608Z"
+        }
+      },
+      {
+        "score": 87.5,
+        "config": "default",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://llm-stats.com/benchmarks/gpqa",
+          "fetched_at": "2026-06-08T06:46:13.369Z"
         }
       }
     ]
@@ -575,21 +575,21 @@
     },
     "variants": [
       {
-        "score": 40,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/hle",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      },
-      {
         "score": 20,
         "config": "default",
         "source": {
           "kind": "github_repo",
           "url": "https://llm-stats.com/benchmarks/hle",
           "fetched_at": "2026-06-08T06:48:52.608Z"
+        }
+      },
+      {
+        "score": 40,
+        "config": "default",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://llm-stats.com/benchmarks/hle",
+          "fetched_at": "2026-06-08T06:46:13.369Z"
         }
       }
     ]
@@ -1144,21 +1144,21 @@
     },
     "variants": [
       {
-        "score": 79,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      },
-      {
         "score": 79.4,
         "config": "default",
         "source": {
           "kind": "github_repo",
           "url": "https://llm-stats.com/benchmarks/livecodebench",
           "fetched_at": "2026-06-08T06:48:52.608Z"
+        }
+      },
+      {
+        "score": 79,
+        "config": "default",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://llm-stats.com/benchmarks/livecodebench",
+          "fetched_at": "2026-06-08T06:46:13.369Z"
         }
       }
     ]

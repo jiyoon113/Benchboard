@@ -6,17 +6,17 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 71.4,
-        "config": "0-shot, Amharic",
+        "score": 86.5,
+        "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -26,7 +26,17 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 71.4,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -36,17 +46,7 @@
         "config": "0-shot, Northern Sotho",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 86.5,
-        "config": "0-shot, Swahili",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -56,7 +56,7 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -70,18 +70,18 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "reported_by": "gpt-4o",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 42.7,
-        "config": "0-shot, Amharic",
+        "score": 76.9,
+        "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -92,29 +92,7 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 37.4,
-        "config": "0-shot, Northern Sotho",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 76.9,
-        "config": "0-shot, Swahili",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -125,7 +103,29 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 42.7,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 37.4,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -140,51 +140,18 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "reported_by": "gpt-4o",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 27.4,
-        "config": "0-shot, Amharic",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 28.8,
-        "config": "0-shot, Hausa",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 30,
-        "config": "0-shot, Northern Sotho",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
         "score": 83.5,
         "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -195,7 +162,40 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 30,
+        "config": "0-shot, Northern Sotho",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 28.8,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 27.4,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -210,7 +210,7 @@
     "config": "pass@100, ARA",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -222,27 +222,27 @@
     "config": "10 attempts, high-school",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.13",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 0,
-        "config": "10 attempts, collegiate",
+        "score": 1,
+        "config": "10 attempts, professional",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.13",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       },
       {
-        "score": 1,
-        "config": "10 attempts, professional",
+        "score": 0,
+        "config": "10 attempts, collegiate",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.13",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -256,7 +256,7 @@
     "config": "0/10 trials, METR",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -264,21 +264,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "medmcqa-dev",
-    "score": 77,
-    "config": "0-shot",
+    "score": 79,
+    "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 79,
-        "config": "5-shot",
+        "score": 77,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -288,21 +288,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "medqa-mainland-china",
-    "score": 84,
-    "config": "0-shot",
+    "score": 86,
+    "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 86,
-        "config": "5-shot",
+        "score": 84,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -316,7 +316,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -326,7 +326,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -340,7 +340,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -350,7 +350,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -360,21 +360,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "medqa-usmle-5-options",
-    "score": 86,
-    "config": "0-shot",
+    "score": 87,
+    "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 87,
-        "config": "5-shot",
+        "score": 86,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -388,7 +388,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -398,7 +398,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -412,7 +412,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -422,7 +422,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -436,7 +436,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -446,7 +446,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -456,21 +456,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "mmlu-college-medicine",
-    "score": 84,
-    "config": "0-shot",
+    "score": 89,
+    "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 89,
-        "config": "5-shot",
+        "score": 84,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -484,7 +484,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -494,7 +494,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -508,7 +508,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.21",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -518,7 +518,7 @@
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.21",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -532,7 +532,7 @@
     "config": "cons@32, multiple choice",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -544,7 +544,7 @@
     "config": "pass@100",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -556,7 +556,7 @@
     "config": "% of human, AI audio clips effect size",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -566,7 +566,7 @@
         "config": "% of human, AI conversations effect size",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -576,7 +576,7 @@
         "config": "%, AI conversations effect size 1 week",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -586,7 +586,7 @@
         "config": "%, AI audio clips effect size 1 week",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -596,21 +596,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "safety-evaluations-text-vs-audio-not-over-refuse",
-    "score": 81,
-    "config": "Text",
+    "score": 82,
+    "config": "Audio",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 82,
-        "config": "Audio",
+        "score": 81,
+        "config": "Text",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.11",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -624,7 +624,7 @@
     "config": "Text",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -634,7 +634,7 @@
         "config": "Audio",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.11",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -644,91 +644,21 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "safety-metrics",
-    "score": 99,
-    "config": "Text, not_unsafe",
+    "score": 100,
+    "config": "Audio, not_unsafe",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.31",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
         "score": 100,
-        "config": "Audio, not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 89,
-        "config": "Text, not_overrefuse",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 91,
-        "config": "Audio, not_overrefuse",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 98,
-        "config": "Text, sexual_minors_not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 98,
-        "config": "Audio, sexual_minors_not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 98,
-        "config": "Text, sexual_illegal_not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 99,
-        "config": "Audio, sexual_illegal_not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 100,
         "config": "Text, extremism_propaganda_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -738,7 +668,7 @@
         "config": "Audio, extremism_propaganda_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -748,7 +678,7 @@
         "config": "Text, illicit_violent_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -758,17 +688,7 @@
         "config": "Audio, illicit_violent_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.31",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 97,
-        "config": "Text, illicit_non_violent_not_unsafe",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -778,7 +698,7 @@
         "config": "Audio, illicit_non_violent_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -788,7 +708,7 @@
         "config": "Text, self_harm_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -798,7 +718,87 @@
         "config": "Audio, self_harm_not_unsafe",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 99,
+        "config": "Text, not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 99,
+        "config": "Audio, sexual_illegal_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Text, sexual_minors_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Audio, sexual_minors_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 98,
+        "config": "Text, sexual_illegal_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 97,
+        "config": "Text, illicit_non_violent_not_unsafe",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 91,
+        "config": "Audio, not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.31",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 89,
+        "config": "Text, not_overrefuse",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.31",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -812,7 +812,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -824,7 +824,7 @@
     "config": "consensus@10, Biorisk",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.14",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }
@@ -836,17 +836,17 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 55.4,
-        "config": "0-shot, Amharic",
+        "score": 64.4,
+        "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -856,7 +856,7 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -866,17 +866,17 @@
         "config": "0-shot, Northern Sotho",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       },
       {
-        "score": 64.4,
-        "config": "0-shot, Swahili",
+        "score": 55.4,
+        "config": "0-shot, Amharic",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -886,7 +886,7 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
@@ -900,29 +900,18 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "reported_by": "gpt-4o",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 42.6,
-        "config": "0-shot, Amharic",
+        "score": 62,
+        "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 37.6,
-        "config": "0-shot, Hausa",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -933,18 +922,18 @@
         "config": "0-shot, Northern Sotho",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       },
       {
-        "score": 62,
-        "config": "0-shot, Swahili",
+        "score": 42.6,
+        "config": "0-shot, Amharic",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -955,7 +944,18 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 37.6,
+        "config": "0-shot, Hausa",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -970,18 +970,18 @@
     "config": "0-shot, English",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "reported_by": "gpt-4o",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
     "variants": [
       {
-        "score": 33.9,
-        "config": "0-shot, Amharic",
+        "score": 48.4,
+        "config": "0-shot, Swahili",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -992,7 +992,7 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -1003,18 +1003,7 @@
         "config": "0-shot, Northern Sotho",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 48.4,
-        "config": "0-shot, Swahili",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -1025,7 +1014,18 @@
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 33.9,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -1036,11 +1036,11 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "uhura-eval",
-    "score": 44.2,
-    "config": "0-shot, Amharic",
+    "score": 60.5,
+    "config": "0-shot, Yoruba",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     },
@@ -1050,55 +1050,18 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       },
       {
-        "score": 60.5,
-        "config": "0-shot, Yoruba",
+        "score": 44.2,
+        "config": "0-shot, Amharic",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4",
-    "benchmark_id": "uhura-eval",
-    "score": 41.6,
-    "config": "0-shot, Amharic",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-      "ref": "p.24",
-      "reported_by": "gpt-4o",
-      "fetched_at": "2026-06-08T03:43:51.908Z"
-    },
-    "variants": [
-      {
-        "score": 41.9,
-        "config": "0-shot, Hausa",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
-          "fetched_at": "2026-06-08T03:43:51.908Z"
-        }
-      },
-      {
-        "score": 41.9,
-        "config": "0-shot, Yoruba",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
-          "ref": "p.24",
-          "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       }
@@ -1107,11 +1070,11 @@
   {
     "model_id": "gpt-4o-mini",
     "benchmark_id": "uhura-eval",
-    "score": 33.8,
-    "config": "0-shot, Amharic",
+    "score": 44.2,
+    "config": "0-shot, Yoruba",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.24",
       "reported_by": "gpt-4o",
       "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -1122,18 +1085,55 @@
         "config": "0-shot, Hausa",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
         }
       },
       {
-        "score": 44.2,
+        "score": 33.8,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "uhura-eval",
+    "score": 41.9,
+    "config": "0-shot, Hausa",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4o__system-card.pdf",
+      "ref": "p.24",
+      "reported_by": "gpt-4o",
+      "fetched_at": "2026-06-08T03:43:51.908Z"
+    },
+    "variants": [
+      {
+        "score": 41.9,
         "config": "0-shot, Yoruba",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+          "url": "gpt-4o__system-card.pdf",
+          "ref": "p.24",
+          "reported_by": "gpt-4o",
+          "fetched_at": "2026-06-08T03:43:51.908Z"
+        }
+      },
+      {
+        "score": 41.6,
+        "config": "0-shot, Amharic",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4o__system-card.pdf",
           "ref": "p.24",
           "reported_by": "gpt-4o",
           "fetched_at": "2026-06-08T03:43:51.908Z"
@@ -1148,7 +1148,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gpt-4o__system-card.pdf",
+      "url": "gpt-4o__system-card.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-08T03:43:51.908Z"
     }

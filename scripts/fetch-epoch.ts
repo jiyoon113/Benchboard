@@ -123,6 +123,25 @@ function parseCsv(text: string): Array<Record<string, string>> {
   });
 }
 
+/** Pull a publication date out of a CSV row if any recognizable date column is
+ *  present. Returns an ISO date (YYYY-MM-DD) or undefined. */
+function pickDate(row: Record<string, string>): string | undefined {
+  const CANDIDATES = [
+    "Publication date",
+    "Release date",
+    "Date",
+    "date",
+    "Released",
+    "Best score date",
+    "Model release date",
+  ];
+  for (const c of CANDIDATES) {
+    const v = row[c]?.trim();
+    if (v && /\d{4}-\d{2}/.test(v)) return v.slice(0, 10);
+  }
+  return undefined;
+}
+
 function normScore(raw: string): number | null {
   let n = Number(raw);
   if (!Number.isFinite(n)) return null;
@@ -163,12 +182,21 @@ async function main() {
         tag,
         map.configCol ? r[map.configCol]?.trim() || null : null,
       ].filter(Boolean);
+      // Epoch's CSVs carry the date the result was produced; capture it as the
+      // real publication date (distinct from when we fetched the zip).
+      const published = pickDate(r);
       records.push({
         model_id: id,
         benchmark_id: map.id,
         score,
         config: parts.length ? parts.join(", ") : "default",
-        source: { kind: "aggregator_api", url: ZIP_URL, ref: map.file, fetched_at },
+        source: {
+          kind: "aggregator_api",
+          url: ZIP_URL,
+          ref: map.file,
+          ...(published ? { published } : {}),
+          fetched_at,
+        },
       });
     }
     await persist(`epoch-${map.id}`, records);

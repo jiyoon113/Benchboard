@@ -17,10 +17,55 @@ const SOURCE_KIND_LABEL: Record<string, string> = {
   manual: "manual",
 };
 
-/** "OpenAI GPT-4o launch (May 2024)" → "OpenAI GPT-4o launch …" */
+/** Known provenance by URL host — keyed by host suffix. Lets us name the
+ *  actual origin (incl. aggregators that re-host other people's numbers)
+ *  instead of a generic "Aggregator"/"GitHub". */
+const HOST_LABEL: Array<[string, string]> = [
+  ["epoch.ai", "Epoch AI"],
+  ["artificialanalysis.ai", "Artificial Analysis"],
+  ["scale.com", "Scale SEAL"],
+  ["llm-stats.com", "LLM-Stats"],
+  ["wulong.dev", "LMArena"],
+  ["lmarena.ai", "LMArena"],
+  ["arxiv.org", "arXiv"],
+  ["anthropic.com", "Anthropic"],
+  ["openai.com", "OpenAI"],
+  ["llama.com", "Meta"],
+  ["upstage.ai", "Upstage"],
+  ["amazon.science", "Amazon"],
+  ["huggingface.co", "HuggingFace"],
+  ["evalplus.github.io", "EvalPlus"],
+  ["githubusercontent.com", "GitHub"],
+  ["github.io", "GitHub"],
+  ["github.com", "GitHub"],
+];
+
+function httpHost(url: string): string {
+  if (!/^https?:\/\//i.test(url)) return ""; // local PDF paths etc.
+  try {
+    return new URL(url).host.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+/** Best-effort precise origin name for a score's source. */
 function sourceLabel(s: ScoreVariant["source"]): string {
+  const host = httpHost(s.url);
+  if (host) {
+    for (const [suffix, label] of HOST_LABEL) {
+      if (host === suffix || host.endsWith("." + suffix)) return label;
+    }
+  }
   if (s.reported_by) return s.reported_by;
   return SOURCE_KIND_LABEL[s.kind] ?? s.kind;
+}
+
+/** Only surface a URL in the hover title when it's a real web link — never a
+ *  local filesystem path from a tech-report PDF. */
+function sourceTitle(s: ScoreVariant["source"]): string {
+  const label = sourceLabel(s);
+  return /^https?:\/\//i.test(s.url) ? `${label} — ${s.url}` : label;
 }
 
 interface Props {
@@ -99,7 +144,7 @@ export default function ScoreCell({ record }: Props) {
               </span>
               <span
                 className="ml-auto text-[10px] text-neutral-400 truncate min-w-0 shrink"
-                title={sourceLabel(e.source) + (e.source.url ? ` — ${e.source.url}` : "")}
+                title={sourceTitle(e.source)}
               >
                 {sourceLabel(e.source)}
               </span>

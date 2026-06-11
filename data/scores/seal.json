@@ -61,12 +61,12 @@
     "variants": [
       {
         "score": 59.93,
-        "config": "August 2024",
+        "config": "default",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/korean",
           "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:37:57.632Z"
+          "fetched_at": "2026-06-09T02:40:27.079Z"
         }
       },
       {
@@ -81,12 +81,12 @@
       },
       {
         "score": 59.93,
-        "config": "default",
+        "config": "August 2024",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/korean",
           "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:40:27.079Z"
+          "fetched_at": "2026-06-09T02:37:57.632Z"
         }
       }
     ]
@@ -141,12 +141,12 @@
     "variants": [
       {
         "score": 40.42,
-        "config": "May 2024",
+        "config": "default",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/korean",
           "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:37:57.632Z"
+          "fetched_at": "2026-06-09T02:40:27.079Z"
         }
       },
       {
@@ -161,12 +161,12 @@
       },
       {
         "score": 40.42,
-        "config": "default",
+        "config": "May 2024",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/korean",
           "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:40:27.079Z"
+          "fetched_at": "2026-06-09T02:37:57.632Z"
         }
       }
     ]
@@ -933,7 +933,7 @@
     "variants": [
       {
         "score": 20.52,
-        "config": "Non-Thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/fortress",
@@ -1035,7 +1035,7 @@
     "model_id": "claude-opus-4.6",
     "benchmark_id": "mask",
     "score": 96.28,
-    "config": "Non-Thinking",
+    "config": "non-thinking",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
@@ -1091,7 +1091,7 @@
     "model_id": "claude-sonnet-4",
     "benchmark_id": "mask",
     "score": 95.33,
-    "config": "Thinking",
+    "config": "thinking",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
@@ -1207,7 +1207,7 @@
     "model_id": "claude-opus-4",
     "benchmark_id": "mask",
     "score": 87.87,
-    "config": "Thinking",
+    "config": "thinking",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
@@ -1311,7 +1311,7 @@
     "model_id": "claude-3.7-sonnet",
     "benchmark_id": "mask",
     "score": 82.13,
-    "config": "Thinking",
+    "config": "thinking",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
@@ -1325,22 +1325,22 @@
     "variants": [
       {
         "score": 72.27,
-        "config": "February 2025",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      },
-      {
-        "score": 72.27,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
           "fetched_at": "2026-06-09T02:40:26.257Z"
+        }
+      },
+      {
+        "score": 72.27,
+        "config": "February 2025",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/mask",
+          "ref": "SEAL MASK",
+          "fetched_at": "2026-06-09T02:39:16.376Z"
         }
       }
     ]
@@ -1733,7 +1733,7 @@
     "model_id": "o3-mini",
     "benchmark_id": "mask",
     "score": 49.73,
-    "config": "Low",
+    "config": "low",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
@@ -1747,7 +1747,7 @@
     "variants": [
       {
         "score": 48.93,
-        "config": "Medium",
+        "config": "medium",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
@@ -1757,7 +1757,7 @@
       },
       {
         "score": 46.8,
-        "config": "High",
+        "config": "high",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
@@ -1784,16 +1784,6 @@
     },
     "variants": [
       {
-        "score": 49.07,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
-        }
-      },
-      {
         "score": 49.53,
         "config": "thinking, January 2025",
         "source": {
@@ -1801,6 +1791,16 @@
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
           "fetched_at": "2026-06-09T02:39:16.376Z"
+        }
+      },
+      {
+        "score": 49.07,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/mask",
+          "ref": "SEAL MASK",
+          "fetched_at": "2026-06-09T02:37:56.813Z"
         }
       }
     ]
@@ -2377,7 +2377,7 @@
     "model_id": "claude-opus-4.6",
     "benchmark_id": "multichallenge",
     "score": 56.02,
-    "config": "Non-Thinking",
+    "config": "non-thinking",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
@@ -2659,7 +2659,7 @@
     "variants": [
       {
         "score": 48.34,
-        "config": "Non-Thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",

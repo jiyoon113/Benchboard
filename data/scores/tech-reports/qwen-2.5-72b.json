@@ -6,7 +6,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -18,7 +18,7 @@
     "config": "25-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -30,7 +30,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -42,7 +42,7 @@
     "config": "3-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -54,7 +54,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -66,7 +66,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.13",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
@@ -76,7 +76,7 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.14",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -86,22 +86,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "comprehension",
-    "score": 74.43,
+    "score": 78.85,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.13",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.14",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 78.85,
+        "score": 74.43,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.13",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -110,22 +110,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "gpqa",
-    "score": 45.9,
-    "config": "5-shot",
+    "score": 49,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 49,
-        "config": "default",
+        "score": 45.9,
+        "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -134,22 +134,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "gsm8k",
-    "score": 91.5,
-    "config": "4-shot",
+    "score": 95.8,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 95.8,
-        "config": "default",
+        "score": 91.5,
+        "config": "4-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -162,7 +162,7 @@
     "config": "10-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -170,22 +170,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "humaneval",
-    "score": 59.1,
-    "config": "0-shot",
+    "score": 86.6,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 86.6,
-        "config": "default",
+        "score": 59.1,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -198,7 +198,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -210,7 +210,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.13",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
@@ -220,7 +220,7 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.14",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -234,7 +234,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -246,7 +246,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -258,7 +258,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -270,7 +270,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -282,7 +282,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -290,22 +290,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "knowledge",
-    "score": 66.09,
+    "score": 75.86,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.13",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.14",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 75.86,
+        "score": 66.09,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.13",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -318,7 +318,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -330,7 +330,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -342,7 +342,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -354,7 +354,7 @@
     "config": "16k",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
@@ -364,7 +364,7 @@
         "config": "32k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -374,7 +374,7 @@
         "config": "64k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -384,7 +384,7 @@
         "config": "128k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -394,7 +394,7 @@
         "config": "256k",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -404,22 +404,32 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "math",
-    "score": 62.1,
-    "config": "4-shot",
+    "score": 83.1,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 83.1,
+        "score": 68.39,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.14",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 62.1,
+        "config": "4-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       },
@@ -428,18 +438,8 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.13",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      },
-      {
-        "score": 68.39,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -448,22 +448,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "mbpp",
-    "score": 84.7,
-    "config": "0-shot",
+    "score": 88.2,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 88.2,
-        "config": "default",
+        "score": 84.7,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -476,7 +476,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -488,7 +488,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -500,7 +500,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -508,22 +508,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "mmlu-pro",
-    "score": 58.1,
-    "config": "5-shot",
+    "score": 71.1,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 71.1,
-        "config": "default",
+        "score": 58.1,
+        "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -532,22 +532,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "mmlu-redux",
-    "score": 83.9,
-    "config": "5-shot",
+    "score": 86.8,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 86.8,
-        "config": "default",
+        "score": 83.9,
+        "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -560,7 +560,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -572,7 +572,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -584,7 +584,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -596,7 +596,7 @@
     "config": "8-shot CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -608,7 +608,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -620,7 +620,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -628,22 +628,22 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "multipl-e",
-    "score": 60.5,
-    "config": "0-shot",
+    "score": 75.1,
+    "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-      "ref": "p.8",
+      "url": "qwen-2.5-72b__paper.pdf",
+      "ref": "p.11",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
-        "score": 75.1,
-        "config": "default",
+        "score": 60.5,
+        "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.11",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.8",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
       }
@@ -656,7 +656,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -668,7 +668,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.13",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
@@ -678,7 +678,7 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.14",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -688,21 +688,21 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "ruler",
-    "score": 95.1,
-    "config": "Avg",
+    "score": 97.7,
+    "config": "4K",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.17",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     },
     "variants": [
       {
         "score": 97.7,
-        "config": "4K",
+        "config": "16K",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -712,17 +712,7 @@
         "config": "8K",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
-          "ref": "p.17",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      },
-      {
-        "score": 97.7,
-        "config": "16K",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -732,7 +722,17 @@
         "config": "32K",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-07T10:23:30.912Z"
+        }
+      },
+      {
+        "score": 95.1,
+        "config": "Avg",
+        "source": {
+          "kind": "tech_report",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -742,7 +742,7 @@
         "config": "64K",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -752,7 +752,7 @@
         "config": "128K",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+          "url": "qwen-2.5-72b__paper.pdf",
           "ref": "p.17",
           "fetched_at": "2026-06-07T10:23:30.912Z"
         }
@@ -766,7 +766,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -778,7 +778,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -790,7 +790,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
@@ -802,7 +802,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\qwen-2.5-72b__paper.pdf",
+      "url": "qwen-2.5-72b__paper.pdf",
       "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }

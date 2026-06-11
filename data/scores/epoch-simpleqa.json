@@ -14,8 +14,8 @@
   {
     "model_id": "gemini-3-pro",
     "benchmark_id": "simpleqa",
-    "score": 68.4,
-    "config": "high",
+    "score": 72.9,
+    "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -24,6 +24,16 @@
     },
     "variants": [
       {
+        "score": 68.4,
+        "config": "high",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
         "score": 77.3,
         "config": "default",
         "source": {
@@ -31,16 +41,6 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 72.9,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
         }
       }
     ]
@@ -154,6 +154,40 @@
     }
   },
   {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "simpleqa",
+    "score": 46.5,
+    "config": "32K",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 41,
+        "config": "max",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 43.1,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "fetched_at": "2026-06-08T08:35:10.410Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "gpt-5.4",
     "benchmark_id": "simpleqa",
     "score": 44.8,
@@ -178,10 +212,10 @@
     }
   },
   {
-    "model_id": "claude-opus-4.6",
+    "model_id": "gpt-5.2",
     "benchmark_id": "simpleqa",
-    "score": 41,
-    "config": "max",
+    "score": 38.9,
+    "config": "xhigh",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -190,18 +224,28 @@
     },
     "variants": [
       {
-        "score": 43.1,
-        "config": "default",
+        "score": 38.2,
+        "config": "high",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
-          "fetched_at": "2026-06-08T08:35:10.410Z"
+          "fetched_at": "2026-06-08T08:52:22.936Z"
         }
       },
       {
-        "score": 46.5,
-        "config": "32K",
+        "score": 35.4,
+        "config": "medium",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 34.7,
+        "config": "low",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -234,50 +278,6 @@
       "ref": "simpleqa_verified.csv",
       "fetched_at": "2026-06-08T08:52:22.936Z"
     }
-  },
-  {
-    "model_id": "gpt-5.2",
-    "benchmark_id": "simpleqa",
-    "score": 35.4,
-    "config": "medium",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 38.2,
-        "config": "high",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      },
-      {
-        "score": 38.9,
-        "config": "xhigh",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      },
-      {
-        "score": 34.7,
-        "config": "low",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-opus-4.1",

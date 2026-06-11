@@ -6,7 +6,7 @@
     "config": "whole",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -17,7 +17,7 @@
         "config": "diff",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "reported_by": "gemini-2.5-flash",
           "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -32,7 +32,7 @@
     "config": "diff",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -45,7 +45,7 @@
     "config": "whole",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -55,7 +55,7 @@
         "config": "diff",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -65,7 +65,7 @@
         "config": "whole",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -75,7 +75,7 @@
         "config": "diff",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -89,7 +89,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -98,31 +98,31 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "aime-2025-single-attempt",
-    "score": 75.6,
+    "score": 78,
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 72,
+        "score": 75.6,
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
-        "score": 78,
+        "score": 72,
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -136,7 +136,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -149,7 +149,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -159,7 +159,7 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -173,7 +173,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -186,7 +186,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -195,21 +195,21 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "global-mmlu",
-    "score": 87.9,
+    "score": 88.4,
     "config": "pass@1, Lite",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 88.4,
+        "score": 87.9,
         "config": "pass@1, Lite",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.5",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -223,20 +223,7 @@
     "config": "multiple attempts",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
-      "ref": "p.4",
-      "reported_by": "gemini-2.5-flash",
-      "fetched_at": "2026-06-08T05:57:43.529Z"
-    }
-  },
-  {
-    "model_id": "o4-mini",
-    "benchmark_id": "gpqa-diamond-single-attempt",
-    "score": 81.4,
-    "config": "pass@1",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -245,21 +232,21 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "gpqa-diamond-single-attempt",
-    "score": 80.8,
+    "score": 82.8,
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 82.8,
+        "score": 80.8,
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -269,12 +256,25 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       }
     ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "gpqa-diamond-single-attempt",
+    "score": 81.4,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gemini-2.5-flash__model-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gemini-2.5-flash",
+      "fetched_at": "2026-06-08T05:57:43.529Z"
+    }
   },
   {
     "model_id": "claude-3.7-sonnet",
@@ -283,7 +283,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -296,7 +296,7 @@
     "config": "pass@1, no tools",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -309,27 +309,27 @@
     "config": "pass@1, no tools",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 11,
+        "score": 12.1,
         "config": "pass@1, no tools",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
-        "score": 12.1,
+        "score": 11,
         "config": "pass@1, no tools",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -343,7 +343,7 @@
     "config": "pass@1, no tools",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -356,7 +356,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -368,7 +368,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -380,7 +380,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -392,7 +392,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -404,7 +404,7 @@
     "config": "LMArena",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -416,7 +416,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -428,7 +428,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -437,40 +437,40 @@
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "image-to-text-safety",
     "score": 6,
-    "config": "Non-thinking",
+    "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.9",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
         "score": 4.8,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 3.7,
-        "config": "Non-thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 1.6,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -480,41 +480,41 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "instruction-following",
-    "score": 29.2,
-    "config": "Non-thinking",
+    "score": 30.4,
+    "config": "thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.9",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 30.4,
-        "config": "Thinking",
+        "score": 29.2,
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
-          "ref": "p.9",
-          "fetched_at": "2026-06-08T05:57:43.529Z"
-        }
-      },
-      {
-        "score": 28.1,
-        "config": "Non-thinking",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 28.4,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
+          "ref": "p.9",
+          "fetched_at": "2026-06-08T05:57:43.529Z"
+        }
+      },
+      {
+        "score": 28.1,
+        "config": "non-thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -528,7 +528,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -538,7 +538,7 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -548,7 +548,7 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -562,7 +562,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -575,7 +575,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -585,7 +585,7 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -595,7 +595,7 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -609,7 +609,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -622,7 +622,7 @@
     "config": "128k, 8-needle)* 128k (average",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -632,7 +632,7 @@
         "config": "1M, 8-needle)* 1M (pointwise",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.5",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -646,7 +646,7 @@
     "config": "128k, average",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -658,7 +658,7 @@
     "config": "128k, average",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -671,7 +671,7 @@
     "config": "1M, pointwise",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -679,41 +679,41 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "multilingual-safety",
-    "score": 12,
-    "config": "Non-thinking",
+    "score": 13.1,
+    "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.9",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
         "score": 12,
-        "config": "Thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
-        "score": 13.1,
-        "config": "Non-thinking",
+        "score": 12,
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 11.9,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -727,7 +727,7 @@
     "config": "LMArena",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -735,11 +735,11 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "simpleqa",
-    "score": 25.3,
+    "score": 29.7,
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
@@ -749,17 +749,17 @@
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
-        "score": 29.7,
+        "score": 25.3,
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -773,7 +773,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -785,7 +785,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -798,7 +798,7 @@
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "reported_by": "gemini-2.5-flash",
       "fetched_at": "2026-06-08T05:57:43.529Z"
@@ -807,21 +807,21 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "swe-bench-verified",
-    "score": 54,
+    "score": 60.4,
     "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.4",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 60.4,
+        "score": 54,
         "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.4",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -835,7 +835,7 @@
     "config": "GenAI-Bench",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }
@@ -844,40 +844,40 @@
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "text-to-text-safety",
     "score": 9.1,
-    "config": "Non-thinking",
+    "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.9",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
         "score": 9.1,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 4.2,
-        "config": "Non-thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 3.8,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -887,41 +887,41 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "tone",
-    "score": 9.5,
-    "config": "Non-thinking",
+    "score": 9.7,
+    "config": "thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.9",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 9.7,
-        "config": "Thinking",
+        "score": 9.5,
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": 0.7,
-        "config": "Non-thinking",
+        "config": "non-thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
       },
       {
         "score": -2.3,
-        "config": "Thinking",
+        "config": "thinking",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.9",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -931,21 +931,21 @@
   {
     "model_id": "gemini-2.5-flash",
     "benchmark_id": "vibe-eval",
-    "score": 62,
+    "score": 65.4,
     "config": "pass@1, Reka",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.5",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     },
     "variants": [
       {
-        "score": 65.4,
+        "score": 62,
         "config": "pass@1, Reka",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+          "url": "gemini-2.5-flash__model-card.pdf",
           "ref": "p.5",
           "fetched_at": "2026-06-08T05:57:43.529Z"
         }
@@ -959,7 +959,7 @@
     "config": "GenAI-Bench",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\gemini-2.5-flash__model-card.pdf",
+      "url": "gemini-2.5-flash__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-08T05:57:43.529Z"
     }

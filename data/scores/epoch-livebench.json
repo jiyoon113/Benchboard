@@ -178,16 +178,6 @@
     },
     "variants": [
       {
-        "score": 54.3,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "live_bench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
         "score": 59.3,
         "config": "default",
         "source": {
@@ -195,6 +185,16 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "live_bench_external.csv",
           "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 54.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "live_bench_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
         }
       }
     ]

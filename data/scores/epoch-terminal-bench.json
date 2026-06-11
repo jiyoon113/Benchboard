@@ -47,16 +47,6 @@
       },
       {
         "score": 82,
-        "config": "unknown, Codex",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 82,
         "config": "unknown, Codex CLI",
         "source": {
           "kind": "aggregator_api",
@@ -81,7 +71,7 @@
     "model_id": "gpt-5.4",
     "benchmark_id": "terminal-bench",
     "score": 81.8,
-    "config": "unknown, ForgeCode",
+    "config": "unknown, Forge Code",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -104,16 +94,6 @@
       {
         "score": 78.4,
         "config": "Forge Code",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      },
-      {
-        "score": 78.4,
-        "config": "ForgeCode",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -147,7 +127,7 @@
     "model_id": "claude-opus-4.6",
     "benchmark_id": "terminal-bench",
     "score": 79.8,
-    "config": "unknown, ForgeCode",
+    "config": "unknown, Forge Code",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -280,56 +260,6 @@
     },
     "variants": [
       {
-        "score": 78.4,
-        "config": "Forge Code",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 78.4,
-        "config": "ForgeCode",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 74.8,
-        "config": "Terminus-KIRA",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 61.4,
-        "config": "Gemini CLI",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 80.2,
-        "config": "TongAgents",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:35:10.410Z"
-        }
-      },
-      {
         "score": 65.2,
         "config": "SageAgent",
         "source": {
@@ -397,6 +327,46 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "terminalbench_external.csv",
           "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 80.2,
+        "config": "TongAgents",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "fetched_at": "2026-06-08T08:35:10.410Z"
+        }
+      },
+      {
+        "score": 78.4,
+        "config": "Forge Code",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      },
+      {
+        "score": 74.8,
+        "config": "Terminus-KIRA",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
+        }
+      },
+      {
+        "score": 61.4,
+        "config": "Gemini CLI",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
         }
       }
     ]
@@ -512,6 +482,16 @@
     },
     "variants": [
       {
+        "score": 59.1,
+        "config": "128K, Letta Code",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
         "score": 63.1,
         "config": "unknown, Droid",
         "source": {
@@ -590,16 +570,6 @@
           "ref": "terminalbench_external.csv",
           "fetched_at": "2026-06-08T08:30:50.954Z"
         }
-      },
-      {
-        "score": 59.1,
-        "config": "128K, Letta Code",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
       }
     ]
   },
@@ -607,25 +577,13 @@
     "model_id": "grok-4.2",
     "benchmark_id": "terminal-bench",
     "score": 57.3,
-    "config": "grok-cli",
+    "config": "Grok CLI",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "terminalbench_external.csv",
       "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 57.3,
-        "config": "Grok CLI",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-sonnet-4.6",

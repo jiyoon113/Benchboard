@@ -363,8 +363,10 @@ async function main() {
       score: row.score,
       config: row.config || "default",
       source: {
+        // Store only the document name for local PDFs — never the absolute
+        // local path, which would leak into the published static site.
         kind: "tech_report",
-        url: srcArg,
+        url: /^https?:\/\//i.test(srcArg) ? srcArg : path.basename(srcArg),
         ref: row.page ? `p.${row.page}` : undefined,
         reported_by: row.is_target ? undefined : targetModel.id,
         fetched_at,

@@ -36,16 +36,6 @@
     },
     "variants": [
       {
-        "score": 94.1,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
         "score": 92.6,
         "config": "Diamond",
         "source": {
@@ -53,6 +43,16 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "gpqa_diamond.csv",
           "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 94.1,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:30:50.954Z"
         }
       }
     ]
@@ -186,6 +186,30 @@
     }
   },
   {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 87.6,
+    "config": "Diamond, high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gpqa_diamond.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 85,
+        "config": "Diamond, medium",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "claude-sonnet-4.6",
     "benchmark_id": "gpqa",
     "score": 87.4,
@@ -222,6 +246,40 @@
     ]
   },
   {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "gpqa",
+    "score": 86,
+    "config": "Diamond, 32K",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gpqa_diamond.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 85.5,
+        "config": "Diamond, 16K",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 80.7,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:35:10.410Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "glm-5",
     "benchmark_id": "gpqa",
     "score": 85.5,
@@ -246,40 +304,6 @@
     ]
   },
   {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "gpqa",
-    "score": 85.5,
-    "config": "Diamond, 16K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "gpqa_diamond.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 80.7,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:35:10.410Z"
-        }
-      },
-      {
-        "score": 86,
-        "config": "Diamond, 32K",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gemini-2.5-pro",
     "benchmark_id": "gpqa",
     "score": 85.3,
@@ -290,30 +314,6 @@
       "ref": "gpqa_diamond.csv",
       "fetched_at": "2026-06-08T08:52:22.936Z"
     }
-  },
-  {
-    "model_id": "gpt-5.1",
-    "benchmark_id": "gpqa",
-    "score": 85,
-    "config": "Diamond, medium",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "gpqa_diamond.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 87.6,
-        "config": "Diamond, high",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "kimi-k2-thinking",
@@ -386,6 +386,50 @@
     }
   },
   {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 82.3,
+    "config": "Diamond, 59K",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gpqa_diamond.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 81.7,
+        "config": "Diamond, 32K",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 78.8,
+        "config": "Diamond, 16K",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 73.7,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "o3",
     "benchmark_id": "gpqa",
     "score": 81.8,
@@ -434,50 +478,6 @@
     }
   },
   {
-    "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "gpqa",
-    "score": 78.8,
-    "config": "Diamond, 16K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "gpqa_diamond.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 82.3,
-        "config": "Diamond, 59K",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      },
-      {
-        "score": 81.7,
-        "config": "Diamond, 32K",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      },
-      {
-        "score": 73.7,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-3.7-sonnet",
     "benchmark_id": "gpqa",
     "score": 78.5,
@@ -489,16 +489,6 @@
       "fetched_at": "2026-06-08T08:52:22.936Z"
     },
     "variants": [
-      {
-        "score": 66,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:35:10.410Z"
-        }
-      },
       {
         "score": 76.8,
         "config": "Diamond, 32K",
@@ -518,14 +508,24 @@
           "ref": "gpqa_diamond.csv",
           "fetched_at": "2026-06-08T08:52:22.936Z"
         }
+      },
+      {
+        "score": 66,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:35:10.410Z"
+        }
       }
     ]
   },
   {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "gpqa",
-    "score": 77.8,
-    "config": "Diamond, 59K",
+    "score": 78.3,
+    "config": "Diamond, 32K",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -534,8 +534,8 @@
     },
     "variants": [
       {
-        "score": 78.3,
-        "config": "Diamond, 32K",
+        "score": 77.8,
+        "config": "Diamond, 59K",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
@@ -555,6 +555,40 @@
       },
       {
         "score": 66.7,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "gpqa",
+    "score": 77.3,
+    "config": "Diamond, 16K",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gpqa_diamond.csv",
+      "fetched_at": "2026-06-08T08:52:22.936Z"
+    },
+    "variants": [
+      {
+        "score": 76.8,
+        "config": "Diamond, 27K",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "gpqa_diamond.csv",
+          "fetched_at": "2026-06-08T08:52:22.936Z"
+        }
+      },
+      {
+        "score": 73.2,
         "config": "Diamond",
         "source": {
           "kind": "aggregator_api",
@@ -602,16 +636,6 @@
     },
     "variants": [
       {
-        "score": 75.8,
-        "config": "Diamond, medium",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
         "score": 62.4,
         "config": "Diamond, high",
         "source": {
@@ -640,39 +664,15 @@
           "ref": "gpqa_diamond.csv",
           "fetched_at": "2026-06-08T08:52:22.936Z"
         }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-opus-4.1",
-    "benchmark_id": "gpqa",
-    "score": 76.8,
-    "config": "Diamond, 27K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "gpqa_diamond.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
-    },
-    "variants": [
-      {
-        "score": 77.3,
-        "config": "Diamond, 16K",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
-        }
       },
       {
-        "score": 73.2,
-        "config": "Diamond",
+        "score": 75.8,
+        "config": "Diamond, medium",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:52:22.936Z"
+          "fetched_at": "2026-06-08T08:30:50.954Z"
         }
       }
     ]
@@ -1192,13 +1192,13 @@
     },
     "variants": [
       {
-        "score": 30.7,
+        "score": 42.3,
         "config": "Diamond",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:30:50.954Z"
+          "fetched_at": "2026-06-08T08:35:10.410Z"
         }
       },
       {
@@ -1209,16 +1209,6 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "gpqa_diamond.csv",
           "fetched_at": "2026-06-08T08:30:50.954Z"
-        }
-      },
-      {
-        "score": 42.3,
-        "config": "Diamond",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "gpqa_diamond.csv",
-          "fetched_at": "2026-06-08T08:35:10.410Z"
         }
       }
     ]

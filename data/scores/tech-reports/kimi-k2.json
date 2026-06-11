@@ -6,7 +6,7 @@
     "config": "non-thinking, en",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -17,7 +17,7 @@
         "config": "Acc.",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -32,7 +32,7 @@
     "config": "non-thinking, en",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
@@ -42,7 +42,7 @@
         "config": "Acc.",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -56,7 +56,7 @@
     "config": "non-thinking, en",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -67,7 +67,7 @@
         "config": "Acc.",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -78,23 +78,23 @@
   {
     "model_id": "claude-opus-4",
     "benchmark_id": "acebench",
-    "score": 72.7,
-    "config": "non-thinking, en",
+    "score": 75.6,
+    "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
-      "ref": "p.1",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
     "variants": [
       {
-        "score": 75.6,
-        "config": "Acc.",
+        "score": 72.7,
+        "config": "non-thinking, en",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
-          "ref": "p.16",
+          "url": "kimi-k2.pdf",
+          "ref": "p.1",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -108,7 +108,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -121,7 +121,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -134,7 +134,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -146,7 +146,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -159,7 +159,7 @@
     "config": "Avg@64",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -171,7 +171,7 @@
     "config": "Avg@64",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -184,7 +184,7 @@
     "config": "Avg@64",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -197,7 +197,7 @@
     "config": "Avg@64",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -210,7 +210,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
@@ -220,7 +220,7 @@
         "config": "Avg@64",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -234,7 +234,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -245,7 +245,7 @@
         "config": "Avg@64",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -260,7 +260,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -271,7 +271,7 @@
         "config": "Avg@64",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -286,7 +286,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -297,7 +297,7 @@
         "config": "Avg@64",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -312,7 +312,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -324,7 +324,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -337,7 +337,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -350,7 +350,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -363,7 +363,7 @@
     "config": "non-thinking, micro avg",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -376,7 +376,7 @@
     "config": "non-thinking, micro avg",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -388,7 +388,7 @@
     "config": "non-thinking, micro avg",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -401,7 +401,7 @@
     "config": "non-thinking, micro avg",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -414,7 +414,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -427,7 +427,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -439,7 +439,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -452,7 +452,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -465,7 +465,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -478,7 +478,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -490,7 +490,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -503,7 +503,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -516,7 +516,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -528,7 +528,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -541,7 +541,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -554,7 +554,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -567,7 +567,7 @@
     "config": "Avg@16",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -580,7 +580,7 @@
     "config": "Avg@16",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -592,7 +592,7 @@
     "config": "Avg@16",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -605,7 +605,7 @@
     "config": "Avg@16",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -618,7 +618,7 @@
     "config": "non-thinking, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
@@ -628,7 +628,7 @@
         "config": "Avg@8, Diamond",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -642,7 +642,7 @@
     "config": "non-thinking, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -653,7 +653,7 @@
         "config": "Avg@8, Diamond",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -664,23 +664,23 @@
   {
     "model_id": "claude-opus-4",
     "benchmark_id": "gpqa",
-    "score": 68.4,
-    "config": "non-thinking, Diamond",
+    "score": 74.9,
+    "config": "Avg@8, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
-      "ref": "p.1",
+      "url": "kimi-k2.pdf",
+      "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
     "variants": [
       {
-        "score": 74.9,
-        "config": "Avg@8, Diamond",
+        "score": 68.4,
+        "config": "non-thinking, Diamond",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
-          "ref": "p.16",
+          "url": "kimi-k2.pdf",
+          "ref": "p.1",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -694,7 +694,7 @@
     "config": "non-thinking, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -705,7 +705,7 @@
         "config": "Avg@8, Diamond",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -720,7 +720,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -733,7 +733,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -746,7 +746,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -759,7 +759,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -771,7 +771,7 @@
     "config": "Avg@32",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -783,7 +783,7 @@
     "config": "Avg@32",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -796,7 +796,7 @@
     "config": "Avg@32",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -809,7 +809,7 @@
     "config": "Avg@32",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -822,7 +822,7 @@
     "config": "Prompt Strict",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -834,7 +834,7 @@
     "config": "Prompt Strict",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -847,7 +847,7 @@
     "config": "Prompt Strict",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -860,7 +860,7 @@
     "config": "Prompt Strict",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -873,17 +873,17 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
     "variants": [
       {
         "score": 53.7,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -897,7 +897,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -905,10 +905,10 @@
     "variants": [
       {
         "score": 47.4,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -923,7 +923,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -931,10 +931,10 @@
     "variants": [
       {
         "score": 46.9,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -949,7 +949,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -957,10 +957,10 @@
     "variants": [
       {
         "score": 37,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -975,7 +975,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -987,7 +987,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1000,7 +1000,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1013,7 +1013,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1026,7 +1026,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1039,7 +1039,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1051,7 +1051,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1064,7 +1064,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1077,7 +1077,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1090,7 +1090,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1103,7 +1103,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1115,7 +1115,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1128,7 +1128,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1141,7 +1141,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1153,7 +1153,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1166,7 +1166,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1179,7 +1179,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1191,7 +1191,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1204,7 +1204,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1217,7 +1217,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1227,10 +1227,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "multi-swe-bench",
     "score": 18.3,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1239,10 +1239,10 @@
     "model_id": "qwen3-235b",
     "benchmark_id": "multi-swe-bench",
     "score": 9,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1252,10 +1252,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "multi-swe-bench",
     "score": 8,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1265,10 +1265,10 @@
     "model_id": "claude-opus-4",
     "benchmark_id": "multipl-e",
     "score": 89.6,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1278,10 +1278,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "multipl-e",
     "score": 85.7,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1290,10 +1290,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "multipl-e",
     "score": 83.1,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1303,10 +1303,10 @@
     "model_id": "qwen3-235b",
     "benchmark_id": "multipl-e",
     "score": 78.2,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1319,17 +1319,17 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
     "variants": [
       {
         "score": 27.1,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -1343,7 +1343,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1351,10 +1351,10 @@
     "variants": [
       {
         "score": 24,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1369,7 +1369,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1377,10 +1377,10 @@
     "variants": [
       {
         "score": 19.6,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1395,7 +1395,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1403,10 +1403,10 @@
     "variants": [
       {
         "score": 11.3,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1421,7 +1421,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1433,7 +1433,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1446,7 +1446,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1459,7 +1459,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1471,7 +1471,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1484,7 +1484,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1497,7 +1497,7 @@
     "config": "Avg@4",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1510,7 +1510,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1522,7 +1522,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1535,7 +1535,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1548,7 +1548,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1561,17 +1561,17 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     },
     "variants": [
       {
         "score": 47.3,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "fetched_at": "2026-06-07T06:47:26.220Z"
         }
@@ -1585,7 +1585,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1593,10 +1593,10 @@
     "variants": [
       {
         "score": 25.8,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1611,7 +1611,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1619,10 +1619,10 @@
     "variants": [
       {
         "score": 20.9,
-        "config": "Pass@1",
+        "config": "pass@1",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+          "url": "kimi-k2.pdf",
           "ref": "p.16",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1637,7 +1637,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1650,7 +1650,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1662,7 +1662,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1675,7 +1675,7 @@
     "config": "non-thinking",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.1",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1685,10 +1685,10 @@
     "model_id": "claude-opus-4",
     "benchmark_id": "swe-bench-verified-agentic-multi-attempt",
     "score": 79.4,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1698,10 +1698,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "swe-bench-verified-agentic-multi-attempt",
     "score": 71.6,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1710,10 +1710,10 @@
     "model_id": "claude-opus-4",
     "benchmark_id": "swe-bench-verified-agentic-single-attempt",
     "score": 72.5,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1723,10 +1723,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "swe-bench-verified-agentic-single-attempt",
     "score": 65.8,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1735,10 +1735,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "swe-bench-verified-agentic-single-attempt",
     "score": 38.8,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1748,10 +1748,10 @@
     "model_id": "qwen3-235b",
     "benchmark_id": "swe-bench-verified-agentic-single-attempt",
     "score": 34.4,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1761,10 +1761,10 @@
     "model_id": "claude-opus-4",
     "benchmark_id": "swe-bench-verified-agentless-single-patch",
     "score": 53,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1774,10 +1774,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "swe-bench-verified-agentless-single-patch",
     "score": 51.8,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1786,10 +1786,10 @@
     "model_id": "qwen3-235b",
     "benchmark_id": "swe-bench-verified-agentless-single-patch",
     "score": 39.4,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1799,10 +1799,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "swe-bench-verified-agentless-single-patch",
     "score": 36.6,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1812,10 +1812,10 @@
     "model_id": "kimi-k2",
     "benchmark_id": "swe-lancer",
     "score": 39.1,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1824,10 +1824,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "swe-lancer",
     "score": 30.5,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1837,10 +1837,10 @@
     "model_id": "qwen3-235b",
     "benchmark_id": "swe-lancer",
     "score": 24.1,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1853,7 +1853,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1866,7 +1866,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1878,7 +1878,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1890,7 +1890,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1903,7 +1903,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1916,7 +1916,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "fetched_at": "2026-06-07T06:47:26.220Z"
     }
@@ -1928,7 +1928,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1941,7 +1941,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"
@@ -1954,7 +1954,7 @@
     "config": "Acc.",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\kimi-k2.pdf",
+      "url": "kimi-k2.pdf",
       "ref": "p.16",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-07T06:47:26.220Z"

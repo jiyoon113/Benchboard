@@ -6,7 +6,7 @@
     "config": "0-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -15,10 +15,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "aime-2024",
     "score": 39.2,
-    "config": "Pass@1",
+    "config": "pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -30,7 +30,7 @@
     "config": "25-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -42,7 +42,7 @@
     "config": "25-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -54,7 +54,7 @@
     "config": "3-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -66,7 +66,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -78,7 +78,7 @@
     "config": "0-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -90,7 +90,7 @@
     "config": "0-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -102,7 +102,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -114,7 +114,7 @@
     "config": "3-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -126,7 +126,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -138,7 +138,7 @@
     "config": "1-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -150,7 +150,7 @@
     "config": "Percentile",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -162,7 +162,7 @@
     "config": "2-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -174,7 +174,7 @@
     "config": "2-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -186,7 +186,7 @@
     "config": "3-shot, F1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -195,10 +195,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "gpqa",
     "score": 59.1,
-    "config": "Pass@1, Diamond",
+    "config": "pass@1, Diamond",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -210,7 +210,7 @@
     "config": "8-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -222,7 +222,7 @@
     "config": "10-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -231,10 +231,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "humaneval",
     "score": 65.2,
-    "config": "0-shot, Pass@1",
+    "config": "0-shot, pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -243,10 +243,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "livecodebench-base",
     "score": 19.4,
-    "config": "3-shot, Pass@1",
+    "config": "3-shot, pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -258,7 +258,7 @@
     "config": "4-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -270,7 +270,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -279,10 +279,10 @@
     "model_id": "deepseek-v3",
     "benchmark_id": "mbpp",
     "score": 75.4,
-    "config": "3-shot, Pass@1",
+    "config": "3-shot, pass@1",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -294,7 +294,7 @@
     "config": "8-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -302,22 +302,22 @@
   {
     "model_id": "deepseek-v3",
     "benchmark_id": "mmlu",
-    "score": 87.1,
-    "config": "5-shot, EM",
+    "score": 88.5,
+    "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
-      "ref": "p.25",
+      "url": "deepseek-v3__paper.pdf",
+      "ref": "p.5",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     },
     "variants": [
       {
-        "score": 88.5,
-        "config": "EM",
+        "score": 87.1,
+        "config": "5-shot, EM",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
-          "ref": "p.5",
+          "url": "deepseek-v3__paper.pdf",
+          "ref": "p.25",
           "fetched_at": "2026-06-07T08:05:33.539Z"
         }
       }
@@ -330,7 +330,7 @@
     "config": "EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     },
@@ -340,7 +340,7 @@
         "config": "5-shot, EM",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+          "url": "deepseek-v3__paper.pdf",
           "ref": "p.25",
           "fetched_at": "2026-06-07T08:05:33.539Z"
         }
@@ -354,7 +354,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -366,7 +366,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -378,7 +378,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -390,7 +390,7 @@
     "config": "BPB",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -402,7 +402,7 @@
     "config": "0-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -414,7 +414,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -426,7 +426,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -438,7 +438,7 @@
     "config": "Resolved",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.1",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -450,7 +450,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }
@@ -462,7 +462,7 @@
     "config": "5-shot, EM",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\deepseek-v3__paper.pdf",
+      "url": "deepseek-v3__paper.pdf",
       "ref": "p.25",
       "fetched_at": "2026-06-07T08:05:33.539Z"
     }

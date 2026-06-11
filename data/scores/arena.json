@@ -48,15 +48,6 @@
     },
     "variants": [
       {
-        "score": 1486,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T06:59:10.359Z"
-        }
-      },
-      {
         "score": 1477,
         "config": "default",
         "source": {
@@ -72,6 +63,15 @@
           "kind": "arena_api",
           "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
           "fetched_at": "2026-06-06T07:08:16.680Z"
+        }
+      },
+      {
+        "score": 1486,
+        "config": "default",
+        "source": {
+          "kind": "arena_api",
+          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
+          "fetched_at": "2026-06-06T06:59:10.359Z"
         }
       }
     ]

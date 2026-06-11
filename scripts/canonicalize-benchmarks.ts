@@ -318,13 +318,66 @@ function canonicalIdFor(name: string): { canonical_id: string; config?: string }
   };
 }
 
-/** Token-wise dedupe (case-insensitive). "no tools, No tools" → "No tools".
- *  Whichever spelling appeared first wins. */
+// Canonical spelling for config tokens that arrive under many spellings.
+// Keyed by the lowercased token. Only collapses tokens that are unambiguously
+// the same thing (agent harness names, tool/effort/thinking wording). Anything
+// not listed keeps its original spelling.
+const CONFIG_TOKEN_CANON: Record<string, string> = {
+  // agent harnesses (Terminal-Bench etc.)
+  "codex": "Codex CLI",
+  "codex cli": "Codex CLI",
+  "forgecode": "Forge Code",
+  "forge code": "Forge Code",
+  "grok-cli": "Grok CLI",
+  "grok cli": "Grok CLI",
+  // tool use
+  "no tool": "no tools",
+  "no tools": "no tools",
+  "with tool": "with tools",
+  "with tools": "with tools",
+  "without tool": "without tools",
+  "without tools": "without tools",
+  // reasoning effort
+  "high": "high",
+  "low": "low",
+  "medium": "medium",
+  "max": "max",
+  "minimal": "minimal",
+  "xhigh": "xhigh",
+  "base": "base",
+  "high effort": "high effort",
+  "low effort": "low effort",
+  "medium effort": "medium effort",
+  "max effort": "max effort",
+  "default effort": "default effort",
+  // thinking / reasoning mode
+  "thinking": "thinking",
+  "non-thinking": "non-thinking",
+  "non thinking": "non-thinking",
+  "adaptive thinking": "adaptive thinking",
+  "reasoning": "reasoning",
+  "non-reasoning": "non-reasoning",
+  // subset
+  "diamond": "Diamond",
+};
+
+/** Normalize a single config token to its canonical spelling. */
+function normToken(tok: string): string {
+  const t = tok.trim();
+  const key = t.toLowerCase();
+  if (CONFIG_TOKEN_CANON[key]) return CONFIG_TOKEN_CANON[key];
+  if (/^pass@\d+$/i.test(t)) return t.toLowerCase(); // Pass@1 → pass@1
+  return t;
+}
+
+/** Token-wise normalize + dedupe (case-insensitive). Each token is mapped to a
+ *  canonical spelling, then "no tools, No tools" collapses to one. */
 function dedupeConfig(s: string): string {
   if (!s || s === "default") return s || "default";
   const seen = new Set<string>();
   const out: string[] = [];
-  for (const tok of s.split(/\s*,\s*/)) {
+  for (const raw of s.split(/\s*,\s*/)) {
+    const tok = normToken(raw);
     const key = tok.toLowerCase();
     if (seen.has(key)) continue;
     seen.add(key);

@@ -12,7 +12,7 @@
     },
     "variants": [
       {
-        "score": 84.2,
+        "score": 84.3,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -22,7 +22,7 @@
         }
       },
       {
-        "score": 84.3,
+        "score": 84.2,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -178,7 +178,7 @@
     },
     "variants": [
       {
-        "score": 85,
+        "score": 85.3,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
@@ -188,7 +188,7 @@
         }
       },
       {
-        "score": 85.3,
+        "score": 85,
         "config": "default",
         "source": {
           "kind": "aggregator_api",

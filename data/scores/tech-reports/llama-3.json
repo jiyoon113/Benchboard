@@ -1,38 +1,12 @@
 [
   {
-    "model_id": "gpt-4o",
-    "benchmark_id": "arc-challenge",
-    "score": 96.7,
-    "config": "0-shot",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "reported_by": "llama-3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "arc-challenge",
-    "score": 96.7,
-    "config": "0-shot",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "reported_by": "llama-3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    }
-  },
-  {
     "model_id": "llama-3",
     "benchmark_id": "arc-challenge",
-    "score": 83.4,
+    "score": 96.9,
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -42,22 +16,48 @@
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 96.9,
+        "score": 83.4,
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       }
     ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arc-challenge",
+    "score": 96.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "arc-challenge",
+    "score": 96.7,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -66,20 +66,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "reported_by": "llama-3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "bfcl",
-    "score": 80.5,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -88,11 +75,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "bfcl",
-    "score": 76.1,
+    "score": 88.5,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -102,22 +89,35 @@
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 88.5,
+        "score": 76.1,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       }
     ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bfcl",
+    "score": 80.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -126,7 +126,7 @@
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -139,7 +139,7 @@
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -148,11 +148,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "gpqa",
-    "score": 32.8,
+    "score": 51.1,
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -162,17 +162,51 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 51.1,
+        "score": 32.8,
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3",
+    "benchmark_id": "gsm8k",
+    "score": 96.8,
+    "config": "8-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 95.1,
+        "config": "8-shot, CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 84.5,
+        "config": "8-shot, CoT",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -186,7 +220,7 @@
     "config": "8-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -199,45 +233,11 @@
     "config": "8-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
-  },
-  {
-    "model_id": "llama-3",
-    "benchmark_id": "gsm8k",
-    "score": 84.5,
-    "config": "8-shot, CoT",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    },
-    "variants": [
-      {
-        "score": 95.1,
-        "config": "8-shot, CoT",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
-        "score": 96.8,
-        "config": "8-shot, CoT",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -246,7 +246,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -259,7 +259,7 @@
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -268,11 +268,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "humaneval",
-    "score": 72.6,
+    "score": 89,
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -282,17 +282,51 @@
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 89,
+        "score": 72.6,
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3",
+    "benchmark_id": "ifeval",
+    "score": 88.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 87.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 80.4,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -306,7 +340,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -319,7 +353,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -327,32 +361,32 @@
   },
   {
     "model_id": "llama-3",
-    "benchmark_id": "ifeval",
-    "score": 80.4,
+    "benchmark_id": "infinitebench-en.mc",
+    "score": 83.4,
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
     "variants": [
       {
-        "score": 87.5,
+        "score": 78.2,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 88.6,
+        "score": 65.1,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -366,45 +400,11 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
-  },
-  {
-    "model_id": "llama-3",
-    "benchmark_id": "infinitebench-en.mc",
-    "score": 65.1,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    },
-    "variants": [
-      {
-        "score": 78.2,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
-        "score": 83.4,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-4o",
@@ -413,20 +413,7 @@
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "reported_by": "llama-3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "math",
-    "score": 71.1,
-    "config": "0-shot, CoT",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -435,11 +422,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "math",
-    "score": 51.9,
+    "score": 73.8,
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -449,17 +436,17 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 73.8,
+        "score": 51.9,
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -468,25 +455,25 @@
   },
   {
     "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "mbpp+",
-    "score": 90.5,
-    "config": "0-shot",
+    "benchmark_id": "math",
+    "score": 71.1,
+    "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
   },
   {
-    "model_id": "gpt-4o",
+    "model_id": "claude-3.5-sonnet",
     "benchmark_id": "mbpp+",
-    "score": 87.8,
+    "score": 90.5,
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -495,11 +482,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "mbpp+",
-    "score": 72.8,
+    "score": 88.6,
     "config": "0-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -509,22 +496,35 @@
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 88.6,
+        "score": 72.8,
         "config": "0-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       }
     ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mbpp+",
+    "score": 87.8,
+    "config": "0-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -533,20 +533,7 @@
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "reported_by": "llama-3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "mgsm",
-    "score": 90.5,
-    "config": "0-shot, CoT",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -555,11 +542,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "mgsm",
-    "score": 68.9,
+    "score": 91.6,
     "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -569,22 +556,35 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 91.6,
+        "score": 68.9,
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       }
     ]
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm",
+    "score": 90.5,
+    "config": "0-shot, CoT",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "reported_by": "llama-3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    }
   },
   {
     "model_id": "claude-3.5-sonnet",
@@ -593,7 +593,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -604,7 +604,7 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "reported_by": "llama-3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -619,7 +619,7 @@
     "config": "5-shot",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -630,7 +630,7 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "reported_by": "llama-3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -641,41 +641,21 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "mmlu",
-    "score": 69.4,
-    "config": "5-shot",
+    "score": 88.6,
+    "config": "0-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
     "variants": [
       {
-        "score": 83.6,
-        "config": "5-shot",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
         "score": 87.3,
         "config": "5-shot",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
-        "score": 73,
-        "config": "0-shot, CoT",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -685,17 +665,37 @@
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 88.6,
+        "score": 83.6,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 73,
         "config": "0-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 69.4,
+        "config": "5-shot",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -709,7 +709,7 @@
     "config": "5-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -722,7 +722,7 @@
     "config": "5-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -731,11 +731,11 @@
   {
     "model_id": "llama-3",
     "benchmark_id": "mmlu-pro",
-    "score": 48.3,
+    "score": 73.3,
     "config": "5-shot, CoT",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
@@ -745,17 +745,51 @@
         "config": "5-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 73.3,
+        "score": 48.3,
         "config": "5-shot, CoT",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3",
+    "benchmark_id": "nexus",
+    "score": 58.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 56.7,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 38.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -769,7 +803,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -782,45 +816,11 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
-  },
-  {
-    "model_id": "llama-3",
-    "benchmark_id": "nexus",
-    "score": 38.5,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    },
-    "variants": [
-      {
-        "score": 56.7,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
-        "score": 58.7,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-4o",
@@ -829,7 +829,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -842,27 +842,27 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     },
     "variants": [
       {
-        "score": 97.5,
+        "score": 98.1,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
       },
       {
-        "score": 98.1,
+        "score": 97.5,
         "config": "default",
         "source": {
           "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+          "url": "llama-3__paper.pdf",
           "ref": "p.3",
           "fetched_at": "2026-06-08T06:11:02.693Z"
         }
@@ -876,11 +876,45 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
+  },
+  {
+    "model_id": "llama-3",
+    "benchmark_id": "zeroscrolls-quality",
+    "score": 95.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "llama-3__paper.pdf",
+      "ref": "p.3",
+      "fetched_at": "2026-06-08T06:11:02.693Z"
+    },
+    "variants": [
+      {
+        "score": 90.5,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      },
+      {
+        "score": 81,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "llama-3__paper.pdf",
+          "ref": "p.3",
+          "fetched_at": "2026-06-08T06:11:02.693Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gpt-4o",
@@ -889,7 +923,7 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
@@ -902,44 +936,10 @@
     "config": "default",
     "source": {
       "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
+      "url": "llama-3__paper.pdf",
       "ref": "p.3",
       "reported_by": "llama-3",
       "fetched_at": "2026-06-08T06:11:02.693Z"
     }
-  },
-  {
-    "model_id": "llama-3",
-    "benchmark_id": "zeroscrolls-quality",
-    "score": 81,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-      "ref": "p.3",
-      "fetched_at": "2026-06-08T06:11:02.693Z"
-    },
-    "variants": [
-      {
-        "score": 90.5,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      },
-      {
-        "score": 95.2,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "C:\\Users\\jiyoon\\Desktop\\benchboard\\docs\\llama-3__paper.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-08T06:11:02.693Z"
-        }
-      }
-    ]
   }
 ]

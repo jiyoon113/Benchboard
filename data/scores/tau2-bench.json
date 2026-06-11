@@ -72,13 +72,13 @@
     },
     "variants": [
       {
-        "score": 80.5,
+        "score": 82.5,
         "config": "pass^1",
         "source": {
           "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-pro_sierra_2026-03-02/submission.json",
-          "ref": "gemini-3-pro_sierra_2026-03-02",
-          "fetched_at": "2026-06-08T08:23:46.170Z"
+          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+          "ref": "gemini-3-flash_sierra_2026-03-02",
+          "fetched_at": "2026-06-08T08:34:56.842Z"
         }
       },
       {
@@ -88,16 +88,6 @@
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-pro_google_2025-11-18/submission.json",
           "ref": "gemini-3-pro_google_2025-11-18",
-          "fetched_at": "2026-06-08T08:34:56.842Z"
-        }
-      },
-      {
-        "score": 82.5,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
-          "ref": "gemini-3-flash_sierra_2026-03-02",
           "fetched_at": "2026-06-08T08:34:56.842Z"
         }
       }
@@ -123,6 +113,30 @@
           "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-sonnet-4-5_anthropic_2025-10-02/submission.json",
           "ref": "claude-sonnet-4-5_anthropic_2025-10-02",
           "fetched_at": "2026-06-08T08:23:46.170Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "bench-airline",
+    "score": 69,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
+      "ref": "qwen3-max_qwen_2026-01-23",
+      "fetched_at": "2026-06-08T08:52:34.839Z"
+    },
+    "variants": [
+      {
+        "score": 59.5,
+        "config": "pass^1",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
+          "ref": "qwen3-max_qwen_2024_09_23",
+          "fetched_at": "2026-06-08T08:52:34.839Z"
         }
       }
     ]
@@ -186,30 +200,6 @@
       "ref": "claude-opus-4_anthropic_2025-05-22",
       "fetched_at": "2026-06-08T08:52:34.839Z"
     }
-  },
-  {
-    "model_id": "qwen3-max",
-    "benchmark_id": "bench-airline",
-    "score": 59.5,
-    "config": "pass^1",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
-      "ref": "qwen3-max_qwen_2024_09_23",
-      "fetched_at": "2026-06-08T08:52:34.839Z"
-    },
-    "variants": [
-      {
-        "score": 69,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
-          "ref": "qwen3-max_qwen_2026-01-23",
-          "fetched_at": "2026-06-08T08:52:34.839Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "kimi-k2",
@@ -380,6 +370,30 @@
     }
   },
   {
+    "model_id": "qwen3-max",
+    "benchmark_id": "bench-retail",
+    "score": 79.4,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
+      "ref": "qwen3-max_qwen_2026-01-23",
+      "fetched_at": "2026-06-08T08:52:34.839Z"
+    },
+    "variants": [
+      {
+        "score": 72.2,
+        "config": "pass^1",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
+          "ref": "qwen3-max_qwen_2024_09_23",
+          "fetched_at": "2026-06-08T08:52:34.839Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "gemini-3-flash",
     "benchmark_id": "bench-retail",
     "score": 76.8,
@@ -403,16 +417,6 @@
       "fetched_at": "2026-06-08T08:52:34.839Z"
     },
     "variants": [
-      {
-        "score": 75.9,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-pro_sierra_2026-03-02/submission.json",
-          "ref": "gemini-3-pro_sierra_2026-03-02",
-          "fetched_at": "2026-06-08T08:23:46.170Z"
-        }
-      },
       {
         "score": 85.3,
         "config": "pass^1",
@@ -496,30 +500,6 @@
     ]
   },
   {
-    "model_id": "qwen3-max",
-    "benchmark_id": "bench-retail",
-    "score": 72.2,
-    "config": "pass^1",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
-      "ref": "qwen3-max_qwen_2024_09_23",
-      "fetched_at": "2026-06-08T08:52:34.839Z"
-    },
-    "variants": [
-      {
-        "score": 79.4,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
-          "ref": "qwen3-max_qwen_2026-01-23",
-          "fetched_at": "2026-06-08T08:52:34.839Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-3.7-sonnet",
     "benchmark_id": "bench-retail",
     "score": 72.1,
@@ -566,6 +546,30 @@
       "ref": "gpt-4-1-mini_openai_2024-06-20",
       "fetched_at": "2026-06-08T08:52:34.839Z"
     }
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "bench-telecom",
+    "score": 98.2,
+    "config": "pass^1",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
+      "ref": "qwen3-max_qwen_2026-01-23",
+      "fetched_at": "2026-06-08T08:52:34.839Z"
+    },
+    "variants": [
+      {
+        "score": 84.2,
+        "config": "pass^1",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
+          "ref": "qwen3-max_qwen_2024_09_23",
+          "fetched_at": "2026-06-08T08:52:34.839Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "deepseek-v3.2",
@@ -627,16 +631,6 @@
       "fetched_at": "2026-06-08T08:52:34.839Z"
     },
     "variants": [
-      {
-        "score": 91,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/gemini-3-pro_sierra_2026-03-02/submission.json",
-          "ref": "gemini-3-pro_sierra_2026-03-02",
-          "fetched_at": "2026-06-08T08:23:46.170Z"
-        }
-      },
       {
         "score": 98,
         "config": "pass^1",
@@ -715,30 +709,6 @@
           "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/claude-sonnet-4-5_anthropic_2025-10-02/submission.json",
           "ref": "claude-sonnet-4-5_anthropic_2025-10-02",
           "fetched_at": "2026-06-08T08:23:46.170Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen3-max",
-    "benchmark_id": "bench-telecom",
-    "score": 84.2,
-    "config": "pass^1",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2024_09_23/submission.json",
-      "ref": "qwen3-max_qwen_2024_09_23",
-      "fetched_at": "2026-06-08T08:52:34.839Z"
-    },
-    "variants": [
-      {
-        "score": 98.2,
-        "config": "pass^1",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/main/web/leaderboard/public/submissions/qwen3-max_qwen_2026-01-23/submission.json",
-          "ref": "qwen3-max_qwen_2026-01-23",
-          "fetched_at": "2026-06-08T08:52:34.839Z"
         }
       }
     ]

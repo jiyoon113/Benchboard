@@ -30,7 +30,7 @@
   },
   {
     "id": "claude-3-haiku",
-    "name": "Claude 3 Haiku",
+    "name": "Claude Haiku 3",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3-haiku",
@@ -39,7 +39,7 @@
   },
   {
     "id": "claude-3-opus",
-    "name": "Claude 3 Opus",
+    "name": "Claude Opus 3",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3-opus",
@@ -48,7 +48,7 @@
   },
   {
     "id": "claude-3-sonnet",
-    "name": "Claude 3 Sonnet",
+    "name": "Claude Sonnet 3",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3-sonnet",
@@ -57,7 +57,7 @@
   },
   {
     "id": "claude-3.5-haiku",
-    "name": "Claude 3.5 Haiku",
+    "name": "Claude Haiku 3.5",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3.5-haiku",
@@ -66,7 +66,7 @@
   },
   {
     "id": "claude-3.5-sonnet",
-    "name": "Claude 3.5 Sonnet",
+    "name": "Claude Sonnet 3.5",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3.5-sonnet",
@@ -77,7 +77,7 @@
   },
   {
     "id": "claude-3.7-sonnet",
-    "name": "Claude 3.7 Sonnet",
+    "name": "Claude Sonnet 3.7",
     "vendor": "Anthropic",
     "aliases": [
       "claude-3.7-sonnet",
@@ -232,7 +232,7 @@
   },
   {
     "id": "deepseek-r1",
-    "name": "DeepSeek R1",
+    "name": "DeepSeek-R1",
     "vendor": "DeepSeek",
     "aliases": [
       "DeepSeek R1",
@@ -246,7 +246,7 @@
   },
   {
     "id": "deepseek-r1-distill-llama-70b",
-    "name": "DeepSeek R1 Distill Llama 70B",
+    "name": "DeepSeek-R1-Distill-Llama-70B",
     "vendor": "DeepSeek",
     "aliases": [
       "DeepSeek R1 Distill Llama 70B",
@@ -256,7 +256,7 @@
   },
   {
     "id": "deepseek-r1-distill-qwen-32b",
-    "name": "DeepSeek R1 Distill Qwen 32B",
+    "name": "DeepSeek-R1-Distill-Qwen-32B",
     "vendor": "DeepSeek",
     "aliases": [
       "DeepSeek R1 Distill Qwen 32B",
@@ -266,7 +266,7 @@
   },
   {
     "id": "deepseek-v3",
-    "name": "DeepSeek v3",
+    "name": "DeepSeek-V3",
     "vendor": "DeepSeek",
     "aliases": [
       "DeepSeek v3",
@@ -322,7 +322,7 @@
   },
   {
     "id": "ernie-5",
-    "name": "Ernie 5",
+    "name": "ERNIE 5",
     "vendor": "Baidu",
     "aliases": [
       "ernie-5.1",
@@ -333,7 +333,7 @@
   },
   {
     "id": "exaone",
-    "name": "Exaone",
+    "name": "EXAONE",
     "vendor": "LG",
     "aliases": [
       "Exaone (한국어)",
@@ -489,8 +489,8 @@
   },
   {
     "id": "glm-4.5",
-    "name": "GLM 4.5",
-    "vendor": "Zhipu",
+    "name": "GLM-4.5",
+    "vendor": "Z.ai",
     "aliases": [
       "GLM-4.5",
       "glm-4.5",
@@ -516,8 +516,8 @@
   },
   {
     "id": "glm-5",
-    "name": "GLM 5",
-    "vendor": "Zhipu",
+    "name": "GLM-5",
+    "vendor": "Z.ai",
     "aliases": [
       "glm-5.1",
       "glm-5"
@@ -525,7 +525,7 @@
   },
   {
     "id": "gpt-4",
-    "name": "GPT 4",
+    "name": "GPT-4",
     "vendor": "OpenAI",
     "aliases": [
       "GPT 4",
@@ -599,7 +599,7 @@
   },
   {
     "id": "gpt-5",
-    "name": "GPT 5",
+    "name": "GPT-5",
     "vendor": "OpenAI",
     "aliases": [
       "GPT 5",
@@ -621,7 +621,7 @@
   },
   {
     "id": "gpt-5.2",
-    "name": "GPT 5.2",
+    "name": "GPT-5.2",
     "vendor": "OpenAI",
     "aliases": [
       "GPT-5.2",
@@ -632,7 +632,7 @@
   },
   {
     "id": "gpt-5.2-thinking",
-    "name": "GPT 5.2 Thinking",
+    "name": "GPT-5.2 Thinking",
     "vendor": "OpenAI",
     "aliases": [
       "GPT 5.2 Thinking",
@@ -641,7 +641,7 @@
   },
   {
     "id": "gpt-5.4",
-    "name": "GPT 5.4",
+    "name": "GPT-5.4",
     "vendor": "OpenAI",
     "aliases": [
       "GPT 5.4",
@@ -651,7 +651,7 @@
   },
   {
     "id": "gpt-5.4-mini-nano",
-    "name": "GPT 5.4 mini/nano",
+    "name": "GPT-5.4 mini/nano",
     "vendor": "OpenAI",
     "aliases": [
       "GPT 5.4 mini/nano",
@@ -660,7 +660,7 @@
   },
   {
     "id": "gpt-5.5",
-    "name": "GPT 5.5",
+    "name": "GPT-5.5",
     "vendor": "OpenAI",
     "aliases": [
       "gpt-5.5",
@@ -670,7 +670,7 @@
   },
   {
     "id": "gpt-oss-120b",
-    "name": "GPT-oss-120b",
+    "name": "gpt-oss-120b",
     "vendor": "OpenAI",
     "aliases": [
       "gpt-oss-120b",
@@ -682,7 +682,7 @@
   },
   {
     "id": "gpt-oss-20b",
-    "name": "GPT-oss-20b",
+    "name": "gpt-oss-20b",
     "vendor": "OpenAI",
     "aliases": [
       "gpt-oss-20b",
@@ -766,7 +766,7 @@
   },
   {
     "id": "kimi-k1.5",
-    "name": "Kimi k1.5",
+    "name": "Kimi K1.5",
     "vendor": "Moonshot",
     "aliases": [
       "Kimi-k1.5",
@@ -775,7 +775,7 @@
   },
   {
     "id": "kimi-k2",
-    "name": "KIMI K2",
+    "name": "Kimi K2",
     "vendor": "Moonshot",
     "aliases": [
       "KIMI K2",
@@ -1023,7 +1023,7 @@
   },
   {
     "id": "o1",
-    "name": "OpenAI o1",
+    "name": "o1",
     "vendor": "OpenAI",
     "aliases": [
       "o1",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": "o3",
-    "name": "OpenAI o3",
+    "name": "o3",
     "vendor": "OpenAI",
     "aliases": [
       "o3",
@@ -1048,7 +1048,7 @@
   },
   {
     "id": "o3-mini",
-    "name": "OpenAI o3-mini",
+    "name": "o3-mini",
     "vendor": "OpenAI",
     "aliases": [
       "o3-mini",
@@ -1058,7 +1058,7 @@
   },
   {
     "id": "o4-mini",
-    "name": "OpenAI o4-mini",
+    "name": "o4-mini",
     "vendor": "OpenAI",
     "aliases": [
       "o4-mini",
@@ -1094,7 +1094,7 @@
   },
   {
     "id": "qwen-2.5-72b",
-    "name": "Qwen 2.5 72B",
+    "name": "Qwen2.5-72B",
     "vendor": "Alibaba",
     "aliases": [
       "Qwen 2.5",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "qwen2.5-14b",
-    "name": "Qwen 2.5 14B",
+    "name": "Qwen2.5-14B",
     "vendor": "Alibaba",
     "aliases": [
       "qwen2.5-14b",
@@ -1118,7 +1118,7 @@
   },
   {
     "id": "qwen2.5-32b",
-    "name": "Qwen 2.5 32B",
+    "name": "Qwen2.5-32B",
     "vendor": "Alibaba",
     "aliases": [
       "qwen2.5-32b",
@@ -1128,7 +1128,7 @@
   },
   {
     "id": "qwen2.5-7b",
-    "name": "Qwen 2.5 7B",
+    "name": "Qwen2.5-7B",
     "vendor": "Alibaba",
     "aliases": [
       "qwen2.5-7b",
@@ -1152,7 +1152,7 @@
   },
   {
     "id": "qwen3-30b-a3b",
-    "name": "Qwen3 30B A3B",
+    "name": "Qwen3-30B-A3B",
     "vendor": "Alibaba",
     "aliases": [
       "qwen3-30b-a3b",
@@ -1162,7 +1162,7 @@
   },
   {
     "id": "qwen3-32b",
-    "name": "Qwen3 32B",
+    "name": "Qwen3-32B",
     "vendor": "Alibaba",
     "aliases": [
       "qwen3-32b",
@@ -1206,7 +1206,7 @@
   },
   {
     "id": "solar-open",
-    "name": "Solar open",
+    "name": "Solar Open",
     "vendor": "Upstage",
     "aliases": [
       "Solar open (한국어)",
