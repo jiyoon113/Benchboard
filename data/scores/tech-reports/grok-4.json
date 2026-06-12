@@ -33,19 +33,7 @@
       "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
-    },
-    "variants": [
-      {
-        "score": 0.44,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "grok-4__model-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-07T10:06:56.105Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "grok-4",
@@ -93,19 +81,7 @@
       "url": "grok-4__model-card.pdf",
       "ref": "p.3",
       "fetched_at": "2026-06-07T10:06:56.105Z"
-    },
-    "variants": [
-      {
-        "score": 0,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "grok-4__model-card.pdf",
-          "ref": "p.3",
-          "fetched_at": "2026-06-07T10:06:56.105Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "grok-4",
@@ -141,19 +117,7 @@
       "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
-    },
-    "variants": [
-      {
-        "score": 0.6,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "grok-4__model-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-07T10:06:56.105Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "grok-4",
@@ -165,19 +129,7 @@
       "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
-    },
-    "variants": [
-      {
-        "score": 0.87,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "grok-4__model-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-07T10:06:56.105Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "grok-4",
@@ -189,19 +141,7 @@
       "url": "grok-4__model-card.pdf",
       "ref": "p.6",
       "fetched_at": "2026-06-07T10:06:56.105Z"
-    },
-    "variants": [
-      {
-        "score": 0.83,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "grok-4__model-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-07T10:06:56.105Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "grok-4",

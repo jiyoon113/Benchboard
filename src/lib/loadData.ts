@@ -294,3 +294,60 @@ export async function loadExplorerData(): Promise<ExplorerData> {
 
   return { schemes, benchmarks: benchmarksOut, scores };
 }
+
+// ── Trends over time (score vs model release date) ────────────────────────────
+
+export interface TrendPoint {
+  model: string;
+  vendor: string;
+  date: string; // ISO YYYY-MM-DD (release month mid-pointed when only YYYY-MM)
+  score: number;
+}
+
+export interface TrendData {
+  /** benchmark id → display name (only benchmarks with enough dated points) */
+  names: Record<string, string>;
+  /** benchmark id → dated score points, sorted ascending by date */
+  data: Record<string, TrendPoint[]>;
+}
+
+/**
+ * Score-vs-release-date series per benchmark, for the /trends page. Only models
+ * that carry a `release_date` can be placed on the time axis; only benchmarks
+ * with at least `minPoints` dated models are included (so the chart grows
+ * automatically as more release dates are filled in).
+ */
+export async function loadTrendData(minPoints = 5): Promise<TrendData> {
+  const [benchmarks, models, all] = await Promise.all([
+    loadBenchmarks(),
+    loadModels(),
+    loadAllScores(),
+  ]);
+  const bname = Object.fromEntries(benchmarks.map((b) => [b.id, b.name]));
+  const inCatalog = new Set(benchmarks.map((b) => b.id));
+  const byId = new Map(models.map((m) => [m.id, m]));
+
+  const byBench = new Map<string, TrendPoint[]>();
+  for (const s of all) {
+    if (!inCatalog.has(s.benchmark_id)) continue; // skip blocklisted artifacts
+    const m = byId.get(s.model_id);
+    if (!m?.release_date) continue;
+    const date = m.release_date.length === 7 ? `${m.release_date}-15` : m.release_date;
+    let arr = byBench.get(s.benchmark_id);
+    if (!arr) {
+      arr = [];
+      byBench.set(s.benchmark_id, arr);
+    }
+    arr.push({ model: m.name, vendor: m.vendor, date, score: s.score });
+  }
+
+  const names: Record<string, string> = {};
+  const data: Record<string, TrendPoint[]> = {};
+  for (const [bid, pts] of byBench) {
+    if (pts.length < minPoints) continue;
+    pts.sort((a, b) => a.date.localeCompare(b.date));
+    names[bid] = bname[bid] ?? bid;
+    data[bid] = pts;
+  }
+  return { names, data };
+}

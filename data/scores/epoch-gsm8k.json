@@ -8,7 +8,8 @@
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
+      "published": "2024-07-18",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
     }
   },
   {
@@ -20,11 +21,12 @@
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
+      "published": "2023-06-13",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
     }
   },
   {
-    "model_id": "phi-4",
+    "model_id": "phi-3.5-moe",
     "benchmark_id": "gsm8k",
     "score": 88.7,
     "config": "default",
@@ -32,7 +34,8 @@
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
-      "fetched_at": "2026-06-08T08:52:22.936Z"
+      "published": "2024-08-17",
+      "fetched_at": "2026-06-11T08:47:43.603Z"
     }
   }
 ]

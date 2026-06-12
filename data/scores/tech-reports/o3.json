@@ -2522,28 +2522,6 @@
       "url": "o3__system-card.pdf",
       "ref": "p.26",
       "fetched_at": "2026-06-08T04:04:03.699Z"
-    },
-    "variants": [
-      {
-        "score": 76250,
-        "config": "pass@1 (browsing helpful-only)",
-        "source": {
-          "kind": "tech_report",
-          "url": "o3__system-card.pdf",
-          "ref": "p.26",
-          "fetched_at": "2026-06-08T04:04:03.699Z"
-        }
-      },
-      {
-        "score": 55,
-        "config": "pass@1 (browsing helpful-only)",
-        "source": {
-          "kind": "tech_report",
-          "url": "o3__system-card.pdf",
-          "ref": "p.26",
-          "fetched_at": "2026-06-08T04:04:03.699Z"
-        }
-      }
-    ]
+    }
   }
 ]

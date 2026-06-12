@@ -797,26 +797,14 @@
   {
     "model_id": "claude-opus-4.6",
     "benchmark_id": "mmmlu",
-    "score": 91.1,
+    "score": 91.05,
     "config": "adaptive thinking, max effort",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.6__system-card.pdf",
-      "ref": "p.18",
+      "ref": "p.25",
       "fetched_at": "2026-06-07T09:38:14.052Z"
-    },
-    "variants": [
-      {
-        "score": 91.05,
-        "config": "adaptive thinking, max effort",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.6__system-card.pdf",
-          "ref": "p.25",
-          "fetched_at": "2026-06-07T09:38:14.052Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-opus-4.5",
@@ -998,32 +986,6 @@
     }
   },
   {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "openai-mrcr-v2-1m-8-needles",
-    "score": 32.6,
-    "config": "default sampling settings",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.6__system-card.pdf",
-      "ref": "p.30",
-      "reported_by": "claude-opus-4.6",
-      "fetched_at": "2026-06-07T09:38:14.052Z"
-    },
-    "variants": [
-      {
-        "score": 24.5,
-        "config": "default sampling settings",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.6__system-card.pdf",
-          "ref": "p.30",
-          "reported_by": "claude-opus-4.6",
-          "fetched_at": "2026-06-07T09:38:14.052Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "openai-mrcr-v2-1m-8-needles",
     "score": 18.5,
@@ -1060,32 +1022,6 @@
       "reported_by": "claude-opus-4.6",
       "fetched_at": "2026-06-07T09:38:14.052Z"
     }
-  },
-  {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "openai-mrcr-v2-256k-8-needles",
-    "score": 58.5,
-    "config": "default sampling settings",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.6__system-card.pdf",
-      "ref": "p.30",
-      "reported_by": "claude-opus-4.6",
-      "fetched_at": "2026-06-07T09:38:14.052Z"
-    },
-    "variants": [
-      {
-        "score": 45.4,
-        "config": "default sampling settings",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.6__system-card.pdf",
-          "ref": "p.30",
-          "reported_by": "claude-opus-4.6",
-          "fetched_at": "2026-06-07T09:38:14.052Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "claude-sonnet-4.5",

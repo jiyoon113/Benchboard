@@ -1,5 +1,16 @@
 [
   {
+    "model_id": "grok-4-heavy",
+    "benchmark_id": "aime-2025",
+    "score": 100,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
     "model_id": "gpt-5.2",
     "benchmark_id": "aime-2025",
     "score": 100,
@@ -7,7 +18,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -18,50 +29,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 99.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "grok-4",
-    "benchmark_id": "aime-2025",
-    "score": 100,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 92,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 91.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "claude-opus-4.6",
@@ -71,30 +40,30 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "nemotron-ultra",
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "aime-2025",
+    "score": 99.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nemotron-3-nano",
     "benchmark_id": "aime-2025",
     "score": 99.2,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 90.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gpt-oss-20b",
@@ -104,39 +73,30 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "glm-4.5",
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "aime-2025",
+    "score": 96.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
     "benchmark_id": "aime-2025",
     "score": 95.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 93.9,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 91.6,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gpt-5",
@@ -146,30 +106,30 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "grok-3",
+    "model_id": "gpt-5.1",
     "benchmark_id": "aime-2025",
-    "score": 93.3,
+    "score": 94,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 90.8,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "o4-mini",
@@ -179,7 +139,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -190,39 +150,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "nova-pro",
+    "model_id": "nova-2-pro",
     "benchmark_id": "aime-2025",
     "score": 92.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 92.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 91,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/aime-2025",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "qwen3-235b",
@@ -232,7 +172,73 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/aime-2025",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "aime-2025",
+    "score": 92.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4-fast",
+    "benchmark_id": "aime-2025",
+    "score": 92,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "aime-2025",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "aime-2025",
+    "score": 91.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "aime-2025",
+    "score": 91,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nemotron-3-super",
+    "benchmark_id": "aime-2025",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/aime-2025",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -243,7 +249,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/arc-agi",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -254,7 +260,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/arc-agi",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -265,7 +271,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/arc-agi",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -276,7 +282,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/arc-agi",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -287,7 +293,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/arc-agi",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-mythos-preview",
+    "benchmark_id": "gpqa",
+    "score": 94.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "gpqa",
+    "score": 94.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -298,30 +326,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "gpt-5.5",
+    "model_id": "claude-opus-4.8",
     "benchmark_id": "gpqa",
     "score": 93.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 85.6,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gpt-5.4",
@@ -331,7 +348,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -342,7 +359,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -353,19 +370,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 90.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "claude-opus-4.6",
@@ -375,7 +381,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "gpqa",
+    "score": 90.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "gpqa",
+    "score": 90.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -386,61 +414,52 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "grok-4",
+    "model_id": "grok-4-heavy",
     "benchmark_id": "gpqa",
     "score": 88.4,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 85.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 87.5,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "gpt-5",
+    "model_id": "gpt-5.1",
     "benchmark_id": "gpqa",
-    "score": 87.3,
+    "score": 88.1,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 85.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/gpqa",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "gpqa",
+    "score": 87.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "gpqa",
+    "score": 87.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "claude-opus-4.5",
@@ -450,7 +469,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -461,18 +480,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "glm-4.5",
+    "model_id": "glm-4.7",
     "benchmark_id": "gpqa",
     "score": 85.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4-fast",
+    "benchmark_id": "gpqa",
+    "score": 85.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/gpqa",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -483,7 +513,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -494,7 +524,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -505,18 +535,51 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "gemma-3-27b",
+    "model_id": "gemma-4-31b",
     "benchmark_id": "gpqa",
     "score": 84.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/gpqa",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-mythos-preview",
+    "benchmark_id": "hle",
+    "score": 64.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-fable-5",
+    "benchmark_id": "hle",
+    "score": 64.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.8",
+    "benchmark_id": "hle",
+    "score": 57.9,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -527,7 +590,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -538,7 +601,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -549,7 +612,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -560,39 +623,41 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "grok-4",
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "hle",
+    "score": 51.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4-heavy",
     "benchmark_id": "hle",
     "score": 50.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 20,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/hle",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 40,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/hle",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "hle",
+    "score": 50.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "claude-sonnet-4.6",
@@ -602,7 +667,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -613,38 +678,51 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 43.5,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/hle",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      },
-      {
-        "score": 40.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/hle",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "glm-4.5",
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "hle",
+    "score": 43.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
     "benchmark_id": "hle",
     "score": 42.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.5-flash",
+    "benchmark_id": "hle",
+    "score": 40.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "hle",
+    "score": 40,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -655,7 +733,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -666,7 +744,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hle",
+    "score": 36.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -677,18 +766,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "gemma-3-27b",
+    "model_id": "gemma-4-31b",
     "benchmark_id": "hle",
     "score": 26.5,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -699,29 +788,40 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "nemotron-ultra",
+    "model_id": "nemotron-3-super",
     "benchmark_id": "hle",
     "score": 22.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "minimax-m1",
+    "model_id": "minimax-m2.1",
     "benchmark_id": "hle",
     "score": 22,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4-fast",
+    "benchmark_id": "hle",
+    "score": 20,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/hle",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -732,18 +832,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    }
-  },
-  {
-    "model_id": "gemini-2.5-pro",
-    "benchmark_id": "hle",
-    "score": 17.8,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/hle",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -754,7 +843,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -765,7 +854,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -776,7 +865,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -787,28 +876,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 89.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 87.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gemma-3-27b",
@@ -818,50 +887,30 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 90.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 88.9,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "nemotron-ultra",
+    "model_id": "nemotron-nano-9b-v2",
     "benchmark_id": "ifeval",
     "score": 90.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 89.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "ifeval",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "kimi-k2-instruct",
@@ -871,30 +920,41 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "qwen3-235b",
+    "model_id": "nova-lite",
     "benchmark_id": "ifeval",
-    "score": 88.7,
+    "score": 89.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 87.8,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nemotron-ultra",
+    "benchmark_id": "ifeval",
+    "score": 89.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-12b",
+    "benchmark_id": "ifeval",
+    "score": 88.9,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "llama-3.1-405b",
@@ -904,7 +964,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -915,7 +975,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -926,7 +986,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -937,7 +997,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -948,7 +1008,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-micro",
+    "benchmark_id": "ifeval",
+    "score": 87.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -959,40 +1030,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "phi-4",
+    "model_id": "phi-4-reasoning-plus",
     "benchmark_id": "ifeval",
     "score": 84.9,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 83.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/ifeval",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "ifeval",
-    "score": 84.1,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1003,7 +1052,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "ifeval",
+    "score": 84.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1014,7 +1074,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "ifeval",
+    "score": 83.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/ifeval",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1025,7 +1096,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1036,154 +1107,85 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/ifeval",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "minimax-m1",
+    "model_id": "minimax-m2",
     "benchmark_id": "livecodebench",
     "score": 83,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 78,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 65,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 62.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "nemotron-ultra",
+    "model_id": "nemotron-3-super",
     "benchmark_id": "livecodebench",
     "score": 81.2,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 71.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 66.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "grok-3",
-    "benchmark_id": "livecodebench",
-    "score": 80.4,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 79.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "grok-4",
+    "model_id": "grok-4-fast",
     "benchmark_id": "livecodebench",
     "score": 80,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 79.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 79,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:46:13.369Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "nova-pro",
+    "model_id": "grok-4-heavy",
+    "benchmark_id": "livecodebench",
+    "score": 79.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "grok-4",
+    "benchmark_id": "livecodebench",
+    "score": 79,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2.1",
+    "benchmark_id": "livecodebench",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
     "benchmark_id": "livecodebench",
     "score": 74.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 71,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "deepseek-r1",
@@ -1193,19 +1195,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 50,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "glm-4.5",
@@ -1215,19 +1206,41 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 70.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "livecodebench",
+    "score": 71.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "livecodebench",
+    "score": 71,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-air",
+    "benchmark_id": "livecodebench",
+    "score": 70.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "qwen3-235b",
@@ -1237,7 +1250,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nemotron-ultra",
+    "benchmark_id": "livecodebench",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1248,41 +1272,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "mistral-small-3",
+    "model_id": "mistral-small-4",
     "benchmark_id": "livecodebench",
     "score": 63.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
-  },
-  {
-    "model_id": "qwq-32b",
-    "benchmark_id": "livecodebench",
-    "score": 63.4,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 50,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "qwen3-30b-a3b",
@@ -1292,7 +1294,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1303,7 +1305,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1314,7 +1316,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "livecodebench",
+    "score": 56.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1325,7 +1338,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1336,41 +1349,52 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 53.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "magistral-medium",
+    "model_id": "phi-4-reasoning-plus",
+    "benchmark_id": "livecodebench",
+    "score": 53.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "magistral-small",
     "benchmark_id": "livecodebench",
     "score": 51.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 50.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/livecodebench",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "magistral-medium",
+    "benchmark_id": "livecodebench",
+    "score": 50.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-zero",
+    "benchmark_id": "livecodebench",
+    "score": 50,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/livecodebench",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "deepseek-v3",
@@ -1380,7 +1404,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1391,7 +1415,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/livecodebench",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1402,30 +1426,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "math-500",
-    "score": 96.4,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 85.5,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "mistral-large-3",
@@ -1435,7 +1437,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1446,41 +1448,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 86.8,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "math-500",
-    "score": 89.1,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 70.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gemma-3-27b",
@@ -1490,28 +1459,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 83.8,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 75.6,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash-lite",
+    "benchmark_id": "math-500",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gemini-1.5-pro",
@@ -1521,7 +1481,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1532,30 +1492,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
+    "model_id": "gemma-3-12b",
     "benchmark_id": "math-500",
-    "score": 83.1,
+    "score": 83.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 59.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "qwen2.5-32b",
@@ -1565,7 +1514,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1576,28 +1525,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 64,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 59.5,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "qwen2.5-14b",
@@ -1607,30 +1536,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "math-500",
-    "score": 78.3,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 71.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gemini-1.5-flash",
@@ -1640,19 +1547,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 58.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "llama-3.3-70b",
@@ -1662,18 +1558,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "math-500",
-    "score": 76.6,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1684,50 +1569,30 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 73.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 69.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "grok-2",
+    "model_id": "gpt-4o",
     "benchmark_id": "math-500",
-    "score": 76.1,
+    "score": 76.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 73,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math-500",
+    "score": 75.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "qwen2.5-7b",
@@ -1737,18 +1602,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "deepseek-v3",
+    "model_id": "deepseek-v2.5",
     "benchmark_id": "math-500",
     "score": 74.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1759,7 +1624,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "math-500",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1770,7 +1646,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1781,7 +1657,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1792,28 +1668,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 69.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 69.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/math",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gpt-4o-mini",
@@ -1823,7 +1679,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.2",
+    "benchmark_id": "math-500",
+    "score": 69.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1834,7 +1701,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.1",
+    "benchmark_id": "math-500",
+    "score": 69.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-micro",
+    "benchmark_id": "math-500",
+    "score": 69.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1845,7 +1734,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math-500",
+    "score": 64,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1856,7 +1756,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1867,48 +1767,52 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/math",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "minimax-m1",
+    "model_id": "phi-3.5-moe",
+    "benchmark_id": "math-500",
+    "score": 59.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-1.5-flash-8b",
+    "benchmark_id": "math-500",
+    "score": 58.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/math",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2.1",
     "benchmark_id": "mmlu-pro",
     "score": 88,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 82,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 81.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 80.6,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "ernie-5",
@@ -1918,30 +1822,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "gemma-3-27b",
+    "model_id": "gemma-4-31b",
     "benchmark_id": "mmlu-pro",
     "score": 85.2,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 82.6,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "deepseek-r1",
@@ -1951,7 +1844,18 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "mmlu-pro",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -1962,114 +1866,85 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 84.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 81.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "qwen3-235b",
+    "model_id": "glm-4.7",
     "benchmark_id": "mmlu-pro",
-    "score": 84.4,
+    "score": 84.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 83,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "nemotron-ultra",
+    "model_id": "nemotron-3-super",
     "benchmark_id": "mmlu-pro",
     "score": 83.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "kimi-k2-instruct",
+    "model_id": "deepseek-v3.1",
     "benchmark_id": "mmlu-pro",
-    "score": 82.5,
+    "score": 83.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 81.1,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
-    "model_id": "nova-pro",
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "mmlu-pro",
+    "score": 82.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "mmlu-pro",
+    "score": 82,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
     "benchmark_id": "mmlu-pro",
     "score": 81.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 80.9,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 80.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.5-air",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "deepseek-v3",
@@ -2079,7 +1954,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m1",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "mmlu-pro",
+    "score": 80.9,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2090,7 +1987,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmlu-pro",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "mmlu-pro",
+    "score": 80.7,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmlu-pro",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmmu",
+    "score": 85.4,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmmu",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2101,7 +2020,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2112,7 +2031,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2123,7 +2042,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2134,7 +2053,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2145,7 +2064,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2156,7 +2075,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2167,39 +2086,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
-  },
-  {
-    "model_id": "gemini-2.0-flash",
-    "benchmark_id": "mmmu",
-    "score": 75.4,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 70.7,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      },
-      {
-        "score": 68,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-4.5",
@@ -2209,7 +2097,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2220,7 +2108,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2231,7 +2119,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2242,7 +2130,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2253,7 +2141,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2264,30 +2152,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "mmmu",
-    "score": 72.7,
-    "config": "default",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 55.4,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-4o",
@@ -2297,7 +2163,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2308,7 +2174,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2319,7 +2185,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2330,30 +2196,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "grok-2",
+    "model_id": "gemini-2.0-flash-lite",
     "benchmark_id": "mmmu",
-    "score": 66.1,
+    "score": 68,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 63.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gemini-1.5-pro",
@@ -2363,7 +2218,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2374,30 +2229,19 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "mistral-small-3",
+    "model_id": "mistral-small-3.2",
     "benchmark_id": "mmmu",
     "score": 62.5,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 59.3,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gemini-1.5-flash",
@@ -2407,7 +2251,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2418,19 +2262,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 56.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/mmmu",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "llama-3.2-90b",
@@ -2440,7 +2273,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
@@ -2451,183 +2284,304 @@
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/mmmu",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.1",
+    "benchmark_id": "mmmu",
+    "score": 59.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmmu",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "mmmu",
+    "score": 56.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/mmmu",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-fable-5",
+    "benchmark_id": "swe-bench",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-mythos-preview",
+    "benchmark_id": "swe-bench",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.8",
+    "benchmark_id": "swe-bench",
+    "score": 88.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-opus-4.7",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 87.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-opus-4.5",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 80.9,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-opus-4.6",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 80.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "minimax-m1",
-    "benchmark_id": "swe-bench-verified",
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "swe-bench",
+    "score": 80.6,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m3",
+    "benchmark_id": "swe-bench",
     "score": 80.5,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 80.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-          "fetched_at": "2026-06-08T06:48:52.608Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench",
+    "score": 80.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2.5",
+    "benchmark_id": "swe-bench",
+    "score": 80.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "gpt-5.2",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 80,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-sonnet-4.6",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 79.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "swe-bench-verified",
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "swe-bench",
     "score": 78,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
-    },
-    "variants": [
-      {
-        "score": 76.2,
-        "config": "default",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-          "fetched_at": "2026-06-08T06:41:42.733Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
   },
   {
     "model_id": "glm-5",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 77.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "mistral-small-3",
-    "benchmark_id": "swe-bench-verified",
+    "model_id": "mistral-medium-3.5",
+    "benchmark_id": "swe-bench",
     "score": 77.6,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "swe-bench",
+    "score": 76.8,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "swe-bench",
+    "score": 76.3,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "swe-bench",
+    "score": 76.2,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "gpt-5",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 74.9,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
-    "model_id": "glm-4.5",
-    "benchmark_id": "swe-bench-verified",
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "swe-bench",
+    "score": 74.5,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "swe-bench",
     "score": 73.8,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-haiku-4.5",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 73.3,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "swe-bench",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-sonnet-4",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 72.7,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   },
   {
     "model_id": "claude-opus-4",
-    "benchmark_id": "swe-bench-verified",
+    "benchmark_id": "swe-bench",
     "score": 72.5,
     "config": "default",
     "source": {
       "kind": "github_repo",
       "url": "https://llm-stats.com/benchmarks/swe-bench-verified",
-      "fetched_at": "2026-06-08T06:55:04.422Z"
+      "fetched_at": "2026-06-11T08:36:23.284Z"
     }
   }
 ]

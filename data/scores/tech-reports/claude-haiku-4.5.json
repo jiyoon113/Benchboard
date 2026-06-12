@@ -1,98 +1,6 @@
 [
   {
     "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "bbq",
-    "score": 99.7,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-haiku-4.5__system-card.pdf",
-      "ref": "p.14",
-      "reported_by": "claude-haiku-4.5",
-      "fetched_at": "2026-06-08T05:52:20.759Z"
-    },
-    "variants": [
-      {
-        "score": 82.2,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.14",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 0.25,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.13",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": -2.21,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.13",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-haiku-4.5",
-    "benchmark_id": "bbq",
-    "score": 98,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-haiku-4.5__system-card.pdf",
-      "ref": "p.14",
-      "fetched_at": "2026-06-08T05:52:20.759Z"
-    },
-    "variants": [
-      {
-        "score": 71.2,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 1.37,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.13",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 0.54,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.13",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-sonnet-4.5",
     "benchmark_id": "benign-request-evaluation",
     "score": 0.05,
     "config": "default",
@@ -210,150 +118,20 @@
       "url": "claude-haiku-4.5__system-card.pdf",
       "ref": "p.15",
       "fetched_at": "2026-06-08T05:52:20.759Z"
-    },
-    "variants": [
-      {
-        "score": 99.17,
-        "config": "new mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 96.33,
-        "config": "previous mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 88.85,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.16",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 87.71,
-        "config": "new mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 81.48,
-        "config": "previous mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 69.39,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.16",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "claude-code-evaluation",
-    "score": 100,
-    "config": "new mitigations",
+    "score": 98.7,
+    "config": "without safeguards",
     "source": {
       "kind": "tech_report",
       "url": "claude-haiku-4.5__system-card.pdf",
-      "ref": "p.17",
+      "ref": "p.15",
       "reported_by": "claude-haiku-4.5",
       "fetched_at": "2026-06-08T05:52:20.759Z"
-    },
-    "variants": [
-      {
-        "score": 98.7,
-        "config": "without safeguards",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.15",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 97.54,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.16",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 96.73,
-        "config": "previous mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 95.51,
-        "config": "new mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 92.79,
-        "config": "previous mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.17",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      },
-      {
-        "score": 66.94,
-        "config": "without mitigations",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-haiku-4.5__system-card.pdf",
-          "ref": "p.16",
-          "reported_by": "claude-haiku-4.5",
-          "fetched_at": "2026-06-08T05:52:20.759Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-haiku-4.5",

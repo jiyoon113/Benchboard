@@ -1514,32 +1514,6 @@
     ]
   },
   {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "openai-mrcr-v2-1m-8-needles",
-    "score": 32.6,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-sonnet-4.6__system-card.pdf",
-      "ref": "p.28",
-      "reported_by": "claude-sonnet-4.6",
-      "fetched_at": "2026-06-07T07:04:00.081Z"
-    },
-    "variants": [
-      {
-        "score": 24.5,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-sonnet-4.6__system-card.pdf",
-          "ref": "p.28",
-          "reported_by": "claude-sonnet-4.6",
-          "fetched_at": "2026-06-07T07:04:00.081Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-opus-4.6",
     "benchmark_id": "openai-mrcr-v2-256k-8-needles",
     "score": 93,
@@ -1584,32 +1558,6 @@
           "kind": "tech_report",
           "url": "claude-sonnet-4.6__system-card.pdf",
           "ref": "p.28",
-          "fetched_at": "2026-06-07T07:04:00.081Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "openai-mrcr-v2-256k-8-needles",
-    "score": 58.5,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-sonnet-4.6__system-card.pdf",
-      "ref": "p.28",
-      "reported_by": "claude-sonnet-4.6",
-      "fetched_at": "2026-06-07T07:04:00.081Z"
-    },
-    "variants": [
-      {
-        "score": 45.4,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-sonnet-4.6__system-card.pdf",
-          "ref": "p.28",
-          "reported_by": "claude-sonnet-4.6",
           "fetched_at": "2026-06-07T07:04:00.081Z"
         }
       }

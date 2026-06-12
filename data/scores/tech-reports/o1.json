@@ -14,7 +14,7 @@
   {
     "model_id": "o1",
     "benchmark_id": "apollo-research-scheming",
-    "score": 1,
+    "score": 0.99,
     "config": "Deceived on follow-up",
     "source": {
       "kind": "tech_report",
@@ -23,26 +23,6 @@
       "fetched_at": "2026-06-08T03:59:49.219Z"
     },
     "variants": [
-      {
-        "score": 0.99,
-        "config": "Deceived on follow-up",
-        "source": {
-          "kind": "tech_report",
-          "url": "o1__system-card.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-08T03:59:49.219Z"
-        }
-      },
-      {
-        "score": 0.98,
-        "config": "Deceived on follow-up",
-        "source": {
-          "kind": "tech_report",
-          "url": "o1__system-card.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-08T03:59:49.219Z"
-        }
-      },
       {
         "score": 0.19,
         "config": "Covertly manipulated data",

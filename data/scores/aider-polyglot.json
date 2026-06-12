@@ -7,7 +7,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     },
     "variants": [
       {
@@ -16,7 +16,7 @@
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:43.932Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       },
       {
@@ -25,16 +25,7 @@
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:43.932Z"
-        }
-      },
-      {
-        "score": 88,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       }
     ]
@@ -47,7 +38,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     },
     "variants": [
       {
@@ -56,7 +47,7 @@
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       }
     ]
@@ -69,7 +60,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -80,7 +71,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     },
     "variants": [
       {
@@ -89,7 +80,7 @@
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:52:50.864Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       }
     ]
@@ -102,8 +93,52 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "aider-polyglot",
+    "score": 71.4,
+    "config": "diff edit, 0528",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
+      "fetched_at": "2026-06-11T08:37:01.087Z"
+    },
+    "variants": [
+      {
+        "score": 56.9,
+        "config": "diff edit",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
+          "fetched_at": "2026-06-11T08:37:01.087Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "aider-polyglot",
+    "score": 64.9,
+    "config": "diff edit, 32k thinking tokens",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
+      "fetched_at": "2026-06-11T08:37:01.087Z"
+    },
+    "variants": [
+      {
+        "score": 60.4,
+        "config": "diff edit, no thinking",
+        "source": {
+          "kind": "github_repo",
+          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
+          "fetched_at": "2026-06-11T08:37:01.087Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "o1",
@@ -113,27 +148,27 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
-    "model_id": "claude-3.7-sonnet",
+    "model_id": "o3-mini",
     "benchmark_id": "aider-polyglot",
     "score": 60.4,
-    "config": "diff edit, no thinking",
+    "config": "diff edit, high",
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     },
     "variants": [
       {
-        "score": 64.9,
-        "config": "diff edit, 32k thinking tokens",
+        "score": 53.8,
+        "config": "diff edit, medium",
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:43.932Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       }
     ]
@@ -146,39 +181,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
-  },
-  {
-    "model_id": "deepseek-r1",
-    "benchmark_id": "aider-polyglot",
-    "score": 56.9,
-    "config": "diff edit",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
-    },
-    "variants": [
-      {
-        "score": 71.4,
-        "config": "diff edit, 0528",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:43.932Z"
-        }
-      },
-      {
-        "score": 71.4,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "deepseek-v3",
@@ -188,50 +192,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
-    },
-    "variants": [
-      {
-        "score": 55.1,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o3-mini",
-    "benchmark_id": "aider-polyglot",
-    "score": 53.8,
-    "config": "diff edit, medium",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
-    },
-    "variants": [
-      {
-        "score": 60.4,
-        "config": "diff edit, high",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:43.932Z"
-        }
-      },
-      {
-        "score": 60.4,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:37:01.087Z"
+    }
   },
   {
     "model_id": "gpt-4.1",
@@ -241,7 +203,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -252,7 +214,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -263,19 +225,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
-    },
-    "variants": [
-      {
-        "score": 41.8,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
-        }
-      }
-    ]
+      "fetched_at": "2026-06-11T08:37:01.087Z"
+    }
   },
   {
     "model_id": "qwen3-32b",
@@ -285,7 +236,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -296,7 +247,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     },
     "variants": [
       {
@@ -305,7 +256,7 @@
         "source": {
           "kind": "github_repo",
           "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
+          "fetched_at": "2026-06-11T08:37:01.087Z"
         }
       }
     ]
@@ -318,7 +269,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -329,30 +280,8 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "aider-polyglot",
-    "score": 18.2,
-    "config": "diff edit",
-    "source": {
-      "kind": "github_repo",
-      "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
-    },
-    "variants": [
-      {
-        "score": 23.1,
-        "config": "diff edit",
-        "source": {
-          "kind": "github_repo",
-          "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-          "fetched_at": "2026-06-08T08:25:07.540Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "llama-4-maverick",
@@ -362,7 +291,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -373,7 +302,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   },
   {
@@ -384,7 +313,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/polyglot_leaderboard.yml",
-      "fetched_at": "2026-06-08T08:52:50.864Z"
+      "fetched_at": "2026-06-11T08:37:01.087Z"
     }
   }
 ]

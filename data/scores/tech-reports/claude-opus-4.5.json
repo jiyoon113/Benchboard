@@ -186,112 +186,42 @@
     }
   },
   {
-    "model_id": "claude-opus-4.5",
+    "model_id": "claude-haiku-4.5",
     "benchmark_id": "bbq",
-    "score": 88.7,
-    "config": "Disambiguated",
+    "score": 1.37,
+    "config": "Ambiguous",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.47",
+      "ref": "p.46",
+      "reported_by": "claude-opus-4.5",
       "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 0.26,
-        "config": "Ambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      },
-      {
-        "score": -0.64,
-        "config": "Disambiguated",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bbq",
+    "score": 0.26,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.5__system-card.pdf",
+      "ref": "p.46",
+      "fetched_at": "2026-06-08T03:16:13.730Z"
+    }
   },
   {
     "model_id": "claude-sonnet-4.5",
     "benchmark_id": "bbq",
-    "score": 82.2,
-    "config": "Disambiguated",
+    "score": 0.25,
+    "config": "Ambiguous",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.47",
+      "ref": "p.46",
       "reported_by": "claude-opus-4.5",
       "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 0.25,
-        "config": "Ambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "reported_by": "claude-opus-4.5",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      },
-      {
-        "score": -2.21,
-        "config": "Disambiguated",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "reported_by": "claude-opus-4.5",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-haiku-4.5",
-    "benchmark_id": "bbq",
-    "score": 71.2,
-    "config": "Disambiguated",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.47",
-      "reported_by": "claude-opus-4.5",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 1.37,
-        "config": "Ambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "reported_by": "claude-opus-4.5",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      },
-      {
-        "score": 0.54,
-        "config": "Disambiguated",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.46",
-          "reported_by": "claude-opus-4.5",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-opus-4.5",
@@ -794,26 +724,14 @@
   {
     "model_id": "claude-opus-4.5",
     "benchmark_id": "gpqa",
-    "score": 87,
+    "score": 86.95,
     "config": "Diamond",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.19",
+      "ref": "p.32",
       "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 86.95,
-        "config": "Diamond",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.32",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-sonnet-4.5",
@@ -919,26 +837,14 @@
   {
     "model_id": "claude-opus-4.5",
     "benchmark_id": "mmmlu",
-    "score": 90.8,
+    "score": 90.77,
     "config": "default",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.19",
+      "ref": "p.33",
       "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 90.77,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.33",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-sonnet-4.5",
@@ -1084,26 +990,14 @@
   {
     "model_id": "claude-opus-4.5",
     "benchmark_id": "osworld",
-    "score": 66.3,
+    "score": 66.26,
     "config": "default",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.19",
+      "ref": "p.27",
       "fetched_at": "2026-06-08T03:16:13.730Z"
-    },
-    "variants": [
-      {
-        "score": 66.26,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.27",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "claude-sonnet-4.5",
@@ -1241,35 +1135,15 @@
   {
     "model_id": "claude-opus-4.5",
     "benchmark_id": "terminal-bench-2.0",
-    "score": 59.3,
+    "score": 59.27,
     "config": "128k thinking",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.19",
+      "ref": "p.20",
       "fetched_at": "2026-06-08T03:16:13.730Z"
     },
     "variants": [
-      {
-        "score": 59.27,
-        "config": "128k thinking",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.20",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      },
-      {
-        "score": 57.8,
-        "config": "64k thinking",
-        "source": {
-          "kind": "tech_report",
-          "url": "claude-opus-4.5__system-card.pdf",
-          "ref": "p.19",
-          "fetched_at": "2026-06-08T03:16:13.730Z"
-        }
-      },
       {
         "score": 57.76,
         "config": "64k thinking",

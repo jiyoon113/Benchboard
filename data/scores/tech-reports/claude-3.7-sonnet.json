@@ -142,25 +142,27 @@
   {
     "model_id": "claude-3.7-sonnet",
     "benchmark_id": "gpqa",
-    "score": 0.19,
-    "config": "extended thinking",
+    "score": 84.8,
+    "config": "Diamond, extended thinking",
     "source": {
       "kind": "tech_report",
       "url": "claude-3.7-sonnet__system-card.pdf",
       "ref": "p.17",
-      "fetched_at": "2026-06-08T05:49:55.351Z"
-    }
-  },
-  {
-    "model_id": "claude-3.7-sonnet",
-    "benchmark_id": "mmlu",
-    "score": 0.3,
-    "config": "extended thinking",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-3.7-sonnet__system-card.pdf",
-      "ref": "p.17",
-      "fetched_at": "2026-06-08T05:49:55.351Z"
-    }
+      "fetched_at": "2026-06-08T05:49:55.351Z",
+      "published": "2025-02"
+    },
+    "variants": [
+      {
+        "score": 68,
+        "config": "Diamond, no extended thinking",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-3.7-sonnet__system-card.pdf",
+          "ref": "p.17",
+          "fetched_at": "2026-06-08T05:49:55.351Z",
+          "published": "2025-02"
+        }
+      }
+    ]
   }
 ]

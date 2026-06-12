@@ -116,7 +116,20 @@ function rebuild(
     seen.add(k);
     entries.push(e);
   }
-  const [rep, ...rest] = entries;
+
+  // Cross-source identical-score dedup: when the same score is reported by more
+  // than one source, keep only the most reliable source's copy and drop the
+  // others (a value two sources agree on needs only one row). Multiple configs
+  // from that same winning source are kept.
+  const bestForScore = new Map<number, { rel: number; url: string }>();
+  for (const e of entries) {
+    const rel = reliability(e);
+    const cur = bestForScore.get(e.score);
+    if (!cur || rel > cur.rel) bestForScore.set(e.score, { rel, url: e.source.url });
+  }
+  const deduped = entries.filter((e) => e.source.url === bestForScore.get(e.score)!.url);
+
+  const [rep, ...rest] = deduped;
   return {
     model_id,
     benchmark_id,

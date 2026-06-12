@@ -61,54 +61,6 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "coding",
-    "score": 60.41,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.13",
-      "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 56.71,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "comprehension",
-    "score": 78.85,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.14",
-      "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 74.43,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.13",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen-2.5-72b",
     "benchmark_id": "gpqa",
     "score": 49,
     "config": "default",
@@ -205,30 +157,6 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "if",
-    "score": 82.65,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.13",
-      "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 37.22,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen-2.5-72b",
     "benchmark_id": "ifeval",
     "score": 84.1,
     "config": "default",
@@ -286,30 +214,6 @@
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "knowledge",
-    "score": 75.86,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.14",
-      "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 66.09,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.13",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "qwen-2.5-72b",
@@ -404,46 +308,14 @@
   {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "math",
-    "score": 83.1,
-    "config": "default",
+    "score": 62.1,
+    "config": "4-shot",
     "source": {
       "kind": "tech_report",
       "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.11",
+      "ref": "p.8",
       "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 68.39,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      },
-      {
-        "score": 62.1,
-        "config": "4-shot",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.8",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      },
-      {
-        "score": 59.73,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.13",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "qwen-2.5-72b",
@@ -660,30 +532,6 @@
       "ref": "p.15",
       "fetched_at": "2026-06-07T10:23:30.912Z"
     }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "reasoning",
-    "score": 65.9,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "qwen-2.5-72b__paper.pdf",
-      "ref": "p.13",
-      "fetched_at": "2026-06-07T10:23:30.912Z"
-    },
-    "variants": [
-      {
-        "score": 63.02,
-        "config": "default",
-        "source": {
-          "kind": "tech_report",
-          "url": "qwen-2.5-72b__paper.pdf",
-          "ref": "p.14",
-          "fetched_at": "2026-06-07T10:23:30.912Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "qwen-2.5-72b",

@@ -15,7 +15,7 @@
  */
 import type { ScoreRecord } from "../src/lib/types.ts";
 import { persist, nowIso } from "./lib/fetcher.ts";
-import { resolveModelId, recordUnresolved } from "./lib/normalize.ts";
+import { resolveModelId, recordUnresolved, splitModelName } from "./lib/normalize.ts";
 
 const ENDPOINT = "https://artificialanalysis.ai/api/v2/data/llms/models";
 
@@ -82,7 +82,11 @@ async function main() {
   const records: ScoreRecord[] = [];
   for (const m of models) {
     const rawName = m.name ?? m.slug ?? "";
-    const id = await resolveModelId(rawName);
+    // AA lists model variants separately (e.g. "MiniMax M1 40K" / "80K" thinking
+    // budgets). Split the budget/effort suffix off so it becomes a config tag
+    // instead of collapsing several distinct numbers under one "default".
+    const { base, tag } = splitModelName(rawName);
+    const id = await resolveModelId(base);
     if (!id) {
       recordUnresolved(rawName);
       continue;
@@ -92,11 +96,12 @@ async function main() {
       if (!(field in evals)) continue;
       const score = normScore(evals[field]);
       if (score === null) continue;
+      const config = [target.config, tag].filter(Boolean).join(", ") || "default";
       records.push({
         model_id: id,
         benchmark_id: target.id,
         score,
-        config: target.config ?? "default",
+        config,
         source: { kind: "aggregator_api", url: ENDPOINT, fetched_at },
       });
     }

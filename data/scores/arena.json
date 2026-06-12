@@ -1,116 +1,51 @@
 [
   {
-    "model_id": "claude-opus-4.6",
+    "model_id": "claude-fable-5",
     "benchmark_id": "chatbot-arena",
-    "score": 1503,
+    "score": 1510,
     "config": "default",
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
       "rank": 1,
-      "ci": 4,
-      "votes": 38559
+      "ci": 11,
+      "votes": 2883
     }
   },
   {
-    "model_id": "claude-opus-4.7",
+    "model_id": "gemini-3.1-pro",
     "benchmark_id": "chatbot-arena",
-    "score": 1500,
+    "score": 1487,
     "config": "default",
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 2,
-      "ci": 5,
-      "votes": 24420
+      "rank": 7,
+      "ci": 4,
+      "votes": 55403
     }
   },
   {
     "model_id": "gemini-3-pro",
     "benchmark_id": "chatbot-arena",
-    "score": 1488,
+    "score": 1486,
     "config": "default",
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 4,
+      "rank": 8,
       "ci": 4,
-      "votes": 49587
-    },
-    "variants": [
-      {
-        "score": 1477,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      },
-      {
-        "score": 1473,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      },
-      {
-        "score": 1486,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T06:59:10.359Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-5.5",
-    "benchmark_id": "chatbot-arena",
-    "score": 1482,
-    "config": "default",
-    "source": {
-      "kind": "arena_api",
-      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
-    },
-    "extra": {
-      "rank": 6,
-      "ci": 5,
-      "votes": 20523
-    },
-    "variants": [
-      {
-        "score": 1474,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      },
-      {
-        "score": 1471,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      }
-    ]
+      "votes": 41317
+    }
   },
   {
     "model_id": "gpt-5.4",
@@ -120,12 +55,28 @@
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 7,
-      "ci": 5,
-      "votes": 32658
+      "rank": 11,
+      "ci": 4,
+      "votes": 37120
+    }
+  },
+  {
+    "model_id": "gemini-3.5-flash",
+    "benchmark_id": "chatbot-arena",
+    "score": 1477,
+    "config": "default",
+    "source": {
+      "kind": "arena_api",
+      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
+      "fetched_at": "2026-06-11T08:36:08.008Z"
+    },
+    "extra": {
+      "rank": 13,
+      "ci": 7,
+      "votes": 10113
     }
   },
   {
@@ -136,58 +87,13 @@
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 9,
+      "rank": 15,
       "ci": 6,
-      "votes": 15019
+      "votes": 15954
     }
-  },
-  {
-    "model_id": "grok-4",
-    "benchmark_id": "chatbot-arena",
-    "score": 1474,
-    "config": "default",
-    "source": {
-      "kind": "arena_api",
-      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
-    },
-    "extra": {
-      "rank": 11,
-      "ci": 5,
-      "votes": 25718
-    },
-    "variants": [
-      {
-        "score": 1473,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      },
-      {
-        "score": 1472,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      },
-      {
-        "score": 1466,
-        "config": "default",
-        "source": {
-          "kind": "arena_api",
-          "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-          "fetched_at": "2026-06-06T07:08:16.680Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "qwen3-235b",
@@ -197,60 +103,44 @@
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 12,
+      "rank": 16,
       "ci": 10,
-      "votes": 3750
+      "votes": 3744
     }
   },
   {
-    "model_id": "claude-opus-4.5",
+    "model_id": "grok-4.2",
+    "benchmark_id": "chatbot-arena",
+    "score": 1474,
+    "config": "default",
+    "source": {
+      "kind": "arena_api",
+      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
+      "fetched_at": "2026-06-11T08:36:08.008Z"
+    },
+    "extra": {
+      "rank": 17,
+      "ci": 5,
+      "votes": 26782
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
     "benchmark_id": "chatbot-arena",
     "score": 1473,
     "config": "default",
     "source": {
       "kind": "arena_api",
       "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
+      "fetched_at": "2026-06-11T08:36:08.008Z"
     },
     "extra": {
-      "rank": 15,
+      "rank": 20,
       "ci": 4,
-      "votes": 37106
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4.6",
-    "benchmark_id": "chatbot-arena",
-    "score": 1471,
-    "config": "default",
-    "source": {
-      "kind": "arena_api",
-      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
-    },
-    "extra": {
-      "rank": 18,
-      "ci": 4,
-      "votes": 31585
-    }
-  },
-  {
-    "model_id": "ernie-5",
-    "benchmark_id": "chatbot-arena",
-    "score": 1471,
-    "config": "default",
-    "source": {
-      "kind": "arena_api",
-      "url": "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text",
-      "fetched_at": "2026-06-06T07:08:16.680Z"
-    },
-    "extra": {
-      "rank": 19,
-      "ci": 6,
-      "votes": 18301
+      "votes": 30718
     }
   }
 ]

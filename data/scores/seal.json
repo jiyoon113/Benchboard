@@ -1,317 +1,5 @@
 [
   {
-    "model_id": "o1",
-    "benchmark_id": "coding-korean",
-    "score": 66.43,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.47,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3.7-sonnet",
-    "benchmark_id": "coding-korean",
-    "score": 64.93,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.51,
-      "max_score": 74.057
-    },
-    "variants": [
-      {
-        "score": 64.93,
-        "config": "February 2025",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:39:17.007Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "coding-korean",
-    "score": 64.58,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.52,
-      "max_score": 74.057
-    },
-    "variants": [
-      {
-        "score": 59.93,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:40:27.079Z"
-        }
-      },
-      {
-        "score": 64.58,
-        "config": "May 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:39:17.007Z"
-        }
-      },
-      {
-        "score": 59.93,
-        "config": "August 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:37:57.632Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4.5",
-    "benchmark_id": "coding-korean",
-    "score": 63.76,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.56,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4-turbo",
-    "benchmark_id": "coding-korean",
-    "score": 60.76,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.64,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gemini-1.5-pro",
-    "benchmark_id": "coding-korean",
-    "score": 60.28,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.66,
-      "max_score": 74.057
-    },
-    "variants": [
-      {
-        "score": 40.42,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:40:27.079Z"
-        }
-      },
-      {
-        "score": 60.28,
-        "config": "August 27, 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:39:17.007Z"
-        }
-      },
-      {
-        "score": 40.42,
-        "config": "May 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:37:57.632Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "coding-korean",
-    "score": 59.38,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.67,
-      "max_score": 74.057
-    },
-    "variants": [
-      {
-        "score": 59.38,
-        "config": "June 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/korean",
-          "ref": "SEAL Korean",
-          "fetched_at": "2026-06-09T02:39:17.007Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gemini-2.0-flash",
-    "benchmark_id": "coding-korean",
-    "score": 55.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.73,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3-sonnet",
-    "benchmark_id": "coding-korean",
-    "score": 54.17,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.78,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3-opus",
-    "benchmark_id": "coding-korean",
-    "score": 52.78,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "coding-korean",
-    "score": 51.74,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4",
-    "benchmark_id": "coding-korean",
-    "score": 51.39,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "coding-korean",
-    "score": 50.35,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.78,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "coding-korean",
-    "score": 37.23,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-09T02:51:23.403Z"
-    },
-    "extra": {
-      "ci_hi": 5.6,
-      "max_score": 74.057
-    }
-  },
-  {
     "model_id": "deepseek-r1",
     "benchmark_id": "fortress",
     "score": 74.39,
@@ -320,12 +8,56 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.72,
       "max_score": 79.4233
     }
+  },
+  {
+    "model_id": "glm-4.5-air",
+    "benchmark_id": "fortress",
+    "score": 63.18,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 0,
+      "max_score": 79.4233
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "fortress",
+    "score": 61.68,
+    "config": "06-05",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 3.42,
+      "max_score": 79.4233
+    },
+    "variants": [
+      {
+        "score": 54.89,
+        "config": "03-25",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "ref": "SEAL Fortress",
+          "fetched_at": "2026-06-11T08:37:06.923Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "qwen3-235b",
@@ -336,7 +68,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.36,
@@ -352,7 +84,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.36,
@@ -368,24 +100,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.4,
       "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 63.18,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:40:26.107Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "gpt-4.1-mini",
@@ -396,7 +116,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.3,
@@ -412,26 +132,10 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.35,
-      "max_score": 79.4233
-    }
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "fortress",
-    "score": 55.47,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:39:16.285Z"
-    },
-    "extra": {
-      "ci_hi": 3.55,
       "max_score": 79.4233
     }
   },
@@ -444,40 +148,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.55,
       "max_score": 79.4233
     }
-  },
-  {
-    "model_id": "gemini-2.5-pro",
-    "benchmark_id": "fortress",
-    "score": 54.89,
-    "config": "03-25",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
-    },
-    "extra": {
-      "ci_hi": 3.55,
-      "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 61.68,
-        "config": "06-05",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gemini-1.5-pro",
@@ -488,7 +164,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.22,
@@ -504,7 +180,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.51,
@@ -520,7 +196,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.28,
@@ -536,7 +212,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.31,
@@ -552,7 +228,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.36,
@@ -568,7 +244,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.32,
@@ -584,7 +260,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.25,
@@ -600,7 +276,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.49,
@@ -616,7 +292,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.58,
@@ -632,7 +308,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.36,
@@ -648,7 +324,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.4,
@@ -664,7 +340,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.2,
@@ -680,7 +356,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.3,
@@ -696,12 +372,40 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.29,
       "max_score": 79.4233
     }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "fortress",
+    "score": 27.61,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 3.22,
+      "max_score": 79.4233
+    },
+    "variants": [
+      {
+        "score": 24.76,
+        "config": "thinking",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "ref": "SEAL Fortress",
+          "fetched_at": "2026-06-11T08:37:06.923Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "gpt-5.1",
@@ -712,7 +416,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.97,
@@ -720,29 +424,29 @@
     }
   },
   {
-    "model_id": "claude-opus-4",
+    "model_id": "claude-sonnet-4",
     "benchmark_id": "fortress",
-    "score": 24.76,
-    "config": "thinking",
+    "score": 24.37,
+    "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
-      "ci_hi": 3.11,
+      "ci_hi": 3.07,
       "max_score": 79.4233
     },
     "variants": [
       {
-        "score": 27.61,
-        "config": "default",
+        "score": 18.06,
+        "config": "thinking",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/fortress",
           "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
+          "fetched_at": "2026-06-11T08:37:06.923Z"
         }
       }
     ]
@@ -756,7 +460,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 3.06,
@@ -772,12 +476,40 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.73,
       "max_score": 79.4233
     }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "fortress",
+    "score": 20.52,
+    "config": "non-thinking",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 2.97,
+      "max_score": 79.4233
+    },
+    "variants": [
+      {
+        "score": 13,
+        "config": "thinking, max",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "ref": "SEAL Fortress",
+          "fetched_at": "2026-06-11T08:37:06.923Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "o1",
@@ -788,40 +520,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.85,
       "max_score": 79.4233
     }
-  },
-  {
-    "model_id": "claude-sonnet-4",
-    "benchmark_id": "fortress",
-    "score": 18.06,
-    "config": "thinking",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
-    },
-    "extra": {
-      "ci_hi": 2.71,
-      "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 24.37,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-oss-20b",
@@ -832,7 +536,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.79,
@@ -848,7 +552,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.38,
@@ -864,12 +568,68 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.48,
       "max_score": 79.4233
     }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "fortress",
+    "score": 16.96,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 2.7,
+      "max_score": 79.4233
+    },
+    "variants": [
+      {
+        "score": 12.8,
+        "config": "thinking",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "ref": "SEAL Fortress",
+          "fetched_at": "2026-06-11T08:37:06.923Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "fortress",
+    "score": 16.15,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/fortress",
+      "ref": "SEAL Fortress",
+      "fetched_at": "2026-06-11T08:37:06.923Z"
+    },
+    "extra": {
+      "ci_hi": 2.58,
+      "max_score": 79.4233
+    },
+    "variants": [
+      {
+        "score": 14.79,
+        "config": "thinking",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://labs.scale.com/leaderboard/fortress",
+          "ref": "SEAL Fortress",
+          "fetched_at": "2026-06-11T08:37:06.923Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "o3",
@@ -880,7 +640,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.68,
@@ -888,15 +648,15 @@
     }
   },
   {
-    "model_id": "claude-opus-4.1",
+    "model_id": "claude-opus-4.5",
     "benchmark_id": "fortress",
-    "score": 14.79,
-    "config": "thinking",
+    "score": 13.56,
+    "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.49,
@@ -904,41 +664,13 @@
     },
     "variants": [
       {
-        "score": 16.15,
-        "config": "default",
+        "score": 9.63,
+        "config": "thinking",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/fortress",
           "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-opus-4.6",
-    "benchmark_id": "fortress",
-    "score": 13,
-    "config": "thinking, max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
-    },
-    "extra": {
-      "ci_hi": 2.41,
-      "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 20.52,
-        "config": "non-thinking",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
+          "fetched_at": "2026-06-11T08:37:06.923Z"
         }
       }
     ]
@@ -952,68 +684,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 2.34,
       "max_score": 79.4233
     }
-  },
-  {
-    "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "fortress",
-    "score": 12.8,
-    "config": "thinking",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
-    },
-    "extra": {
-      "ci_hi": 2.36,
-      "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 16.96,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "fortress",
-    "score": 9.63,
-    "config": "thinking",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/fortress",
-      "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
-    },
-    "extra": {
-      "ci_hi": 2.11,
-      "max_score": 79.4233
-    },
-    "variants": [
-      {
-        "score": 13.56,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/fortress",
-          "ref": "SEAL Fortress",
-          "fetched_at": "2026-06-09T02:37:56.405Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "gpt-oss-120b",
@@ -1024,7 +700,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/fortress",
       "ref": "SEAL Fortress",
-      "fetched_at": "2026-06-09T02:51:21.375Z"
+      "fetched_at": "2026-06-11T08:37:06.923Z"
     },
     "extra": {
       "ci_hi": 1.93,
@@ -1040,7 +716,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.41,
@@ -1054,7 +730,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1068,7 +744,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.57,
@@ -1082,7 +758,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1096,7 +772,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.29,
@@ -1110,7 +786,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1124,7 +800,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.79,
@@ -1138,7 +814,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1152,7 +828,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.25,
@@ -1166,7 +842,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1180,7 +856,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.86,
@@ -1196,7 +872,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.76,
@@ -1212,7 +888,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 3.76,
@@ -1226,7 +902,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1240,7 +916,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.74,
@@ -1256,7 +932,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.07,
@@ -1272,7 +948,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.76,
@@ -1288,7 +964,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.35,
@@ -1302,7 +978,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:40:26.257Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1316,7 +992,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.25,
@@ -1330,17 +1006,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:40:26.257Z"
-        }
-      },
-      {
-        "score": 72.27,
-        "config": "February 2025",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1354,7 +1020,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 5.31,
@@ -1370,7 +1036,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.31,
@@ -1386,7 +1052,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.28,
@@ -1400,7 +1066,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:40:26.257Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1414,24 +1080,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.45,
       "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 72.33,
-        "config": "October 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "kimi-k2.5",
@@ -1442,7 +1096,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 4.51,
@@ -1458,52 +1112,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 3.98,
       "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 60.8,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:40:26.257Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4.1-mini",
-    "benchmark_id": "mask",
-    "score": 61.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/mask",
-      "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
-    },
-    "extra": {
-      "ci_hi": 1.79,
-      "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 50,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "llama-3.1-405b",
@@ -1514,10 +1128,26 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.99,
+      "max_score": 100.54860000000001
+    }
+  },
+  {
+    "model_id": "glm-4.5-air",
+    "benchmark_id": "mask",
+    "score": 60.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/mask",
+      "ref": "SEAL MASK",
+      "fetched_at": "2026-06-11T08:37:07.289Z"
+    },
+    "extra": {
+      "ci_hi": 1.79,
       "max_score": 100.54860000000001
     }
   },
@@ -1530,24 +1160,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.07,
       "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 60.07,
-        "config": "November 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "o1",
@@ -1558,24 +1176,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.25,
       "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 59.27,
-        "config": "December 2024",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "deepseek-r1",
@@ -1586,7 +1192,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 2.58,
@@ -1600,7 +1206,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1614,7 +1220,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 4.02,
@@ -1630,54 +1236,10 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 4.98,
-      "max_score": 100.54860000000001
-    }
-  },
-  {
-    "model_id": "gemini-2.5-pro",
-    "benchmark_id": "mask",
-    "score": 55.93,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/mask",
-      "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
-    },
-    "extra": {
-      "ci_hi": 3.49,
-      "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 53.07,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:40:26.257Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "llama-3.2-90b",
-    "benchmark_id": "mask",
-    "score": 54.07,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/mask",
-      "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:39:16.376Z"
-    },
-    "extra": {
-      "ci_hi": 2.24,
       "max_score": 100.54860000000001
     }
   },
@@ -1690,7 +1252,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 4.98,
@@ -1706,7 +1268,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.03,
@@ -1722,7 +1284,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.6,
@@ -1738,7 +1300,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 3.23,
@@ -1752,7 +1314,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       },
       {
@@ -1762,7 +1324,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1776,7 +1338,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 0.76,
@@ -1784,23 +1346,13 @@
     },
     "variants": [
       {
-        "score": 49.53,
-        "config": "thinking, January 2025",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      },
-      {
         "score": 49.07,
         "config": "default",
         "source": {
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/mask",
           "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:37:56.813Z"
+          "fetched_at": "2026-06-11T08:37:07.289Z"
         }
       }
     ]
@@ -1814,7 +1366,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 4.28,
@@ -1830,26 +1382,10 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.74,
-      "max_score": 100.54860000000001
-    }
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "mask",
-    "score": 46.67,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/mask",
-      "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:39:16.376Z"
-    },
-    "extra": {
-      "ci_hi": 1.597,
       "max_score": 100.54860000000001
     }
   },
@@ -1862,7 +1398,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.597,
@@ -1878,7 +1414,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.6,
@@ -1894,24 +1430,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.74,
       "max_score": 100.54860000000001
-    },
-    "variants": [
-      {
-        "score": 44.53,
-        "config": "March 2025",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mask",
-          "ref": "SEAL MASK",
-          "fetched_at": "2026-06-09T02:39:16.376Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "gemini-3-pro",
@@ -1922,7 +1446,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 3.97,
@@ -1938,7 +1462,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mask",
       "ref": "SEAL MASK",
-      "fetched_at": "2026-06-09T02:51:21.724Z"
+      "fetched_at": "2026-06-11T08:37:07.289Z"
     },
     "extra": {
       "ci_hi": 1.3,
@@ -1946,7 +1470,7 @@
     }
   },
   {
-    "model_id": "gemini-3-pro",
+    "model_id": "gemini-3.5-flash",
     "benchmark_id": "mcp-atlas",
     "score": 83.6,
     "config": "high",
@@ -1954,24 +1478,44 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.3,
       "max_score": 88.47699999999999
+    }
+  },
+  {
+    "model_id": "claude-fable-5",
+    "benchmark_id": "mcp-atlas",
+    "score": 83.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "ref": "SEAL MCP Atlas",
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
-    "variants": [
-      {
-        "score": 70.3,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/mcp_atlas",
-          "ref": "SEAL MCP Atlas",
-          "fetched_at": "2026-06-09T02:51:23.330Z"
-        }
-      }
-    ]
+    "extra": {
+      "ci_hi": 2.25,
+      "max_score": 88.47699999999999
+    }
+  },
+  {
+    "model_id": "claude-opus-4.8",
+    "benchmark_id": "mcp-atlas",
+    "score": 82.2,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "ref": "SEAL MCP Atlas",
+      "fetched_at": "2026-06-11T08:37:08.671Z"
+    },
+    "extra": {
+      "ci_hi": 2.4,
+      "max_score": 88.47699999999999
+    }
   },
   {
     "model_id": "claude-opus-4.7",
@@ -1982,7 +1526,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.5,
@@ -1998,7 +1542,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.5,
@@ -2014,7 +1558,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.7,
@@ -2030,7 +1574,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.7,
@@ -2046,7 +1590,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.7,
@@ -2062,7 +1606,23 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
+    },
+    "extra": {
+      "ci_hi": 2.8,
+      "max_score": 88.47699999999999
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 70.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+      "ref": "SEAL MCP Atlas",
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.8,
@@ -2078,7 +1638,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.9,
@@ -2094,7 +1654,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.9,
@@ -2110,7 +1670,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 2.9,
@@ -2126,7 +1686,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3,
@@ -2142,7 +1702,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3,
@@ -2158,7 +1718,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3.1,
@@ -2166,7 +1726,7 @@
     }
   },
   {
-    "model_id": "glm-4.5",
+    "model_id": "glm-4.7",
     "benchmark_id": "mcp-atlas",
     "score": 58.1,
     "config": "default",
@@ -2174,7 +1734,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3,
@@ -2190,7 +1750,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3.1,
@@ -2206,7 +1766,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/mcp_atlas",
       "ref": "SEAL MCP Atlas",
-      "fetched_at": "2026-06-09T02:51:23.330Z"
+      "fetched_at": "2026-06-11T08:37:08.671Z"
     },
     "extra": {
       "ci_hi": 3,
@@ -2222,7 +1782,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.7366,
@@ -2238,7 +1798,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 2.1967,
@@ -2254,7 +1814,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 2.1057,
@@ -2270,7 +1830,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.6297,
@@ -2286,7 +1846,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.4635,
@@ -2302,7 +1862,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.4229,
@@ -2318,7 +1878,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.7712,
@@ -2334,7 +1894,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.952,
@@ -2350,7 +1910,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.8057,
@@ -2366,7 +1926,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 3.3212,
@@ -2382,7 +1942,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.08,
@@ -2396,26 +1956,10 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multichallenge",
           "ref": "SEAL MultiChallenge",
-          "fetched_at": "2026-06-09T02:39:16.558Z"
+          "fetched_at": "2026-06-11T08:37:07.924Z"
         }
       }
     ]
-  },
-  {
-    "model_id": "kimi-k2-thinking",
-    "benchmark_id": "multichallenge",
-    "score": 55.42,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/multichallenge",
-      "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:37:56.954Z"
-    },
-    "extra": {
-      "ci_hi": 1.877,
-      "max_score": 81.9571
-    }
   },
   {
     "model_id": "kimi-k2",
@@ -2426,7 +1970,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.877,
@@ -2442,7 +1986,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.4746,
@@ -2458,7 +2002,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.3178,
@@ -2474,7 +2018,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 3.0655,
@@ -2490,7 +2034,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 2.036,
@@ -2506,7 +2050,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.11,
@@ -2522,7 +2066,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 2.1519,
@@ -2538,7 +2082,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.8828,
@@ -2554,7 +2098,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 1.7903,
@@ -2570,7 +2114,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.9393,
@@ -2586,7 +2130,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multichallenge",
       "ref": "SEAL MultiChallenge",
-      "fetched_at": "2026-06-09T02:51:22.519Z"
+      "fetched_at": "2026-06-11T08:37:07.924Z"
     },
     "extra": {
       "ci_hi": 0.7769,
@@ -2602,7 +2146,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.88,
@@ -2618,7 +2162,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.97,
@@ -2634,7 +2178,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.98,
@@ -2650,7 +2194,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.99,
@@ -2664,7 +2208,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2678,7 +2222,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 3.01,
@@ -2694,7 +2238,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 3.02,
@@ -2710,7 +2254,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 3.02,
@@ -2724,7 +2268,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2738,7 +2282,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 3,
@@ -2752,7 +2296,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:39:16.620Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2766,7 +2310,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.98,
@@ -2782,7 +2326,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.93,
@@ -2796,7 +2340,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2810,7 +2354,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.89,
@@ -2824,7 +2368,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2838,7 +2382,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.88,
@@ -2854,7 +2398,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.86,
@@ -2868,7 +2412,7 @@
           "kind": "aggregator_api",
           "url": "https://labs.scale.com/leaderboard/multinrc",
           "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
+          "fetched_at": "2026-06-11T08:37:08.248Z"
         }
       }
     ]
@@ -2882,68 +2426,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.7,
       "max_score": 69.64859999999999
     }
-  },
-  {
-    "model_id": "deepseek-r1",
-    "benchmark_id": "multinrc",
-    "score": 27.58,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/multinrc",
-      "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
-    },
-    "extra": {
-      "ci_hi": 2.7,
-      "max_score": 69.64859999999999
-    },
-    "variants": [
-      {
-        "score": 24.27,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/multinrc",
-          "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "qwen3-235b",
-    "benchmark_id": "multinrc",
-    "score": 27.11,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/multinrc",
-      "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
-    },
-    "extra": {
-      "ci_hi": 2.68,
-      "max_score": 69.64859999999999
-    },
-    "variants": [
-      {
-        "score": 17.63,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/multinrc",
-          "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:37:57.286Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "deepseek-v3.1",
@@ -2954,7 +2442,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.56,
@@ -2970,7 +2458,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.51,
@@ -2986,26 +2474,10 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.47,
-      "max_score": 69.64859999999999
-    }
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "multinrc",
-    "score": 18.48,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/multinrc",
-      "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:39:16.620Z"
-    },
-    "extra": {
-      "ci_hi": 2.34,
       "max_score": 69.64859999999999
     }
   },
@@ -3018,7 +2490,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.34,
@@ -3034,7 +2506,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.34,
@@ -3050,24 +2522,12 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.29,
       "max_score": 69.64859999999999
-    },
-    "variants": [
-      {
-        "score": 10.43,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://labs.scale.com/leaderboard/multinrc",
-          "ref": "SEAL MultiNRC",
-          "fetched_at": "2026-06-09T02:40:26.994Z"
-        }
-      }
-    ]
+    }
   },
   {
     "model_id": "gpt-oss-120b",
@@ -3078,7 +2538,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 2.16,
@@ -3094,10 +2554,26 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 1.99,
+      "max_score": 69.64859999999999
+    }
+  },
+  {
+    "model_id": "glm-4.5-air",
+    "benchmark_id": "multinrc",
+    "score": 10.43,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/multinrc",
+      "ref": "SEAL MultiNRC",
+      "fetched_at": "2026-06-11T08:37:08.248Z"
+    },
+    "extra": {
+      "ci_hi": 1.84,
       "max_score": 69.64859999999999
     }
   },
@@ -3110,7 +2586,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 1.84,
@@ -3126,7 +2602,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/multinrc",
       "ref": "SEAL MultiNRC",
-      "fetched_at": "2026-06-09T02:51:22.933Z"
+      "fetched_at": "2026-06-11T08:37:08.248Z"
     },
     "extra": {
       "ci_hi": 1.68,
@@ -3142,7 +2618,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.6,
@@ -3158,7 +2634,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.8,
@@ -3174,7 +2650,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.2,
@@ -3190,7 +2666,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.8,
@@ -3206,7 +2682,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.15,
@@ -3222,7 +2698,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.4,
@@ -3238,7 +2714,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 1.05,
@@ -3254,7 +2730,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.4,
@@ -3270,7 +2746,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 1.2,
@@ -3286,7 +2762,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.4,
@@ -3302,7 +2778,7 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.2,
@@ -3318,11 +2794,203 @@
       "kind": "aggregator_api",
       "url": "https://labs.scale.com/leaderboard/propensitybench",
       "ref": "SEAL PropensityBench",
-      "fetched_at": "2026-06-09T02:51:22.135Z"
+      "fetched_at": "2026-06-11T08:37:07.600Z"
     },
     "extra": {
       "ci_hi": 0.6,
       "max_score": 81.988
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "seal-korean",
+    "score": 66.43,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.47,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "seal-korean",
+    "score": 64.93,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.51,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "seal-korean",
+    "score": 63.76,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.56,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "seal-korean",
+    "score": 60.76,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.64,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "seal-korean",
+    "score": 59.38,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.67,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "seal-korean",
+    "score": 55.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.73,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "seal-korean",
+    "score": 54.17,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.78,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "seal-korean",
+    "score": 52.78,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "seal-korean",
+    "score": 51.74,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "seal-korean",
+    "score": 51.39,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "seal-korean",
+    "score": 50.35,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.78,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "seal-korean",
+    "score": 37.23,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.6,
+      "max_score": 74.057
     }
   }
 ]
