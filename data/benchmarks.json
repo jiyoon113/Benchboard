@@ -79,6 +79,14 @@
     "type": "non_deterministic"
   },
   {
+    "id": "alpacaeval-2",
+    "name": "AlpacaEval 2.0",
+    "category": "preference",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/tatsu-lab/alpaca_eval",
+    "description": "Length-controlled win rate vs GPT-4-Preview, judged by GPT-4-turbo."
+  },
+  {
     "id": "alpacaeval-2.0",
     "name": "AlpacaEval 2.0",
     "category": "preference",
@@ -181,6 +189,13 @@
     "name": "BBQ",
     "category": "safety",
     "type": "deterministic"
+  },
+  {
+    "id": "bbq-bias-score",
+    "name": "BBQ Bias Score",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "BBQ stereotype-bias metric (ambiguous-context bias / P(not-stereotype)). Lower = less biased. Separate from BBQ accuracy."
   },
   {
     "id": "betterchartqa",
@@ -853,6 +868,14 @@
     "type": "deterministic"
   },
   {
+    "id": "humaneval-plus",
+    "name": "HumanEval+",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://evalplus.github.io/leaderboard.html",
+    "description": "HumanEval with 80× more test cases. Pass@1."
+  },
+  {
     "id": "humaneval+",
     "name": "HumanEval+",
     "category": "coding",
@@ -1326,6 +1349,22 @@
     "description": "MATH level-5 문제에 의미를 보존하는 가벼운 변형(simple perturbation) 적용. 표준 MATH와 비교용 통제 조건."
   },
   {
+    "id": "math-perturb-hard",
+    "name": "MATH-P-Hard",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://math-perturb.github.io",
+    "description": "MATH level-5 문제에 문제 본질을 바꾸는 hard perturbation 적용. 단순 암기 vs 일반화된 추론을 가르는 강한 평가 — frontier 모델도 10-25%p 하락 (arxiv 2502.06453, ICML 2025)."
+  },
+  {
+    "id": "math-perturb-simple",
+    "name": "MATH-P-Simple",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://math-perturb.github.io",
+    "description": "MATH level-5 문제에 의미를 보존하는 가벼운 변형(simple perturbation) 적용. 표준 MATH와 비교용 통제 조건."
+  },
+  {
     "id": "mathvista",
     "name": "MathVista",
     "category": "math",
@@ -1336,6 +1375,14 @@
     "name": "MBPP",
     "category": "coding",
     "type": "deterministic"
+  },
+  {
+    "id": "mbpp-plus",
+    "name": "MBPP+",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://evalplus.github.io/leaderboard.html",
+    "description": "MBPP with stricter test suite. Pass@1."
   },
   {
     "id": "mbpp+",
@@ -1963,6 +2010,15 @@
     "description": "Scientific code-generation benchmark drawn from real research problems."
   },
   {
+    "id": "seal-korean",
+    "name": "Coding Korean",
+    "category": "korean",
+    "type": "non_deterministic",
+    "language": "ko",
+    "source_url": "https://labs.scale.com/leaderboard/korean",
+    "description": "Scale Labs Legacy 리더보드의 'Coding' 섹션 아래 위치한 Korean 평가 — 한국어 환경에서의 모델 응답을 사람 페어와이즈로 비교. 정확히 무엇을 측정하는지에 대한 공식 설명이 빈약합니다. (Scale에서 2025-03 deprecated, 과거 점수만 보존)"
+  },
+  {
     "id": "securitbio",
     "name": "SecuritBio",
     "category": "safety",
@@ -1973,6 +2029,13 @@
     "name": "SimpleQA",
     "category": "factuality",
     "type": "deterministic"
+  },
+  {
+    "id": "simpleqa-hallucination-rate",
+    "name": "SimpleQA Hallucination Rate",
+    "category": "factuality",
+    "type": "deterministic",
+    "description": "SimpleQA hallucination / incorrect-attempt rate (lower = better). Separate column from SimpleQA accuracy."
   },
   {
     "id": "simpleqa-verified",
@@ -2079,6 +2142,35 @@
     "name": "Tau-Bench Retail",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "tau2-airline",
+    "name": "τ²-bench Airline",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
+  },
+  {
+    "id": "tau2-bench-micro-average",
+    "name": "τ²-bench (micro avg)",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench",
+    "description": "LLM-simulated user interactions across airline/retail/telecom domains. Non-deterministic due to LLM user model."
+  },
+  {
+    "id": "tau2-retail",
+    "name": "τ²-bench Retail",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
+  },
+  {
+    "id": "tau2-telecom",
+    "name": "τ²-bench Telecom",
+    "category": "agent",
+    "type": "non_deterministic",
+    "source_url": "https://github.com/sierra-research/tau2-bench"
   },
   {
     "id": "terminal-bench",

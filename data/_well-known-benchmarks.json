@@ -524,5 +524,19 @@
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Professional-tier HealthBench medical evaluation."
+  },
+  {
+    "id": "bbq-bias-score",
+    "name": "BBQ Bias Score",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "BBQ stereotype-bias metric (ambiguous-context bias / P(not-stereotype)). Lower = less biased. Separate from BBQ accuracy."
+  },
+  {
+    "id": "simpleqa-hallucination-rate",
+    "name": "SimpleQA Hallucination Rate",
+    "category": "factuality",
+    "type": "deterministic",
+    "description": "SimpleQA hallucination / incorrect-attempt rate (lower = better). Separate column from SimpleQA accuracy."
   }
 ]
