@@ -7,7 +7,7 @@
     "source": {
       "kind": "manual",
       "url": "https://github.com/MoonshotAI/Kimi-K2.5",
-      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -19,7 +19,7 @@
     "source": {
       "kind": "manual",
       "url": "https://github.com/MoonshotAI/Kimi-K2.5",
-      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -31,7 +31,7 @@
     "source": {
       "kind": "manual",
       "url": "https://github.com/MoonshotAI/Kimi-K2.5",
-      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -43,7 +43,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -55,7 +55,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -67,7 +67,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "reported_by": "GLM-4.7 official release figure (bench_glm47.png), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -79,7 +79,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -91,7 +91,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -103,7 +103,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -115,7 +115,7 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7-Flash official release benchmark figure (bench_glm47_flash.png)",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   },
@@ -127,7 +127,31 @@
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/zai-org/GLM-4.6",
-      "reported_by": "GLM-4.7-Flash official release benchmark figure (bench_glm47_flash.png)",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "gpqa",
+    "score": 75.2,
+    "config": "Diamond, reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release figure (bench_glm47_flash.png), self-reported (cf. Artificial Analysis independent eval 58.1)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 95.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported (cf. llm-stats 93.9)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
   }
