@@ -1414,5 +1414,77 @@
       "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "aime-2025",
+    "score": 72.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "math-500",
+    "score": 97.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "gpqa",
+    "score": 64.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "bfcl-v3",
+    "score": 66.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "hle",
+    "score": 6.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-nano-9b-v2",
+    "benchmark_id": "ruler",
+    "score": 78.9,
+    "config": "128K",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+      "reported_by": "NVIDIA-Nemotron-Nano-9B-v2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
