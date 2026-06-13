@@ -1,0 +1,38 @@
+[
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "swe-bench-pro",
+    "score": 50.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 85.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  }
+]
