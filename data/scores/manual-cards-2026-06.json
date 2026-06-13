@@ -2338,5 +2338,569 @@
       "reported_by": "Kimi K2 Thinking model card (competitor column, cascade)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 89.1,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 91.0,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.1,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "simpleqa-verified",
+    "score": 46.2,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "simpleqa-verified",
+    "score": 45.3,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "simpleqa-verified",
+    "score": 75.6,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "simpleqa-verified",
+    "score": 36.9,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "gpqa",
+    "score": 93.0,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 88.8,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "livecodebench",
+    "score": 91.7,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "livecodebench",
+    "score": 89.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "codeforces-elo",
+    "score": 3168,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "codeforces-elo",
+    "score": 3052,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 75.3,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "imo-answerbench",
+    "score": 91.4,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "imo-answerbench",
+    "score": 81.0,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "imo-answerbench",
+    "score": 86.0,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 75.1,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 68.5,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 66.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.6,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.2,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 57.3,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "swe-bench-pro",
+    "score": 57.7,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-pro",
+    "score": 58.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 77.5,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.7,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 83.7,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "browsecomp",
+    "score": 82.7,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "browsecomp",
+    "score": 85.9,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "browsecomp",
+    "score": 83.2,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "hle",
+    "score": 52.0,
+    "config": "xHigh, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "hle",
+    "score": 51.6,
+    "config": "High, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "hle",
+    "score": 54.0,
+    "config": "Thinking, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "gdpval-aa",
+    "score": 1619,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "gdpval-aa",
+    "score": 1674,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "gdpval-aa",
+    "score": 1314,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "gdpval-aa",
+    "score": 1482,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 73.8,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "mcp-atlas",
+    "score": 67.2,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 69.2,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "mcp-atlas",
+    "score": 66.6,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "toolathlon",
+    "score": 47.2,
+    "config": "Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "toolathlon",
+    "score": 54.6,
+    "config": "xHigh",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.1-pro",
+    "benchmark_id": "toolathlon",
+    "score": 48.8,
+    "config": "High",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2.6",
+    "benchmark_id": "toolathlon",
+    "score": 50.0,
+    "config": "Thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
