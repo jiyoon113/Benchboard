@@ -34,5 +34,101 @@
       "reported_by": "Kimi K2.5 official benchmark table (GitHub)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "livecodebench-v6",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 41.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "browsecomp",
+    "score": 67.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench-v6",
+    "score": 82.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 24.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 57.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 official release benchmark figure (bench_glm47.png), GLM-4.6 column",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 59.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release benchmark figure (bench_glm47_flash.png)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.7-flash",
+    "benchmark_id": "browsecomp",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7-Flash official release benchmark figure (bench_glm47_flash.png)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
