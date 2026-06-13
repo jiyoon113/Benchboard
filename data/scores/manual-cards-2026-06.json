@@ -3718,5 +3718,821 @@
       "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "mmlu-pro",
+    "score": 85.0,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "gpqa",
+    "score": 80.7,
+    "config": "Diamond, reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "hle",
+    "score": 21.7,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "livecodebench",
+    "score": 74.9,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "aime-2025",
+    "score": 88.4,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "hmmt-2025",
+    "score": 86.1,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "codeforces-elo",
+    "score": 2046,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "aider-polyglot",
+    "score": 76.1,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "browsecomp",
+    "score": 38.5,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68.4,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 57.8,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "terminal-bench",
+    "score": 36.7,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 81.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu",
+    "score": 86.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 85.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gpqa",
+    "score": 42.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "gpqa",
+    "score": 49.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "gpqa",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mgsm8k",
+    "score": 79.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mgsm8k",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mgsm8k",
+    "score": 89.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mgsm8k",
+    "score": 87.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm8k",
+    "score": 90.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "math",
+    "score": 75.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 73.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "math",
+    "score": 66.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 80.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 74.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "humaneval",
+    "score": 72.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "humaneval",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "humaneval",
+    "score": 78.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "humaneval",
+    "score": 80.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "humaneval",
+    "score": 90.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "simpleqa",
+    "score": 5.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "simpleqa",
+    "score": 9.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "simpleqa",
+    "score": 20.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "simpleqa",
+    "score": 10.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "simpleqa",
+    "score": 39.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "drop",
+    "score": 85.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "drop",
+    "score": 79.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "drop",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "drop",
+    "score": 76.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "drop",
+    "score": 80.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "reported_by": "Phi-4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "mmlu-pro",
+    "score": 67.6,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 29.1,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "codeforces-elo",
+    "score": 110,
+    "config": "no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "gpqa",
+    "score": 42.4,
+    "config": "Diamond, no think",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "tau2-bench-micro-average",
+    "score": 16.2,
+    "config": "no think, average over 3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aime-2025",
+    "score": 93.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench-v6",
+    "score": 83.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v6",
+    "score": 87.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "gpqa",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "gpqa",
+    "score": 88.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "swe-bench-verified",
+    "score": 76.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 46.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 42.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "browsecomp",
+    "score": 51.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "browsecomp",
+    "score": 50.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 22.0,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 34.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "browsecomp",
+    "score": 2.3,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "browsecomp",
+    "score": 28.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "aime-2025",
+    "score": 85.0,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "gpqa",
+    "score": 73.4,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/zai-org/GLM-4.6",
+      "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
