@@ -154,5 +154,185 @@
       "reported_by": "GLM-4.7 release figure (bench_glm47.png), GLM-4.6 column, self-reported (cf. llm-stats 93.9)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "gpqa",
+    "score": 79.9,
+    "config": "Diamond, reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hle",
+    "score": 19.8,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench",
+    "score": 74.1,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aime-2025",
+    "score": 89.3,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hmmt-2025",
+    "score": 83.6,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "codeforces-elo",
+    "score": 2121,
+    "config": "reasoning, w/o tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "browsecomp",
+    "score": 40.1,
+    "config": "agentic tool use",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "reported_by": "DeepSeek-V3.2-Exp model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "swe-bench-verified",
+    "score": 69.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "multi-swe-bench",
+    "score": 36.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 56.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "browsecomp",
+    "score": 44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "hle",
+    "score": 31.8,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "aime-2025",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "ifbench",
+    "score": 72,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m2",
+    "benchmark_id": "aa-lcr",
+    "score": 61,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
