@@ -2902,5 +2902,821 @@
       "reported_by": "DeepSeek-V4 model card (competitor column, cascade)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "swe-bench-verified",
+    "score": 72.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 63.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "multi-swe-bench",
+    "score": 35.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "multi-swe-bench",
+    "score": 30,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 56.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 53.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "terminal-bench",
+    "score": 36.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench",
+    "score": 50,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "terminal-bench",
+    "score": 25.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "terminal-bench",
+    "score": 40.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "terminal-bench",
+    "score": 37.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "browsecomp",
+    "score": 12.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "browsecomp",
+    "score": 19.6,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "browsecomp",
+    "score": 9.9,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "browsecomp",
+    "score": 45.1,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "hle",
+    "score": 20.3,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 24.5,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "hle",
+    "score": 28.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "hle",
+    "score": 35.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "hle",
+    "score": 30.4,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hle",
+    "score": 27.2,
+    "config": "with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aime-2025",
+    "score": 74,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aime-2025",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aime-2025",
+    "score": 94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aime-2025",
+    "score": 86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aime-2025",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmlu-pro",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "mmlu-pro",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "gpqa",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "gpqa",
+    "score": 83,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "gpqa",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "gpqa",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "hle",
+    "score": 17.3,
+    "config": "without tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "hle",
+    "score": 13.8,
+    "config": "without tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "livecodebench",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench",
+    "score": 71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "livecodebench",
+    "score": 70,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "livecodebench",
+    "score": 79,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "scicode",
+    "score": 45,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "scicode",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "scicode",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "scicode",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "scicode",
+    "score": 38,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "ifbench",
+    "score": 55,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "ifbench",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "ifbench",
+    "score": 49,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "ifbench",
+    "score": 73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "ifbench",
+    "score": 43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "ifbench",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "aa-lcr",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aa-lcr",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "aa-lcr",
+    "score": 66,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aa-lcr",
+    "score": 76,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "aa-lcr",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "aa-lcr",
+    "score": 69,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "tau2-telecom",
+    "score": 65,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tau2-telecom",
+    "score": 78,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "tau2-telecom",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "tau2-telecom",
+    "score": 85,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-4.6",
+    "benchmark_id": "tau2-telecom",
+    "score": 71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.2",
+    "benchmark_id": "tau2-telecom",
+    "score": 34,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "reported_by": "MiniMax-M2 model card (competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
