@@ -2963,19 +2963,6 @@
     ]
   },
   {
-    "model_id": "gpt-4o",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.06,
-    "config": "Ambiguous Questions P(not-stereotype | not unknown)",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "gpt-4.5",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    }
-  },
-  {
     "model_id": "o1",
     "benchmark_id": "bbq",
     "score": 96.0,
@@ -3002,19 +2989,6 @@
     ]
   },
   {
-    "model_id": "o1",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.05,
-    "config": "Ambiguous Questions P(not-stereotype | not unknown)",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "gpt-4.5",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    }
-  },
-  {
     "model_id": "gpt-4.5",
     "benchmark_id": "bbq",
     "score": 95.0,
@@ -3037,17 +3011,5 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "gpt-4.5",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.2,
-    "config": "Ambiguous Questions P(not-stereotype | not unknown)",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    }
   }
 ]

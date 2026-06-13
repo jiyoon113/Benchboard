@@ -2367,19 +2367,6 @@
     ]
   },
   {
-    "model_id": "o1",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.05,
-    "config": "not stereotyping | ambiguous question, not unknown",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
     "model_id": "o4-mini",
     "benchmark_id": "bbq",
     "score": 95.0,
@@ -2406,19 +2393,6 @@
     ]
   },
   {
-    "model_id": "o4-mini",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.26,
-    "config": "not stereotyping | ambiguous question, not unknown",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
     "model_id": "o3",
     "benchmark_id": "bbq",
     "score": 94.0,
@@ -2441,18 +2415,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "o3",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.25,
-    "config": "not stereotyping | ambiguous question, not unknown",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
   },
   {
     "model_id": "o4-mini",

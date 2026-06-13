@@ -557,18 +557,6 @@
   },
   {
     "model_id": "o1",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.05,
-    "config": "Ambiguous Questions P (not-stereotype | not unknown)",
-    "source": {
-      "kind": "tech_report",
-      "url": "o1__system-card.pdf",
-      "ref": "p.6",
-      "fetched_at": "2026-06-08T03:59:49.219Z"
-    }
-  },
-  {
-    "model_id": "o1",
     "benchmark_id": "simpleqa",
     "score": 47.0,
     "config": "accuracy",

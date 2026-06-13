@@ -530,7 +530,7 @@
     "name": "BBQ Bias Score",
     "category": "safety",
     "type": "deterministic",
-    "description": "BBQ stereotype-bias metric (ambiguous-context bias / P(not-stereotype)). Lower = less biased. Separate from BBQ accuracy."
+    "description": "BBQ ambiguous-context bias score (Anthropic system-card metric, lower = less biased; reported in percentage points). Separate from BBQ accuracy."
   },
   {
     "id": "simpleqa-hallucination-rate",
