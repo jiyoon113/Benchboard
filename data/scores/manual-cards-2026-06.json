@@ -1270,5 +1270,149 @@
       "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 80.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "codeforces-elo",
+    "score": 2150,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-31b",
+    "benchmark_id": "tau2-bench-micro-average",
+    "score": 76.9,
+    "config": "average over 3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "codeforces-elo",
+    "score": 1718,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-4-26b-a4b",
+    "benchmark_id": "tau2-bench-micro-average",
+    "score": 68.2,
+    "config": "average over 3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "reported_by": "Gemma 4 model card (Google), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "aime-2025",
+    "score": 89.06,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "livecodebench-v6",
+    "score": 76.21,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.63,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "mathvista",
+    "score": 84.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "ifeval",
+    "score": 93.35,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ernie-5",
+    "benchmark_id": "humaneval-plus",
+    "score": 94.48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2602.04705",
+      "reported_by": "ERNIE 5.0 technical report (post-trained), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
