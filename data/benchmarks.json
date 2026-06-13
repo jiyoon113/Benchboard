@@ -12,6 +12,13 @@
     "type": "deterministic"
   },
   {
+    "id": "aegis",
+    "name": "Aegis",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "NVIDIA Aegis content-safety classification benchmark (reported as F1-score)."
+  },
+  {
     "id": "agentdojo",
     "name": "AgentDojo",
     "category": "agent",
@@ -941,6 +948,13 @@
     "name": "Instruction Hierarchy Evaluations",
     "category": "general",
     "type": "deterministic"
+  },
+  {
+    "id": "jigsaw",
+    "name": "Jigsaw",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "Jigsaw toxicity classification benchmark (reported as F1-score)."
   },
   {
     "id": "jmmlu",
@@ -2337,6 +2351,13 @@
     "name": "WildChat",
     "category": "general",
     "type": "deterministic"
+  },
+  {
+    "id": "wildguard",
+    "name": "WildGuard",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "WildGuard content-moderation classification benchmark (reported as F1-score)."
   },
   {
     "id": "wildjailbreak",

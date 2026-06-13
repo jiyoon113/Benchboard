@@ -1162,5 +1162,113 @@
       "reported_by": "Amazon Nova 2 technical report (Table 6), self-reported",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "aegis",
+    "score": 85.84,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "wildguard",
+    "score": 84.73,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-lite",
+    "benchmark_id": "jigsaw",
+    "score": 56.53,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "aegis",
+    "score": 81.39,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "wildguard",
+    "score": 84.88,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-pro",
+    "benchmark_id": "jigsaw",
+    "score": 54.67,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "aegis",
+    "score": 80.74,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "wildguard",
+    "score": 84.08,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-2-omni",
+    "benchmark_id": "jigsaw",
+    "score": 57.79,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, content moderation F1), self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]

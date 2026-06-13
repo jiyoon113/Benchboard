@@ -538,5 +538,26 @@
     "category": "factuality",
     "type": "deterministic",
     "description": "SimpleQA hallucination / incorrect-attempt rate (lower = better). Separate column from SimpleQA accuracy."
+  },
+  {
+    "id": "aegis",
+    "name": "Aegis",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "NVIDIA Aegis content-safety classification benchmark (reported as F1-score)."
+  },
+  {
+    "id": "wildguard",
+    "name": "WildGuard",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "WildGuard content-moderation classification benchmark (reported as F1-score)."
+  },
+  {
+    "id": "jigsaw",
+    "name": "Jigsaw",
+    "category": "safety",
+    "type": "deterministic",
+    "description": "Jigsaw toxicity classification benchmark (reported as F1-score)."
   }
 ]
