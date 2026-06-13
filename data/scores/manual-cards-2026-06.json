@@ -4534,5 +4534,1157 @@
       "reported_by": "GLM-4.7 release figure (competitor column, cascade)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "aime-2025",
+    "score": 7.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "ifbench",
+    "score": 34.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "multichallenge",
+    "score": 18.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "mmlu-pro",
+    "score": 80.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "gpqa",
+    "score": 73.0,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "aime-2025",
+    "score": 80.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "ifbench",
+    "score": 54.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "multichallenge",
+    "score": 57.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "gpqa",
+    "score": 82.8,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aime-2025",
+    "score": 72.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "ifbench",
+    "score": 50.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "multichallenge",
+    "score": 62.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aime-2025",
+    "score": 7.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "ifbench",
+    "score": 38.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "multichallenge",
+    "score": 26.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "ifbench",
+    "score": 57.3,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "multichallenge",
+    "score": 63.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "ifbench",
+    "score": 73.1,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "multichallenge",
+    "score": 69.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "ifbench",
+    "score": 72.9,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "multichallenge",
+    "score": 72.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "gpqa",
+    "score": 86.4,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "ifbench",
+    "score": 48.7,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "multichallenge",
+    "score": 62.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "aime-2025",
+    "score": 95.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "ifbench",
+    "score": 70.4,
+    "config": "prompt loose acc",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "multichallenge",
+    "score": 73.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 1, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "tau2-telecom",
+    "score": 17.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "tau2-telecom",
+    "score": 54.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "tau2-retail",
+    "score": 69.1,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "tau2-airline",
+    "score": 54.0,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "tau2-telecom",
+    "score": 31.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "tau2-retail",
+    "score": 57.7,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "tau2-airline",
+    "score": 44.0,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "tau2-telecom",
+    "score": 14.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tau2-telecom",
+    "score": 78.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tau2-retail",
+    "score": 77.2,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "tau2-airline",
+    "score": 66.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "tau2-telecom",
+    "score": 86.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "tau2-retail",
+    "score": 78.3,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "tau2-airline",
+    "score": 72.0,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mcp-atlas",
+    "score": 44.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "tau2-telecom",
+    "score": 81.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "tau2-retail",
+    "score": 77.5,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "tau2-airline",
+    "score": 72.4,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "tau2-telecom",
+    "score": 54.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "tau2-retail",
+    "score": 71.3,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "tau2-airline",
+    "score": 60.0,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 8.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "tau2-telecom",
+    "score": 87.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "tau2-retail",
+    "score": 77.7,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "tau2-airline",
+    "score": 70.8,
+    "config": "Verified",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 2, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "mmmu-pro",
+    "score": 38.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "mmmu-pro",
+    "score": 58.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "mmmu-pro",
+    "score": 69.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 44.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "mmmu-pro",
+    "score": 69.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "mmmu-pro",
+    "score": 78.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "mmmu-pro",
+    "score": 76.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "mmmu-pro",
+    "score": 81.0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 3, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 73.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "terminal-bench",
+    "score": 41.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 61.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 48.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "terminal-bench",
+    "score": 16.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "livecodebench-v5",
+    "score": 69.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "terminal-bench",
+    "score": 51,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 71.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "swe-bench-verified",
+    "score": 72.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "terminal-bench",
+    "score": 41.3,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "livecodebench-v5",
+    "score": 84.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "terminal-bench",
+    "score": 53.8,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "livecodebench-v5",
+    "score": 86.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 59.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "livecodebench-v5",
+    "score": 80.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "terminal-bench",
+    "score": 56.3,
+    "config": "1.0",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-pro",
+    "benchmark_id": "livecodebench-v5",
+    "score": 91.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 4, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "aegis",
+    "score": 81.56,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "wildguard",
+    "score": 84.71,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "jigsaw",
+    "score": 57.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "aegis",
+    "score": 80.23,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "wildguard",
+    "score": 83.48,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "jigsaw",
+    "score": 58.86,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "aegis",
+    "score": 82.94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "wildguard",
+    "score": 83.82,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "jigsaw",
+    "score": 57.87,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "aegis",
+    "score": 83.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "wildguard",
+    "score": 81.64,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "jigsaw",
+    "score": 52.33,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "aegis",
+    "score": 77.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "wildguard",
+    "score": 76.02,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "jigsaw",
+    "score": 50.44,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "aegis",
+    "score": 84.37,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "wildguard",
+    "score": 75.25,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "jigsaw",
+    "score": 45.75,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf",
+      "reported_by": "Amazon Nova 2 technical report (Table 14, competitor column, cascade)",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
