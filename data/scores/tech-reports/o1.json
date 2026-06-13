@@ -522,7 +522,7 @@
   {
     "model_id": "o1",
     "benchmark_id": "xstest",
-    "score": 0.94,
+    "score": 94.0,
     "config": "not_overrefuse",
     "source": {
       "kind": "tech_report",

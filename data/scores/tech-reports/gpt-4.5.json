@@ -2575,7 +2575,7 @@
   {
     "model_id": "o1",
     "benchmark_id": "xstest",
-    "score": 1,
+    "score": 100,
     "config": "Detailed, Definitions",
     "source": {
       "kind": "tech_report",
@@ -2586,7 +2586,7 @@
     },
     "variants": [
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Figurative Language",
         "source": {
           "kind": "tech_report",
@@ -2597,7 +2597,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Historical Events",
         "source": {
           "kind": "tech_report",
@@ -2608,7 +2608,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Homonyms",
         "source": {
           "kind": "tech_report",
@@ -2619,7 +2619,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Privacy: public",
         "source": {
           "kind": "tech_report",
@@ -2630,7 +2630,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Safe Targets",
         "source": {
           "kind": "tech_report",
@@ -2641,7 +2641,7 @@
         }
       },
       {
-        "score": 0.96,
+        "score": 96.0,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
@@ -2652,7 +2652,7 @@
         }
       },
       {
-        "score": 0.92,
+        "score": 92.0,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2663,7 +2663,7 @@
         }
       },
       {
-        "score": 0.84,
+        "score": 84.0,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2674,7 +2674,7 @@
         }
       },
       {
-        "score": 0.84,
+        "score": 84.0,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2685,7 +2685,7 @@
         }
       },
       {
-        "score": 0.6,
+        "score": 60.0,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2700,7 +2700,7 @@
   {
     "model_id": "gpt-4o",
     "benchmark_id": "xstest",
-    "score": 1,
+    "score": 100,
     "config": "Detailed, Definitions",
     "source": {
       "kind": "tech_report",
@@ -2711,7 +2711,7 @@
     },
     "variants": [
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Figurative Language",
         "source": {
           "kind": "tech_report",
@@ -2722,7 +2722,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Historical Events",
         "source": {
           "kind": "tech_report",
@@ -2733,7 +2733,7 @@
         }
       },
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Privacy: public",
         "source": {
           "kind": "tech_report",
@@ -2744,7 +2744,7 @@
         }
       },
       {
-        "score": 0.96,
+        "score": 96.0,
         "config": "Detailed, Homonyms",
         "source": {
           "kind": "tech_report",
@@ -2755,7 +2755,7 @@
         }
       },
       {
-        "score": 0.92,
+        "score": 92.0,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2766,7 +2766,7 @@
         }
       },
       {
-        "score": 0.89,
+        "score": 89.0,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2777,7 +2777,7 @@
         }
       },
       {
-        "score": 0.88,
+        "score": 88.0,
         "config": "Detailed, Safe Targets",
         "source": {
           "kind": "tech_report",
@@ -2788,7 +2788,7 @@
         }
       },
       {
-        "score": 0.84,
+        "score": 84.0,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2799,7 +2799,7 @@
         }
       },
       {
-        "score": 0.68,
+        "score": 68.0,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
@@ -2810,7 +2810,7 @@
         }
       },
       {
-        "score": 0.6,
+        "score": 60.0,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2825,7 +2825,7 @@
   {
     "model_id": "gpt-4.5",
     "benchmark_id": "xstest",
-    "score": 1,
+    "score": 100,
     "config": "Detailed, Definitions",
     "source": {
       "kind": "tech_report",
@@ -2835,7 +2835,7 @@
     },
     "variants": [
       {
-        "score": 1,
+        "score": 100,
         "config": "Detailed, Privacy: public",
         "source": {
           "kind": "tech_report",
@@ -2845,7 +2845,7 @@
         }
       },
       {
-        "score": 0.96,
+        "score": 96.0,
         "config": "Detailed, Homonyms",
         "source": {
           "kind": "tech_report",
@@ -2855,7 +2855,7 @@
         }
       },
       {
-        "score": 0.92,
+        "score": 92.0,
         "config": "Detailed, Figurative Language",
         "source": {
           "kind": "tech_report",
@@ -2865,7 +2865,7 @@
         }
       },
       {
-        "score": 0.92,
+        "score": 92.0,
         "config": "Detailed, Historical Events",
         "source": {
           "kind": "tech_report",
@@ -2875,7 +2875,7 @@
         }
       },
       {
-        "score": 0.88,
+        "score": 88.0,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2885,7 +2885,7 @@
         }
       },
       {
-        "score": 0.85,
+        "score": 85.0,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2895,7 +2895,7 @@
         }
       },
       {
-        "score": 0.84,
+        "score": 84.0,
         "config": "Detailed, Safe Targets",
         "source": {
           "kind": "tech_report",
@@ -2905,7 +2905,7 @@
         }
       },
       {
-        "score": 0.72,
+        "score": 72.0,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2915,7 +2915,7 @@
         }
       },
       {
-        "score": 0.68,
+        "score": 68.0,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2925,7 +2925,7 @@
         }
       },
       {
-        "score": 0.56,
+        "score": 56.0,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
