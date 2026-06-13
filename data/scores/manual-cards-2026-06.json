@@ -334,5 +334,341 @@
       "reported_by": "MiniMax-M2 model card (Artificial Analysis metrics)",
       "fetched_at": "2026-06-13T00:00:00Z"
     }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mmlu-pro",
+    "score": 87.5,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "simpleqa-verified",
+    "score": 57.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "hle",
+    "score": 48.2,
+    "config": "Think Max, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "livecodebench",
+    "score": 93.5,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "codeforces-elo",
+    "score": 3206,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "imo-answerbench",
+    "score": 89.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 67.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-pro",
+    "score": 55.4,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 76.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "browsecomp",
+    "score": 83.4,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "gdpval-aa",
+    "score": 1554,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "mcp-atlas",
+    "score": 73.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "toolathlon",
+    "score": 51.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4-Pro model card, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "simpleqa-verified",
+    "score": 34.1,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "hle",
+    "score": 45.1,
+    "config": "Think Max, with tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "livecodebench",
+    "score": 91.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "codeforces-elo",
+    "score": 3052,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "imo-answerbench",
+    "score": 88.4,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "terminal-bench-2.0",
+    "score": 56.9,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-verified",
+    "score": 79.0,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-pro",
+    "score": 52.6,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "swe-bench-multilingual",
+    "score": 73.3,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "browsecomp",
+    "score": 73.2,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "mcp-atlas",
+    "score": 69.0,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "gdpval-aa",
+    "score": 1395,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "toolathlon",
+    "score": 47.8,
+    "config": "Think Max",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "reported_by": "DeepSeek-V4 model card, V4-Flash Max column, self-reported",
+      "fetched_at": "2026-06-13T00:00:00Z"
+    }
   }
 ]
