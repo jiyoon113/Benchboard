@@ -580,5 +580,418 @@
     "category": "multimodal",
     "type": "deterministic",
     "description": "Video multimodal evaluation — video understanding/reasoning (reported with subtitles)."
+  },
+  {
+    "id": "mmlu-prox",
+    "name": "MMLU-ProX",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual MMLU-Pro; averaged accuracy over 29 languages."
+  },
+  {
+    "id": "nova-63",
+    "name": "NOVA-63",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual knowledge benchmark (Nova, ~63 languages)."
+  },
+  {
+    "id": "global-piqa",
+    "name": "Global PIQA",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual physical commonsense reasoning."
+  },
+  {
+    "id": "maxife",
+    "name": "MAXIFE",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual instruction-following; English + multilingual original prompts (23 settings)."
+  },
+  {
+    "id": "longbench-v2",
+    "name": "LongBench v2",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Long-context understanding benchmark, v2."
+  },
+  {
+    "id": "hle-verified",
+    "name": "HLE-Verified",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Verified/revised Humanity's Last Exam with component-wise verification. https://huggingface.co/datasets/skylenage/HLE-Verified"
+  },
+  {
+    "id": "korbench",
+    "name": "KoRBench",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Knowledge-orthogonal reasoning benchmark."
+  },
+  {
+    "id": "hmmt-feb-2025",
+    "name": "HMMT Feb 2025",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Harvard-MIT Math Tournament, February 2025."
+  },
+  {
+    "id": "hmmt-nov-2025",
+    "name": "HMMT Nov 2025",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Harvard-MIT Math Tournament, November 2025."
+  },
+  {
+    "id": "aime-2026",
+    "name": "AIME 2026",
+    "category": "math",
+    "type": "deterministic",
+    "description": "American Invitational Mathematics Examination 2026."
+  },
+  {
+    "id": "tau2-bench",
+    "name": "TAU2-Bench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Tool-agent benchmark; airline domain evaluated with Claude Opus 4.5 system-card fixes."
+  },
+  {
+    "id": "deepplanning",
+    "name": "DeepPlanning",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Long-horizon planning agent benchmark."
+  },
+  {
+    "id": "tool-decathlon",
+    "name": "Tool Decathlon",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Multi-task tool-use agent benchmark."
+  },
+  {
+    "id": "mcp-mark",
+    "name": "MCP-Mark",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "MCP server tool-use benchmark."
+  },
+  {
+    "id": "hle-tool",
+    "name": "HLE w/ tool",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Humanity's Last Exam with tool use (search agent)."
+  },
+  {
+    "id": "browsecomp-zh",
+    "name": "BrowseComp-zh",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Chinese web-browsing agent benchmark."
+  },
+  {
+    "id": "widesearch",
+    "name": "WideSearch",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Broad web-search agent benchmark (256k context)."
+  },
+  {
+    "id": "seal-0",
+    "name": "Seal-0",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Search agent benchmark."
+  },
+  {
+    "id": "screenspot-pro",
+    "name": "ScreenSpot Pro",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "GUI grounding / visual agent benchmark."
+  },
+  {
+    "id": "androidworld",
+    "name": "AndroidWorld",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Android GUI agent benchmark."
+  },
+  {
+    "id": "seccodebench",
+    "name": "SecCodeBench",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "Secure-coding benchmark."
+  },
+  {
+    "id": "swe-agentless",
+    "name": "SWE-agentless",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "SWE-bench agentless resolution rate."
+  },
+  {
+    "id": "crux-i",
+    "name": "CRUX-I",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "CRUXEval input-prediction (code reasoning)."
+  },
+  {
+    "id": "mathvision",
+    "name": "MathVision",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual math reasoning."
+  },
+  {
+    "id": "we-math",
+    "name": "We-Math",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual math reasoning (We-Math)."
+  },
+  {
+    "id": "dynamath",
+    "name": "DynaMath",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Dynamic visual math robustness."
+  },
+  {
+    "id": "zerobench-sub",
+    "name": "ZEROBench_sub",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "ZeroBench sub-question accuracy."
+  },
+  {
+    "id": "babyvision",
+    "name": "BabyVision",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Vision reasoning benchmark (BabyVision)."
+  },
+  {
+    "id": "realworldqa",
+    "name": "RealWorldQA",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Real-world visual QA."
+  },
+  {
+    "id": "mmstar",
+    "name": "MMStar",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Multimodal benchmark (MMStar)."
+  },
+  {
+    "id": "hallusionbench",
+    "name": "HallusionBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual hallucination benchmark."
+  },
+  {
+    "id": "mmbench-en-dev-v1.1",
+    "name": "MMBench-EN-DEV-v1.1",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "MMBench English dev v1.1."
+  },
+  {
+    "id": "simplevqa",
+    "name": "SimpleVQA",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Simple visual QA factuality."
+  },
+  {
+    "id": "mmlongbench-doc",
+    "name": "MMLongBench-Doc",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Long-document multimodal understanding."
+  },
+  {
+    "id": "cc-ocr",
+    "name": "CC-OCR",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "OCR benchmark (CC-OCR)."
+  },
+  {
+    "id": "ocrbench",
+    "name": "OCRBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "OCR benchmark."
+  },
+  {
+    "id": "countbench",
+    "name": "CountBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual counting benchmark."
+  },
+  {
+    "id": "refcoco",
+    "name": "RefCOCO (avg)",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Referring expression grounding (RefCOCO average)."
+  },
+  {
+    "id": "odinw13",
+    "name": "ODInW13",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Object detection in the wild (13 datasets)."
+  },
+  {
+    "id": "embspatialbench",
+    "name": "EmbSpatialBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Embodied spatial reasoning."
+  },
+  {
+    "id": "refspatialbench",
+    "name": "RefSpatialBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Referring spatial reasoning."
+  },
+  {
+    "id": "lingoqa",
+    "name": "LingoQA",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Driving visual QA."
+  },
+  {
+    "id": "vstar",
+    "name": "V-Star",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Visual search benchmark (V*)."
+  },
+  {
+    "id": "hypersim",
+    "name": "Hypersim",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "3D/spatial understanding (Hypersim)."
+  },
+  {
+    "id": "sunrgbd",
+    "name": "SUNRGBD",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "3D scene understanding (SUN RGB-D)."
+  },
+  {
+    "id": "nuscene",
+    "name": "Nuscene",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Autonomous-driving 3D understanding (nuScenes)."
+  },
+  {
+    "id": "mlvu",
+    "name": "MLVU",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Multi-task long video understanding (M-Avg)."
+  },
+  {
+    "id": "mvbench",
+    "name": "MVBench",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Video understanding benchmark."
+  },
+  {
+    "id": "mmvu",
+    "name": "MMVU",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Multi-discipline video understanding."
+  },
+  {
+    "id": "slake",
+    "name": "SLAKE",
+    "category": "health",
+    "type": "deterministic",
+    "description": "Medical visual QA (SLAKE)."
+  },
+  {
+    "id": "pmc-vqa",
+    "name": "PMC-VQA",
+    "category": "health",
+    "type": "deterministic",
+    "description": "Medical visual QA (PMC-VQA)."
+  },
+  {
+    "id": "medxpertqa-mm",
+    "name": "MedXpertQA-MM",
+    "category": "health",
+    "type": "deterministic",
+    "description": "Expert medical multimodal QA."
+  },
+  {
+    "id": "tau2-retail",
+    "name": "Tau2 Retail",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "tau2-bench retail domain (Avg@4)."
+  },
+  {
+    "id": "tau2-airline",
+    "name": "Tau2 Airline",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "tau2-bench airline domain (Avg@4); evaluated with Claude Opus 4.5 system-card fixes."
+  },
+  {
+    "id": "tau2-telecom",
+    "name": "Tau2 Telecom",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "tau2-bench telecom domain (Avg@4)."
+  },
+  {
+    "id": "arena-hard-v2-hard",
+    "name": "Arena Hard v2.0 (Hard Prompt)",
+    "category": "preference",
+    "type": "deterministic",
+    "description": "Arena-Hard v2.0 hard-prompt win rate."
+  },
+  {
+    "id": "arena-hard-v2-creative",
+    "name": "Arena Hard v2.0 (Creative Writing)",
+    "category": "preference",
+    "type": "deterministic",
+    "description": "Arena-Hard v2.0 creative-writing win rate."
+  },
+  {
+    "id": "mrcr",
+    "name": "MRCR",
+    "category": "long",
+    "type": "deterministic",
+    "description": "Multi-round co-reference long-context retrieval."
+  },
+  {
+    "id": "gsm8k-platinum",
+    "name": "GSM8k-platinum",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Cleaned/relabeled GSM8K (platinum)."
   }
 ]

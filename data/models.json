@@ -307,6 +307,16 @@
     ]
   },
   {
+    "id": "deepseek-v3-base",
+    "name": "DeepSeek-V3-Base",
+    "vendor": "DeepSeek",
+    "aliases": [
+      "DeepSeek-V3-Base",
+      "DeepSeek V3 Base",
+      "deepseek-v3-base"
+    ]
+  },
+  {
     "id": "deepseek-v3.1",
     "name": "DeepSeek-V3.1",
     "vendor": "DeepSeek",
@@ -326,6 +336,16 @@
       "deepseek-v3.2",
       "deepseek-v3p2",
       "DeepSeek-V3.2-Exp"
+    ]
+  },
+  {
+    "id": "deepseek-v3.2-base",
+    "name": "DeepSeek-V3.2-671B-A37B-Base",
+    "vendor": "DeepSeek",
+    "aliases": [
+      "DeepSeek-V3.2-671B-A37B-Base",
+      "DeepSeek-V3.2 Base",
+      "deepseek-v3.2-base"
     ]
   },
   {
@@ -591,6 +611,16 @@
     "aliases": [
       "GLM-4.5-Air",
       "glm-4.5-air"
+    ]
+  },
+  {
+    "id": "glm-4.5-base",
+    "name": "GLM-4.5-355B-A32B-Base",
+    "vendor": "Z.ai",
+    "aliases": [
+      "GLM-4.5-355B-A32B-Base",
+      "GLM-4.5 Base",
+      "glm-4.5-base"
     ]
   },
   {
@@ -919,6 +949,17 @@
     ]
   },
   {
+    "id": "kimi-k2-base",
+    "name": "Kimi K2 Base",
+    "vendor": "Moonshot",
+    "aliases": [
+      "Kimi K2 Base",
+      "K2-1T-A32B",
+      "Kimi-K2-Base",
+      "kimi-k2-base"
+    ]
+  },
+  {
     "id": "kimi-k2-instruct",
     "name": "Kimi K2 Instruct",
     "vendor": "Moonshot",
@@ -926,9 +967,7 @@
     "aliases": [
       "Kimi K2 Instruct",
       "kimi-k2-instruct",
-      "Kimi K2 0905",
-      "Kimi K2 Base",
-      "kimi-k2-base"
+      "Kimi K2 0905"
     ]
   },
   {
@@ -1053,6 +1092,16 @@
       "llama-4-maverick",
       "Llama 4 Maverick",
       "Llama-4-Maverick-17B-128E-Instruct"
+    ]
+  },
+  {
+    "id": "llama-4-maverick-base",
+    "name": "Llama 4 Maverick Base",
+    "vendor": "Meta",
+    "aliases": [
+      "Llama4-Maverick-Base",
+      "Llama 4 Maverick Base",
+      "llama-4-maverick-base"
     ]
   },
   {
@@ -1420,6 +1469,16 @@
     ]
   },
   {
+    "id": "qwen-2.5-72b-base",
+    "name": "Qwen2.5-72B-Base",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen2.5-72B-Base",
+      "Qwen2.5 72B Base",
+      "qwen-2.5-72b-base"
+    ]
+  },
+  {
     "id": "qwen2.5-14b",
     "name": "Qwen2.5-14B",
     "vendor": "Alibaba",
@@ -1467,6 +1526,16 @@
     ]
   },
   {
+    "id": "qwen3-235b-base",
+    "name": "Qwen3-235B-A22B-Base",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3-235B-A22B-Base",
+      "Qwen3-235B Base",
+      "qwen3-235b-base"
+    ]
+  },
+  {
     "id": "qwen3-30b-a3b",
     "name": "Qwen3-30B-A3B",
     "vendor": "Alibaba",
@@ -1507,6 +1576,16 @@
       "qwen3-vl-235b-a22b",
       "Qwen3-VL",
       "qwen3-vl-235b"
+    ]
+  },
+  {
+    "id": "qwen3.5-base",
+    "name": "Qwen3.5-397B-A17B-Base",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.5-397B-A17B-Base",
+      "Qwen3.5 Base",
+      "qwen3.5-base"
     ]
   },
   {
