@@ -130,6 +130,9 @@ export async function buildView(category: CategorySlug): Promise<CategoryView> {
     if (category === "nd_korean") return b.type === "non_deterministic" && b.category === "korean";
     if (category === "nd_multilinguality") return b.type === "non_deterministic" && b.category === "multilinguality";
     if (category === "deterministic") return b.type === "deterministic";
+    // "multimodal" is a parent tab over its Vision + Video sub-categories.
+    if (category === "multimodal")
+      return b.type === "deterministic" && (b.category === "multimodal" || b.category === "vision" || b.category === "video");
     return b.category === category && b.type === "deterministic";
   };
 
