@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import type { Benchmark, Model, ScoreRecord } from "../lib/types";
 import ScoreCell from "./ScoreCell";
 import { withBase } from "../lib/url";
+import { vendorBg, vendorSwatch } from "../lib/vendorColors";
 
 interface Row {
   model: Model;
@@ -145,12 +146,17 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
                 type="button"
                 onClick={() => setVendorFilter(v === vendorFilter ? "" : v)}
                 className={
-                  "rounded px-2 py-0.5 border text-xs " +
+                  "inline-flex items-center gap-1.5 rounded px-2 py-0.5 border text-xs " +
                   (vendorFilter === v
                     ? "border-black bg-black text-white"
                     : "border-neutral-300 hover:border-neutral-400")
                 }
               >
+                <span
+                  className="inline-block h-2 w-2 rounded-full shrink-0"
+                  style={{ backgroundColor: vendorSwatch(v) }}
+                  aria-hidden="true"
+                />
                 {v}
               </button>
             ))}
@@ -240,16 +246,30 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
             </tr>
           </thead>
           <tbody>
-            {sorted.map((row) => (
-              <tr key={row.model.id} className="border-t border-neutral-100">
-                <td className="sticky left-0 z-10 bg-white px-3 py-2">
+            {sorted.map((row) => {
+              const bg = vendorBg(row.model.vendor);
+              return (
+              <tr
+                key={row.model.id}
+                className="border-t border-neutral-100"
+                style={{ backgroundColor: bg }}
+              >
+                <td
+                  className="sticky left-0 z-10 px-3 py-2"
+                  style={{ backgroundColor: bg }}
+                >
                   <a
                     href={withBase(`/models/${row.model.id}`)}
                     className="font-medium hover:underline"
                   >
                     {row.model.name}
                   </a>
-                  <div className="text-xs text-neutral-500">
+                  <div className="flex items-center gap-1.5 text-xs text-neutral-500">
+                    <span
+                      className="inline-block h-2 w-2 rounded-full shrink-0"
+                      style={{ backgroundColor: vendorSwatch(row.model.vendor) }}
+                      aria-hidden="true"
+                    />
                     {row.model.vendor}
                   </div>
                 </td>
@@ -259,7 +279,8 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
                   </td>
                 ))}
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
