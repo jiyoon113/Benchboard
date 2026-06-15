@@ -780,7 +780,7 @@
   {
     "id": "realworldqa",
     "name": "RealWorldQA",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "Real-world visual QA."
   },
@@ -794,7 +794,7 @@
   {
     "id": "hallusionbench",
     "name": "HallusionBench",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "Visual hallucination benchmark."
   },
@@ -808,7 +808,7 @@
   {
     "id": "simplevqa",
     "name": "SimpleVQA",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "Simple visual QA factuality."
   },
