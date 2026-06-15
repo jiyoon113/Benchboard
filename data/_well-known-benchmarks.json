@@ -559,5 +559,26 @@
     "category": "safety",
     "type": "deterministic",
     "description": "Jigsaw toxicity classification benchmark (reported as F1-score)."
+  },
+  {
+    "id": "bfcl-v4",
+    "name": "BFCL v4",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Berkeley Function-Calling Leaderboard v4 — function-calling / agentic tool-use correctness."
+  },
+  {
+    "id": "vita-bench",
+    "name": "VITA-Bench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Versatile agentic interaction benchmark."
+  },
+  {
+    "id": "video-mme",
+    "name": "Video-MME",
+    "category": "multimodal",
+    "type": "deterministic",
+    "description": "Video multimodal evaluation — video understanding/reasoning (reported with subtitles)."
   }
 ]

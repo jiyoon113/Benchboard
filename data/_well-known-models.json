@@ -934,5 +934,18 @@
     "name": "ERNIE 5.1",
     "vendor": "Baidu",
     "aliases": ["ERNIE 5.1", "ernie-5.1"]
+  },
+  {
+    "id": "qwen3.5-plus",
+    "name": "Qwen3.5-Plus",
+    "vendor": "Alibaba",
+    "release_date": "2026-06",
+    "aliases": ["Qwen3.5-Plus", "Qwen3.5 Plus", "Qwen3.5-397B-A17B", "qwen3.5-397b-a17b", "qwen3.5-plus"]
+  },
+  {
+    "id": "qwen3-vl-235b",
+    "name": "Qwen3-VL-235B-A22B",
+    "vendor": "Alibaba",
+    "aliases": ["Qwen3-VL-235B-A22B", "qwen3-vl-235b-a22b", "Qwen3-VL", "qwen3-vl-235b"]
   }
 ]
