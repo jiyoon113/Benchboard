@@ -787,7 +787,7 @@
   {
     "id": "mmstar",
     "name": "MMStar",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "Multimodal benchmark (MMStar)."
   },
@@ -801,7 +801,7 @@
   {
     "id": "mmbench-en-dev-v1.1",
     "name": "MMBench-EN-DEV-v1.1",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "MMBench English dev v1.1."
   },
