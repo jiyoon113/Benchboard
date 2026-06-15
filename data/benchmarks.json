@@ -1655,7 +1655,7 @@
   {
     "id": "mmbench-en-dev-v1.1",
     "name": "MMBench-EN-DEV-v1.1",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "MMBench English dev v1.1."
   },
@@ -1844,43 +1844,43 @@
   {
     "id": "mmmu",
     "name": "MMMU",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmmu-multiple-attempts",
     "name": "MMMU multiple attempts",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro",
     "name": "MMMU-pro",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro-no-tools",
     "name": "MMMU-Pro No tools",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro-with-tools",
     "name": "MMMU-Pro With tools",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmmu-single-attempt",
     "name": "MMMU single attempt",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
     "id": "mmstar",
     "name": "MMStar",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic",
     "description": "Multimodal benchmark (MMStar)."
   },
@@ -2627,7 +2627,7 @@
   {
     "id": "vibe-eval",
     "name": "Vibe-Eval",
-    "category": "vision",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
