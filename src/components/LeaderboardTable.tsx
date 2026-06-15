@@ -218,7 +218,11 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
               </button>
             )}
             {rows
-              .filter((r) => !vendorFilter || r.model.vendor === vendorFilter)
+              .filter(
+                (r) =>
+                  (!vendorFilter || r.model.vendor === vendorFilter) &&
+                  (!sizeFilter || sizeClass(r.model).key === sizeFilter),
+              )
               .map((r) => {
                 const on = selected.has(r.model.id);
                 const scoreCount = Object.keys(r.scores).length;
