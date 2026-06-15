@@ -993,5 +993,54 @@
     "category": "math",
     "type": "deterministic",
     "description": "Cleaned/relabeled GSM8K (platinum)."
+  },
+  {
+    "id": "skillsbench",
+    "name": "SkillsBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Agent-skills benchmark (evaluated via OpenCode, 78-task self-contained subset)."
+  },
+  {
+    "id": "qwenwebbench",
+    "name": "QwenWebBench",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "Internal front-end code-generation benchmark; bilingual, 7 categories; auto-render + multimodal judge; BT/Elo rating."
+  },
+  {
+    "id": "nl2repo",
+    "name": "NL2Repo",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "Long-horizon natural-language-to-repository coding."
+  },
+  {
+    "id": "claw-eval",
+    "name": "Claw-Eval",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-world agent benchmark (Avg / Pass^3)."
+  },
+  {
+    "id": "qwenclawbench",
+    "name": "QwenClawBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-user-distribution Claw agent benchmark."
+  },
+  {
+    "id": "hmmt-feb-2026",
+    "name": "HMMT Feb 2026",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Harvard-MIT Math Tournament, February 2026."
+  },
+  {
+    "id": "vlmsareblind",
+    "name": "VlmsAreBlind",
+    "category": "vision",
+    "type": "deterministic",
+    "description": "Visual-perception robustness benchmark (VLMs Are Blind)."
   }
 ]

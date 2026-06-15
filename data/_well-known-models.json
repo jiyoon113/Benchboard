@@ -1028,5 +1028,46 @@
       "Qwen2.5 72B Base",
       "qwen-2.5-72b-base"
     ]
+  },
+  {
+    "id": "qwen3.6-27b",
+    "name": "Qwen3.6-27B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.6-27B",
+      "Qwen3.6 27B",
+      "qwen3.6-27b"
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b",
+    "name": "Qwen3.6-35B-A3B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.6-35B-A3B",
+      "Qwen3.6 35B A3B",
+      "qwen3.6-35b-a3b"
+    ]
+  },
+  {
+    "id": "qwen3.5-27b",
+    "name": "Qwen3.5-27B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.5-27B",
+      "Qwen3.5 27B",
+      "qwen3.5-27b"
+    ]
+  },
+  {
+    "id": "gemma4-31b",
+    "name": "Gemma 4 31B",
+    "vendor": "Google",
+    "aliases": [
+      "Gemma4-31B",
+      "Gemma 4 31B",
+      "gemma-4-31b",
+      "gemma4-31b"
+    ]
   }
 ]

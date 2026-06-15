@@ -595,6 +595,17 @@
     ]
   },
   {
+    "id": "gemma4-31b",
+    "name": "Gemma 4 31B",
+    "vendor": "Google",
+    "aliases": [
+      "Gemma4-31B",
+      "Gemma 4 31B",
+      "gemma-4-31b",
+      "gemma4-31b"
+    ]
+  },
+  {
     "id": "glm-4.5",
     "name": "GLM-4.5",
     "vendor": "Z.ai",
@@ -1579,6 +1590,16 @@
     ]
   },
   {
+    "id": "qwen3.5-27b",
+    "name": "Qwen3.5-27B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.5-27B",
+      "Qwen3.5 27B",
+      "qwen3.5-27b"
+    ]
+  },
+  {
     "id": "qwen3.5-base",
     "name": "Qwen3.5-397B-A17B-Base",
     "vendor": "Alibaba",
@@ -1599,6 +1620,26 @@
       "Qwen3.5-397B-A17B",
       "qwen3.5-397b-a17b",
       "qwen3.5-plus"
+    ]
+  },
+  {
+    "id": "qwen3.6-27b",
+    "name": "Qwen3.6-27B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.6-27B",
+      "Qwen3.6 27B",
+      "qwen3.6-27b"
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b",
+    "name": "Qwen3.6-35B-A3B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.6-35B-A3B",
+      "Qwen3.6 35B A3B",
+      "qwen3.6-35b-a3b"
     ]
   },
   {
