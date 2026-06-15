@@ -3,7 +3,7 @@
     "model_id": "kimi-k2.5",
     "benchmark_id": "swe-bench-pro",
     "score": 50.7,
-    "config": "default",
+    "config": "public",
     "source": {
       "kind": "manual",
       "url": "https://github.com/MoonshotAI/Kimi-K2.5",
@@ -435,7 +435,7 @@
     "model_id": "deepseek-v4-pro",
     "benchmark_id": "swe-bench-pro",
     "score": 55.4,
-    "config": "Think Max",
+    "config": "public; Think Max",
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
@@ -603,7 +603,7 @@
     "model_id": "deepseek-v4-flash",
     "benchmark_id": "swe-bench-pro",
     "score": 52.6,
-    "config": "Think Max",
+    "config": "public; Think Max",
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
@@ -2619,7 +2619,7 @@
     "model_id": "claude-opus-4.6",
     "benchmark_id": "swe-bench-pro",
     "score": 57.3,
-    "config": "Max",
+    "config": "public; Max",
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
@@ -2631,7 +2631,7 @@
     "model_id": "gpt-5.4",
     "benchmark_id": "swe-bench-pro",
     "score": 57.7,
-    "config": "xHigh",
+    "config": "public; xHigh",
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
@@ -2643,7 +2643,7 @@
     "model_id": "kimi-k2.6",
     "benchmark_id": "swe-bench-pro",
     "score": 58.6,
-    "config": "Thinking",
+    "config": "public; Thinking",
     "source": {
       "kind": "manual",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",

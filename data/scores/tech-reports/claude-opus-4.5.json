@@ -1014,7 +1014,7 @@
     "model_id": "claude-opus-4.5",
     "benchmark_id": "swe-bench-pro",
     "score": 52,
-    "config": "no thinking",
+    "config": "public; no thinking",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
