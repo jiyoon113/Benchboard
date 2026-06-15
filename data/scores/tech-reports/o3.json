@@ -25,6 +25,82 @@
     }
   },
   {
+    "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "bbq",
+    "score": 95,
+    "config": "Unambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 82,
+        "config": "Ambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "o3",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "bbq",
+    "score": 94,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous",
+        "source": {
+          "kind": "tech_report",
+          "url": "o3__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T04:04:03.699Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "o3",
     "benchmark_id": "capture-the-flag-collegiate",
     "score": 68,
@@ -1785,6 +1861,82 @@
     ]
   },
   {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa",
+    "score": 49,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 47,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "simpleqa",
+    "score": 20,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 79,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 51,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 44,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o3__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "o3",
+      "fetched_at": "2026-06-08T04:04:03.699Z"
+    }
+  },
+  {
     "model_id": "o1",
     "benchmark_id": "standard-refusal-evaluation-aggregate",
     "score": 0.86,
@@ -2337,158 +2489,6 @@
       "kind": "tech_report",
       "url": "o3__system-card.pdf",
       "ref": "p.26",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "bbq",
-    "score": 96.0,
-    "config": "Ambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    },
-    "variants": [
-      {
-        "score": 93.0,
-        "config": "Unambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "o3__system-card.pdf",
-          "ref": "p.6",
-          "reported_by": "o3",
-          "fetched_at": "2026-06-08T04:04:03.699Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o4-mini",
-    "benchmark_id": "bbq",
-    "score": 95.0,
-    "config": "Unambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    },
-    "variants": [
-      {
-        "score": 82.0,
-        "config": "Ambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "o3__system-card.pdf",
-          "ref": "p.6",
-          "reported_by": "o3",
-          "fetched_at": "2026-06-08T04:04:03.699Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o3",
-    "benchmark_id": "bbq",
-    "score": 94.0,
-    "config": "Ambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.6",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    },
-    "variants": [
-      {
-        "score": 93.0,
-        "config": "Unambiguous",
-        "source": {
-          "kind": "tech_report",
-          "url": "o3__system-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-08T04:04:03.699Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o4-mini",
-    "benchmark_id": "simpleqa-hallucination-rate",
-    "score": 79.0,
-    "config": "hallucination rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o4-mini",
-    "benchmark_id": "simpleqa",
-    "score": 20.0,
-    "config": "accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o3",
-    "benchmark_id": "simpleqa-hallucination-rate",
-    "score": 51.0,
-    "config": "hallucination rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o3",
-    "benchmark_id": "simpleqa",
-    "score": 49.0,
-    "config": "accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "simpleqa",
-    "score": 47.0,
-    "config": "accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "o3",
-      "fetched_at": "2026-06-08T04:04:03.699Z"
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "simpleqa-hallucination-rate",
-    "score": 44.0,
-    "config": "hallucination rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "o3__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "o3",
       "fetched_at": "2026-06-08T04:04:03.699Z"
     }
   }

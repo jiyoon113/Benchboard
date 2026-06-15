@@ -1,7 +1,7 @@
 [
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 57.45682883335095,
     "config": "length-controlled",
     "source": {
@@ -15,7 +15,7 @@
   },
   {
     "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 52.36675427146999,
     "config": "length-controlled",
     "source": {
@@ -29,7 +29,7 @@
   },
   {
     "model_id": "gpt-4o-mini",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 50.727144855901976,
     "config": "length-controlled",
     "source": {
@@ -43,7 +43,7 @@
   },
   {
     "model_id": "claude-3-opus",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 40.5095080124761,
     "config": "length-controlled",
     "source": {
@@ -57,7 +57,7 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 38.07461345451606,
     "config": "length-controlled",
     "source": {
@@ -71,7 +71,7 @@
   },
   {
     "model_id": "claude-3-sonnet",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 34.87247436243302,
     "config": "length-controlled",
     "source": {
@@ -85,7 +85,7 @@
   },
   {
     "model_id": "llama-3-70b",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 34.42459717459881,
     "config": "length-controlled",
     "source": {
@@ -99,7 +99,7 @@
   },
   {
     "model_id": "mistral-large",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 32.65207998531868,
     "config": "length-controlled",
     "source": {
@@ -113,7 +113,7 @@
   },
   {
     "model_id": "llama-3-8b",
-    "benchmark_id": "alpacaeval-2",
+    "benchmark_id": "alpacaeval-2.0",
     "score": 22.91878467313347,
     "config": "length-controlled",
     "source": {

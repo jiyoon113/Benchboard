@@ -2,7 +2,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "agentdojo",
-    "score": 2.0,
+    "score": 2,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -15,7 +15,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "agentharm",
-    "score": 14.0,
+    "score": 14,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -28,7 +28,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "biolp-bench",
-    "score": 47.0,
+    "score": 47,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -41,7 +41,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "cybench",
-    "score": 43.0,
+    "score": 43,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -54,7 +54,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "makemesay",
-    "score": 12.0,
+    "score": 12,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -67,7 +67,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "refusal-dataset",
-    "score": 1.0,
+    "score": 1,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -80,7 +80,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "soft-bias-internal",
-    "score": 36.0,
+    "score": 36,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -93,7 +93,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "sycophancy",
-    "score": 7.0,
+    "score": 7,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -106,7 +106,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "vct",
-    "score": 60.0,
+    "score": 60,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -119,7 +119,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "wmdp-bio",
-    "score": 87.0,
+    "score": 87,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -132,7 +132,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "wmdp-chem",
-    "score": 83.0,
+    "score": 83,
     "config": "default",
     "source": {
       "kind": "tech_report",
@@ -145,7 +145,7 @@
   {
     "model_id": "grok-4",
     "benchmark_id": "wmdp-cyber",
-    "score": 79.0,
+    "score": 79,
     "config": "default",
     "source": {
       "kind": "tech_report",

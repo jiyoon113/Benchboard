@@ -1,5 +1,197 @@
 [
   {
+    "model_id": "o1",
+    "benchmark_id": "coding-korean",
+    "score": 66.43,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.47,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3.7-sonnet",
+    "benchmark_id": "coding-korean",
+    "score": 64.93,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.51,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "coding-korean",
+    "score": 63.76,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.56,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4-turbo",
+    "benchmark_id": "coding-korean",
+    "score": 60.76,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.64,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "coding-korean",
+    "score": 59.38,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.67,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gemini-2.0-flash",
+    "benchmark_id": "coding-korean",
+    "score": 55.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.73,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3-sonnet",
+    "benchmark_id": "coding-korean",
+    "score": 54.17,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.78,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "coding-korean",
+    "score": 52.78,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "coding-korean",
+    "score": 51.74,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "gpt-4",
+    "benchmark_id": "coding-korean",
+    "score": 51.39,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.77,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "coding-korean",
+    "score": 50.35,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.78,
+      "max_score": 74.057
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "coding-korean",
+    "score": 37.23,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://labs.scale.com/leaderboard/korean",
+      "ref": "SEAL Korean",
+      "fetched_at": "2026-06-11T08:37:09.041Z"
+    },
+    "extra": {
+      "ci_hi": 5.6,
+      "max_score": 74.057
+    }
+  },
+  {
     "model_id": "deepseek-r1",
     "benchmark_id": "fortress",
     "score": 74.39,
@@ -2799,198 +2991,6 @@
     "extra": {
       "ci_hi": 0.6,
       "max_score": 81.988
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "seal-korean",
-    "score": 66.43,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.47,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3.7-sonnet",
-    "benchmark_id": "seal-korean",
-    "score": 64.93,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.51,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4.5",
-    "benchmark_id": "seal-korean",
-    "score": 63.76,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.56,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4-turbo",
-    "benchmark_id": "seal-korean",
-    "score": 60.76,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.64,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "seal-korean",
-    "score": 59.38,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.67,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gemini-2.0-flash",
-    "benchmark_id": "seal-korean",
-    "score": 55.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.73,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3-sonnet",
-    "benchmark_id": "seal-korean",
-    "score": 54.17,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.78,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "claude-3-opus",
-    "benchmark_id": "seal-korean",
-    "score": 52.78,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "seal-korean",
-    "score": 51.74,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "gpt-4",
-    "benchmark_id": "seal-korean",
-    "score": 51.39,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.77,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "seal-korean",
-    "score": 50.35,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.78,
-      "max_score": 74.057
-    }
-  },
-  {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "seal-korean",
-    "score": 37.23,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://labs.scale.com/leaderboard/korean",
-      "ref": "SEAL Korean",
-      "fetched_at": "2026-06-11T08:37:09.041Z"
-    },
-    "extra": {
-      "ci_hi": 5.6,
-      "max_score": 74.057
     }
   }
 ]

@@ -381,6 +381,31 @@
     ]
   },
   {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "bbq",
+    "score": 89,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.16",
+      "reported_by": "gpt-oss-120b",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "bbq",
+    "score": 87,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-oss-120b__model-card.pdf",
+      "ref": "p.16",
+      "fetched_at": "2026-06-07T07:24:45.429Z"
+    }
+  },
+  {
     "model_id": "gpt-oss-120b",
     "benchmark_id": "codeforces",
     "score": 2622,
@@ -1584,30 +1609,5 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "gpt-oss-20b",
-    "benchmark_id": "bbq",
-    "score": 89.0,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-oss-120b__model-card.pdf",
-      "ref": "p.16",
-      "reported_by": "gpt-oss-120b",
-      "fetched_at": "2026-06-07T07:24:45.429Z"
-    }
-  },
-  {
-    "model_id": "gpt-oss-120b",
-    "benchmark_id": "bbq",
-    "score": 87.0,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-oss-120b__model-card.pdf",
-      "ref": "p.16",
-      "fetched_at": "2026-06-07T07:24:45.429Z"
-    }
   }
 ]

@@ -57,6 +57,30 @@
   },
   {
     "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "o1__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-06-08T03:59:49.219Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
     "benchmark_id": "biolp-bench",
     "score": 33.5,
     "config": "default",
@@ -461,6 +485,30 @@
   },
   {
     "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 47,
+    "config": "accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa-hallucination-rate",
+    "score": 44,
+    "config": "hallucination rate",
+    "source": {
+      "kind": "tech_report",
+      "url": "o1__system-card.pdf",
+      "ref": "p.5",
+      "fetched_at": "2026-06-08T03:59:49.219Z"
+    }
+  },
+  {
+    "model_id": "o1",
     "benchmark_id": "standard-refusal-evaluation",
     "score": 1,
     "config": "not_unsafe",
@@ -522,60 +570,12 @@
   {
     "model_id": "o1",
     "benchmark_id": "xstest",
-    "score": 94.0,
+    "score": 94,
     "config": "not_overrefuse",
     "source": {
       "kind": "tech_report",
       "url": "o1__system-card.pdf",
       "ref": "p.3",
-      "fetched_at": "2026-06-08T03:59:49.219Z"
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "bbq",
-    "score": 96.0,
-    "config": "Ambiguous Questions accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "o1__system-card.pdf",
-      "ref": "p.6",
-      "fetched_at": "2026-06-08T03:59:49.219Z"
-    },
-    "variants": [
-      {
-        "score": 93.0,
-        "config": "Unambiguous Questions accuracy",
-        "source": {
-          "kind": "tech_report",
-          "url": "o1__system-card.pdf",
-          "ref": "p.6",
-          "fetched_at": "2026-06-08T03:59:49.219Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "simpleqa",
-    "score": 47.0,
-    "config": "accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "o1__system-card.pdf",
-      "ref": "p.5",
-      "fetched_at": "2026-06-08T03:59:49.219Z"
-    }
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "simpleqa-hallucination-rate",
-    "score": 44.0,
-    "config": "hallucination rate",
-    "source": {
-      "kind": "tech_report",
-      "url": "o1__system-card.pdf",
-      "ref": "p.5",
       "fetched_at": "2026-06-08T03:59:49.219Z"
     }
   }

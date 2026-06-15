@@ -24,6 +24,82 @@
     ]
   },
   {
+    "model_id": "gpt-4o",
+    "benchmark_id": "bbq",
+    "score": 97,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 72,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "bbq",
+    "score": 96,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "reported_by": "gpt-4.5",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 93,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "reported_by": "gpt-4.5",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4.5",
+    "benchmark_id": "bbq",
+    "score": 95,
+    "config": "Ambiguous Questions accuracy",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-4.5__system-card.pdf",
+      "ref": "p.4",
+      "fetched_at": "2026-06-08T06:08:11.064Z"
+    },
+    "variants": [
+      {
+        "score": 74,
+        "config": "Unambiguous Questions accuracy",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-4.5__system-card.pdf",
+          "ref": "p.4",
+          "fetched_at": "2026-06-08T06:08:11.064Z"
+        }
+      }
+    ]
+  },
+  {
     "model_id": "gpt-4.5",
     "benchmark_id": "biolp-bench",
     "score": 29,
@@ -2641,7 +2717,7 @@
         }
       },
       {
-        "score": 96.0,
+        "score": 96,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
@@ -2652,7 +2728,7 @@
         }
       },
       {
-        "score": 92.0,
+        "score": 92,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2663,7 +2739,7 @@
         }
       },
       {
-        "score": 84.0,
+        "score": 84,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2674,7 +2750,7 @@
         }
       },
       {
-        "score": 84.0,
+        "score": 84,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2685,7 +2761,7 @@
         }
       },
       {
-        "score": 60.0,
+        "score": 60,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2744,7 +2820,7 @@
         }
       },
       {
-        "score": 96.0,
+        "score": 96,
         "config": "Detailed, Homonyms",
         "source": {
           "kind": "tech_report",
@@ -2755,7 +2831,7 @@
         }
       },
       {
-        "score": 92.0,
+        "score": 92,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2766,7 +2842,7 @@
         }
       },
       {
-        "score": 89.0,
+        "score": 89,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2777,7 +2853,7 @@
         }
       },
       {
-        "score": 88.0,
+        "score": 88,
         "config": "Detailed, Safe Targets",
         "source": {
           "kind": "tech_report",
@@ -2788,7 +2864,7 @@
         }
       },
       {
-        "score": 84.0,
+        "score": 84,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2799,7 +2875,7 @@
         }
       },
       {
-        "score": 68.0,
+        "score": 68,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
@@ -2810,7 +2886,7 @@
         }
       },
       {
-        "score": 60.0,
+        "score": 60,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2845,7 +2921,7 @@
         }
       },
       {
-        "score": 96.0,
+        "score": 96,
         "config": "Detailed, Homonyms",
         "source": {
           "kind": "tech_report",
@@ -2855,7 +2931,7 @@
         }
       },
       {
-        "score": 92.0,
+        "score": 92,
         "config": "Detailed, Figurative Language",
         "source": {
           "kind": "tech_report",
@@ -2865,7 +2941,7 @@
         }
       },
       {
-        "score": 92.0,
+        "score": 92,
         "config": "Detailed, Historical Events",
         "source": {
           "kind": "tech_report",
@@ -2875,7 +2951,7 @@
         }
       },
       {
-        "score": 88.0,
+        "score": 88,
         "config": "Detailed, Discr: Nonsense context",
         "source": {
           "kind": "tech_report",
@@ -2885,7 +2961,7 @@
         }
       },
       {
-        "score": 85.0,
+        "score": 85,
         "config": "not_overrefuse",
         "source": {
           "kind": "tech_report",
@@ -2895,7 +2971,7 @@
         }
       },
       {
-        "score": 84.0,
+        "score": 84,
         "config": "Detailed, Safe Targets",
         "source": {
           "kind": "tech_report",
@@ -2905,7 +2981,7 @@
         }
       },
       {
-        "score": 72.0,
+        "score": 72,
         "config": "Detailed, Discr: Nonsense group",
         "source": {
           "kind": "tech_report",
@@ -2915,7 +2991,7 @@
         }
       },
       {
-        "score": 68.0,
+        "score": 68,
         "config": "Detailed, Privacy: fictional",
         "source": {
           "kind": "tech_report",
@@ -2925,88 +3001,12 @@
         }
       },
       {
-        "score": 56.0,
+        "score": 56,
         "config": "Detailed, Safe Contexts",
         "source": {
           "kind": "tech_report",
           "url": "gpt-4.5__system-card.pdf",
           "ref": "p.29",
-          "fetched_at": "2026-06-08T06:08:11.064Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "bbq",
-    "score": 97.0,
-    "config": "Ambiguous Questions accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "gpt-4.5",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    },
-    "variants": [
-      {
-        "score": 72.0,
-        "config": "Unambiguous Questions accuracy",
-        "source": {
-          "kind": "tech_report",
-          "url": "gpt-4.5__system-card.pdf",
-          "ref": "p.4",
-          "reported_by": "gpt-4.5",
-          "fetched_at": "2026-06-08T06:08:11.064Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o1",
-    "benchmark_id": "bbq",
-    "score": 96.0,
-    "config": "Ambiguous Questions accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "reported_by": "gpt-4.5",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    },
-    "variants": [
-      {
-        "score": 93.0,
-        "config": "Unambiguous Questions accuracy",
-        "source": {
-          "kind": "tech_report",
-          "url": "gpt-4.5__system-card.pdf",
-          "ref": "p.4",
-          "reported_by": "gpt-4.5",
-          "fetched_at": "2026-06-08T06:08:11.064Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-4.5",
-    "benchmark_id": "bbq",
-    "score": 95.0,
-    "config": "Ambiguous Questions accuracy",
-    "source": {
-      "kind": "tech_report",
-      "url": "gpt-4.5__system-card.pdf",
-      "ref": "p.4",
-      "fetched_at": "2026-06-08T06:08:11.064Z"
-    },
-    "variants": [
-      {
-        "score": 74.0,
-        "config": "Unambiguous Questions accuracy",
-        "source": {
-          "kind": "tech_report",
-          "url": "gpt-4.5__system-card.pdf",
-          "ref": "p.4",
           "fetched_at": "2026-06-08T06:08:11.064Z"
         }
       }

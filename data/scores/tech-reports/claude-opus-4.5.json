@@ -186,6 +186,44 @@
     }
   },
   {
+    "model_id": "claude-haiku-4.5",
+    "benchmark_id": "bbq-bias-score",
+    "score": 1.37,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.5__system-card.pdf",
+      "ref": "p.46",
+      "reported_by": "claude-opus-4.5",
+      "fetched_at": "2026-06-08T03:16:13.730Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "bbq-bias-score",
+    "score": 0.26,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.5__system-card.pdf",
+      "ref": "p.46",
+      "fetched_at": "2026-06-08T03:16:13.730Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4.5",
+    "benchmark_id": "bbq-bias-score",
+    "score": 0.25,
+    "config": "Ambiguous",
+    "source": {
+      "kind": "tech_report",
+      "url": "claude-opus-4.5__system-card.pdf",
+      "ref": "p.46",
+      "reported_by": "claude-opus-4.5",
+      "fetched_at": "2026-06-08T03:16:13.730Z"
+    }
+  },
+  {
     "model_id": "claude-opus-4.5",
     "benchmark_id": "bench-retail",
     "score": 88.9,
@@ -1545,44 +1583,6 @@
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
       "ref": "p.35",
-      "reported_by": "claude-opus-4.5",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-haiku-4.5",
-    "benchmark_id": "bbq-bias-score",
-    "score": 1.37,
-    "config": "Ambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.46",
-      "reported_by": "claude-opus-4.5",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.26,
-    "config": "Ambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.46",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "bbq-bias-score",
-    "score": 0.25,
-    "config": "Ambiguous",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.46",
       "reported_by": "claude-opus-4.5",
       "fetched_at": "2026-06-08T03:16:13.730Z"
     }
