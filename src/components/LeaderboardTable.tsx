@@ -3,6 +3,7 @@ import type { Benchmark, Model, ScoreRecord } from "../lib/types";
 import ScoreCell from "./ScoreCell";
 import { withBase } from "../lib/url";
 import { vendorBg, vendorSwatch } from "../lib/vendorColors";
+import { sizeClass, sizeLabel, SIZE_ORDER } from "../lib/modelSize";
 
 interface Row {
   model: Model;
@@ -19,6 +20,7 @@ type SortKey = { kind: "model" } | { kind: "bench"; id: string };
 export default function LeaderboardTable({ benchmarks, rows }: Props) {
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [vendorFilter, setVendorFilter] = useState<string>("");
+  const [sizeFilter, setSizeFilter] = useState<string>("");
   const [benchSearch, setBenchSearch] = useState("");
   const [sort, setSort] = useState<SortKey>(
     benchmarks[0] ? { kind: "bench", id: benchmarks[0].id } : { kind: "model" },
@@ -43,13 +45,20 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
     );
   }, [benchmarks, benchSearch]);
 
+  // Size classes present in this view, in size order.
+  const sizeClasses = useMemo(() => {
+    const present = new Set(rows.map((r) => sizeClass(r.model).key));
+    return SIZE_ORDER.filter((s) => present.has(s.key));
+  }, [rows]);
+
   const visibleRows = useMemo(() => {
     return rows.filter((r) => {
       if (vendorFilter && r.model.vendor !== vendorFilter) return false;
+      if (sizeFilter && sizeClass(r.model).key !== sizeFilter) return false;
       if (selected.size && !selected.has(r.model.id)) return false;
       return true;
     });
-  }, [rows, vendorFilter, selected]);
+  }, [rows, vendorFilter, sizeFilter, selected]);
 
   const sorted = useMemo(() => {
     const copy = [...visibleRows];
@@ -158,6 +167,38 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
                   aria-hidden="true"
                 />
                 {v}
+              </button>
+            ))}
+          </div>
+        )}
+        {sizeClasses.length > 1 && (
+          <div className="flex flex-wrap items-center gap-2 text-xs">
+            <span className="text-neutral-500 font-medium uppercase tracking-wide shrink-0">Size</span>
+            <button
+              type="button"
+              onClick={() => setSizeFilter("")}
+              className={
+                "rounded px-2 py-0.5 border text-xs " +
+                (sizeFilter === ""
+                  ? "border-black bg-black text-white"
+                  : "border-neutral-300 hover:border-neutral-400")
+              }
+            >
+              all
+            </button>
+            {sizeClasses.map((s) => (
+              <button
+                key={s.key}
+                type="button"
+                onClick={() => setSizeFilter(s.key === sizeFilter ? "" : s.key)}
+                className={
+                  "rounded px-2 py-0.5 border text-xs " +
+                  (sizeFilter === s.key
+                    ? "border-black bg-black text-white"
+                    : "border-neutral-300 hover:border-neutral-400")
+                }
+              >
+                {s.label}
               </button>
             ))}
           </div>
@@ -271,6 +312,11 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
                       aria-hidden="true"
                     />
                     {row.model.vendor}
+                    {sizeLabel(row.model) && (
+                      <span className="rounded bg-neutral-200/70 px-1 text-[10px] tabular-nums text-neutral-600">
+                        {sizeLabel(row.model)}
+                      </span>
+                    )}
                   </div>
                 </td>
                 {visibleBenchmarks.map((b) => (
