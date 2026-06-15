@@ -1522,6 +1522,15 @@
     },
     "variants": [
       {
+        "score": 76.7,
+        "config": "Diamond",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-11T08:36:40.447Z"
+        }
+      },
+      {
         "score": 76.6,
         "config": "Diamond",
         "source": {
@@ -1850,17 +1859,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "gpqa",
-    "score": 76.7,
-    "config": "Diamond",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-11T08:36:40.447Z"
-    }
   },
   {
     "model_id": "mistral-medium-3.5",
@@ -3154,6 +3152,15 @@
           "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
           "fetched_at": "2026-06-11T08:36:40.447Z"
         }
+      },
+      {
+        "score": 6.3,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-11T08:36:40.447Z"
+        }
       }
     ]
   },
@@ -3739,17 +3746,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "hle",
-    "score": 6.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-11T08:36:40.447Z"
-    }
   },
   {
     "model_id": "deepseek-r1-distill-llama-70b",
@@ -4382,6 +4378,15 @@
     },
     "variants": [
       {
+        "score": 61,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-11T08:36:40.447Z"
+        }
+      },
+      {
         "score": 55.6,
         "config": "default",
         "source": {
@@ -4814,17 +4819,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "livecodebench",
-    "score": 61,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-11T08:36:40.447Z"
-    }
   },
   {
     "model_id": "gemini-2.5-flash-lite",
@@ -6539,6 +6533,15 @@
           "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
           "fetched_at": "2026-06-11T08:36:40.447Z"
         }
+      },
+      {
+        "score": 81.9,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-11T08:36:40.447Z"
+        }
       }
     ]
   },
@@ -6750,17 +6753,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "mmlu-pro",
-    "score": 81.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-11T08:36:40.447Z"
-    }
   },
   {
     "model_id": "minimax-m1",
@@ -8034,6 +8026,15 @@
           "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
           "fetched_at": "2026-06-11T08:36:40.447Z"
         }
+      },
+      {
+        "score": 30.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
+          "fetched_at": "2026-06-11T08:36:40.447Z"
+        }
       }
     ]
   },
@@ -8662,17 +8663,6 @@
     "model_id": "deepseek-r1-distill-llama-70b",
     "benchmark_id": "scicode",
     "score": 31.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-11T08:36:40.447Z"
-    }
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "scicode",
-    "score": 30.7,
     "config": "default",
     "source": {
       "kind": "aggregator_api",

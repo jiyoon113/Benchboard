@@ -1057,7 +1057,31 @@
       "ref": "terminalbench_external.csv",
       "published": "2025-11-06",
       "fetched_at": "2026-06-11T08:47:43.603Z"
-    }
+    },
+    "variants": [
+      {
+        "score": 27.8,
+        "config": "Terminus 2",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "published": "2025-07-12",
+          "fetched_at": "2026-06-11T08:47:43.603Z"
+        }
+      },
+      {
+        "score": 26.7,
+        "config": "OpenHands",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "terminalbench_external.csv",
+          "published": "2025-07-12",
+          "fetched_at": "2026-06-11T08:47:43.603Z"
+        }
+      }
+    ]
   },
   {
     "model_id": "claude-haiku-4.5",
@@ -1248,32 +1272,6 @@
       "published": "2025-10-27",
       "fetched_at": "2026-06-11T08:47:43.603Z"
     }
-  },
-  {
-    "model_id": "kimi-k2-instruct",
-    "benchmark_id": "terminal-bench",
-    "score": 27.8,
-    "config": "Terminus 2",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "terminalbench_external.csv",
-      "published": "2025-07-12",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
-    },
-    "variants": [
-      {
-        "score": 26.7,
-        "config": "OpenHands",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "terminalbench_external.csv",
-          "published": "2025-07-12",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "glm-4.6",

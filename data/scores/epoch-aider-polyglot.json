@@ -256,7 +256,7 @@
     }
   },
   {
-    "model_id": "kimi-k2-instruct",
+    "model_id": "kimi-k2",
     "benchmark_id": "aider-polyglot",
     "score": 59.1,
     "config": "diff",

@@ -1023,7 +1023,7 @@
     }
   },
   {
-    "model_id": "kimi-k2-instruct",
+    "model_id": "kimi-k2",
     "benchmark_id": "ifeval",
     "score": 89.8,
     "config": "default",
@@ -1562,7 +1562,7 @@
     }
   },
   {
-    "model_id": "kimi-k2-instruct",
+    "model_id": "kimi-k2",
     "benchmark_id": "math-500",
     "score": 89.1,
     "config": "default",

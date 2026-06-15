@@ -420,7 +420,7 @@
     "name": "Kimi K2",
     "vendor": "Moonshot",
     "release_date": "2025-07",
-    "aliases": ["KIMI K2", "kimi-k2", "moonshot-v1-kimi-k2"]
+    "aliases": ["KIMI K2", "kimi-k2", "moonshot-v1-kimi-k2", "Kimi K2 Instruct", "kimi-k2-instruct", "Kimi K2 0905"]
   },
   {
     "id": "grok-2",
@@ -557,13 +557,6 @@
     "vendor": "Moonshot",
     "release_date": "2025-01",
     "aliases": ["Kimi-k1.5", "kimi-k1.5"]
-  },
-  {
-    "id": "kimi-k2-instruct",
-    "name": "Kimi K2 Instruct",
-    "vendor": "Moonshot",
-    "release_date": "2025-07",
-    "aliases": ["Kimi K2 Instruct", "kimi-k2-instruct", "Kimi K2 0905"]
   },
   {
     "id": "nova-pro",

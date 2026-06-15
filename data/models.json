@@ -956,7 +956,10 @@
       "KIMI K2",
       "kimi-k2",
       "KIMI K2 (중국어)",
-      "moonshot-v1-kimi-k2"
+      "moonshot-v1-kimi-k2",
+      "Kimi K2 Instruct",
+      "kimi-k2-instruct",
+      "Kimi K2 0905"
     ]
   },
   {
@@ -968,17 +971,6 @@
       "K2-1T-A32B",
       "Kimi-K2-Base",
       "kimi-k2-base"
-    ]
-  },
-  {
-    "id": "kimi-k2-instruct",
-    "name": "Kimi K2 Instruct",
-    "vendor": "Moonshot",
-    "release_date": "2025-07",
-    "aliases": [
-      "Kimi K2 Instruct",
-      "kimi-k2-instruct",
-      "Kimi K2 0905"
     ]
   },
   {
