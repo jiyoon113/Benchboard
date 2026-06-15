@@ -402,21 +402,21 @@
   {
     "id": "textvqa",
     "name": "TextVQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual question answering that requires reading text within images."
   },
   {
     "id": "vatex",
     "name": "VATEX",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video captioning benchmark (CIDEr metric)."
   },
   {
     "id": "egoschema",
     "name": "EgoSchema",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Long-form egocentric video question answering."
   },
@@ -451,7 +451,7 @@
   {
     "id": "lvbench",
     "name": "LVBench",
-    "category": "long",
+    "category": "video",
     "type": "deterministic",
     "description": "Long-video understanding QA over YouTube videos."
   },
@@ -480,7 +480,7 @@
   {
     "id": "blueprint-bench-2",
     "name": "Blueprint Bench 2",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Spatial-reasoning benchmark over blueprints/diagrams."
@@ -577,7 +577,7 @@
   {
     "id": "video-mme",
     "name": "Video-MME",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video multimodal evaluation — video understanding/reasoning (reported with subtitles)."
   },
@@ -745,182 +745,182 @@
   {
     "id": "mathvision",
     "name": "MathVision",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual math reasoning."
   },
   {
     "id": "we-math",
     "name": "We-Math",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual math reasoning (We-Math)."
   },
   {
     "id": "dynamath",
     "name": "DynaMath",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Dynamic visual math robustness."
   },
   {
     "id": "zerobench-sub",
     "name": "ZEROBench_sub",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "ZeroBench sub-question accuracy."
   },
   {
     "id": "babyvision",
     "name": "BabyVision",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Vision reasoning benchmark (BabyVision)."
   },
   {
     "id": "realworldqa",
     "name": "RealWorldQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Real-world visual QA."
   },
   {
     "id": "mmstar",
     "name": "MMStar",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Multimodal benchmark (MMStar)."
   },
   {
     "id": "hallusionbench",
     "name": "HallusionBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual hallucination benchmark."
   },
   {
     "id": "mmbench-en-dev-v1.1",
     "name": "MMBench-EN-DEV-v1.1",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "MMBench English dev v1.1."
   },
   {
     "id": "simplevqa",
     "name": "SimpleVQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Simple visual QA factuality."
   },
   {
     "id": "mmlongbench-doc",
     "name": "MMLongBench-Doc",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Long-document multimodal understanding."
   },
   {
     "id": "cc-ocr",
     "name": "CC-OCR",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "OCR benchmark (CC-OCR)."
   },
   {
     "id": "ocrbench",
     "name": "OCRBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "OCR benchmark."
   },
   {
     "id": "countbench",
     "name": "CountBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual counting benchmark."
   },
   {
     "id": "refcoco",
     "name": "RefCOCO (avg)",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Referring expression grounding (RefCOCO average)."
   },
   {
     "id": "odinw13",
     "name": "ODInW13",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Object detection in the wild (13 datasets)."
   },
   {
     "id": "embspatialbench",
     "name": "EmbSpatialBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Embodied spatial reasoning."
   },
   {
     "id": "refspatialbench",
     "name": "RefSpatialBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Referring spatial reasoning."
   },
   {
     "id": "lingoqa",
     "name": "LingoQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Driving visual QA."
   },
   {
     "id": "vstar",
     "name": "V-Star",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual search benchmark (V*)."
   },
   {
     "id": "hypersim",
     "name": "Hypersim",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "3D/spatial understanding (Hypersim)."
   },
   {
     "id": "sunrgbd",
     "name": "SUNRGBD",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "3D scene understanding (SUN RGB-D)."
   },
   {
     "id": "nuscene",
     "name": "Nuscene",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Autonomous-driving 3D understanding (nuScenes)."
   },
   {
     "id": "mlvu",
     "name": "MLVU",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Multi-task long video understanding (M-Avg)."
   },
   {
     "id": "mvbench",
     "name": "MVBench",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video understanding benchmark."
   },
   {
     "id": "mmvu",
     "name": "MMVU",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Multi-discipline video understanding."
   },

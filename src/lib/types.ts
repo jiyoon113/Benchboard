@@ -53,6 +53,8 @@ export type BenchmarkCategory =
   | "coding"
   | "agent"
   | "multimodal"
+  | "vision"
+  | "video"
   | "multilinguality"
   | "long"
   | "factuality"

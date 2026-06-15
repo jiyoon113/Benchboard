@@ -39,7 +39,7 @@
   {
     "id": "ai2d",
     "name": "AI2D",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -201,7 +201,7 @@
   {
     "id": "babyvision",
     "name": "BabyVision",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Vision reasoning benchmark (BabyVision)."
   },
@@ -227,7 +227,7 @@
   {
     "id": "betterchartqa",
     "name": "BetterChartQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -307,7 +307,7 @@
   {
     "id": "blueprint-bench-2",
     "name": "Blueprint Bench 2",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Spatial-reasoning benchmark over blueprints/diagrams."
@@ -361,7 +361,7 @@
   {
     "id": "cc-ocr",
     "name": "CC-OCR",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "OCR benchmark (CC-OCR)."
   },
@@ -374,13 +374,13 @@
   {
     "id": "chartqa",
     "name": "ChartQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "charxiv",
     "name": "CharXiv",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -474,7 +474,7 @@
   {
     "id": "countbench",
     "name": "CountBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual counting benchmark."
   },
@@ -581,7 +581,7 @@
   {
     "id": "docvqa",
     "name": "DocVQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -593,7 +593,7 @@
   {
     "id": "dynamath",
     "name": "DynaMath",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Dynamic visual math robustness."
   },
@@ -606,21 +606,21 @@
   {
     "id": "egoschema",
     "name": "EgoSchema",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Long-form egocentric video question answering."
   },
   {
     "id": "embspatialbench",
     "name": "EmbSpatialBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Embodied spatial reasoning."
   },
   {
     "id": "erqa",
     "name": "ERQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -872,7 +872,7 @@
   {
     "id": "hallusionbench",
     "name": "HallusionBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual hallucination benchmark."
   },
@@ -1008,7 +1008,7 @@
   {
     "id": "hypersim",
     "name": "Hypersim",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "3D/spatial understanding (Hypersim)."
   },
@@ -1289,7 +1289,7 @@
   {
     "id": "lingoqa",
     "name": "LingoQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Driving visual QA."
   },
@@ -1451,7 +1451,7 @@
   {
     "id": "lvbench",
     "name": "LVBench",
-    "category": "long",
+    "category": "video",
     "type": "deterministic",
     "description": "Long-video understanding QA over YouTube videos."
   },
@@ -1510,7 +1510,7 @@
   {
     "id": "mathvision",
     "name": "MathVision",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual math reasoning."
   },
@@ -1641,7 +1641,7 @@
   {
     "id": "mlvu",
     "name": "MLVU",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Multi-task long video understanding (M-Avg)."
   },
@@ -1655,14 +1655,14 @@
   {
     "id": "mmbench-en-dev-v1.1",
     "name": "MMBench-EN-DEV-v1.1",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "MMBench English dev v1.1."
   },
   {
     "id": "mmlongbench-doc",
     "name": "MMLongBench-Doc",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Long-document multimodal understanding."
   },
@@ -1844,50 +1844,50 @@
   {
     "id": "mmmu",
     "name": "MMMU",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmmu-multiple-attempts",
     "name": "MMMU multiple attempts",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro",
     "name": "MMMU-pro",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro-no-tools",
     "name": "MMMU-Pro No tools",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmmu-pro-with-tools",
     "name": "MMMU-Pro With tools",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmmu-single-attempt",
     "name": "MMMU single attempt",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "mmstar",
     "name": "MMStar",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Multimodal benchmark (MMStar)."
   },
   {
     "id": "mmvu",
     "name": "MMVU",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Multi-discipline video understanding."
   },
@@ -2039,7 +2039,7 @@
   {
     "id": "mvbench",
     "name": "MVBench",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video understanding benchmark."
   },
@@ -2077,21 +2077,21 @@
   {
     "id": "nuscene",
     "name": "Nuscene",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Autonomous-driving 3D understanding (nuScenes)."
   },
   {
     "id": "ocrbench",
     "name": "OCRBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "OCR benchmark."
   },
   {
     "id": "odinw13",
     "name": "ODInW13",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Object detection in the wild (13 datasets)."
   },
@@ -2110,7 +2110,7 @@
   {
     "id": "omnidocbench-1.5",
     "name": "OmniDocBench 1.5",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
@@ -2246,21 +2246,21 @@
   {
     "id": "realworldqa",
     "name": "RealWorldQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Real-world visual QA."
   },
   {
     "id": "refcoco",
     "name": "RefCOCO",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Referring expression grounding (RefCOCO average)."
   },
   {
     "id": "refspatialbench",
     "name": "RefSpatialBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Referring spatial reasoning."
   },
@@ -2333,7 +2333,7 @@
   {
     "id": "simplevqa",
     "name": "SimpleVQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Simple visual QA factuality."
   },
@@ -2372,7 +2372,7 @@
   {
     "id": "sunrgbd",
     "name": "SUNRGBD",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "3D scene understanding (SUN RGB-D)."
   },
@@ -2526,7 +2526,7 @@
   {
     "id": "textvqa",
     "name": "TextVQA",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual question answering that requires reading text within images."
   },
@@ -2594,14 +2594,14 @@
   {
     "id": "v-star",
     "name": "V-Star",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual search benchmark (V*)."
   },
   {
     "id": "vatex",
     "name": "VATEX",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video captioning benchmark (CIDEr metric)."
   },
@@ -2627,20 +2627,20 @@
   {
     "id": "vibe-eval",
     "name": "Vibe-Eval",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "video-mme",
     "name": "Video-MME",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic",
     "description": "Video multimodal evaluation — video understanding/reasoning (reported with subtitles)."
   },
   {
     "id": "videommmu",
     "name": "VideoMMMU",
-    "category": "multimodal",
+    "category": "video",
     "type": "deterministic"
   },
   {
@@ -2666,7 +2666,7 @@
   {
     "id": "we-math",
     "name": "We-Math",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "Visual math reasoning (We-Math)."
   },
@@ -2791,13 +2791,13 @@
   {
     "id": "zerobench",
     "name": "ZeroBench",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic"
   },
   {
     "id": "zerobenchsub",
     "name": "ZEROBench_sub",
-    "category": "multimodal",
+    "category": "vision",
     "type": "deterministic",
     "description": "ZeroBench sub-question accuracy."
   },

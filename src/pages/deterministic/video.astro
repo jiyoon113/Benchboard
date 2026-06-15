@@ -6,11 +6,11 @@ import CurationNote from "../../components/CurationNote.astro";
 import { buildView } from "../../lib/loadData.ts";
 import "../../styles/global.css";
 
-const view = await buildView("multimodal");
+const view = await buildView("video");
 ---
 
-<Page title="Multimodal">
-  <CategoryTabs active="multimodal" />
+<Page title="Video">
+  <CategoryTabs active="video" />
   <CurationNote hidden={view.hiddenBenchmarks} allHref="/deterministic/all" />
   <LeaderboardTable client:load benchmarks={view.benchmarks} rows={view.rows} />
 </Page>
