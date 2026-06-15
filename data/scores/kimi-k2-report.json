@@ -6,7 +6,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -19,7 +19,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -31,7 +31,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -44,7 +44,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -57,7 +57,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -70,7 +70,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -83,7 +83,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -96,7 +96,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -108,7 +108,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -121,7 +121,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -134,7 +134,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -147,7 +147,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -160,7 +160,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -173,7 +173,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -185,7 +185,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -198,7 +198,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -211,7 +211,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -224,7 +224,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -237,7 +237,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -249,7 +249,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -262,7 +262,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -275,7 +275,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -288,7 +288,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -301,7 +301,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -314,7 +314,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -327,7 +327,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -339,7 +339,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -352,7 +352,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -365,7 +365,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -378,7 +378,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -391,7 +391,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -404,7 +404,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -417,7 +417,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -429,7 +429,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -442,7 +442,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -455,7 +455,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -468,7 +468,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     },
@@ -478,7 +478,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "fetched_at": "2026-06-15T00:00:00Z"
         }
@@ -492,7 +492,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -503,7 +503,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -518,7 +518,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -529,7 +529,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -544,7 +544,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -555,7 +555,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -570,7 +570,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -581,7 +581,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -596,7 +596,7 @@
     "config": "Creative Writing; 0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -607,7 +607,7 @@
         "config": "Hard Prompt; 0324",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -622,7 +622,7 @@
     "config": "Creative Writing",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -633,7 +633,7 @@
         "config": "Hard Prompt",
         "source": {
           "kind": "manual",
-          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "url": "https://arxiv.org/abs/2507.20534",
           "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
           "reported_by": "kimi-k2",
           "fetched_at": "2026-06-15T00:00:00Z"
@@ -648,7 +648,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -661,7 +661,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -673,7 +673,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -686,7 +686,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -699,7 +699,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -712,7 +712,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -725,7 +725,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -738,7 +738,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -750,7 +750,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -763,7 +763,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -776,7 +776,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -789,7 +789,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -801,7 +801,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -814,7 +814,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -827,7 +827,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -840,7 +840,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -853,7 +853,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -865,7 +865,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -878,7 +878,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -891,7 +891,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -903,7 +903,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -916,7 +916,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -929,7 +929,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -942,7 +942,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -955,7 +955,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -968,7 +968,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -980,7 +980,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -993,7 +993,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1006,7 +1006,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1019,7 +1019,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1032,7 +1032,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1044,7 +1044,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1057,7 +1057,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1070,7 +1070,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1083,7 +1083,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1095,7 +1095,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1108,7 +1108,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1121,7 +1121,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1134,7 +1134,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1146,7 +1146,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1159,7 +1159,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1172,7 +1172,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1185,7 +1185,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1197,7 +1197,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1210,7 +1210,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1223,7 +1223,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1236,7 +1236,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1249,7 +1249,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1262,7 +1262,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1274,7 +1274,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1287,7 +1287,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1300,7 +1300,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1313,7 +1313,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1325,7 +1325,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1338,7 +1338,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1351,7 +1351,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1364,7 +1364,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1377,7 +1377,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1390,7 +1390,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1403,7 +1403,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1415,7 +1415,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1428,7 +1428,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1441,7 +1441,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1454,7 +1454,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1467,7 +1467,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1480,7 +1480,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1493,7 +1493,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1505,7 +1505,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1518,7 +1518,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1531,7 +1531,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1543,7 +1543,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1556,7 +1556,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1569,7 +1569,7 @@
     "config": "diamond; 0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1582,7 +1582,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1595,7 +1595,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1608,7 +1608,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1621,7 +1621,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1634,7 +1634,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1647,7 +1647,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1659,7 +1659,7 @@
     "config": "Diamond",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1672,7 +1672,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1684,7 +1684,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1697,7 +1697,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1710,7 +1710,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1723,7 +1723,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1735,7 +1735,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1748,7 +1748,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1761,7 +1761,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1774,7 +1774,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1787,7 +1787,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1799,7 +1799,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1812,7 +1812,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1825,7 +1825,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1837,7 +1837,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1850,7 +1850,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1863,7 +1863,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1876,7 +1876,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1889,7 +1889,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1902,7 +1902,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1915,7 +1915,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1928,7 +1928,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1941,7 +1941,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1954,7 +1954,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1967,7 +1967,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -1979,7 +1979,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -1992,7 +1992,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2004,7 +2004,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2017,7 +2017,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2030,7 +2030,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2043,7 +2043,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2056,7 +2056,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2069,7 +2069,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2082,7 +2082,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2094,7 +2094,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2107,7 +2107,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2120,7 +2120,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2133,7 +2133,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2146,7 +2146,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2159,7 +2159,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2172,7 +2172,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2184,7 +2184,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2197,7 +2197,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2210,7 +2210,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2223,7 +2223,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2236,7 +2236,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2249,7 +2249,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2262,7 +2262,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2274,7 +2274,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2287,7 +2287,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2300,7 +2300,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2313,7 +2313,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2326,7 +2326,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2339,7 +2339,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2352,7 +2352,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2364,7 +2364,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2377,7 +2377,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2390,7 +2390,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2403,7 +2403,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2416,7 +2416,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2429,7 +2429,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2442,7 +2442,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2455,7 +2455,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2467,7 +2467,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2479,7 +2479,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2492,7 +2492,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2505,7 +2505,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2518,7 +2518,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2530,7 +2530,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2543,7 +2543,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2556,7 +2556,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2569,7 +2569,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2582,7 +2582,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2595,7 +2595,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2608,7 +2608,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2621,7 +2621,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2634,7 +2634,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2647,7 +2647,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2660,7 +2660,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2672,7 +2672,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2685,7 +2685,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2697,7 +2697,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2710,7 +2710,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2723,7 +2723,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2736,7 +2736,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2749,7 +2749,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2762,7 +2762,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2775,7 +2775,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2788,7 +2788,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2801,7 +2801,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2813,7 +2813,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2826,7 +2826,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2839,7 +2839,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2851,7 +2851,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2864,7 +2864,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2877,7 +2877,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2890,7 +2890,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2903,7 +2903,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2916,7 +2916,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2928,7 +2928,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2941,7 +2941,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2954,7 +2954,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2967,7 +2967,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -2979,7 +2979,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -2992,7 +2992,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3005,7 +3005,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3018,7 +3018,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3031,7 +3031,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3044,7 +3044,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3057,7 +3057,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3070,7 +3070,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3082,7 +3082,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3095,7 +3095,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3108,7 +3108,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3120,7 +3120,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3133,7 +3133,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3146,7 +3146,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3159,7 +3159,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3172,7 +3172,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3184,7 +3184,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3197,7 +3197,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3210,7 +3210,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3223,7 +3223,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3236,7 +3236,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3249,7 +3249,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3262,7 +3262,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3275,7 +3275,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3288,7 +3288,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3301,7 +3301,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3313,7 +3313,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3326,7 +3326,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3339,7 +3339,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3352,7 +3352,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3364,7 +3364,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3377,7 +3377,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3390,7 +3390,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3403,7 +3403,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3416,7 +3416,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3429,7 +3429,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3442,7 +3442,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3455,7 +3455,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3468,7 +3468,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3480,7 +3480,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3493,7 +3493,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3506,7 +3506,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3519,7 +3519,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3531,7 +3531,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3544,7 +3544,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3557,7 +3557,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3570,7 +3570,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3583,7 +3583,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3596,7 +3596,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3609,7 +3609,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3622,7 +3622,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3634,7 +3634,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3646,7 +3646,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3659,7 +3659,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3672,7 +3672,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3685,7 +3685,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3698,7 +3698,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3711,7 +3711,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3724,7 +3724,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3737,7 +3737,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3750,7 +3750,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3762,7 +3762,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3775,7 +3775,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3788,7 +3788,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3801,7 +3801,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3814,7 +3814,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3827,7 +3827,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3840,7 +3840,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3852,7 +3852,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3865,7 +3865,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3878,7 +3878,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3891,7 +3891,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3904,7 +3904,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3916,7 +3916,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3929,7 +3929,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3942,7 +3942,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3955,7 +3955,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3968,7 +3968,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -3981,7 +3981,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -3993,7 +3993,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4006,7 +4006,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4019,7 +4019,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4031,7 +4031,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4044,7 +4044,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4057,7 +4057,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4070,7 +4070,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4083,7 +4083,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4095,7 +4095,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4108,7 +4108,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4121,7 +4121,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4134,7 +4134,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4147,7 +4147,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4160,7 +4160,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4173,7 +4173,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4185,7 +4185,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4198,7 +4198,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4211,7 +4211,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4224,7 +4224,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4237,7 +4237,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4250,7 +4250,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4262,7 +4262,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4275,7 +4275,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4288,7 +4288,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4301,7 +4301,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4314,7 +4314,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4327,7 +4327,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4340,7 +4340,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4353,7 +4353,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4366,7 +4366,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4378,7 +4378,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4391,7 +4391,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4404,7 +4404,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4417,7 +4417,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4429,7 +4429,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4442,7 +4442,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4455,7 +4455,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4468,7 +4468,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4481,7 +4481,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4494,7 +4494,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4507,7 +4507,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4520,7 +4520,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4533,7 +4533,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4545,7 +4545,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4558,7 +4558,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4571,7 +4571,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4583,7 +4583,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4596,7 +4596,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4609,7 +4609,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4622,7 +4622,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4634,7 +4634,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4647,7 +4647,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4660,7 +4660,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4673,7 +4673,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4685,7 +4685,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4698,7 +4698,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4711,7 +4711,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 4 (Kimi-K2-Base comparison)",
       "reported_by": "kimi-k2-base",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4724,7 +4724,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "fetched_at": "2026-06-15T00:00:00Z"
     }
@@ -4736,7 +4736,7 @@
     "config": "0324",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4749,7 +4749,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4762,7 +4762,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4775,7 +4775,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4788,7 +4788,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
@@ -4801,7 +4801,7 @@
     "config": "default",
     "source": {
       "kind": "manual",
-      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "url": "https://arxiv.org/abs/2507.20534",
       "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
       "reported_by": "kimi-k2",
       "fetched_at": "2026-06-15T00:00:00Z"
