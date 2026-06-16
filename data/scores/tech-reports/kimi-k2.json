@@ -766,7 +766,7 @@
   },
   {
     "model_id": "kimi-k2",
-    "benchmark_id": "hmmt-2025",
+    "benchmark_id": "hmmt-feb-2025",
     "score": 38.8,
     "config": "Avg@32",
     "source": {
@@ -778,7 +778,7 @@
   },
   {
     "model_id": "deepseek-v3",
-    "benchmark_id": "hmmt-2025",
+    "benchmark_id": "hmmt-feb-2025",
     "score": 27.5,
     "config": "Avg@32",
     "source": {
@@ -791,7 +791,7 @@
   },
   {
     "model_id": "claude-opus-4",
-    "benchmark_id": "hmmt-2025",
+    "benchmark_id": "hmmt-feb-2025",
     "score": 15.9,
     "config": "Avg@32",
     "source": {
@@ -804,7 +804,7 @@
   },
   {
     "model_id": "qwen3-235b",
-    "benchmark_id": "hmmt-2025",
+    "benchmark_id": "hmmt-feb-2025",
     "score": 11.9,
     "config": "Avg@32",
     "source": {

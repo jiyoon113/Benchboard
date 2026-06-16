@@ -133,7 +133,7 @@
   },
   {
     "model_id": "solar-open",
-    "benchmark_id": "hmmt-2025",
+    "benchmark_id": "hmmt-nov-2025",
     "score": 80,
     "config": "Nov",
     "source": {
