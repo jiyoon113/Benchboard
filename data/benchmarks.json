@@ -114,6 +114,13 @@
     "description": "Android GUI agent benchmark."
   },
   {
+    "id": "apex",
+    "name": "Apex",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Hard math-reasoning benchmark."
+  },
+  {
     "id": "apollo-research-sabotage",
     "name": "Apollo Research Sabotage",
     "category": "general",
@@ -399,6 +406,13 @@
     "description": "Real-world agent benchmark (Avg / Pass^3)."
   },
   {
+    "id": "claweval",
+    "name": "ClawEval",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-world agent benchmark."
+  },
+  {
     "id": "click",
     "name": "CLiCK",
     "category": "korean",
@@ -486,6 +500,13 @@
     "description": "Visual counting benchmark."
   },
   {
+    "id": "coworkbench",
+    "name": "CoWorkBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Long-horizon cowork agent benchmark across CS, finance, law, medical and other productivity domains."
+  },
+  {
     "id": "crag",
     "name": "CRAG",
     "category": "factuality",
@@ -497,6 +518,13 @@
     "name": "Creative Writing v3",
     "category": "general",
     "type": "deterministic"
+  },
+  {
+    "id": "critpt",
+    "name": "CritPT",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Hard physics/reasoning benchmark."
   },
   {
     "id": "crux-i",
@@ -2253,6 +2281,13 @@
     "type": "deterministic"
   },
   {
+    "id": "qwenclaw",
+    "name": "Qwenclaw",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-user-distribution Claw agent benchmark (QwenClawBench). https://github.com/SKYLENAGE-AI/QwenClawBench"
+  },
+  {
     "id": "qwenclawbench",
     "name": "QwenClawBench",
     "category": "agent",
@@ -2265,6 +2300,13 @@
     "category": "coding",
     "type": "deterministic",
     "description": "Internal front-end code-generation benchmark; bilingual, 7 categories; auto-render + multimodal judge; BT/Elo rating."
+  },
+  {
+    "id": "qwenworldbench",
+    "name": "QwenWorldBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Evaluates LLMs as world models for simulating agentic environments across 7 domains."
   },
   {
     "id": "race-high",
@@ -2704,6 +2746,13 @@
     "category": "agent",
     "type": "deterministic",
     "description": "Versatile agentic interaction benchmark."
+  },
+  {
+    "id": "vitabench",
+    "name": "Vitabench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Agent benchmark; avg of subdomain scores."
   },
   {
     "id": "vlmsareblind",

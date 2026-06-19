@@ -214,7 +214,7 @@
     "id": "claude-opus-4.6",
     "name": "Claude Opus 4.6",
     "vendor": "Anthropic",
-    "aliases": ["claude-opus-4.6", "claude-opus-4-6", "claude-opus-4-6-thinking"]
+    "aliases": ["claude-opus-4.6", "claude-opus-4-6", "claude-opus-4-6-thinking", "Opus-4.6 Max", "Claude-4.6-Opus-Max", "claude-4.6-opus-max", "claude-opus-4.6-max", "Claude Opus 4.6 Max"]
   },
   {
     "id": "claude-opus-4.7",
@@ -373,7 +373,7 @@
     "id": "qwen3-235b",
     "name": "Qwen3-235B-A22B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3-235b-A22b base", "qwen3-235b", "Qwen3-235B-A22B-Instruct", "qwen3.7-max-preview", "Qwen3-235B-A22B-Instruct-2507", "Qwen3-235B-A22B-Thinking-2507"]
+    "aliases": ["Qwen3-235b-A22b base", "qwen3-235b", "Qwen3-235B-A22B-Instruct", "Qwen3-235B-A22B-Instruct-2507", "Qwen3-235B-A22B-Thinking-2507"]
   },
   {
     "id": "qwen3-32b",
@@ -485,7 +485,7 @@
     "id": "glm-5",
     "name": "GLM-5",
     "vendor": "Z.ai",
-    "aliases": ["glm-5.1", "glm-5"]
+    "aliases": ["glm-5"]
   },
   {
     "id": "glm-4.5",
@@ -611,7 +611,7 @@
     "name": "DeepSeek-V4-Pro",
     "vendor": "DeepSeek",
     "release_date": "2026-04-24",
-    "aliases": ["DeepSeek-V4-Pro", "deepseek-v4-pro"]
+    "aliases": ["DeepSeek-V4-Pro", "deepseek-v4-pro", "DS-V4-Pro Max", "DS-V4-Pro-Max", "DeepSeek-V4-Pro-Max", "deepseek-v4-pro-max"]
   },
   {
     "id": "qwen3-max",
@@ -646,7 +646,7 @@
     "name": "Kimi K2.6",
     "vendor": "Moonshot",
     "release_date": "2026-04-20",
-    "aliases": ["Kimi K2.6", "kimi-k2.6"]
+    "aliases": ["Kimi K2.6", "kimi-k2.6", "K2.6 Thinking", "kimi-k2.6-thinking", "Kimi-K2.6-Thinking"]
   },
   {
     "id": "glm-4.6",
@@ -945,122 +945,91 @@
     "id": "qwen3.5-base",
     "name": "Qwen3.5-397B-A17B-Base",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen3.5-397B-A17B-Base",
-      "Qwen3.5 Base",
-      "qwen3.5-base"
-    ]
+    "aliases": ["Qwen3.5-397B-A17B-Base", "Qwen3.5 Base", "qwen3.5-base"]
   },
   {
     "id": "qwen3-235b-base",
     "name": "Qwen3-235B-A22B-Base",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen3-235B-A22B-Base",
-      "Qwen3-235B Base",
-      "qwen3-235b-base"
-    ]
+    "aliases": ["Qwen3-235B-A22B-Base", "Qwen3-235B Base", "qwen3-235b-base"]
   },
   {
     "id": "glm-4.5-base",
     "name": "GLM-4.5-355B-A32B-Base",
     "vendor": "Z.ai",
-    "aliases": [
-      "GLM-4.5-355B-A32B-Base",
-      "GLM-4.5 Base",
-      "glm-4.5-base"
-    ]
+    "aliases": ["GLM-4.5-355B-A32B-Base", "GLM-4.5 Base", "glm-4.5-base"]
   },
   {
     "id": "deepseek-v3.2-base",
     "name": "DeepSeek-V3.2-671B-A37B-Base",
     "vendor": "DeepSeek",
-    "aliases": [
-      "DeepSeek-V3.2-671B-A37B-Base",
-      "DeepSeek-V3.2 Base",
-      "deepseek-v3.2-base"
-    ]
+    "aliases": ["DeepSeek-V3.2-671B-A37B-Base", "DeepSeek-V3.2 Base", "deepseek-v3.2-base"]
   },
   {
     "id": "kimi-k2-base",
     "name": "Kimi K2 Base",
     "vendor": "Moonshot",
-    "aliases": [
-      "Kimi K2 Base",
-      "K2-1T-A32B",
-      "Kimi-K2-Base",
-      "kimi-k2-base"
-    ]
+    "aliases": ["Kimi K2 Base", "K2-1T-A32B", "Kimi-K2-Base", "kimi-k2-base"]
   },
   {
     "id": "deepseek-v3-base",
     "name": "DeepSeek-V3-Base",
     "vendor": "DeepSeek",
-    "aliases": [
-      "DeepSeek-V3-Base",
-      "DeepSeek V3 Base",
-      "deepseek-v3-base"
-    ]
+    "aliases": ["DeepSeek-V3-Base", "DeepSeek V3 Base", "deepseek-v3-base"]
   },
   {
     "id": "llama-4-maverick-base",
     "name": "Llama 4 Maverick Base",
     "vendor": "Meta",
-    "aliases": [
-      "Llama4-Maverick-Base",
-      "Llama 4 Maverick Base",
-      "llama-4-maverick-base"
-    ]
+    "aliases": ["Llama4-Maverick-Base", "Llama 4 Maverick Base", "llama-4-maverick-base"]
   },
   {
     "id": "qwen-2.5-72b-base",
     "name": "Qwen2.5-72B-Base",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen2.5-72B-Base",
-      "Qwen2.5 72B Base",
-      "qwen-2.5-72b-base"
-    ]
+    "aliases": ["Qwen2.5-72B-Base", "Qwen2.5 72B Base", "qwen-2.5-72b-base"]
   },
   {
     "id": "qwen3.6-27b",
     "name": "Qwen3.6-27B",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen3.6-27B",
-      "Qwen3.6 27B",
-      "qwen3.6-27b"
-    ]
+    "aliases": ["Qwen3.6-27B", "Qwen3.6 27B", "qwen3.6-27b"]
   },
   {
     "id": "qwen3.6-35b-a3b",
     "name": "Qwen3.6-35B-A3B",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen3.6-35B-A3B",
-      "Qwen3.6 35B A3B",
-      "qwen3.6-35b-a3b"
-    ]
+    "aliases": ["Qwen3.6-35B-A3B", "Qwen3.6 35B A3B", "qwen3.6-35b-a3b"]
   },
   {
     "id": "qwen3.5-27b",
     "name": "Qwen3.5-27B",
     "vendor": "Alibaba",
-    "aliases": [
-      "Qwen3.5-27B",
-      "Qwen3.5 27B",
-      "qwen3.5-27b"
-    ]
+    "aliases": ["Qwen3.5-27B", "Qwen3.5 27B", "qwen3.5-27b"]
   },
   {
     "id": "gemma4-31b",
     "name": "Gemma 4 31B",
     "vendor": "Google",
-    "aliases": [
-      "Gemma4-31B",
-      "Gemma 4 31B",
-      "gemma-4-31b",
-      "gemma4-31b"
-    ]
+    "aliases": ["Gemma4-31B", "Gemma 4 31B", "gemma-4-31b", "gemma4-31b"]
+  },
+  {
+    "id": "qwen3.7-max",
+    "name": "Qwen3.7-Max",
+    "vendor": "Alibaba",
+    "release_date": "2026-06",
+    "aliases": ["Qwen3.7-Max", "qwen3.7-max", "Qwen3.7-Max-Thinking", "qwen3.7-max-thinking", "qwen3.7-max-preview"]
+  },
+  {
+    "id": "qwen3.6-plus",
+    "name": "Qwen3.6-Plus",
+    "vendor": "Alibaba",
+    "aliases": ["Qwen3.6-Plus", "Qwen3.6 Plus", "qwen3.6-plus", "Qwen3.6-Plus-Thinking", "qwen3.6-plus-thinking"]
+  },
+  {
+    "id": "glm-5.1",
+    "name": "GLM-5.1",
+    "vendor": "Z.ai",
+    "aliases": ["GLM-5.1", "glm-5.1", "GLM-5.1-Thinking", "glm-5.1-thinking"]
   }
 ]
