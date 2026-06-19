@@ -1042,5 +1042,54 @@
     "category": "vision",
     "type": "deterministic",
     "description": "Visual-perception robustness benchmark (VLMs Are Blind)."
+  },
+  {
+    "id": "qwenclaw",
+    "name": "Qwenclaw",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-user-distribution Claw agent benchmark (QwenClawBench). https://github.com/SKYLENAGE-AI/QwenClawBench"
+  },
+  {
+    "id": "coworkbench",
+    "name": "CoWorkBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Long-horizon cowork agent benchmark across CS, finance, law, medical and other productivity domains."
+  },
+  {
+    "id": "claweval",
+    "name": "ClawEval",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Real-world agent benchmark."
+  },
+  {
+    "id": "vitabench",
+    "name": "Vitabench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Agent benchmark; avg of subdomain scores."
+  },
+  {
+    "id": "qwenworldbench",
+    "name": "QwenWorldBench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Evaluates LLMs as world models for simulating agentic environments across 7 domains."
+  },
+  {
+    "id": "critpt",
+    "name": "CritPT",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Hard physics/reasoning benchmark."
+  },
+  {
+    "id": "apex",
+    "name": "Apex",
+    "category": "math",
+    "type": "deterministic",
+    "description": "Hard math-reasoning benchmark."
   }
 ]

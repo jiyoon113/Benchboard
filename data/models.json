@@ -108,6 +108,7 @@
     "id": "claude-haiku-4.5",
     "name": "Claude Haiku 4.5",
     "vendor": "Anthropic",
+    "release_date": "2025-10",
     "aliases": [
       "Claude Haiku 4.5",
       "claude-haiku-4.5",
@@ -165,6 +166,7 @@
     "id": "claude-opus-4.5",
     "name": "Claude Opus 4.5",
     "vendor": "Anthropic",
+    "release_date": "2025-11",
     "aliases": [
       "Claude Opus 4.5",
       "claude-opus-4.5",
@@ -180,7 +182,12 @@
     "aliases": [
       "claude-opus-4.6",
       "claude-opus-4-6",
-      "claude-opus-4-6-thinking"
+      "claude-opus-4-6-thinking",
+      "Opus-4.6 Max",
+      "Claude-4.6-Opus-Max",
+      "claude-4.6-opus-max",
+      "claude-opus-4.6-max",
+      "Claude Opus 4.6 Max"
     ]
   },
   {
@@ -277,6 +284,7 @@
     "id": "deepseek-r1-zero",
     "name": "DeepSeek-R1-Zero",
     "vendor": "DeepSeek",
+    "release_date": "2025-01",
     "aliases": [
       "DeepSeek-R1-Zero",
       "DeepSeek R1 Zero",
@@ -310,6 +318,7 @@
     "id": "deepseek-v3-base",
     "name": "DeepSeek-V3-Base",
     "vendor": "DeepSeek",
+    "release_date": "2024-12",
     "aliases": [
       "DeepSeek-V3-Base",
       "DeepSeek V3 Base",
@@ -342,6 +351,7 @@
     "id": "deepseek-v3.2-base",
     "name": "DeepSeek-V3.2-671B-A37B-Base",
     "vendor": "DeepSeek",
+    "release_date": "2025-09",
     "aliases": [
       "DeepSeek-V3.2-671B-A37B-Base",
       "DeepSeek-V3.2 Base",
@@ -365,7 +375,11 @@
     "release_date": "2026-04-24",
     "aliases": [
       "DeepSeek-V4-Pro",
-      "deepseek-v4-pro"
+      "deepseek-v4-pro",
+      "DS-V4-Pro Max",
+      "DS-V4-Pro-Max",
+      "DeepSeek-V4-Pro-Max",
+      "deepseek-v4-pro-max"
     ]
   },
   {
@@ -619,6 +633,7 @@
     "id": "glm-4.5-air",
     "name": "GLM-4.5-Air",
     "vendor": "Z.ai",
+    "release_date": "2025-07",
     "aliases": [
       "GLM-4.5-Air",
       "glm-4.5-air"
@@ -628,6 +643,7 @@
     "id": "glm-4.5-base",
     "name": "GLM-4.5-355B-A32B-Base",
     "vendor": "Z.ai",
+    "release_date": "2025-07",
     "aliases": [
       "GLM-4.5-355B-A32B-Base",
       "GLM-4.5 Base",
@@ -669,6 +685,17 @@
     "aliases": [
       "glm-5.1",
       "glm-5"
+    ]
+  },
+  {
+    "id": "glm-5.1",
+    "name": "GLM-5.1",
+    "vendor": "Z.ai",
+    "aliases": [
+      "GLM-5.1",
+      "glm-5.1",
+      "GLM-5.1-Thinking",
+      "glm-5.1-thinking"
     ]
   },
   {
@@ -966,6 +993,7 @@
     "id": "kimi-k2-base",
     "name": "Kimi K2 Base",
     "vendor": "Moonshot",
+    "release_date": "2025-07",
     "aliases": [
       "Kimi K2 Base",
       "K2-1T-A32B",
@@ -1002,13 +1030,17 @@
     "release_date": "2026-04-20",
     "aliases": [
       "Kimi K2.6",
-      "kimi-k2.6"
+      "kimi-k2.6",
+      "K2.6 Thinking",
+      "kimi-k2.6-thinking",
+      "Kimi-K2.6-Thinking"
     ]
   },
   {
     "id": "llama-3",
     "name": "Llama 3",
     "vendor": "Meta",
+    "release_date": "2024-04",
     "aliases": [
       "Llama 3",
       "llama-3"
@@ -1101,6 +1133,7 @@
     "id": "llama-4-maverick-base",
     "name": "Llama 4 Maverick Base",
     "vendor": "Meta",
+    "release_date": "2025-04",
     "aliases": [
       "Llama4-Maverick-Base",
       "Llama 4 Maverick Base",
@@ -1122,6 +1155,7 @@
     "id": "magistral-medium",
     "name": "Magistral Medium",
     "vendor": "Mistral",
+    "release_date": "2025-06",
     "aliases": [
       "Magistral Medium",
       "magistral-medium"
@@ -1131,6 +1165,7 @@
     "id": "magistral-small",
     "name": "Magistral Small",
     "vendor": "Mistral",
+    "release_date": "2025-06",
     "aliases": [
       "Magistral Small",
       "Magistral Small 2506",
@@ -1142,6 +1177,7 @@
     "id": "minimax-m1",
     "name": "MiniMax M1",
     "vendor": "MiniMax",
+    "release_date": "2025-06",
     "aliases": [
       "MiniMax M1",
       "minimax-m1",
@@ -1232,6 +1268,7 @@
     "id": "mistral-small-3.1",
     "name": "Mistral Small 3.1",
     "vendor": "Mistral",
+    "release_date": "2025-03",
     "aliases": [
       "Mistral Small 3.1",
       "Mistral Small 3.1 24B Instruct",
@@ -1244,6 +1281,7 @@
     "id": "mistral-small-3.2",
     "name": "Mistral Small 3.2",
     "vendor": "Mistral",
+    "release_date": "2025-06",
     "aliases": [
       "Mistral Small 3.2",
       "Mistral Small 3.2 24B Instruct",
@@ -1331,6 +1369,7 @@
     "id": "nova-lite",
     "name": "Amazon Nova Lite",
     "vendor": "Amazon",
+    "release_date": "2024-12",
     "aliases": [
       "Amazon Nova Lite",
       "Nova Lite",
@@ -1341,6 +1380,7 @@
     "id": "nova-micro",
     "name": "Amazon Nova Micro",
     "vendor": "Amazon",
+    "release_date": "2024-12",
     "aliases": [
       "Amazon Nova Micro",
       "Nova Micro",
@@ -1361,6 +1401,7 @@
     "id": "o1",
     "name": "o1",
     "vendor": "OpenAI",
+    "release_date": "2024-12",
     "aliases": [
       "o1",
       "o1-preview",
@@ -1408,6 +1449,7 @@
     "id": "phi-3.5-moe",
     "name": "Phi-3.5-MoE",
     "vendor": "Microsoft",
+    "release_date": "2024-08",
     "aliases": [
       "Phi-3.5-MoE",
       "Phi-3.5-MoE-instruct",
@@ -1431,6 +1473,7 @@
     "id": "phi-4-mini",
     "name": "Phi-4 Mini",
     "vendor": "Microsoft",
+    "release_date": "2025-02",
     "aliases": [
       "Phi 4 Mini",
       "Phi-4 Mini",
@@ -1441,6 +1484,7 @@
     "id": "phi-4-reasoning-plus",
     "name": "Phi-4 Reasoning Plus",
     "vendor": "Microsoft",
+    "release_date": "2025-04",
     "aliases": [
       "Phi 4 Reasoning Plus",
       "Phi-4 Reasoning Plus",
@@ -1451,6 +1495,7 @@
     "id": "pixtral-large",
     "name": "Pixtral Large",
     "vendor": "Mistral",
+    "release_date": "2024-11",
     "aliases": [
       "Pixtral Large",
       "pixtral-large"
@@ -1475,6 +1520,7 @@
     "id": "qwen-2.5-72b-base",
     "name": "Qwen2.5-72B-Base",
     "vendor": "Alibaba",
+    "release_date": "2024-09",
     "aliases": [
       "Qwen2.5-72B-Base",
       "Qwen2.5 72B Base",
@@ -1518,6 +1564,7 @@
     "id": "qwen3-235b",
     "name": "Qwen3-235B-A22B",
     "vendor": "Alibaba",
+    "release_date": "2025-04",
     "aliases": [
       "Qwen3-235b-A22b base",
       "qwen3-235b",
@@ -1532,6 +1579,7 @@
     "id": "qwen3-235b-base",
     "name": "Qwen3-235B-A22B-Base",
     "vendor": "Alibaba",
+    "release_date": "2025-04",
     "aliases": [
       "Qwen3-235B-A22B-Base",
       "Qwen3-235B Base",
@@ -1542,6 +1590,7 @@
     "id": "qwen3-30b-a3b",
     "name": "Qwen3-30B-A3B",
     "vendor": "Alibaba",
+    "release_date": "2025-04",
     "aliases": [
       "qwen3-30b-a3b",
       "Qwen3 30B A3B",
@@ -1552,6 +1601,7 @@
     "id": "qwen3-32b",
     "name": "Qwen3-32B",
     "vendor": "Alibaba",
+    "release_date": "2025-04",
     "aliases": [
       "qwen3-32b",
       "Qwen3 32B",
@@ -1643,6 +1693,31 @@
       "Qwen3.6-Max",
       "qwen3.6-max",
       "qwen3.6-max-preview"
+    ]
+  },
+  {
+    "id": "qwen3.6-plus",
+    "name": "Qwen3.6-Plus",
+    "vendor": "Alibaba",
+    "aliases": [
+      "Qwen3.6-Plus",
+      "Qwen3.6 Plus",
+      "qwen3.6-plus",
+      "Qwen3.6-Plus-Thinking",
+      "qwen3.6-plus-thinking"
+    ]
+  },
+  {
+    "id": "qwen3.7-max",
+    "name": "Qwen3.7-Max",
+    "vendor": "Alibaba",
+    "release_date": "2026-06",
+    "aliases": [
+      "Qwen3.7-Max",
+      "qwen3.7-max",
+      "Qwen3.7-Max-Thinking",
+      "qwen3.7-max-thinking",
+      "qwen3.7-max-preview"
     ]
   },
   {
