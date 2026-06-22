@@ -7,6 +7,13 @@
     "description": "Text-to-SQL benchmark — generate SQL queries from natural-language questions over databases."
   },
   {
+    "id": "multiif",
+    "name": "MultiIF",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual instruction-following benchmark (8 languages)."
+  },
+  {
     "id": "mcp-atlas",
     "name": "MCP Atlas",
     "category": "agent",

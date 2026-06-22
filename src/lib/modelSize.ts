@@ -57,6 +57,7 @@ const DISCLOSED_B: Record<string, number> = {
   "phi-3.5-mini": 3.8,
   "phi-3.5-moe": 42, // 16x3.8B MoE, ~41.9B total
   // MiniMax (open weights)
+  "mixtral-8x22b": 141, // 8x22B MoE, 141B total
   "minimax-m1": 456,
   "minimax-m2": 230,
   "minimax-m2.1": 230,

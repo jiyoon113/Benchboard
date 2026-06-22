@@ -2126,6 +2126,13 @@
     "description": "Scale SEAL multi-turn instruction-following eval, LLM-judge."
   },
   {
+    "id": "multiif",
+    "name": "MultiIF",
+    "category": "multilinguality",
+    "type": "deterministic",
+    "description": "Multilingual instruction-following benchmark (8 languages)."
+  },
+  {
     "id": "multinrc",
     "name": "MultiNRC",
     "category": "multilinguality",

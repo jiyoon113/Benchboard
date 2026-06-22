@@ -1624,6 +1624,19 @@
     ]
   },
   {
+    "id": "mixtral-8x22b",
+    "name": "Mixtral 8x22B",
+    "vendor": "Mistral",
+    "release_date": "2024-04",
+    "aliases": [
+      "Mixtral 8x22B",
+      "Mixtral-8x22B",
+      "mixtral-8x22b",
+      "Mixtral-8x22B-Instruct-v0.1",
+      "mistralai/Mixtral-8x22B-Instruct-v0.1"
+    ]
+  },
+  {
     "id": "nemotron-3-nano",
     "name": "Nemotron 3 Nano 30B A3B",
     "vendor": "NVIDIA",
