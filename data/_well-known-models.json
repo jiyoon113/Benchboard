@@ -2260,5 +2260,17 @@
       "Codestral-Mamba-7B",
       "mistralai/Mamba-Codestral-7B-v0.1"
     ]
+  },
+  {
+    "id": "gemma-2-27b",
+    "name": "Gemma 2 27B",
+    "vendor": "Google",
+    "release_date": "2024-06",
+    "aliases": [
+      "Gemma 2 27B",
+      "gemma-2-27b",
+      "gemma-2-27b-it",
+      "google/gemma-2-27b-it"
+    ]
   }
 ]
