@@ -54,6 +54,7 @@ const DISCLOSED_B: Record<string, number> = {
   "phi-4": 14,
   "phi-4-reasoning-plus": 14,
   "phi-4-mini": 3.8,
+  "phi-3.5-mini": 3.8,
   "phi-3.5-moe": 42, // 16x3.8B MoE, ~41.9B total
   // MiniMax (open weights)
   "minimax-m1": 456,
