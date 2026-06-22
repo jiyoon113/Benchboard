@@ -1,5 +1,12 @@
 [
   {
+    "id": "spider",
+    "name": "Spider",
+    "category": "coding",
+    "type": "deterministic",
+    "description": "Text-to-SQL benchmark — generate SQL queries from natural-language questions over databases."
+  },
+  {
     "id": "mcp-atlas",
     "name": "MCP Atlas",
     "category": "agent",
