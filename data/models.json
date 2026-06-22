@@ -246,6 +246,58 @@
     ]
   },
   {
+    "id": "codegemma-1.1-7b",
+    "name": "CodeGemma-1.1 7B",
+    "vendor": "Google",
+    "release_date": "2024-04",
+    "aliases": [
+      "CodeGemma-1.1 7B",
+      "codegemma-1.1-7b",
+      "CodeGemma 7B",
+      "codegemma-7b",
+      "google/codegemma-1.1-7b-it"
+    ]
+  },
+  {
+    "id": "codellama-34b",
+    "name": "CodeLlama 34B",
+    "vendor": "Meta",
+    "release_date": "2023-08",
+    "aliases": [
+      "CodeLlama 34B",
+      "Code Llama 34B",
+      "codellama-34b",
+      "CodeLlama-34b-Instruct",
+      "codellama/CodeLlama-34b-Instruct-hf"
+    ]
+  },
+  {
+    "id": "codellama-7b",
+    "name": "CodeLlama 7B",
+    "vendor": "Meta",
+    "release_date": "2023-08",
+    "aliases": [
+      "CodeLlama 7B",
+      "Code Llama 7B",
+      "codellama-7b",
+      "CodeLlama-7b-Instruct",
+      "codellama/CodeLlama-7b-Instruct-hf"
+    ]
+  },
+  {
+    "id": "codestral-22b",
+    "name": "Codestral 22B",
+    "vendor": "Mistral",
+    "release_date": "2024-05",
+    "aliases": [
+      "Codestral 22B",
+      "Codestral (22B)",
+      "codestral-22b",
+      "Codestral-22B-v0.1",
+      "mistralai/Codestral-22B-v0.1"
+    ]
+  },
+  {
     "id": "codestral-mamba-7b",
     "name": "Codestral Mamba 7B",
     "vendor": "Mistral",
@@ -267,6 +319,19 @@
       "command-r7b",
       "c4ai-command-r7b-12-2024",
       "CohereForAI/c4ai-command-r7b-12-2024"
+    ]
+  },
+  {
+    "id": "deepseek-coder-v1.5-7b",
+    "name": "DeepSeek-Coder-V1.5 7B",
+    "vendor": "DeepSeek",
+    "release_date": "2024-02",
+    "aliases": [
+      "DeepSeek-Coder-V1.5 7B",
+      "DeepSeek v1.5 7B",
+      "deepseek-coder-v1.5-7b",
+      "deepseek-coder-7b-instruct-v1.5",
+      "deepseek-ai/deepseek-coder-7b-instruct-v1.5"
     ]
   },
   {
