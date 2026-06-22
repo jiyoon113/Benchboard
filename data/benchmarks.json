@@ -129,6 +129,13 @@
     "description": "Hard math-reasoning benchmark."
   },
   {
+    "id": "api-bank",
+    "name": "API-Bank",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Tool-use benchmark — API call planning and invocation."
+  },
+  {
     "id": "apollo-research-sabotage",
     "name": "Apollo Research Sabotage",
     "category": "general",
@@ -342,6 +349,13 @@
     "description": "Spatial-reasoning benchmark over blueprints/diagrams."
   },
   {
+    "id": "boolq",
+    "name": "BoolQ",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Yes/no reading-comprehension questions."
+  },
+  {
     "id": "browsecomp",
     "name": "BrowseComp",
     "category": "agent",
@@ -501,6 +515,13 @@
     "name": "COLLIE",
     "category": "instruction",
     "type": "deterministic"
+  },
+  {
+    "id": "commonsenseqa",
+    "name": "CommonSenseQA",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Commonsense reasoning multiple-choice QA."
   },
   {
     "id": "computational-biology-biomysterybench",
@@ -813,6 +834,13 @@
     "name": "GMMLU Overall average",
     "category": "general",
     "type": "deterministic"
+  },
+  {
+    "id": "gorilla",
+    "name": "Gorilla API Bench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Gorilla benchmark for API/function calling accuracy."
   },
   {
     "id": "gpqa",
@@ -1890,6 +1918,13 @@
     "type": "deterministic"
   },
   {
+    "id": "mmlu-language-thai",
+    "name": "MMLU Language - Thai",
+    "category": "general",
+    "type": "deterministic",
+    "description": "MMLU translated to Thai (5-shot)."
+  },
+  {
     "id": "mmlu-language-yoruba",
     "name": "MMLU Language - Yoruba",
     "category": "general",
@@ -2356,6 +2391,13 @@
     "type": "deterministic"
   },
   {
+    "id": "quac",
+    "name": "QuAC",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Question Answering in Context — conversational reading comprehension (F1)."
+  },
+  {
     "id": "qwenclaw",
     "name": "Qwenclaw",
     "category": "agent",
@@ -2524,6 +2566,13 @@
     "name": "SpreadsheetBench",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "squad",
+    "name": "SQuAD",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Reading comprehension — extractive QA over Wikipedia passages."
   },
   {
     "id": "squality",

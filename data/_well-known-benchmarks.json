@@ -21,6 +21,55 @@
     "description": "Multistep Soft Reasoning — long narrative reasoning (Open LLM Leaderboard v2)."
   },
   {
+    "id": "commonsenseqa",
+    "name": "CommonSenseQA",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Commonsense reasoning multiple-choice QA."
+  },
+  {
+    "id": "squad",
+    "name": "SQuAD",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Reading comprehension — extractive QA over Wikipedia passages."
+  },
+  {
+    "id": "quac",
+    "name": "QuAC",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Question Answering in Context — conversational reading comprehension (F1)."
+  },
+  {
+    "id": "boolq",
+    "name": "BoolQ",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Yes/no reading-comprehension questions."
+  },
+  {
+    "id": "api-bank",
+    "name": "API-Bank",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Tool-use benchmark — API call planning and invocation."
+  },
+  {
+    "id": "gorilla",
+    "name": "Gorilla API Bench",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Gorilla benchmark for API/function calling accuracy."
+  },
+  {
+    "id": "mmlu-language-thai",
+    "name": "MMLU Language - Thai",
+    "category": "general",
+    "type": "deterministic",
+    "description": "MMLU translated to Thai (5-shot)."
+  },
+  {
     "id": "mcp-atlas",
     "name": "MCP Atlas",
     "category": "agent",
