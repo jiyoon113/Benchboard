@@ -2147,6 +2147,13 @@
     "type": "deterministic"
   },
   {
+    "id": "musr",
+    "name": "MuSR",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Multistep Soft Reasoning — long narrative reasoning (Open LLM Leaderboard v2)."
+  },
+  {
     "id": "mvbench",
     "name": "MVBench",
     "category": "video",
