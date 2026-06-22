@@ -62,6 +62,9 @@ const DISCLOSED_B: Record<string, number> = {
   "minimax-m2.1": 230,
   // Korea
   "phi-2": 2.7, // name omits the "B"
+  "phi-3-mini": 3.8,
+  "phi-3-small": 7,
+  "phi-3-medium": 14,
   "exaone-4": 32,
   "ax-4": 72, // continual-pretrained on Qwen2.5-72B
   "ax-3.1-light": 7,

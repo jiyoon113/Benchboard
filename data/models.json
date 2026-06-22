@@ -246,6 +246,18 @@
     ]
   },
   {
+    "id": "codestral-mamba-7b",
+    "name": "Codestral Mamba 7B",
+    "vendor": "Mistral",
+    "release_date": "2024-07",
+    "aliases": [
+      "Codestral Mamba 7B",
+      "codestral-mamba-7b",
+      "Codestral-Mamba-7B",
+      "mistralai/Mamba-Codestral-7B-v0.1"
+    ]
+  },
+  {
     "id": "command-r7b",
     "name": "Command R7B",
     "vendor": "Cohere",
@@ -1341,6 +1353,18 @@
     ]
   },
   {
+    "id": "llama-guard-3-8b",
+    "name": "Llama Guard 3 8B",
+    "vendor": "Meta",
+    "release_date": "2024-07",
+    "aliases": [
+      "Llama Guard 3 8B",
+      "llama-guard-3-8b",
+      "Llama-Guard-3-8B",
+      "meta-llama/Llama-Guard-3-8B"
+    ]
+  },
+  {
     "id": "magistral-medium",
     "name": "Magistral Medium",
     "vendor": "Mistral",
@@ -1719,6 +1743,41 @@
     ]
   },
   {
+    "id": "phi-3-medium",
+    "name": "Phi-3 Medium",
+    "vendor": "Microsoft",
+    "release_date": "2024-05",
+    "aliases": [
+      "Phi-3 Medium",
+      "phi-3-medium",
+      "Phi-3-medium-128k-instruct",
+      "microsoft/phi-3-medium-128k-instruct"
+    ]
+  },
+  {
+    "id": "phi-3-mini",
+    "name": "Phi-3 Mini",
+    "vendor": "Microsoft",
+    "release_date": "2024-04",
+    "aliases": [
+      "Phi-3 Mini",
+      "phi-3-mini",
+      "Phi-3-mini-128k-instruct",
+      "microsoft/phi-3-mini-128k-instruct"
+    ]
+  },
+  {
+    "id": "phi-3-small",
+    "name": "Phi-3 Small",
+    "vendor": "Microsoft",
+    "release_date": "2024-05",
+    "aliases": [
+      "Phi-3 Small",
+      "phi-3-small",
+      "Phi-3-small-128k-instruct"
+    ]
+  },
+  {
     "id": "phi-3.5-mini",
     "name": "Phi-3.5-mini",
     "vendor": "Microsoft",
@@ -1892,6 +1951,86 @@
       "qwen2.5-7b",
       "Qwen2.5-7B-Instruct",
       "Qwen2.5 7B Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-0.5b",
+    "name": "Qwen2.5-Coder 0.5B",
+    "vendor": "Alibaba",
+    "release_date": "2024-11",
+    "aliases": [
+      "Qwen2.5-Coder 0.5B",
+      "qwen2.5-coder-0.5b",
+      "Qwen2.5-Coder-0.5B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-1.5b",
+    "name": "Qwen2.5-Coder 1.5B",
+    "vendor": "Alibaba",
+    "release_date": "2024-11",
+    "aliases": [
+      "Qwen2.5-Coder 1.5B",
+      "qwen2.5-coder-1.5b",
+      "Qwen2.5-Coder-1.5B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-14b",
+    "name": "Qwen2.5-Coder 14B",
+    "vendor": "Alibaba",
+    "release_date": "2024-11",
+    "aliases": [
+      "Qwen2.5-Coder 14B",
+      "qwen2.5-coder-14b",
+      "Qwen2.5-Coder-14B-Instruct",
+      "qwen/qwen2.5-coder-14b-instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-3b",
+    "name": "Qwen2.5-Coder 3B",
+    "vendor": "Alibaba",
+    "release_date": "2024-11",
+    "aliases": [
+      "Qwen2.5-Coder 3B",
+      "qwen2.5-coder-3b",
+      "Qwen2.5-Coder-3B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-coder-7b",
+    "name": "Qwen2.5-Coder 7B",
+    "vendor": "Alibaba",
+    "release_date": "2024-11",
+    "aliases": [
+      "Qwen2.5-Coder 7B",
+      "qwen2.5-coder-7b",
+      "Qwen2.5-Coder-7B-Instruct",
+      "qwen/qwen2.5-coder-7b-instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-vl-3b",
+    "name": "Qwen2.5-VL 3B",
+    "vendor": "Alibaba",
+    "release_date": "2025-01",
+    "aliases": [
+      "Qwen2.5-VL 3B",
+      "qwen2.5-vl-3b",
+      "Qwen2.5-VL-3B-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-vl-7b",
+    "name": "Qwen2.5-VL 7B",
+    "vendor": "Alibaba",
+    "release_date": "2025-01",
+    "aliases": [
+      "Qwen2.5-VL 7B",
+      "qwen2.5-vl-7b",
+      "Qwen2.5-VL-7B-Instruct",
+      "qwen/qwen2.5-vl-7b-instruct"
     ]
   },
   {
