@@ -29,53 +29,6 @@
     ]
   },
   {
-    "id": "aya-expanse-8b",
-    "name": "Aya Expanse 8B",
-    "vendor": "Cohere",
-    "release_date": "2024-10",
-    "aliases": [
-      "Aya Expanse 8B",
-      "aya-expanse-8b",
-      "aya-expanse-8b-2024",
-      "CohereForAI/aya-expanse-8b"
-    ]
-  },
-  {
-    "id": "baichuan2-13b",
-    "name": "Baichuan2 13B",
-    "vendor": "Baichuan",
-    "release_date": "2023-09",
-    "aliases": [
-      "Baichuan2 13B",
-      "baichuan2-13b",
-      "Baichuan2-13B-Chat",
-      "baichuan-inc/Baichuan2-13B-Chat"
-    ]
-  },
-  {
-    "id": "baichuan2-7b",
-    "name": "Baichuan2 7B",
-    "vendor": "Baichuan",
-    "release_date": "2023-09",
-    "aliases": [
-      "Baichuan2 7B",
-      "baichuan2-7b",
-      "Baichuan2-7B-Chat",
-      "baichuan-inc/Baichuan2-7B-Chat"
-    ]
-  },
-  {
-    "id": "chatglm3-6b",
-    "name": "ChatGLM3 6B",
-    "vendor": "Z.ai",
-    "release_date": "2023-10",
-    "aliases": [
-      "ChatGLM3 6B",
-      "chatglm3-6b",
-      "THUDM/chatglm3-6b"
-    ]
-  },
-  {
     "id": "claude-3-haiku",
     "name": "Claude Haiku 3",
     "vendor": "Anthropic",
@@ -505,18 +458,6 @@
     ]
   },
   {
-    "id": "eurollm-9b",
-    "name": "EuroLLM 9B",
-    "vendor": "EuroLLM",
-    "release_date": "2024-11",
-    "aliases": [
-      "EuroLLM 9B",
-      "eurollm-9b",
-      "EuroLLM-9B-Instruct",
-      "utter-project/EuroLLM-9B-Instruct"
-    ]
-  },
-  {
     "id": "exaone",
     "name": "EXAONE",
     "vendor": "LG",
@@ -564,54 +505,6 @@
       "EXAONE-4.0",
       "LGAI-EXAONE/EXAONE-4.0-32B",
       "LGAI-EXAONE/EXAONE-4.0-1.2B"
-    ]
-  },
-  {
-    "id": "falcon3-10b",
-    "name": "Falcon3 10B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": [
-      "Falcon3 10B",
-      "falcon3-10b",
-      "Falcon3-10B-Instruct",
-      "tiiuae/Falcon3-10B-Instruct"
-    ]
-  },
-  {
-    "id": "falcon3-1b",
-    "name": "Falcon3 1B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": [
-      "Falcon3 1B",
-      "falcon3-1b",
-      "Falcon3-1B-Instruct",
-      "tiiuae/Falcon3-1B-Instruct"
-    ]
-  },
-  {
-    "id": "falcon3-3b",
-    "name": "Falcon3 3B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": [
-      "Falcon3 3B",
-      "falcon3-3b",
-      "Falcon3-3B-Instruct",
-      "tiiuae/Falcon3-3B-Instruct"
-    ]
-  },
-  {
-    "id": "falcon3-7b",
-    "name": "Falcon3 7B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": [
-      "Falcon3 7B",
-      "falcon3-7b",
-      "Falcon3-7B-Instruct",
-      "tiiuae/Falcon3-7B-Instruct"
     ]
   },
   {
@@ -1223,54 +1116,6 @@
     ]
   },
   {
-    "id": "h2o-danube3-4b",
-    "name": "H2O Danube3 4B",
-    "vendor": "H2O.ai",
-    "release_date": "2024-07",
-    "aliases": [
-      "H2O Danube3 4B",
-      "h2o-danube3-4b",
-      "h2o-danube3-4b-chat",
-      "h2oai/h2o-danube3-4b-chat"
-    ]
-  },
-  {
-    "id": "internlm2-1.8b",
-    "name": "InternLM2 1.8B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2024-01",
-    "aliases": [
-      "InternLM2 1.8B",
-      "internlm2-1.8b",
-      "internlm2-chat-1_8b",
-      "internlm/internlm2-chat-1_8b"
-    ]
-  },
-  {
-    "id": "internlm2.5-7b",
-    "name": "InternLM2.5 7B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2024-07",
-    "aliases": [
-      "InternLM2.5 7B",
-      "internlm2.5-7b",
-      "internlm2_5-7b-chat",
-      "internlm/internlm2_5-7b-chat"
-    ]
-  },
-  {
-    "id": "internlm3-8b",
-    "name": "InternLM3 8B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2025-01",
-    "aliases": [
-      "InternLM3 8B",
-      "internlm3-8b",
-      "internlm3-8b-instruct",
-      "internlm/internlm3-8b-instruct"
-    ]
-  },
-  {
     "id": "kimi-k1.5",
     "name": "Kimi K1.5",
     "vendor": "Moonshot",
@@ -1518,30 +1363,6 @@
     ]
   },
   {
-    "id": "mamba-2.8b",
-    "name": "Mamba 2.8B",
-    "vendor": "state-spaces",
-    "release_date": "2023-12",
-    "aliases": [
-      "Mamba 2.8B",
-      "mamba-2.8b",
-      "mamba-2.8b-hf",
-      "state-spaces/mamba-2.8b-hf"
-    ]
-  },
-  {
-    "id": "minicpm3-4b",
-    "name": "MiniCPM3 4B",
-    "vendor": "OpenBMB",
-    "release_date": "2024-09",
-    "aliases": [
-      "MiniCPM3 4B",
-      "minicpm3-4b",
-      "MiniCPM3-4B",
-      "openbmb/MiniCPM3-4B"
-    ]
-  },
-  {
     "id": "minimax-m1",
     "name": "MiniMax M1",
     "vendor": "MiniMax",
@@ -1734,18 +1555,6 @@
     ]
   },
   {
-    "id": "nemotron-mini-4b",
-    "name": "Nemotron Mini 4B",
-    "vendor": "NVIDIA",
-    "release_date": "2024-09",
-    "aliases": [
-      "Nemotron Mini 4B",
-      "nemotron-mini-4b",
-      "Nemotron-Mini-4B-Instruct",
-      "nvidia/Nemotron-Mini-4B-Instruct"
-    ]
-  },
-  {
     "id": "nemotron-nano-9b-v2",
     "name": "Nemotron Nano 9B v2",
     "vendor": "NVIDIA",
@@ -1898,29 +1707,6 @@
     ]
   },
   {
-    "id": "openchat-3.5-7b",
-    "name": "OpenChat 3.5 7B",
-    "vendor": "OpenChat",
-    "release_date": "2024-01",
-    "aliases": [
-      "OpenChat 3.5 7B",
-      "openchat-3.5-7b",
-      "openchat-3.5-0106",
-      "openchat/openchat-3.5-0106"
-    ]
-  },
-  {
-    "id": "orca-2-13b",
-    "name": "Orca 2 13B",
-    "vendor": "Microsoft",
-    "release_date": "2023-11",
-    "aliases": [
-      "Orca 2 13B",
-      "orca-2-13b",
-      "microsoft/Orca-2-13b"
-    ]
-  },
-  {
     "id": "phi-2",
     "name": "Phi-2",
     "vendor": "Microsoft",
@@ -1999,28 +1785,6 @@
     "aliases": [
       "Pixtral Large",
       "pixtral-large"
-    ]
-  },
-  {
-    "id": "pythia-1.4b",
-    "name": "Pythia 1.4B",
-    "vendor": "EleutherAI",
-    "release_date": "2023-04",
-    "aliases": [
-      "Pythia 1.4B",
-      "pythia-1.4b",
-      "EleutherAI/pythia-1.4b"
-    ]
-  },
-  {
-    "id": "pythia-2.8b",
-    "name": "Pythia 2.8B",
-    "vendor": "EleutherAI",
-    "release_date": "2023-04",
-    "aliases": [
-      "Pythia 2.8B",
-      "pythia-2.8b",
-      "EleutherAI/pythia-2.8b"
     ]
   },
   {
@@ -2364,30 +2128,6 @@
     ]
   },
   {
-    "id": "salamandra-7b",
-    "name": "Salamandra 7B",
-    "vendor": "BSC",
-    "release_date": "2024-10",
-    "aliases": [
-      "Salamandra 7B",
-      "salamandra-7b",
-      "salamandra-7b-instruct",
-      "BSC-LT/salamandra-7b-instruct"
-    ]
-  },
-  {
-    "id": "sea-lion-v3-9b",
-    "name": "SEA-LION v3 9B",
-    "vendor": "AI Singapore",
-    "release_date": "2024-12",
-    "aliases": [
-      "SEA-LION v3 9B",
-      "sea-lion-v3-9b",
-      "gemma2-9b-cpt-sea-lionv3-instruct",
-      "aisingapore/gemma2-9b-cpt-sea-lionv3-instruct"
-    ]
-  },
-  {
     "id": "solar-open",
     "name": "Solar Open",
     "vendor": "Upstage",
@@ -2423,54 +2163,6 @@
     ]
   },
   {
-    "id": "stablelm-2-1.6b",
-    "name": "StableLM 2 1.6B",
-    "vendor": "Stability AI",
-    "release_date": "2024-01",
-    "aliases": [
-      "StableLM 2 1.6B",
-      "stablelm-2-1.6b",
-      "stablelm-2-1_6b",
-      "stabilityai/stablelm-2-1_6b-chat"
-    ]
-  },
-  {
-    "id": "starling-lm-7b",
-    "name": "Starling-LM 7B",
-    "vendor": "Berkeley NEST",
-    "release_date": "2023-11",
-    "aliases": [
-      "Starling-LM 7B",
-      "starling-lm-7b",
-      "Starling-LM-7B-beta",
-      "Nexusflow/Starling-LM-7B-beta"
-    ]
-  },
-  {
-    "id": "teuken-7b",
-    "name": "Teuken 7B",
-    "vendor": "OpenGPT-X",
-    "release_date": "2024-09",
-    "aliases": [
-      "Teuken 7B",
-      "teuken-7b",
-      "Teuken-7B-instruct-v0.4",
-      "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
-    ]
-  },
-  {
-    "id": "tinyllama-1.1b",
-    "name": "TinyLlama 1.1B",
-    "vendor": "TinyLlama",
-    "release_date": "2024-01",
-    "aliases": [
-      "TinyLlama 1.1B",
-      "tinyllama-1.1b",
-      "TinyLlama-1.1B-Chat-v1.0",
-      "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-    ]
-  },
-  {
     "id": "vaetki",
     "name": "VAETKI",
     "vendor": "Unknown",
@@ -2480,30 +2172,6 @@
       "vaetki",
       "VAETK",
       "VAETK (영어)"
-    ]
-  },
-  {
-    "id": "vicuna-13b",
-    "name": "Vicuna 13B",
-    "vendor": "LMSYS",
-    "release_date": "2023-03",
-    "aliases": [
-      "Vicuna 13B",
-      "vicuna-13b",
-      "vicuna-13b-v1.5",
-      "lmsys/vicuna-13b-v1.5"
-    ]
-  },
-  {
-    "id": "vicuna-7b",
-    "name": "Vicuna 7B",
-    "vendor": "LMSYS",
-    "release_date": "2023-03",
-    "aliases": [
-      "Vicuna 7B",
-      "vicuna-7b",
-      "vicuna-7b-v1.5",
-      "lmsys/vicuna-7b-v1.5"
     ]
   },
   {
@@ -2528,18 +2196,6 @@
       "yi-1.5-9b",
       "Yi-1.5-9B-Chat",
       "01-ai/Yi-1.5-9B-Chat"
-    ]
-  },
-  {
-    "id": "zamba2-7b",
-    "name": "Zamba2 7B",
-    "vendor": "Zyphra",
-    "release_date": "2024-10",
-    "aliases": [
-      "Zamba2 7B",
-      "zamba2-7b",
-      "Zamba2-7B-Instruct",
-      "Zyphra/Zamba2-7B-Instruct"
     ]
   }
 ]

@@ -5,7 +5,14 @@
     "vendor": "LG",
     "release_date": "2025-07",
     "report_url": "https://arxiv.org/abs/2507.11407",
-    "aliases": ["EXAONE 4.0", "exaone-4.0", "exaone4", "EXAONE-4.0", "LGAI-EXAONE/EXAONE-4.0-32B", "LGAI-EXAONE/EXAONE-4.0-1.2B"]
+    "aliases": [
+      "EXAONE 4.0",
+      "exaone-4.0",
+      "exaone4",
+      "EXAONE-4.0",
+      "LGAI-EXAONE/EXAONE-4.0-32B",
+      "LGAI-EXAONE/EXAONE-4.0-1.2B"
+    ]
   },
   {
     "id": "ax-4",
@@ -13,268 +20,449 @@
     "vendor": "SKT",
     "release_date": "2025-07",
     "report_url": "https://huggingface.co/skt/A.X-4.0",
-    "aliases": ["A.X 4.0", "AX 4.0", "A.X-4.0", "ax-4.0", "ax4", "skt/A.X-4.0", "에이닷엑스 4.0"]
+    "aliases": [
+      "A.X 4.0",
+      "AX 4.0",
+      "A.X-4.0",
+      "ax-4.0",
+      "ax4",
+      "skt/A.X-4.0",
+      "에이닷엑스 4.0"
+    ]
   },
   {
     "id": "ax-3.1-light",
     "name": "A.X 3.1 Light",
     "vendor": "SKT",
     "report_url": "https://huggingface.co/skt/A.X-3.1-Light",
-    "aliases": ["A.X 3.1 Light", "AX 3.1 Light", "A.X-3.1-Light", "ax-3.1-light", "skt/A.X-3.1-Light"]
+    "aliases": [
+      "A.X 3.1 Light",
+      "AX 3.1 Light",
+      "A.X-3.1-Light",
+      "ax-3.1-light",
+      "skt/A.X-3.1-Light"
+    ]
   },
   {
     "id": "gpt-4",
     "name": "GPT-4",
     "vendor": "OpenAI",
     "release_date": "2023-03",
-    "aliases": ["GPT 4", "gpt-4", "gpt-4-0613", "gpt-4-0125-preview"]
+    "aliases": [
+      "GPT 4",
+      "gpt-4",
+      "gpt-4-0613",
+      "gpt-4-0125-preview"
+    ]
   },
   {
     "id": "gpt-4-turbo",
     "name": "GPT-4 Turbo",
     "vendor": "OpenAI",
     "release_date": "2024-04",
-    "aliases": ["gpt-4-turbo", "gpt-4-turbo-2024-04-09", "gpt-4-1106-preview"]
+    "aliases": [
+      "gpt-4-turbo",
+      "gpt-4-turbo-2024-04-09",
+      "gpt-4-1106-preview"
+    ]
   },
   {
     "id": "gpt-4.1",
     "name": "GPT-4.1",
     "vendor": "OpenAI",
     "release_date": "2025-04",
-    "aliases": ["GPT-4.1", "OpenAI GPT-4.1", "gpt-4.1", "gpt-4-1"]
+    "aliases": [
+      "GPT-4.1",
+      "OpenAI GPT-4.1",
+      "gpt-4.1",
+      "gpt-4-1"
+    ]
   },
   {
     "id": "gpt-4o",
     "name": "GPT-4o",
     "vendor": "OpenAI",
     "release_date": "2024-05",
-    "aliases": ["gpt-4o", "gpt-4o-2024-05-13", "gpt-4o-2024-08-06", "gpt-4o-2024-11-20"]
+    "aliases": [
+      "gpt-4o",
+      "gpt-4o-2024-05-13",
+      "gpt-4o-2024-08-06",
+      "gpt-4o-2024-11-20"
+    ]
   },
   {
     "id": "gpt-4o-mini",
     "name": "GPT-4o mini",
     "vendor": "OpenAI",
     "release_date": "2024-07",
-    "aliases": ["gpt-4o-mini", "gpt-4o-mini-2024-07-18"]
+    "aliases": [
+      "gpt-4o-mini",
+      "gpt-4o-mini-2024-07-18"
+    ]
   },
   {
     "id": "gpt-5",
     "name": "GPT-5",
     "vendor": "OpenAI",
     "release_date": "2025-08",
-    "aliases": ["GPT 5", "gpt-5", "gpt-5-2025", "gpt-5-high"]
+    "aliases": [
+      "GPT 5",
+      "gpt-5",
+      "gpt-5-2025",
+      "gpt-5-high"
+    ]
   },
   {
     "id": "gpt-5.2-thinking",
     "name": "GPT-5.2 Thinking",
     "vendor": "OpenAI",
-    "aliases": ["GPT 5.2 Thinking", "gpt-5.2-thinking"]
+    "aliases": [
+      "GPT 5.2 Thinking",
+      "gpt-5.2-thinking"
+    ]
   },
   {
     "id": "gpt-5.4",
     "name": "GPT-5.4",
     "vendor": "OpenAI",
-    "aliases": ["GPT 5.4", "gpt-5.4", "gpt-5.4-high"]
+    "aliases": [
+      "GPT 5.4",
+      "gpt-5.4",
+      "gpt-5.4-high"
+    ]
   },
   {
     "id": "gpt-5.5",
     "name": "GPT-5.5",
     "vendor": "OpenAI",
-    "aliases": ["gpt-5.5", "gpt-5.5-high", "gpt-5.5-instant"]
+    "aliases": [
+      "gpt-5.5",
+      "gpt-5.5-high",
+      "gpt-5.5-instant"
+    ]
   },
   {
     "id": "gpt-5.2",
     "name": "GPT-5.2",
     "vendor": "OpenAI",
-    "aliases": ["GPT-5.2", "gpt-5.2"]
+    "aliases": [
+      "GPT-5.2",
+      "gpt-5.2"
+    ]
   },
   {
     "id": "o1",
     "name": "o1",
     "vendor": "OpenAI",
-    "aliases": ["o1", "o1-preview", "o1-mini", "o1-2024-12-17"]
+    "aliases": [
+      "o1",
+      "o1-preview",
+      "o1-mini",
+      "o1-2024-12-17"
+    ]
   },
   {
     "id": "o3-mini",
     "name": "o3-mini",
     "vendor": "OpenAI",
     "release_date": "2025-01",
-    "aliases": ["o3-mini", "OpenAI o3-mini", "o3-mini-high"]
+    "aliases": [
+      "o3-mini",
+      "OpenAI o3-mini",
+      "o3-mini-high"
+    ]
   },
   {
     "id": "o3",
     "name": "o3",
     "vendor": "OpenAI",
     "release_date": "2025-04",
-    "aliases": ["o3", "OpenAI o3", "OpenAI o3-high", "OpenAI o3-high [high]", "OpenAI o3 (with web search)", "OpenAI o3-helpful-only", "OpenAI o3-helpful-only-2025-04-03 [high]"]
+    "aliases": [
+      "o3",
+      "OpenAI o3",
+      "OpenAI o3-high",
+      "OpenAI o3-high [high]",
+      "OpenAI o3 (with web search)",
+      "OpenAI o3-helpful-only",
+      "OpenAI o3-helpful-only-2025-04-03 [high]"
+    ]
   },
   {
     "id": "o4-mini",
     "name": "o4-mini",
     "vendor": "OpenAI",
     "release_date": "2025-04",
-    "aliases": ["o4-mini", "OpenAI o4-mini"]
+    "aliases": [
+      "o4-mini",
+      "OpenAI o4-mini"
+    ]
   },
   {
     "id": "gpt-4.5",
     "name": "GPT-4.5",
     "vendor": "OpenAI",
     "release_date": "2025-02",
-    "aliases": ["GPT-4.5", "gpt-4.5", "gpt-4-5"]
+    "aliases": [
+      "GPT-4.5",
+      "gpt-4.5",
+      "gpt-4-5"
+    ]
   },
   {
     "id": "claude-3-opus",
     "name": "Claude Opus 3",
     "vendor": "Anthropic",
     "release_date": "2024-03",
-    "aliases": ["claude-3-opus", "claude-3-opus-20240229"]
+    "aliases": [
+      "claude-3-opus",
+      "claude-3-opus-20240229"
+    ]
   },
   {
     "id": "claude-3-sonnet",
     "name": "Claude Sonnet 3",
     "vendor": "Anthropic",
     "release_date": "2024-03",
-    "aliases": ["claude-3-sonnet", "claude-3-sonnet-20240229"]
+    "aliases": [
+      "claude-3-sonnet",
+      "claude-3-sonnet-20240229"
+    ]
   },
   {
     "id": "claude-3-haiku",
     "name": "Claude Haiku 3",
     "vendor": "Anthropic",
     "release_date": "2024-03",
-    "aliases": ["claude-3-haiku", "claude-3-haiku-20240307"]
+    "aliases": [
+      "claude-3-haiku",
+      "claude-3-haiku-20240307"
+    ]
   },
   {
     "id": "claude-3.5-sonnet",
     "name": "Claude Sonnet 3.5",
     "vendor": "Anthropic",
     "release_date": "2024-06",
-    "aliases": ["claude-3.5-sonnet", "claude-3-5-sonnet", "claude-3-5-sonnet-20240620", "claude-3-5-sonnet-20241022"]
+    "aliases": [
+      "claude-3.5-sonnet",
+      "claude-3-5-sonnet",
+      "claude-3-5-sonnet-20240620",
+      "claude-3-5-sonnet-20241022"
+    ]
   },
   {
     "id": "claude-3.5-haiku",
     "name": "Claude Haiku 3.5",
     "vendor": "Anthropic",
     "release_date": "2024-10",
-    "aliases": ["claude-3.5-haiku", "claude-3-5-haiku-20241022"]
+    "aliases": [
+      "claude-3.5-haiku",
+      "claude-3-5-haiku-20241022"
+    ]
   },
   {
     "id": "claude-3.7-sonnet",
     "name": "Claude Sonnet 3.7",
     "vendor": "Anthropic",
     "release_date": "2025-02",
-    "aliases": ["claude-3.7-sonnet", "claude-3-7-sonnet", "Claude 3.7 Sonnet", "claude-3-7-sonnet-20250219"]
+    "aliases": [
+      "claude-3.7-sonnet",
+      "claude-3-7-sonnet",
+      "Claude 3.7 Sonnet",
+      "claude-3-7-sonnet-20250219"
+    ]
   },
   {
     "id": "claude-opus-4",
     "name": "Claude Opus 4",
     "vendor": "Anthropic",
     "release_date": "2025-05",
-    "aliases": ["claude-opus-4", "claude-4-opus"]
+    "aliases": [
+      "claude-opus-4",
+      "claude-4-opus"
+    ]
   },
   {
     "id": "claude-sonnet-4",
     "name": "Claude Sonnet 4",
     "vendor": "Anthropic",
     "release_date": "2025-05",
-    "aliases": ["Claude Sonnet 4", "Claude 4 Sonnet", "claude-sonnet-4", "claude-4-sonnet"]
+    "aliases": [
+      "Claude Sonnet 4",
+      "Claude 4 Sonnet",
+      "claude-sonnet-4",
+      "claude-4-sonnet"
+    ]
   },
   {
     "id": "claude-opus-4.5",
     "name": "Claude Opus 4.5",
     "vendor": "Anthropic",
-    "aliases": ["claude-opus-4.5", "claude-opus-4-5", "claude-opus-4-5-20251101", "claude-opus-4-5-20251101-thinking-32k"]
+    "aliases": [
+      "claude-opus-4.5",
+      "claude-opus-4-5",
+      "claude-opus-4-5-20251101",
+      "claude-opus-4-5-20251101-thinking-32k"
+    ]
   },
   {
     "id": "claude-sonnet-4.5",
     "name": "Claude Sonnet 4.5",
     "vendor": "Anthropic",
-    "aliases": ["Claude Sonnet 4.5", "claude-sonnet-4.5", "claude-sonnet-4-5"]
+    "aliases": [
+      "Claude Sonnet 4.5",
+      "claude-sonnet-4.5",
+      "claude-sonnet-4-5"
+    ]
   },
   {
     "id": "claude-haiku-4.5",
     "name": "Claude Haiku 4.5",
     "vendor": "Anthropic",
-    "aliases": ["Claude Haiku 4.5", "claude-haiku-4.5", "claude-haiku-4-5", "claude-haiku-4-5-20251001"]
+    "aliases": [
+      "Claude Haiku 4.5",
+      "claude-haiku-4.5",
+      "claude-haiku-4-5",
+      "claude-haiku-4-5-20251001"
+    ]
   },
   {
     "id": "gpt-oss-120b",
     "name": "gpt-oss-120b",
     "vendor": "OpenAI",
     "release_date": "2025-08",
-    "aliases": ["gpt-oss-120b", "GPT-oss-120b", "gpt-oss-120b-high", "gpt-oss-120b-medium", "gpt-oss-120b-low"]
+    "aliases": [
+      "gpt-oss-120b",
+      "GPT-oss-120b",
+      "gpt-oss-120b-high",
+      "gpt-oss-120b-medium",
+      "gpt-oss-120b-low"
+    ]
   },
   {
     "id": "gpt-oss-20b",
     "name": "gpt-oss-20b",
     "vendor": "OpenAI",
     "release_date": "2025-08",
-    "aliases": ["gpt-oss-20b", "GPT-oss-20b", "gpt-oss-20b-high", "gpt-oss-20b-medium", "gpt-oss-20b-low"]
+    "aliases": [
+      "gpt-oss-20b",
+      "GPT-oss-20b",
+      "gpt-oss-20b-high",
+      "gpt-oss-20b-medium",
+      "gpt-oss-20b-low"
+    ]
   },
   {
     "id": "claude-opus-4.6",
     "name": "Claude Opus 4.6",
     "vendor": "Anthropic",
-    "aliases": ["claude-opus-4.6", "claude-opus-4-6", "claude-opus-4-6-thinking", "Opus-4.6 Max", "Claude-4.6-Opus-Max", "claude-4.6-opus-max", "claude-opus-4.6-max", "Claude Opus 4.6 Max"]
+    "aliases": [
+      "claude-opus-4.6",
+      "claude-opus-4-6",
+      "claude-opus-4-6-thinking",
+      "Opus-4.6 Max",
+      "Claude-4.6-Opus-Max",
+      "claude-4.6-opus-max",
+      "claude-opus-4.6-max",
+      "Claude Opus 4.6 Max"
+    ]
   },
   {
     "id": "claude-opus-4.7",
     "name": "Claude Opus 4.7",
     "vendor": "Anthropic",
-    "aliases": ["claude-opus-4.7", "claude-opus-4-7", "claude-opus-4-7-thinking"]
+    "aliases": [
+      "claude-opus-4.7",
+      "claude-opus-4-7",
+      "claude-opus-4-7-thinking"
+    ]
   },
   {
     "id": "claude-sonnet-4.6",
     "name": "Claude Sonnet 4.6",
     "vendor": "Anthropic",
-    "aliases": ["claude-sonnet-4.6", "claude-sonnet-4-6"]
+    "aliases": [
+      "claude-sonnet-4.6",
+      "claude-sonnet-4-6"
+    ]
   },
   {
     "id": "gemini-1.5-flash",
     "name": "Gemini 1.5 Flash",
     "vendor": "Google",
     "release_date": "2024-05",
-    "aliases": ["gemini-1.5-flash", "Gemini 1.5 Flash"]
+    "aliases": [
+      "gemini-1.5-flash",
+      "Gemini 1.5 Flash"
+    ]
   },
   {
     "id": "gemini-1.5-pro",
     "name": "Gemini 1.5 Pro",
     "vendor": "Google",
     "release_date": "2024-02",
-    "aliases": ["gemini-1.5-pro", "gemini-1.5-pro-001", "gemini-1.5-pro-002"]
+    "aliases": [
+      "gemini-1.5-pro",
+      "gemini-1.5-pro-001",
+      "gemini-1.5-pro-002"
+    ]
   },
   {
     "id": "gemini-2.0-flash",
     "name": "Gemini 2.0 Flash",
     "vendor": "Google",
     "release_date": "2024-12",
-    "aliases": ["Gemini 2.0 Flash", "gemini-2.0-flash", "gemini-2.0-flash-001", "Gemini 2.0 Flash Thinking", "gemini-2.0-flash-thinking-exp"]
+    "aliases": [
+      "Gemini 2.0 Flash",
+      "gemini-2.0-flash",
+      "gemini-2.0-flash-001",
+      "Gemini 2.0 Flash Thinking",
+      "gemini-2.0-flash-thinking-exp"
+    ]
   },
   {
     "id": "gemini-2.5-flash-lite",
     "name": "Gemini 2.5 Flash-Lite",
     "vendor": "Google",
     "release_date": "2025-06",
-    "aliases": ["Gemini 2.5 Flash-Lite", "gemini-2.5-flash-lite"]
+    "aliases": [
+      "Gemini 2.5 Flash-Lite",
+      "gemini-2.5-flash-lite"
+    ]
   },
   {
     "id": "gemini-2.5-pro",
     "name": "Gemini 2.5 Pro",
     "vendor": "Google",
     "release_date": "2025-03",
-    "aliases": ["Gemini 2.5", "gemini-2.5-pro", "gemini-2.5-pro-exp"]
+    "aliases": [
+      "Gemini 2.5",
+      "gemini-2.5-pro",
+      "gemini-2.5-pro-exp"
+    ]
   },
   {
     "id": "gemini-3-pro",
     "name": "Gemini 3 Pro",
     "vendor": "Google",
-    "aliases": ["Gemini 3 Pro", "Gemini 3.0 Pro", "gemini-3-pro", "gemini-3-pro-preview"]
+    "aliases": [
+      "Gemini 3 Pro",
+      "Gemini 3.0 Pro",
+      "gemini-3-pro",
+      "gemini-3-pro-preview"
+    ]
   },
   {
     "id": "gemini-2.5-flash",
     "name": "Gemini 2.5 Flash",
     "vendor": "Google",
     "release_date": "2025-04",
-    "aliases": ["Gemini 2.5 Flash", "gemini-2.5-flash", "Gemini 2.5 Flash non-thinking", "Gemini 2.5 Flash thinking"]
+    "aliases": [
+      "Gemini 2.5 Flash",
+      "gemini-2.5-flash",
+      "Gemini 2.5 Flash non-thinking",
+      "Gemini 2.5 Flash thinking"
+    ]
   },
   {
     "id": "llama-3-8b",
@@ -282,7 +470,13 @@
     "vendor": "Meta",
     "release_date": "2024-04-18",
     "report_url": "https://www.llama.com/models/llama-3/",
-    "aliases": ["llama-3-8b", "Llama 3 8B", "Llama 3 8B Instruct", "Meta-Llama-3-8B-Instruct", "llama3-8b"]
+    "aliases": [
+      "llama-3-8b",
+      "Llama 3 8B",
+      "Llama 3 8B Instruct",
+      "Meta-Llama-3-8B-Instruct",
+      "llama3-8b"
+    ]
   },
   {
     "id": "llama-3-70b",
@@ -290,412 +484,674 @@
     "vendor": "Meta",
     "release_date": "2024-04-18",
     "report_url": "https://www.llama.com/models/llama-3/",
-    "aliases": ["llama-3-70b", "Llama 3 70B", "Llama 3 70B Instruct", "Meta-Llama-3-70B-Instruct", "llama3-70b"]
+    "aliases": [
+      "llama-3-70b",
+      "Llama 3 70B",
+      "Llama 3 70B Instruct",
+      "Meta-Llama-3-70B-Instruct",
+      "llama3-70b"
+    ]
   },
   {
     "id": "llama-3.1-405b",
     "name": "Llama 3.1 405B",
     "vendor": "Meta",
     "release_date": "2024-07",
-    "aliases": ["llama-3.1-405b", "Meta-Llama-3.1-405B-Instruct", "Llama 3.1 405B Instruct"]
+    "aliases": [
+      "llama-3.1-405b",
+      "Meta-Llama-3.1-405B-Instruct",
+      "Llama 3.1 405B Instruct"
+    ]
   },
   {
     "id": "llama-3.1-70b",
     "name": "Llama 3.1 70B",
     "vendor": "Meta",
     "release_date": "2024-07",
-    "aliases": ["llama-3.1-70b", "Meta-Llama-3.1-70B-Instruct", "Llama 3.1 70B Instruct"]
+    "aliases": [
+      "llama-3.1-70b",
+      "Meta-Llama-3.1-70B-Instruct",
+      "Llama 3.1 70B Instruct"
+    ]
   },
   {
     "id": "llama-3.2-90b",
     "name": "Llama 3.2 90B",
     "vendor": "Meta",
     "release_date": "2024-09",
-    "aliases": ["llama-3.2-90b", "Llama 3.2 90B Instruct", "Llama 3.2 90B Vision Instruct"]
+    "aliases": [
+      "llama-3.2-90b",
+      "Llama 3.2 90B Instruct",
+      "Llama 3.2 90B Vision Instruct"
+    ]
   },
   {
     "id": "llama-3.3-70b",
     "name": "Llama 3.3 70B",
     "vendor": "Meta",
     "release_date": "2024-12",
-    "aliases": ["llama-3.3-70b", "Llama 3.3 70B Instruct", "Meta-Llama-3.3-70B-Instruct"]
+    "aliases": [
+      "llama-3.3-70b",
+      "Llama 3.3 70B Instruct",
+      "Meta-Llama-3.3-70B-Instruct"
+    ]
   },
   {
     "id": "llama-4-maverick",
     "name": "Llama 4 Maverick",
     "vendor": "Meta",
     "release_date": "2025-04",
-    "aliases": ["llama-4-maverick", "Llama 4 Maverick", "Llama-4-Maverick-17B-128E-Instruct"]
+    "aliases": [
+      "llama-4-maverick",
+      "Llama 4 Maverick",
+      "Llama-4-Maverick-17B-128E-Instruct"
+    ]
   },
   {
     "id": "llama-4-scout",
     "name": "Llama 4 Scout",
     "vendor": "Meta",
     "release_date": "2025-04",
-    "aliases": ["llama-4-scout", "Llama 4 Scout", "Llama-4-Scout-17B-16E-Instruct"]
+    "aliases": [
+      "llama-4-scout",
+      "Llama 4 Scout",
+      "Llama-4-Scout-17B-16E-Instruct"
+    ]
   },
   {
     "id": "qwen-2.5-72b",
     "name": "Qwen2.5-72B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["Qwen 2.5", "qwen-2.5-72b", "Qwen2.5-72B-Instruct", "Qwen2.5 72B Instruct", "Qwen2 72B Instruct", "qwen2-72b-instruct"]
+    "aliases": [
+      "Qwen 2.5",
+      "qwen-2.5-72b",
+      "Qwen2.5-72B-Instruct",
+      "Qwen2.5 72B Instruct",
+      "Qwen2 72B Instruct",
+      "qwen2-72b-instruct"
+    ]
   },
   {
     "id": "qwen2.5-32b",
     "name": "Qwen2.5-32B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["qwen2.5-32b", "Qwen2.5-32B-Instruct", "Qwen2.5 32B Instruct"]
+    "aliases": [
+      "qwen2.5-32b",
+      "Qwen2.5-32B-Instruct",
+      "Qwen2.5 32B Instruct"
+    ]
   },
   {
     "id": "qwen2.5-14b",
     "name": "Qwen2.5-14B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["qwen2.5-14b", "Qwen2.5-14B-Instruct", "Qwen2.5 14B Instruct"]
+    "aliases": [
+      "qwen2.5-14b",
+      "Qwen2.5-14B-Instruct",
+      "Qwen2.5 14B Instruct"
+    ]
   },
   {
     "id": "qwen2.5-7b",
     "name": "Qwen2.5-7B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["qwen2.5-7b", "Qwen2.5-7B-Instruct", "Qwen2.5 7B Instruct"]
+    "aliases": [
+      "qwen2.5-7b",
+      "Qwen2.5-7B-Instruct",
+      "Qwen2.5 7B Instruct"
+    ]
   },
   {
     "id": "qwq-32b",
     "name": "QwQ-32B",
     "vendor": "Alibaba",
     "release_date": "2025-03",
-    "aliases": ["QwQ-32B", "qwq-32b", "QwQ-32B-Preview", "qwq-32b-preview"]
+    "aliases": [
+      "QwQ-32B",
+      "qwq-32b",
+      "QwQ-32B-Preview",
+      "qwq-32b-preview"
+    ]
   },
   {
     "id": "qwen3-235b",
     "name": "Qwen3-235B-A22B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3-235b-A22b base", "qwen3-235b", "Qwen3-235B-A22B-Instruct", "Qwen3-235B-A22B-Instruct-2507", "Qwen3-235B-A22B-Thinking-2507"]
+    "aliases": [
+      "Qwen3-235b-A22b base",
+      "qwen3-235b",
+      "Qwen3-235B-A22B-Instruct",
+      "Qwen3-235B-A22B-Instruct-2507",
+      "Qwen3-235B-A22B-Thinking-2507"
+    ]
   },
   {
     "id": "qwen3-32b",
     "name": "Qwen3-32B",
     "vendor": "Alibaba",
-    "aliases": ["qwen3-32b", "Qwen3 32B", "Qwen3-32B"]
+    "aliases": [
+      "qwen3-32b",
+      "Qwen3 32B",
+      "Qwen3-32B"
+    ]
   },
   {
     "id": "qwen3-30b-a3b",
     "name": "Qwen3-30B-A3B",
     "vendor": "Alibaba",
-    "aliases": ["qwen3-30b-a3b", "Qwen3 30B A3B", "Qwen3-30B-A3B"]
+    "aliases": [
+      "qwen3-30b-a3b",
+      "Qwen3 30B A3B",
+      "Qwen3-30B-A3B"
+    ]
   },
   {
     "id": "deepseek-v3",
     "name": "DeepSeek-V3",
     "vendor": "DeepSeek",
     "release_date": "2024-12",
-    "aliases": ["DeepSeek v3", "deepseek-v3", "deepseek-chat", "deepseek-v3-0324"]
+    "aliases": [
+      "DeepSeek v3",
+      "deepseek-v3",
+      "deepseek-chat",
+      "deepseek-v3-0324"
+    ]
   },
   {
     "id": "deepseek-r1",
     "name": "DeepSeek-R1",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek R1", "deepseek-r1", "DeepSeek-R1", "deepseek-reasoner", "DeepSeek-R1-0528"]
+    "aliases": [
+      "DeepSeek R1",
+      "deepseek-r1",
+      "DeepSeek-R1",
+      "deepseek-reasoner",
+      "DeepSeek-R1-0528"
+    ]
   },
   {
     "id": "deepseek-r1-distill-llama-70b",
     "name": "DeepSeek-R1-Distill-Llama-70B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek R1 Distill Llama 70B", "deepseek-r1-distill-llama-70b", "DeepSeek-R1-Distill-Llama-70B"]
+    "aliases": [
+      "DeepSeek R1 Distill Llama 70B",
+      "deepseek-r1-distill-llama-70b",
+      "DeepSeek-R1-Distill-Llama-70B"
+    ]
   },
   {
     "id": "deepseek-r1-distill-qwen-32b",
     "name": "DeepSeek-R1-Distill-Qwen-32B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek R1 Distill Qwen 32B", "deepseek-r1-distill-qwen-32b", "DeepSeek-R1-Distill-Qwen-32B"]
+    "aliases": [
+      "DeepSeek R1 Distill Qwen 32B",
+      "deepseek-r1-distill-qwen-32b",
+      "DeepSeek-R1-Distill-Qwen-32B"
+    ]
   },
   {
     "id": "kimi-k2",
     "name": "Kimi K2",
     "vendor": "Moonshot",
     "release_date": "2025-07",
-    "aliases": ["KIMI K2", "kimi-k2", "moonshot-v1-kimi-k2", "Kimi K2 Instruct", "kimi-k2-instruct", "Kimi K2 0905"]
+    "aliases": [
+      "KIMI K2",
+      "kimi-k2",
+      "moonshot-v1-kimi-k2",
+      "Kimi K2 Instruct",
+      "kimi-k2-instruct",
+      "Kimi K2 0905"
+    ]
   },
   {
     "id": "grok-2",
     "name": "Grok 2",
     "vendor": "xAI",
     "release_date": "2024-08",
-    "aliases": ["Grok-2", "grok-2", "Grok-2 mini", "grok-2-mini"]
+    "aliases": [
+      "Grok-2",
+      "grok-2",
+      "Grok-2 mini",
+      "grok-2-mini"
+    ]
   },
   {
     "id": "grok-3",
     "name": "Grok 3",
     "vendor": "xAI",
     "release_date": "2025-02",
-    "aliases": ["Grok-3", "grok-3", "Grok 3", "Grok-3 Mini", "grok-3-mini", "Grok 3 Mini"]
+    "aliases": [
+      "Grok-3",
+      "grok-3",
+      "Grok 3",
+      "Grok-3 Mini",
+      "grok-3-mini",
+      "Grok 3 Mini"
+    ]
   },
   {
     "id": "grok-4",
     "name": "Grok 4",
     "vendor": "xAI",
     "release_date": "2025-07",
-    "aliases": ["Grok 4", "grok-4"]
+    "aliases": [
+      "Grok 4",
+      "grok-4"
+    ]
   },
   {
     "id": "mistral-large",
     "name": "Mistral Large",
     "vendor": "Mistral",
     "release_date": "2024-02",
-    "aliases": ["mistral-large", "mistral-large-2402", "mistral-large-2407"]
+    "aliases": [
+      "mistral-large",
+      "mistral-large-2402",
+      "mistral-large-2407"
+    ]
   },
   {
     "id": "mistral-large-3",
     "name": "Mistral Large 3",
     "vendor": "Mistral",
-    "aliases": ["Mistral Large 3", "mistral-large-3", "mistral-large-2411"]
+    "aliases": [
+      "Mistral Large 3",
+      "mistral-large-3",
+      "mistral-large-2411"
+    ]
   },
   {
     "id": "mistral-small-3",
     "name": "Mistral Small 3",
     "vendor": "Mistral",
     "release_date": "2025-01",
-    "aliases": ["Mistral Small 3", "mistral-small-3", "Mistral Small 3 24B Instruct"]
+    "aliases": [
+      "Mistral Small 3",
+      "mistral-small-3",
+      "Mistral Small 3 24B Instruct"
+    ]
   },
   {
     "id": "magistral-medium",
     "name": "Magistral Medium",
     "vendor": "Mistral",
-    "aliases": ["Magistral Medium", "magistral-medium"]
+    "aliases": [
+      "Magistral Medium",
+      "magistral-medium"
+    ]
   },
   {
     "id": "pixtral-large",
     "name": "Pixtral Large",
     "vendor": "Mistral",
-    "aliases": ["Pixtral Large", "pixtral-large"]
+    "aliases": [
+      "Pixtral Large",
+      "pixtral-large"
+    ]
   },
   {
     "id": "ernie-5",
     "name": "ERNIE 5",
     "vendor": "Baidu",
-    "aliases": ["ernie-5", "ERNIE 5.0", "ernie-5.0"]
+    "aliases": [
+      "ernie-5",
+      "ERNIE 5.0",
+      "ernie-5.0"
+    ]
   },
   {
     "id": "glm-5",
     "name": "GLM-5",
     "vendor": "Z.ai",
-    "aliases": ["glm-5"]
+    "aliases": [
+      "glm-5"
+    ]
   },
   {
     "id": "glm-4.5",
     "name": "GLM-4.5",
     "vendor": "Z.ai",
     "release_date": "2025-07",
-    "aliases": ["GLM-4.5", "glm-4.5"]
+    "aliases": [
+      "GLM-4.5",
+      "glm-4.5"
+    ]
   },
   {
     "id": "vaetki",
     "name": "VAETKI",
     "vendor": "NC AI",
-    "aliases": ["VAETKI", "vaetki", "VAETKI (한국어)", "VAETK", "VAETK (영어)"]
+    "aliases": [
+      "VAETKI",
+      "vaetki",
+      "VAETKI (한국어)",
+      "VAETK",
+      "VAETK (영어)"
+    ]
   },
   {
     "id": "phi-4",
     "name": "Phi-4",
     "vendor": "Microsoft",
     "release_date": "2024-12",
-    "aliases": ["Phi 4", "phi-4", "phi4", "Phi 4 Reasoning", "phi-4-reasoning"]
+    "aliases": [
+      "Phi 4",
+      "phi-4",
+      "phi4",
+      "Phi 4 Reasoning",
+      "phi-4-reasoning"
+    ]
   },
   {
     "id": "gemma-3-27b",
     "name": "Gemma 3 27B",
     "vendor": "Google",
     "release_date": "2025-03",
-    "aliases": ["Gemma 3 27B", "gemma-3-27b", "gemma-3-27b-it"]
+    "aliases": [
+      "Gemma 3 27B",
+      "gemma-3-27b",
+      "gemma-3-27b-it"
+    ]
   },
   {
     "id": "gpt-4.1-mini",
     "name": "GPT-4.1 mini",
     "vendor": "OpenAI",
     "release_date": "2025-04",
-    "aliases": ["GPT-4.1 mini", "gpt-4.1-mini", "GPT-4.1 nano", "gpt-4.1-nano"]
+    "aliases": [
+      "GPT-4.1 mini",
+      "gpt-4.1-mini",
+      "GPT-4.1 nano",
+      "gpt-4.1-nano"
+    ]
   },
   {
     "id": "minimax-m1",
     "name": "MiniMax M1",
     "vendor": "MiniMax",
-    "aliases": ["MiniMax M1", "minimax-m1", "MiniMax M1 40K", "MiniMax M1 80K"]
+    "aliases": [
+      "MiniMax M1",
+      "minimax-m1",
+      "MiniMax M1 40K",
+      "MiniMax M1 80K"
+    ]
   },
   {
     "id": "minimax-m2",
     "name": "MiniMax M2",
     "vendor": "MiniMax",
-    "aliases": ["MiniMax M2", "minimax-m2"]
+    "aliases": [
+      "MiniMax M2",
+      "minimax-m2"
+    ]
   },
   {
     "id": "minimax-m2.1",
     "name": "MiniMax M2.1",
     "vendor": "MiniMax",
-    "aliases": ["MiniMax M2.1", "minimax-m2.1", "minimax-m2-1"]
+    "aliases": [
+      "MiniMax M2.1",
+      "minimax-m2.1",
+      "minimax-m2-1"
+    ]
   },
   {
     "id": "minimax-m2.5",
     "name": "MiniMax M2.5",
     "vendor": "MiniMax",
-    "aliases": ["MiniMax M2.5", "minimax-m2.5", "minimax-m2-5"]
+    "aliases": [
+      "MiniMax M2.5",
+      "minimax-m2.5",
+      "minimax-m2-5"
+    ]
   },
   {
     "id": "minimax-m3",
     "name": "MiniMax M3",
     "vendor": "MiniMax",
-    "aliases": ["MiniMax M3", "minimax-m3"]
+    "aliases": [
+      "MiniMax M3",
+      "minimax-m3"
+    ]
   },
   {
     "id": "kimi-k1.5",
     "name": "Kimi K1.5",
     "vendor": "Moonshot",
     "release_date": "2025-01",
-    "aliases": ["Kimi-k1.5", "kimi-k1.5"]
+    "aliases": [
+      "Kimi-k1.5",
+      "kimi-k1.5"
+    ]
   },
   {
     "id": "nova-pro",
     "name": "Amazon Nova Pro",
     "vendor": "Amazon",
     "release_date": "2024-12",
-    "aliases": ["Nova Pro", "nova-pro"]
+    "aliases": [
+      "Nova Pro",
+      "nova-pro"
+    ]
   },
   {
     "id": "nemotron-ultra",
     "name": "Nemotron Ultra 253B",
     "vendor": "NVIDIA",
-    "aliases": ["Llama 3.1 Nemotron Ultra 253B v1", "nemotron-ultra-253b"]
+    "aliases": [
+      "Llama 3.1 Nemotron Ultra 253B v1",
+      "nemotron-ultra-253b"
+    ]
   },
   {
     "id": "claude-opus-4.1",
     "name": "Claude Opus 4.1",
     "vendor": "Anthropic",
     "release_date": "2025-08-05",
-    "aliases": ["Claude Opus 4.1", "claude-opus-4-1", "claude-opus-4-1-20250805"]
+    "aliases": [
+      "Claude Opus 4.1",
+      "claude-opus-4-1",
+      "claude-opus-4-1-20250805"
+    ]
   },
   {
     "id": "gpt-5.1",
     "name": "GPT-5.1",
     "vendor": "OpenAI",
     "release_date": "2025-11-13",
-    "aliases": ["GPT-5.1", "gpt-5.1", "gpt-5.1-2025-11-13"]
+    "aliases": [
+      "GPT-5.1",
+      "gpt-5.1",
+      "gpt-5.1-2025-11-13"
+    ]
   },
   {
     "id": "deepseek-v3.1",
     "name": "DeepSeek-V3.1",
     "vendor": "DeepSeek",
     "release_date": "2025-08-21",
-    "aliases": ["DeepSeek-V3.1", "deepseek-v3.1"]
+    "aliases": [
+      "DeepSeek-V3.1",
+      "deepseek-v3.1"
+    ]
   },
   {
     "id": "deepseek-v3.2",
     "name": "DeepSeek-V3.2",
     "vendor": "DeepSeek",
     "release_date": "2025-09-29",
-    "aliases": ["DeepSeek-V3.2", "deepseek-v3.2", "deepseek-v3p2", "DeepSeek-V3.2-Exp"]
+    "aliases": [
+      "DeepSeek-V3.2",
+      "deepseek-v3.2",
+      "deepseek-v3p2",
+      "DeepSeek-V3.2-Exp"
+    ]
   },
   {
     "id": "deepseek-v4-flash",
     "name": "DeepSeek-V4-Flash",
     "vendor": "DeepSeek",
     "release_date": "2026-04-24",
-    "aliases": ["DeepSeek-V4-Flash", "deepseek-v4-flash"]
+    "aliases": [
+      "DeepSeek-V4-Flash",
+      "deepseek-v4-flash"
+    ]
   },
   {
     "id": "deepseek-v4-pro",
     "name": "DeepSeek-V4-Pro",
     "vendor": "DeepSeek",
     "release_date": "2026-04-24",
-    "aliases": ["DeepSeek-V4-Pro", "deepseek-v4-pro", "DS-V4-Pro Max", "DS-V4-Pro-Max", "DeepSeek-V4-Pro-Max", "deepseek-v4-pro-max"]
+    "aliases": [
+      "DeepSeek-V4-Pro",
+      "deepseek-v4-pro",
+      "DS-V4-Pro Max",
+      "DS-V4-Pro-Max",
+      "DeepSeek-V4-Pro-Max",
+      "deepseek-v4-pro-max"
+    ]
   },
   {
     "id": "qwen3-max",
     "name": "Qwen3-Max",
     "vendor": "Alibaba",
     "release_date": "2025-09-24",
-    "aliases": ["Qwen3-Max", "qwen3-max", "qwen3-max-2025-09-23", "Qwen3-Max-Thinking"]
+    "aliases": [
+      "Qwen3-Max",
+      "qwen3-max",
+      "qwen3-max-2025-09-23",
+      "Qwen3-Max-Thinking"
+    ]
   },
   {
     "id": "qwen3.6-max",
     "name": "Qwen3.6-Max",
     "vendor": "Alibaba",
     "release_date": "2026-04-20",
-    "aliases": ["Qwen3.6-Max", "qwen3.6-max", "qwen3.6-max-preview"]
+    "aliases": [
+      "Qwen3.6-Max",
+      "qwen3.6-max",
+      "qwen3.6-max-preview"
+    ]
   },
   {
     "id": "kimi-k2-thinking",
     "name": "Kimi K2 Thinking",
     "vendor": "Moonshot",
     "release_date": "2025-11-06",
-    "aliases": ["Kimi-K2-Thinking", "kimi-k2-thinking", "kimi-k2-thinking-turbo"]
+    "aliases": [
+      "Kimi-K2-Thinking",
+      "kimi-k2-thinking",
+      "kimi-k2-thinking-turbo"
+    ]
   },
   {
     "id": "kimi-k2.5",
     "name": "Kimi K2.5",
     "vendor": "Moonshot",
     "release_date": "2026-01-27",
-    "aliases": ["Kimi K2.5", "kimi-k2.5", "kimi-k2p5"]
+    "aliases": [
+      "Kimi K2.5",
+      "kimi-k2.5",
+      "kimi-k2p5"
+    ]
   },
   {
     "id": "kimi-k2.6",
     "name": "Kimi K2.6",
     "vendor": "Moonshot",
     "release_date": "2026-04-20",
-    "aliases": ["Kimi K2.6", "kimi-k2.6", "K2.6 Thinking", "kimi-k2.6-thinking", "Kimi-K2.6-Thinking"]
+    "aliases": [
+      "Kimi K2.6",
+      "kimi-k2.6",
+      "K2.6 Thinking",
+      "kimi-k2.6-thinking",
+      "Kimi-K2.6-Thinking"
+    ]
   },
   {
     "id": "glm-4.6",
     "name": "GLM-4.6",
     "vendor": "Z.ai",
     "release_date": "2025-09-30",
-    "aliases": ["GLM-4.6", "glm-4.6"]
+    "aliases": [
+      "GLM-4.6",
+      "glm-4.6"
+    ]
   },
   {
     "id": "grok-4.1",
     "name": "Grok 4.1",
     "vendor": "xAI",
     "release_date": "2025-11-17",
-    "aliases": ["Grok 4.1", "grok-4-1", "grok-4.1-thinking"]
+    "aliases": [
+      "Grok 4.1",
+      "grok-4-1",
+      "grok-4.1-thinking"
+    ]
   },
   {
     "id": "grok-4.2",
     "name": "Grok 4.2",
     "vendor": "xAI",
     "release_date": "2026-02-17",
-    "aliases": ["Grok 4.2", "grok-4-2", "grok-4-20", "grok-4.20-beta1", "grok-4.20-beta-0309-reasoning", "grok-4.20-multi-agent-beta-0309"]
+    "aliases": [
+      "Grok 4.2",
+      "grok-4-2",
+      "grok-4-20",
+      "grok-4.20-beta1",
+      "grok-4.20-beta-0309-reasoning",
+      "grok-4.20-multi-agent-beta-0309"
+    ]
   },
   {
     "id": "grok-4.3",
     "name": "Grok 4.3",
     "vendor": "xAI",
     "release_date": "2026-04-17",
-    "aliases": ["Grok 4.3", "grok-4-3"]
+    "aliases": [
+      "Grok 4.3",
+      "grok-4-3"
+    ]
   },
   {
     "id": "gemini-3-flash",
     "name": "Gemini 3 Flash",
     "vendor": "Google",
     "release_date": "2025-12-17",
-    "aliases": ["Gemini 3 Flash", "gemini-3-flash", "gemini-3-flash-preview"]
+    "aliases": [
+      "Gemini 3 Flash",
+      "gemini-3-flash",
+      "gemini-3-flash-preview"
+    ]
   },
   {
     "id": "gemini-3.1-pro",
     "name": "Gemini 3.1 Pro",
     "vendor": "Google",
     "release_date": "2026-02-19",
-    "aliases": ["Gemini 3.1 Pro", "gemini-3.1-pro", "gemini-3.1-pro-preview"]
+    "aliases": [
+      "Gemini 3.1 Pro",
+      "gemini-3.1-pro",
+      "gemini-3.1-pro-preview"
+    ]
   },
   {
     "id": "gemini-3.5-flash",
     "name": "Gemini 3.5 Flash",
     "vendor": "Google",
     "release_date": "2026-05-19",
-    "aliases": ["Gemini 3.5 Flash", "gemini-3.5-flash"]
+    "aliases": [
+      "Gemini 3.5 Flash",
+      "gemini-3.5-flash"
+    ]
   },
   {
     "id": "claude-mythos-5",
@@ -703,7 +1159,12 @@
     "vendor": "Anthropic",
     "release_date": "2026-06",
     "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "aliases": ["Claude Mythos 5", "claude-mythos-5", "claude-mythos-5-thinking", "mythos-5"]
+    "aliases": [
+      "Claude Mythos 5",
+      "claude-mythos-5",
+      "claude-mythos-5-thinking",
+      "mythos-5"
+    ]
   },
   {
     "id": "claude-fable-5",
@@ -711,7 +1172,11 @@
     "vendor": "Anthropic",
     "release_date": "2026-06",
     "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "aliases": ["Claude Fable 5", "claude-fable-5", "fable-5"]
+    "aliases": [
+      "Claude Fable 5",
+      "claude-fable-5",
+      "fable-5"
+    ]
   },
   {
     "id": "claude-mythos-preview",
@@ -719,7 +1184,11 @@
     "vendor": "Anthropic",
     "release_date": "2026-06",
     "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "aliases": ["Claude Mythos Preview", "claude-mythos-preview", "mythos-preview"]
+    "aliases": [
+      "Claude Mythos Preview",
+      "claude-mythos-preview",
+      "mythos-preview"
+    ]
   },
   {
     "id": "claude-opus-4.8",
@@ -727,7 +1196,12 @@
     "vendor": "Anthropic",
     "release_date": "2026-06",
     "report_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "aliases": ["Claude Opus 4.8", "claude-opus-4.8", "claude-opus-4-8", "claude-opus-4-8-thinking"]
+    "aliases": [
+      "Claude Opus 4.8",
+      "claude-opus-4.8",
+      "claude-opus-4-8",
+      "claude-opus-4-8-thinking"
+    ]
   },
   {
     "id": "solar-pro-3",
@@ -735,749 +1209,917 @@
     "vendor": "Upstage",
     "release_date": "2026-01-27",
     "report_url": "https://www.upstage.ai/blog/ko/solar-pro-3-0127",
-    "aliases": ["Solar Pro 3", "solar-pro-3", "solar-pro3", "upstage/solar-pro-3"]
+    "aliases": [
+      "Solar Pro 3",
+      "solar-pro-3",
+      "solar-pro3",
+      "upstage/solar-pro-3"
+    ]
   },
   {
     "id": "solar-pro-2",
     "name": "Solar Pro 2",
     "vendor": "Upstage",
-    "aliases": ["Solar Pro 2", "solar-pro-2", "solar-pro2", "upstage/solar-pro-2"]
+    "aliases": [
+      "Solar Pro 2",
+      "solar-pro-2",
+      "solar-pro2",
+      "upstage/solar-pro-2"
+    ]
   },
   {
     "id": "nova-lite",
     "name": "Amazon Nova Lite",
     "vendor": "Amazon",
-    "aliases": ["Amazon Nova Lite", "Nova Lite", "nova-lite"]
+    "aliases": [
+      "Amazon Nova Lite",
+      "Nova Lite",
+      "nova-lite"
+    ]
   },
   {
     "id": "nova-micro",
     "name": "Amazon Nova Micro",
     "vendor": "Amazon",
-    "aliases": ["Amazon Nova Micro", "Nova Micro", "nova-micro"]
+    "aliases": [
+      "Amazon Nova Micro",
+      "Nova Micro",
+      "nova-micro"
+    ]
   },
   {
     "id": "nova-2-pro",
     "name": "Amazon Nova 2 Pro",
     "vendor": "Amazon",
-    "aliases": ["Amazon Nova 2 Pro", "Nova 2 Pro", "nova-2-pro"]
+    "aliases": [
+      "Amazon Nova 2 Pro",
+      "Nova 2 Pro",
+      "nova-2-pro"
+    ]
   },
   {
     "id": "nova-2-lite",
     "name": "Amazon Nova 2 Lite",
     "vendor": "Amazon",
-    "aliases": ["Amazon Nova 2 Lite", "Nova 2 Lite", "nova-2-lite"]
+    "aliases": [
+      "Amazon Nova 2 Lite",
+      "Nova 2 Lite",
+      "nova-2-lite"
+    ]
   },
   {
     "id": "nova-2-omni",
     "name": "Amazon Nova 2 Omni",
     "vendor": "Amazon",
-    "aliases": ["Amazon Nova 2 Omni", "Nova 2 Omni", "nova-2-omni"]
+    "aliases": [
+      "Amazon Nova 2 Omni",
+      "Nova 2 Omni",
+      "nova-2-omni"
+    ]
   },
   {
     "id": "gemma-3-12b",
     "name": "Gemma 3 12B",
     "vendor": "Google",
     "release_date": "2025-03",
-    "aliases": ["Gemma 3 12B", "gemma-3-12b"]
+    "aliases": [
+      "Gemma 3 12B",
+      "gemma-3-12b"
+    ]
   },
   {
     "id": "gemma-3-4b",
     "name": "Gemma 3 4B",
     "vendor": "Google",
     "release_date": "2025-03",
-    "aliases": ["Gemma 3 4B", "gemma-3-4b"]
+    "aliases": [
+      "Gemma 3 4B",
+      "gemma-3-4b"
+    ]
   },
   {
     "id": "gemma-4-31b",
     "name": "Gemma 4 31B",
     "vendor": "Google",
-    "aliases": ["Gemma 4 31B", "gemma-4-31b"]
+    "aliases": [
+      "Gemma 4 31B",
+      "gemma-4-31b"
+    ]
   },
   {
     "id": "gemma-4-26b-a4b",
     "name": "Gemma 4 26B-A4B",
     "vendor": "Google",
-    "aliases": ["Gemma 4 26B-A4B", "gemma-4-26b-a4b"]
+    "aliases": [
+      "Gemma 4 26B-A4B",
+      "gemma-4-26b-a4b"
+    ]
   },
   {
     "id": "glm-4.5-air",
     "name": "GLM-4.5-Air",
     "vendor": "Z.ai",
-    "aliases": ["GLM-4.5-Air", "glm-4.5-air"]
+    "aliases": [
+      "GLM-4.5-Air",
+      "glm-4.5-air"
+    ]
   },
   {
     "id": "glm-4.7",
     "name": "GLM-4.7",
     "vendor": "Z.ai",
-    "aliases": ["GLM-4.7", "glm-4.7"]
+    "aliases": [
+      "GLM-4.7",
+      "glm-4.7"
+    ]
   },
   {
     "id": "glm-4.7-flash",
     "name": "GLM-4.7-Flash",
     "vendor": "Z.ai",
-    "aliases": ["GLM-4.7-Flash", "glm-4.7-flash"]
+    "aliases": [
+      "GLM-4.7-Flash",
+      "glm-4.7-flash"
+    ]
   },
   {
     "id": "grok-4-fast",
     "name": "Grok 4 Fast",
     "vendor": "xAI",
-    "aliases": ["Grok 4 Fast", "grok-4-fast"]
+    "aliases": [
+      "Grok 4 Fast",
+      "grok-4-fast"
+    ]
   },
   {
     "id": "grok-4-heavy",
     "name": "Grok 4 Heavy",
     "vendor": "xAI",
-    "aliases": ["Grok 4 Heavy", "Grok-4 Heavy", "grok-4-heavy"]
+    "aliases": [
+      "Grok 4 Heavy",
+      "Grok-4 Heavy",
+      "grok-4-heavy"
+    ]
   },
   {
     "id": "phi-4-mini",
     "name": "Phi-4 Mini",
     "vendor": "Microsoft",
-    "aliases": ["Phi 4 Mini", "Phi-4 Mini", "phi-4-mini"]
+    "aliases": [
+      "Phi 4 Mini",
+      "Phi-4 Mini",
+      "phi-4-mini"
+    ]
   },
   {
     "id": "phi-4-reasoning-plus",
     "name": "Phi-4 Reasoning Plus",
     "vendor": "Microsoft",
-    "aliases": ["Phi 4 Reasoning Plus", "Phi-4 Reasoning Plus", "phi-4-reasoning-plus"]
+    "aliases": [
+      "Phi 4 Reasoning Plus",
+      "Phi-4 Reasoning Plus",
+      "phi-4-reasoning-plus"
+    ]
   },
   {
     "id": "phi-3.5-moe",
     "name": "Phi-3.5-MoE",
     "vendor": "Microsoft",
-    "aliases": ["Phi-3.5-MoE", "Phi-3.5-MoE-instruct", "phi-3.5-moe"]
+    "aliases": [
+      "Phi-3.5-MoE",
+      "Phi-3.5-MoE-instruct",
+      "phi-3.5-moe"
+    ]
   },
   {
     "id": "mistral-small-3.1",
     "name": "Mistral Small 3.1",
     "vendor": "Mistral",
-    "aliases": ["Mistral Small 3.1", "Mistral Small 3.1 24B Instruct", "Mistral Small 3.1 24B Base", "mistral-small-3.1-24b-instruct", "mistral-small-3.1"]
+    "aliases": [
+      "Mistral Small 3.1",
+      "Mistral Small 3.1 24B Instruct",
+      "Mistral Small 3.1 24B Base",
+      "mistral-small-3.1-24b-instruct",
+      "mistral-small-3.1"
+    ]
   },
   {
     "id": "mistral-small-3.2",
     "name": "Mistral Small 3.2",
     "vendor": "Mistral",
-    "aliases": ["Mistral Small 3.2", "Mistral Small 3.2 24B Instruct", "mistral-small-3.2"]
+    "aliases": [
+      "Mistral Small 3.2",
+      "Mistral Small 3.2 24B Instruct",
+      "mistral-small-3.2"
+    ]
   },
   {
     "id": "mistral-small-4",
     "name": "Mistral Small 4",
     "vendor": "Mistral",
-    "aliases": ["Mistral Small 4", "mistral-small-4"]
+    "aliases": [
+      "Mistral Small 4",
+      "mistral-small-4"
+    ]
   },
   {
     "id": "mistral-medium-3.5",
     "name": "Mistral Medium 3.5",
     "vendor": "Mistral",
-    "aliases": ["Mistral Medium 3.5", "mistral-medium-3.5"]
+    "aliases": [
+      "Mistral Medium 3.5",
+      "mistral-medium-3.5"
+    ]
   },
   {
     "id": "nemotron-3-super",
     "name": "Nemotron 3 Super 120B A12B",
     "vendor": "NVIDIA",
-    "aliases": ["Nemotron 3 Super (120B A12B)", "Nemotron 3 Super", "nemotron-3-super"]
+    "aliases": [
+      "Nemotron 3 Super (120B A12B)",
+      "Nemotron 3 Super",
+      "nemotron-3-super"
+    ]
   },
   {
     "id": "nemotron-3-nano",
     "name": "Nemotron 3 Nano 30B A3B",
     "vendor": "NVIDIA",
-    "aliases": ["Nemotron 3 Nano (30B A3B)", "Nemotron 3 Nano", "nemotron-3-nano"]
+    "aliases": [
+      "Nemotron 3 Nano (30B A3B)",
+      "Nemotron 3 Nano",
+      "nemotron-3-nano"
+    ]
   },
   {
     "id": "nemotron-nano-9b-v2",
     "name": "Nemotron Nano 9B v2",
     "vendor": "NVIDIA",
-    "aliases": ["Nemotron Nano 9B v2", "nemotron-nano-9b-v2"]
+    "aliases": [
+      "Nemotron Nano 9B v2",
+      "nemotron-nano-9b-v2"
+    ]
   },
   {
     "id": "deepseek-v2.5",
     "name": "DeepSeek-V2.5",
     "vendor": "DeepSeek",
     "release_date": "2024-09",
-    "aliases": ["DeepSeek-V2.5", "deepseek-v2.5"]
+    "aliases": [
+      "DeepSeek-V2.5",
+      "deepseek-v2.5"
+    ]
   },
   {
     "id": "deepseek-r1-zero",
     "name": "DeepSeek-R1-Zero",
     "vendor": "DeepSeek",
-    "aliases": ["DeepSeek-R1-Zero", "DeepSeek R1 Zero", "deepseek-r1-zero"]
+    "aliases": [
+      "DeepSeek-R1-Zero",
+      "DeepSeek R1 Zero",
+      "deepseek-r1-zero"
+    ]
   },
   {
     "id": "gemini-1.5-flash-8b",
     "name": "Gemini 1.5 Flash-8B",
     "vendor": "Google",
     "release_date": "2024-10",
-    "aliases": ["Gemini 1.5 Flash-8B", "Gemini 1.5 Flash 8B", "gemini-1.5-flash-8b"]
+    "aliases": [
+      "Gemini 1.5 Flash-8B",
+      "Gemini 1.5 Flash 8B",
+      "gemini-1.5-flash-8b"
+    ]
   },
   {
     "id": "gemini-2.0-flash-lite",
     "name": "Gemini 2.0 Flash-Lite",
     "vendor": "Google",
     "release_date": "2025-02",
-    "aliases": ["Gemini 2.0 Flash-Lite", "gemini-2.0-flash-lite"]
+    "aliases": [
+      "Gemini 2.0 Flash-Lite",
+      "gemini-2.0-flash-lite"
+    ]
   },
   {
     "id": "magistral-small",
     "name": "Magistral Small",
     "vendor": "Mistral",
-    "aliases": ["Magistral Small", "Magistral Small 2506", "magistral-small-2506", "magistral-small"]
+    "aliases": [
+      "Magistral Small",
+      "Magistral Small 2506",
+      "magistral-small-2506",
+      "magistral-small"
+    ]
   },
   {
     "id": "ernie-5.1",
     "name": "ERNIE 5.1",
     "vendor": "Baidu",
-    "aliases": ["ERNIE 5.1", "ernie-5.1"]
+    "aliases": [
+      "ERNIE 5.1",
+      "ernie-5.1"
+    ]
   },
   {
     "id": "qwen3.5-plus",
     "name": "Qwen3.5-Plus",
     "vendor": "Alibaba",
     "release_date": "2026-06",
-    "aliases": ["Qwen3.5-Plus", "Qwen3.5 Plus", "Qwen3.5-397B-A17B", "qwen3.5-397b-a17b", "qwen3.5-plus"]
+    "aliases": [
+      "Qwen3.5-Plus",
+      "Qwen3.5 Plus",
+      "Qwen3.5-397B-A17B",
+      "qwen3.5-397b-a17b",
+      "qwen3.5-plus"
+    ]
   },
   {
     "id": "qwen3-vl-235b",
     "name": "Qwen3-VL-235B-A22B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3-VL-235B-A22B", "qwen3-vl-235b-a22b", "Qwen3-VL", "qwen3-vl-235b"]
+    "aliases": [
+      "Qwen3-VL-235B-A22B",
+      "qwen3-vl-235b-a22b",
+      "Qwen3-VL",
+      "qwen3-vl-235b"
+    ]
   },
   {
     "id": "qwen3.5-base",
     "name": "Qwen3.5-397B-A17B-Base",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3.5-397B-A17B-Base", "Qwen3.5 Base", "qwen3.5-base"]
+    "aliases": [
+      "Qwen3.5-397B-A17B-Base",
+      "Qwen3.5 Base",
+      "qwen3.5-base"
+    ]
   },
   {
     "id": "qwen3-235b-base",
     "name": "Qwen3-235B-A22B-Base",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3-235B-A22B-Base", "Qwen3-235B Base", "qwen3-235b-base"]
+    "aliases": [
+      "Qwen3-235B-A22B-Base",
+      "Qwen3-235B Base",
+      "qwen3-235b-base"
+    ]
   },
   {
     "id": "glm-4.5-base",
     "name": "GLM-4.5-355B-A32B-Base",
     "vendor": "Z.ai",
-    "aliases": ["GLM-4.5-355B-A32B-Base", "GLM-4.5 Base", "glm-4.5-base"]
+    "aliases": [
+      "GLM-4.5-355B-A32B-Base",
+      "GLM-4.5 Base",
+      "glm-4.5-base"
+    ]
   },
   {
     "id": "deepseek-v3.2-base",
     "name": "DeepSeek-V3.2-671B-A37B-Base",
     "vendor": "DeepSeek",
-    "aliases": ["DeepSeek-V3.2-671B-A37B-Base", "DeepSeek-V3.2 Base", "deepseek-v3.2-base"]
+    "aliases": [
+      "DeepSeek-V3.2-671B-A37B-Base",
+      "DeepSeek-V3.2 Base",
+      "deepseek-v3.2-base"
+    ]
   },
   {
     "id": "kimi-k2-base",
     "name": "Kimi K2 Base",
     "vendor": "Moonshot",
-    "aliases": ["Kimi K2 Base", "K2-1T-A32B", "Kimi-K2-Base", "kimi-k2-base"]
+    "aliases": [
+      "Kimi K2 Base",
+      "K2-1T-A32B",
+      "Kimi-K2-Base",
+      "kimi-k2-base"
+    ]
   },
   {
     "id": "deepseek-v3-base",
     "name": "DeepSeek-V3-Base",
     "vendor": "DeepSeek",
-    "aliases": ["DeepSeek-V3-Base", "DeepSeek V3 Base", "deepseek-v3-base"]
+    "aliases": [
+      "DeepSeek-V3-Base",
+      "DeepSeek V3 Base",
+      "deepseek-v3-base"
+    ]
   },
   {
     "id": "llama-4-maverick-base",
     "name": "Llama 4 Maverick Base",
     "vendor": "Meta",
-    "aliases": ["Llama4-Maverick-Base", "Llama 4 Maverick Base", "llama-4-maverick-base"]
+    "aliases": [
+      "Llama4-Maverick-Base",
+      "Llama 4 Maverick Base",
+      "llama-4-maverick-base"
+    ]
   },
   {
     "id": "qwen-2.5-72b-base",
     "name": "Qwen2.5-72B-Base",
     "vendor": "Alibaba",
-    "aliases": ["Qwen2.5-72B-Base", "Qwen2.5 72B Base", "qwen-2.5-72b-base"]
+    "aliases": [
+      "Qwen2.5-72B-Base",
+      "Qwen2.5 72B Base",
+      "qwen-2.5-72b-base"
+    ]
   },
   {
     "id": "qwen3.6-27b",
     "name": "Qwen3.6-27B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3.6-27B", "Qwen3.6 27B", "qwen3.6-27b"]
+    "aliases": [
+      "Qwen3.6-27B",
+      "Qwen3.6 27B",
+      "qwen3.6-27b"
+    ]
   },
   {
     "id": "qwen3.6-35b-a3b",
     "name": "Qwen3.6-35B-A3B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3.6-35B-A3B", "Qwen3.6 35B A3B", "qwen3.6-35b-a3b"]
+    "aliases": [
+      "Qwen3.6-35B-A3B",
+      "Qwen3.6 35B A3B",
+      "qwen3.6-35b-a3b"
+    ]
   },
   {
     "id": "qwen3.5-27b",
     "name": "Qwen3.5-27B",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3.5-27B", "Qwen3.5 27B", "qwen3.5-27b"]
+    "aliases": [
+      "Qwen3.5-27B",
+      "Qwen3.5 27B",
+      "qwen3.5-27b"
+    ]
   },
   {
     "id": "gemma4-31b",
     "name": "Gemma 4 31B",
     "vendor": "Google",
-    "aliases": ["Gemma4-31B", "Gemma 4 31B", "gemma-4-31b", "gemma4-31b"]
+    "aliases": [
+      "Gemma4-31B",
+      "Gemma 4 31B",
+      "gemma-4-31b",
+      "gemma4-31b"
+    ]
   },
   {
     "id": "qwen3.7-max",
     "name": "Qwen3.7-Max",
     "vendor": "Alibaba",
     "release_date": "2026-06",
-    "aliases": ["Qwen3.7-Max", "qwen3.7-max", "Qwen3.7-Max-Thinking", "qwen3.7-max-thinking", "qwen3.7-max-preview"]
+    "aliases": [
+      "Qwen3.7-Max",
+      "qwen3.7-max",
+      "Qwen3.7-Max-Thinking",
+      "qwen3.7-max-thinking",
+      "qwen3.7-max-preview"
+    ]
   },
   {
     "id": "qwen3.6-plus",
     "name": "Qwen3.6-Plus",
     "vendor": "Alibaba",
-    "aliases": ["Qwen3.6-Plus", "Qwen3.6 Plus", "qwen3.6-plus", "Qwen3.6-Plus-Thinking", "qwen3.6-plus-thinking"]
+    "aliases": [
+      "Qwen3.6-Plus",
+      "Qwen3.6 Plus",
+      "qwen3.6-plus",
+      "Qwen3.6-Plus-Thinking",
+      "qwen3.6-plus-thinking"
+    ]
   },
   {
     "id": "glm-5.1",
     "name": "GLM-5.1",
     "vendor": "Z.ai",
-    "aliases": ["GLM-5.1", "glm-5.1", "GLM-5.1-Thinking", "glm-5.1-thinking"]
+    "aliases": [
+      "GLM-5.1",
+      "glm-5.1",
+      "GLM-5.1-Thinking",
+      "glm-5.1-thinking"
+    ]
   },
   {
     "id": "llama-3.1-8b",
     "name": "Llama 3.1 8B",
     "vendor": "Meta",
     "release_date": "2024-07",
-    "aliases": ["Llama 3.1 8B", "llama-3.1-8b", "Llama 3.1 8B Instruct", "Meta-Llama-3.1-8B-Instruct", "meta-llama/Llama-3.1-8B-Instruct", "llama3.1-8b"]
+    "aliases": [
+      "Llama 3.1 8B",
+      "llama-3.1-8b",
+      "Llama 3.1 8B Instruct",
+      "Meta-Llama-3.1-8B-Instruct",
+      "meta-llama/Llama-3.1-8B-Instruct",
+      "llama3.1-8b"
+    ]
   },
   {
     "id": "llama-3.2-3b",
     "name": "Llama 3.2 3B",
     "vendor": "Meta",
     "release_date": "2024-09",
-    "aliases": ["Llama 3.2 3B", "llama-3.2-3b", "Llama 3.2 3B Instruct", "meta-llama/Llama-3.2-3B-Instruct"]
+    "aliases": [
+      "Llama 3.2 3B",
+      "llama-3.2-3b",
+      "Llama 3.2 3B Instruct",
+      "meta-llama/Llama-3.2-3B-Instruct"
+    ]
   },
   {
     "id": "llama-3.2-1b",
     "name": "Llama 3.2 1B",
     "vendor": "Meta",
     "release_date": "2024-09",
-    "aliases": ["Llama 3.2 1B", "llama-3.2-1b", "Llama 3.2 1B Instruct", "meta-llama/Llama-3.2-1B-Instruct"]
+    "aliases": [
+      "Llama 3.2 1B",
+      "llama-3.2-1b",
+      "Llama 3.2 1B Instruct",
+      "meta-llama/Llama-3.2-1B-Instruct"
+    ]
   },
   {
     "id": "qwen3-14b",
     "name": "Qwen3-14B",
     "vendor": "Alibaba",
     "release_date": "2025-04",
-    "aliases": ["Qwen3-14B", "Qwen3 14B", "qwen3-14b", "Qwen/Qwen3-14B"]
+    "aliases": [
+      "Qwen3-14B",
+      "Qwen3 14B",
+      "qwen3-14b",
+      "Qwen/Qwen3-14B"
+    ]
   },
   {
     "id": "qwen3-8b",
     "name": "Qwen3-8B",
     "vendor": "Alibaba",
     "release_date": "2025-04",
-    "aliases": ["Qwen3-8B", "Qwen3 8B", "qwen3-8b", "Qwen/Qwen3-8B"]
+    "aliases": [
+      "Qwen3-8B",
+      "Qwen3 8B",
+      "qwen3-8b",
+      "Qwen/Qwen3-8B"
+    ]
   },
   {
     "id": "qwen3-4b",
     "name": "Qwen3-4B",
     "vendor": "Alibaba",
     "release_date": "2025-04",
-    "aliases": ["Qwen3-4B", "Qwen3 4B", "qwen3-4b", "Qwen3-4B-Instruct-2507", "Qwen/Qwen3-4B"]
+    "aliases": [
+      "Qwen3-4B",
+      "Qwen3 4B",
+      "qwen3-4b",
+      "Qwen3-4B-Instruct-2507",
+      "Qwen/Qwen3-4B"
+    ]
   },
   {
     "id": "qwen3-1.7b",
     "name": "Qwen3-1.7B",
     "vendor": "Alibaba",
     "release_date": "2025-04",
-    "aliases": ["Qwen3-1.7B", "Qwen3 1.7B", "qwen3-1.7b", "Qwen/Qwen3-1.7B"]
+    "aliases": [
+      "Qwen3-1.7B",
+      "Qwen3 1.7B",
+      "qwen3-1.7b",
+      "Qwen/Qwen3-1.7B"
+    ]
   },
   {
     "id": "qwen3-0.6b",
     "name": "Qwen3-0.6B",
     "vendor": "Alibaba",
     "release_date": "2025-04",
-    "aliases": ["Qwen3-0.6B", "Qwen3 0.6B", "qwen3-0.6b", "Qwen/Qwen3-0.6B"]
+    "aliases": [
+      "Qwen3-0.6B",
+      "Qwen3 0.6B",
+      "qwen3-0.6b",
+      "Qwen/Qwen3-0.6B"
+    ]
   },
   {
     "id": "qwen2.5-3b",
     "name": "Qwen2.5-3B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["Qwen2.5-3B", "qwen2.5-3b", "Qwen2.5-3B-Instruct", "Qwen2.5 3B Instruct"]
+    "aliases": [
+      "Qwen2.5-3B",
+      "qwen2.5-3b",
+      "Qwen2.5-3B-Instruct",
+      "Qwen2.5 3B Instruct"
+    ]
   },
   {
     "id": "qwen2.5-1.5b",
     "name": "Qwen2.5-1.5B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["Qwen2.5-1.5B", "qwen2.5-1.5b", "Qwen2.5-1.5B-Instruct", "Qwen2.5 1.5B Instruct"]
+    "aliases": [
+      "Qwen2.5-1.5B",
+      "qwen2.5-1.5b",
+      "Qwen2.5-1.5B-Instruct",
+      "Qwen2.5 1.5B Instruct"
+    ]
   },
   {
     "id": "qwen2.5-0.5b",
     "name": "Qwen2.5-0.5B",
     "vendor": "Alibaba",
     "release_date": "2024-09",
-    "aliases": ["Qwen2.5-0.5B", "qwen2.5-0.5b", "Qwen2.5-0.5B-Instruct", "Qwen2.5 0.5B Instruct"]
+    "aliases": [
+      "Qwen2.5-0.5B",
+      "qwen2.5-0.5b",
+      "Qwen2.5-0.5B-Instruct",
+      "Qwen2.5 0.5B Instruct"
+    ]
   },
   {
     "id": "gemma-2-9b",
     "name": "Gemma 2 9B",
     "vendor": "Google",
     "release_date": "2024-06",
-    "aliases": ["Gemma 2 9B", "gemma-2-9b", "gemma-2-9b-it", "google/gemma-2-9b-it"]
+    "aliases": [
+      "Gemma 2 9B",
+      "gemma-2-9b",
+      "gemma-2-9b-it",
+      "google/gemma-2-9b-it"
+    ]
   },
   {
     "id": "gemma-2-2b",
     "name": "Gemma 2 2B",
     "vendor": "Google",
     "release_date": "2024-07",
-    "aliases": ["Gemma 2 2B", "gemma-2-2b", "gemma-2-2b-it", "google/gemma-2-2b-it"]
+    "aliases": [
+      "Gemma 2 2B",
+      "gemma-2-2b",
+      "gemma-2-2b-it",
+      "google/gemma-2-2b-it"
+    ]
   },
   {
     "id": "gemma-3-1b",
     "name": "Gemma 3 1B",
     "vendor": "Google",
     "release_date": "2025-03",
-    "aliases": ["Gemma 3 1B", "gemma-3-1b", "gemma-3-1b-it"]
+    "aliases": [
+      "Gemma 3 1B",
+      "gemma-3-1b",
+      "gemma-3-1b-it"
+    ]
   },
   {
     "id": "phi-3.5-mini",
     "name": "Phi-3.5-mini",
     "vendor": "Microsoft",
     "release_date": "2024-08",
-    "aliases": ["Phi-3.5-mini", "Phi 3.5 mini", "Phi-3.5-mini-instruct", "phi-3.5-mini", "microsoft/Phi-3.5-mini-instruct"]
+    "aliases": [
+      "Phi-3.5-mini",
+      "Phi 3.5 mini",
+      "Phi-3.5-mini-instruct",
+      "phi-3.5-mini",
+      "microsoft/Phi-3.5-mini-instruct"
+    ]
   },
   {
     "id": "mistral-7b",
     "name": "Mistral 7B",
     "vendor": "Mistral",
     "release_date": "2023-09",
-    "aliases": ["Mistral 7B", "mistral-7b", "Mistral-7B-Instruct", "Mistral-7B-Instruct-v0.3", "mistralai/Mistral-7B-Instruct-v0.3"]
+    "aliases": [
+      "Mistral 7B",
+      "mistral-7b",
+      "Mistral-7B-Instruct",
+      "Mistral-7B-Instruct-v0.3",
+      "mistralai/Mistral-7B-Instruct-v0.3"
+    ]
   },
   {
     "id": "ministral-8b",
     "name": "Ministral 8B",
     "vendor": "Mistral",
     "release_date": "2024-10",
-    "aliases": ["Ministral 8B", "ministral-8b", "Ministral-8B-Instruct-2410", "mistralai/Ministral-8B-Instruct-2410"]
+    "aliases": [
+      "Ministral 8B",
+      "ministral-8b",
+      "Ministral-8B-Instruct-2410",
+      "mistralai/Ministral-8B-Instruct-2410"
+    ]
   },
   {
     "id": "ministral-3b",
     "name": "Ministral 3B",
     "vendor": "Mistral",
     "release_date": "2024-10",
-    "aliases": ["Ministral 3B", "ministral-3b", "Ministral-3B-Instruct-2410"]
+    "aliases": [
+      "Ministral 3B",
+      "ministral-3b",
+      "Ministral-3B-Instruct-2410"
+    ]
   },
   {
     "id": "deepseek-r1-distill-qwen-14b",
     "name": "DeepSeek-R1-Distill-Qwen-14B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek-R1-Distill-Qwen-14B", "DeepSeek R1 Distill Qwen 14B", "deepseek-r1-distill-qwen-14b"]
+    "aliases": [
+      "DeepSeek-R1-Distill-Qwen-14B",
+      "DeepSeek R1 Distill Qwen 14B",
+      "deepseek-r1-distill-qwen-14b"
+    ]
   },
   {
     "id": "deepseek-r1-distill-qwen-7b",
     "name": "DeepSeek-R1-Distill-Qwen-7B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek-R1-Distill-Qwen-7B", "DeepSeek R1 Distill Qwen 7B", "deepseek-r1-distill-qwen-7b"]
+    "aliases": [
+      "DeepSeek-R1-Distill-Qwen-7B",
+      "DeepSeek R1 Distill Qwen 7B",
+      "deepseek-r1-distill-qwen-7b"
+    ]
   },
   {
     "id": "deepseek-r1-distill-qwen-1.5b",
     "name": "DeepSeek-R1-Distill-Qwen-1.5B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek-R1-Distill-Qwen-1.5B", "DeepSeek R1 Distill Qwen 1.5B", "deepseek-r1-distill-qwen-1.5b"]
+    "aliases": [
+      "DeepSeek-R1-Distill-Qwen-1.5B",
+      "DeepSeek R1 Distill Qwen 1.5B",
+      "deepseek-r1-distill-qwen-1.5b"
+    ]
   },
   {
     "id": "deepseek-r1-distill-llama-8b",
     "name": "DeepSeek-R1-Distill-Llama-8B",
     "vendor": "DeepSeek",
     "release_date": "2025-01",
-    "aliases": ["DeepSeek-R1-Distill-Llama-8B", "DeepSeek R1 Distill Llama 8B", "deepseek-r1-distill-llama-8b"]
+    "aliases": [
+      "DeepSeek-R1-Distill-Llama-8B",
+      "DeepSeek R1 Distill Llama 8B",
+      "deepseek-r1-distill-llama-8b"
+    ]
   },
   {
     "id": "qwen1.5-1.8b",
     "name": "Qwen1.5-1.8B",
     "vendor": "Alibaba",
     "release_date": "2024-02",
-    "aliases": ["Qwen1.5-1.8B", "Qwen1.5 1.8B", "qwen1.5-1.8b", "Qwen/Qwen1.5-1.8B-Chat"]
-  },
-  {
-    "id": "internlm2.5-7b",
-    "name": "InternLM2.5 7B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2024-07",
-    "aliases": ["InternLM2.5 7B", "internlm2.5-7b", "internlm2_5-7b-chat", "internlm/internlm2_5-7b-chat"]
-  },
-  {
-    "id": "internlm2-1.8b",
-    "name": "InternLM2 1.8B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2024-01",
-    "aliases": ["InternLM2 1.8B", "internlm2-1.8b", "internlm2-chat-1_8b", "internlm/internlm2-chat-1_8b"]
+    "aliases": [
+      "Qwen1.5-1.8B",
+      "Qwen1.5 1.8B",
+      "qwen1.5-1.8b",
+      "Qwen/Qwen1.5-1.8B-Chat"
+    ]
   },
   {
     "id": "yi-1.5-9b",
     "name": "Yi-1.5 9B",
     "vendor": "01.AI",
     "release_date": "2024-05",
-    "aliases": ["Yi-1.5 9B", "yi-1.5-9b", "Yi-1.5-9B-Chat", "01-ai/Yi-1.5-9B-Chat"]
+    "aliases": [
+      "Yi-1.5 9B",
+      "yi-1.5-9b",
+      "Yi-1.5-9B-Chat",
+      "01-ai/Yi-1.5-9B-Chat"
+    ]
   },
   {
     "id": "yi-1.5-6b",
     "name": "Yi-1.5 6B",
     "vendor": "01.AI",
     "release_date": "2024-05",
-    "aliases": ["Yi-1.5 6B", "yi-1.5-6b", "Yi-1.5-6B-Chat", "01-ai/Yi-1.5-6B-Chat"]
+    "aliases": [
+      "Yi-1.5 6B",
+      "yi-1.5-6b",
+      "Yi-1.5-6B-Chat",
+      "01-ai/Yi-1.5-6B-Chat"
+    ]
   },
   {
     "id": "gemma-7b",
     "name": "Gemma 7B",
     "vendor": "Google",
     "release_date": "2024-02",
-    "aliases": ["Gemma 7B", "gemma-7b", "gemma-1.1-7b-it", "google/gemma-7b-it"]
+    "aliases": [
+      "Gemma 7B",
+      "gemma-7b",
+      "gemma-1.1-7b-it",
+      "google/gemma-7b-it"
+    ]
   },
   {
     "id": "gemma-2b",
     "name": "Gemma 2B",
     "vendor": "Google",
     "release_date": "2024-02",
-    "aliases": ["Gemma 2B", "gemma-2b", "gemma-1.1-2b-it", "google/gemma-2b-it"]
-  },
-  {
-    "id": "stablelm-2-1.6b",
-    "name": "StableLM 2 1.6B",
-    "vendor": "Stability AI",
-    "release_date": "2024-01",
-    "aliases": ["StableLM 2 1.6B", "stablelm-2-1.6b", "stablelm-2-1_6b", "stabilityai/stablelm-2-1_6b-chat"]
-  },
-  {
-    "id": "tinyllama-1.1b",
-    "name": "TinyLlama 1.1B",
-    "vendor": "TinyLlama",
-    "release_date": "2024-01",
-    "aliases": ["TinyLlama 1.1B", "tinyllama-1.1b", "TinyLlama-1.1B-Chat-v1.0", "TinyLlama/TinyLlama-1.1B-Chat-v1.0"]
+    "aliases": [
+      "Gemma 2B",
+      "gemma-2b",
+      "gemma-1.1-2b-it",
+      "google/gemma-2b-it"
+    ]
   },
   {
     "id": "phi-2",
     "name": "Phi-2",
     "vendor": "Microsoft",
     "release_date": "2023-12",
-    "aliases": ["Phi-2", "phi-2", "phi2", "microsoft/phi-2"]
-  },
-  {
-    "id": "minicpm3-4b",
-    "name": "MiniCPM3 4B",
-    "vendor": "OpenBMB",
-    "release_date": "2024-09",
-    "aliases": ["MiniCPM3 4B", "minicpm3-4b", "MiniCPM3-4B", "openbmb/MiniCPM3-4B"]
-  },
-  {
-    "id": "falcon3-10b",
-    "name": "Falcon3 10B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": ["Falcon3 10B", "falcon3-10b", "Falcon3-10B-Instruct", "tiiuae/Falcon3-10B-Instruct"]
-  },
-  {
-    "id": "falcon3-7b",
-    "name": "Falcon3 7B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": ["Falcon3 7B", "falcon3-7b", "Falcon3-7B-Instruct", "tiiuae/Falcon3-7B-Instruct"]
-  },
-  {
-    "id": "falcon3-3b",
-    "name": "Falcon3 3B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": ["Falcon3 3B", "falcon3-3b", "Falcon3-3B-Instruct", "tiiuae/Falcon3-3B-Instruct"]
-  },
-  {
-    "id": "falcon3-1b",
-    "name": "Falcon3 1B",
-    "vendor": "TII",
-    "release_date": "2024-12",
-    "aliases": ["Falcon3 1B", "falcon3-1b", "Falcon3-1B-Instruct", "tiiuae/Falcon3-1B-Instruct"]
+    "aliases": [
+      "Phi-2",
+      "phi-2",
+      "phi2",
+      "microsoft/phi-2"
+    ]
   },
   {
     "id": "olmo-2-13b",
     "name": "OLMo 2 13B",
     "vendor": "Allen AI",
     "release_date": "2024-11",
-    "aliases": ["OLMo 2 13B", "olmo-2-13b", "OLMo-2-1124-13B-Instruct", "allenai/OLMo-2-1124-13B-Instruct"]
+    "aliases": [
+      "OLMo 2 13B",
+      "olmo-2-13b",
+      "OLMo-2-1124-13B-Instruct",
+      "allenai/OLMo-2-1124-13B-Instruct"
+    ]
   },
   {
     "id": "olmo-2-7b",
     "name": "OLMo 2 7B",
     "vendor": "Allen AI",
     "release_date": "2024-11",
-    "aliases": ["OLMo 2 7B", "olmo-2-7b", "OLMo-2-1124-7B-Instruct", "allenai/OLMo-2-1124-7B-Instruct"]
+    "aliases": [
+      "OLMo 2 7B",
+      "olmo-2-7b",
+      "OLMo-2-1124-7B-Instruct",
+      "allenai/OLMo-2-1124-7B-Instruct"
+    ]
   },
   {
     "id": "command-r7b",
     "name": "Command R7B",
     "vendor": "Cohere",
     "release_date": "2024-12",
-    "aliases": ["Command R7B", "command-r7b", "c4ai-command-r7b-12-2024", "CohereForAI/c4ai-command-r7b-12-2024"]
-  },
-  {
-    "id": "aya-expanse-8b",
-    "name": "Aya Expanse 8B",
-    "vendor": "Cohere",
-    "release_date": "2024-10",
-    "aliases": ["Aya Expanse 8B", "aya-expanse-8b", "aya-expanse-8b-2024", "CohereForAI/aya-expanse-8b"]
-  },
-  {
-    "id": "nemotron-mini-4b",
-    "name": "Nemotron Mini 4B",
-    "vendor": "NVIDIA",
-    "release_date": "2024-09",
-    "aliases": ["Nemotron Mini 4B", "nemotron-mini-4b", "Nemotron-Mini-4B-Instruct", "nvidia/Nemotron-Mini-4B-Instruct"]
-  },
-  {
-    "id": "h2o-danube3-4b",
-    "name": "H2O Danube3 4B",
-    "vendor": "H2O.ai",
-    "release_date": "2024-07",
-    "aliases": ["H2O Danube3 4B", "h2o-danube3-4b", "h2o-danube3-4b-chat", "h2oai/h2o-danube3-4b-chat"]
+    "aliases": [
+      "Command R7B",
+      "command-r7b",
+      "c4ai-command-r7b-12-2024",
+      "CohereForAI/c4ai-command-r7b-12-2024"
+    ]
   },
   {
     "id": "glm-4-9b",
     "name": "GLM-4 9B",
     "vendor": "Z.ai",
     "release_date": "2024-06",
-    "aliases": ["GLM-4 9B", "glm-4-9b", "glm-4-9b-chat", "THUDM/glm-4-9b-chat"]
-  },
-  {
-    "id": "chatglm3-6b",
-    "name": "ChatGLM3 6B",
-    "vendor": "Z.ai",
-    "release_date": "2023-10",
-    "aliases": ["ChatGLM3 6B", "chatglm3-6b", "THUDM/chatglm3-6b"]
-  },
-  {
-    "id": "baichuan2-13b",
-    "name": "Baichuan2 13B",
-    "vendor": "Baichuan",
-    "release_date": "2023-09",
-    "aliases": ["Baichuan2 13B", "baichuan2-13b", "Baichuan2-13B-Chat", "baichuan-inc/Baichuan2-13B-Chat"]
-  },
-  {
-    "id": "baichuan2-7b",
-    "name": "Baichuan2 7B",
-    "vendor": "Baichuan",
-    "release_date": "2023-09",
-    "aliases": ["Baichuan2 7B", "baichuan2-7b", "Baichuan2-7B-Chat", "baichuan-inc/Baichuan2-7B-Chat"]
+    "aliases": [
+      "GLM-4 9B",
+      "glm-4-9b",
+      "glm-4-9b-chat",
+      "THUDM/glm-4-9b-chat"
+    ]
   },
   {
     "id": "mistral-nemo-12b",
     "name": "Mistral NeMo 12B",
     "vendor": "Mistral",
     "release_date": "2024-07",
-    "aliases": ["Mistral NeMo 12B", "mistral-nemo-12b", "Mistral-Nemo-Instruct-2407", "mistralai/Mistral-Nemo-Instruct-2407"]
+    "aliases": [
+      "Mistral NeMo 12B",
+      "mistral-nemo-12b",
+      "Mistral-Nemo-Instruct-2407",
+      "mistralai/Mistral-Nemo-Instruct-2407"
+    ]
   },
   {
     "id": "exaone-3.5-7.8b",
     "name": "EXAONE 3.5 7.8B",
     "vendor": "LG",
     "release_date": "2024-12",
-    "aliases": ["EXAONE 3.5 7.8B", "exaone-3.5-7.8b", "EXAONE-3.5-7.8B-Instruct", "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"]
+    "aliases": [
+      "EXAONE 3.5 7.8B",
+      "exaone-3.5-7.8b",
+      "EXAONE-3.5-7.8B-Instruct",
+      "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+    ]
   },
   {
     "id": "exaone-3.5-2.4b",
     "name": "EXAONE 3.5 2.4B",
     "vendor": "LG",
     "release_date": "2024-12",
-    "aliases": ["EXAONE 3.5 2.4B", "exaone-3.5-2.4b", "EXAONE-3.5-2.4B-Instruct", "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"]
-  },
-  {
-    "id": "internlm3-8b",
-    "name": "InternLM3 8B",
-    "vendor": "Shanghai AI Lab",
-    "release_date": "2025-01",
-    "aliases": ["InternLM3 8B", "internlm3-8b", "internlm3-8b-instruct", "internlm/internlm3-8b-instruct"]
-  },
-  {
-    "id": "vicuna-13b",
-    "name": "Vicuna 13B",
-    "vendor": "LMSYS",
-    "release_date": "2023-03",
-    "aliases": ["Vicuna 13B", "vicuna-13b", "vicuna-13b-v1.5", "lmsys/vicuna-13b-v1.5"]
-  },
-  {
-    "id": "vicuna-7b",
-    "name": "Vicuna 7B",
-    "vendor": "LMSYS",
-    "release_date": "2023-03",
-    "aliases": ["Vicuna 7B", "vicuna-7b", "vicuna-7b-v1.5", "lmsys/vicuna-7b-v1.5"]
-  },
-  {
-    "id": "starling-lm-7b",
-    "name": "Starling-LM 7B",
-    "vendor": "Berkeley NEST",
-    "release_date": "2023-11",
-    "aliases": ["Starling-LM 7B", "starling-lm-7b", "Starling-LM-7B-beta", "Nexusflow/Starling-LM-7B-beta"]
-  },
-  {
-    "id": "openchat-3.5-7b",
-    "name": "OpenChat 3.5 7B",
-    "vendor": "OpenChat",
-    "release_date": "2024-01",
-    "aliases": ["OpenChat 3.5 7B", "openchat-3.5-7b", "openchat-3.5-0106", "openchat/openchat-3.5-0106"]
-  },
-  {
-    "id": "orca-2-13b",
-    "name": "Orca 2 13B",
-    "vendor": "Microsoft",
-    "release_date": "2023-11",
-    "aliases": ["Orca 2 13B", "orca-2-13b", "microsoft/Orca-2-13b"]
-  },
-  {
-    "id": "pythia-2.8b",
-    "name": "Pythia 2.8B",
-    "vendor": "EleutherAI",
-    "release_date": "2023-04",
-    "aliases": ["Pythia 2.8B", "pythia-2.8b", "EleutherAI/pythia-2.8b"]
-  },
-  {
-    "id": "pythia-1.4b",
-    "name": "Pythia 1.4B",
-    "vendor": "EleutherAI",
-    "release_date": "2023-04",
-    "aliases": ["Pythia 1.4B", "pythia-1.4b", "EleutherAI/pythia-1.4b"]
-  },
-  {
-    "id": "mamba-2.8b",
-    "name": "Mamba 2.8B",
-    "vendor": "state-spaces",
-    "release_date": "2023-12",
-    "aliases": ["Mamba 2.8B", "mamba-2.8b", "mamba-2.8b-hf", "state-spaces/mamba-2.8b-hf"]
-  },
-  {
-    "id": "eurollm-9b",
-    "name": "EuroLLM 9B",
-    "vendor": "EuroLLM",
-    "release_date": "2024-11",
-    "aliases": ["EuroLLM 9B", "eurollm-9b", "EuroLLM-9B-Instruct", "utter-project/EuroLLM-9B-Instruct"]
-  },
-  {
-    "id": "salamandra-7b",
-    "name": "Salamandra 7B",
-    "vendor": "BSC",
-    "release_date": "2024-10",
-    "aliases": ["Salamandra 7B", "salamandra-7b", "salamandra-7b-instruct", "BSC-LT/salamandra-7b-instruct"]
-  },
-  {
-    "id": "teuken-7b",
-    "name": "Teuken 7B",
-    "vendor": "OpenGPT-X",
-    "release_date": "2024-09",
-    "aliases": ["Teuken 7B", "teuken-7b", "Teuken-7B-instruct-v0.4", "openGPT-X/Teuken-7B-instruct-commercial-v0.4"]
-  },
-  {
-    "id": "sea-lion-v3-9b",
-    "name": "SEA-LION v3 9B",
-    "vendor": "AI Singapore",
-    "release_date": "2024-12",
-    "aliases": ["SEA-LION v3 9B", "sea-lion-v3-9b", "gemma2-9b-cpt-sea-lionv3-instruct", "aisingapore/gemma2-9b-cpt-sea-lionv3-instruct"]
-  },
-  {
-    "id": "zamba2-7b",
-    "name": "Zamba2 7B",
-    "vendor": "Zyphra",
-    "release_date": "2024-10",
-    "aliases": ["Zamba2 7B", "zamba2-7b", "Zamba2-7B-Instruct", "Zyphra/Zamba2-7B-Instruct"]
+    "aliases": [
+      "EXAONE 3.5 2.4B",
+      "exaone-3.5-2.4b",
+      "EXAONE-3.5-2.4B-Instruct",
+      "LGAI-EXAONE/EXAONE-3.5-2.4B-Instruct"
+    ]
   }
 ]
