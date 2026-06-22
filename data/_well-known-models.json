@@ -1204,5 +1204,166 @@
     "vendor": "Hugging Face",
     "release_date": "2024-11",
     "aliases": ["SmolLM2 1.7B", "smollm2-1.7b", "SmolLM2-1.7B-Instruct", "HuggingFaceTB/SmolLM2-1.7B-Instruct"]
+  },
+  {
+    "id": "smollm2-360m",
+    "name": "SmolLM2 360M",
+    "vendor": "Hugging Face",
+    "release_date": "2024-11",
+    "aliases": ["SmolLM2 360M", "smollm2-360m", "SmolLM2-360M-Instruct", "HuggingFaceTB/SmolLM2-360M-Instruct"]
+  },
+  {
+    "id": "smollm2-135m",
+    "name": "SmolLM2 135M",
+    "vendor": "Hugging Face",
+    "release_date": "2024-11",
+    "aliases": ["SmolLM2 135M", "smollm2-135m", "SmolLM2-135M-Instruct", "HuggingFaceTB/SmolLM2-135M-Instruct"]
+  },
+  {
+    "id": "qwen1.5-1.8b",
+    "name": "Qwen1.5-1.8B",
+    "vendor": "Alibaba",
+    "release_date": "2024-02",
+    "aliases": ["Qwen1.5-1.8B", "Qwen1.5 1.8B", "qwen1.5-1.8b", "Qwen/Qwen1.5-1.8B-Chat"]
+  },
+  {
+    "id": "internlm2.5-7b",
+    "name": "InternLM2.5 7B",
+    "vendor": "Shanghai AI Lab",
+    "release_date": "2024-07",
+    "aliases": ["InternLM2.5 7B", "internlm2.5-7b", "internlm2_5-7b-chat", "internlm/internlm2_5-7b-chat"]
+  },
+  {
+    "id": "internlm2-1.8b",
+    "name": "InternLM2 1.8B",
+    "vendor": "Shanghai AI Lab",
+    "release_date": "2024-01",
+    "aliases": ["InternLM2 1.8B", "internlm2-1.8b", "internlm2-chat-1_8b", "internlm/internlm2-chat-1_8b"]
+  },
+  {
+    "id": "yi-1.5-9b",
+    "name": "Yi-1.5 9B",
+    "vendor": "01.AI",
+    "release_date": "2024-05",
+    "aliases": ["Yi-1.5 9B", "yi-1.5-9b", "Yi-1.5-9B-Chat", "01-ai/Yi-1.5-9B-Chat"]
+  },
+  {
+    "id": "yi-1.5-6b",
+    "name": "Yi-1.5 6B",
+    "vendor": "01.AI",
+    "release_date": "2024-05",
+    "aliases": ["Yi-1.5 6B", "yi-1.5-6b", "Yi-1.5-6B-Chat", "01-ai/Yi-1.5-6B-Chat"]
+  },
+  {
+    "id": "gemma-7b",
+    "name": "Gemma 7B",
+    "vendor": "Google",
+    "release_date": "2024-02",
+    "aliases": ["Gemma 7B", "gemma-7b", "gemma-1.1-7b-it", "google/gemma-7b-it"]
+  },
+  {
+    "id": "gemma-2b",
+    "name": "Gemma 2B",
+    "vendor": "Google",
+    "release_date": "2024-02",
+    "aliases": ["Gemma 2B", "gemma-2b", "gemma-1.1-2b-it", "google/gemma-2b-it"]
+  },
+  {
+    "id": "stablelm-2-1.6b",
+    "name": "StableLM 2 1.6B",
+    "vendor": "Stability AI",
+    "release_date": "2024-01",
+    "aliases": ["StableLM 2 1.6B", "stablelm-2-1.6b", "stablelm-2-1_6b", "stabilityai/stablelm-2-1_6b-chat"]
+  },
+  {
+    "id": "tinyllama-1.1b",
+    "name": "TinyLlama 1.1B",
+    "vendor": "TinyLlama",
+    "release_date": "2024-01",
+    "aliases": ["TinyLlama 1.1B", "tinyllama-1.1b", "TinyLlama-1.1B-Chat-v1.0", "TinyLlama/TinyLlama-1.1B-Chat-v1.0"]
+  },
+  {
+    "id": "phi-2",
+    "name": "Phi-2",
+    "vendor": "Microsoft",
+    "release_date": "2023-12",
+    "aliases": ["Phi-2", "phi-2", "phi2", "microsoft/phi-2"]
+  },
+  {
+    "id": "minicpm3-4b",
+    "name": "MiniCPM3 4B",
+    "vendor": "OpenBMB",
+    "release_date": "2024-09",
+    "aliases": ["MiniCPM3 4B", "minicpm3-4b", "MiniCPM3-4B", "openbmb/MiniCPM3-4B"]
+  },
+  {
+    "id": "falcon3-10b",
+    "name": "Falcon3 10B",
+    "vendor": "TII",
+    "release_date": "2024-12",
+    "aliases": ["Falcon3 10B", "falcon3-10b", "Falcon3-10B-Instruct", "tiiuae/Falcon3-10B-Instruct"]
+  },
+  {
+    "id": "falcon3-7b",
+    "name": "Falcon3 7B",
+    "vendor": "TII",
+    "release_date": "2024-12",
+    "aliases": ["Falcon3 7B", "falcon3-7b", "Falcon3-7B-Instruct", "tiiuae/Falcon3-7B-Instruct"]
+  },
+  {
+    "id": "falcon3-3b",
+    "name": "Falcon3 3B",
+    "vendor": "TII",
+    "release_date": "2024-12",
+    "aliases": ["Falcon3 3B", "falcon3-3b", "Falcon3-3B-Instruct", "tiiuae/Falcon3-3B-Instruct"]
+  },
+  {
+    "id": "falcon3-1b",
+    "name": "Falcon3 1B",
+    "vendor": "TII",
+    "release_date": "2024-12",
+    "aliases": ["Falcon3 1B", "falcon3-1b", "Falcon3-1B-Instruct", "tiiuae/Falcon3-1B-Instruct"]
+  },
+  {
+    "id": "olmo-2-13b",
+    "name": "OLMo 2 13B",
+    "vendor": "Allen AI",
+    "release_date": "2024-11",
+    "aliases": ["OLMo 2 13B", "olmo-2-13b", "OLMo-2-1124-13B-Instruct", "allenai/OLMo-2-1124-13B-Instruct"]
+  },
+  {
+    "id": "olmo-2-7b",
+    "name": "OLMo 2 7B",
+    "vendor": "Allen AI",
+    "release_date": "2024-11",
+    "aliases": ["OLMo 2 7B", "olmo-2-7b", "OLMo-2-1124-7B-Instruct", "allenai/OLMo-2-1124-7B-Instruct"]
+  },
+  {
+    "id": "command-r7b",
+    "name": "Command R7B",
+    "vendor": "Cohere",
+    "release_date": "2024-12",
+    "aliases": ["Command R7B", "command-r7b", "c4ai-command-r7b-12-2024", "CohereForAI/c4ai-command-r7b-12-2024"]
+  },
+  {
+    "id": "aya-expanse-8b",
+    "name": "Aya Expanse 8B",
+    "vendor": "Cohere",
+    "release_date": "2024-10",
+    "aliases": ["Aya Expanse 8B", "aya-expanse-8b", "aya-expanse-8b-2024", "CohereForAI/aya-expanse-8b"]
+  },
+  {
+    "id": "nemotron-mini-4b",
+    "name": "Nemotron Mini 4B",
+    "vendor": "NVIDIA",
+    "release_date": "2024-09",
+    "aliases": ["Nemotron Mini 4B", "nemotron-mini-4b", "Nemotron-Mini-4B-Instruct", "nvidia/Nemotron-Mini-4B-Instruct"]
+  },
+  {
+    "id": "h2o-danube3-4b",
+    "name": "H2O Danube3 4B",
+    "vendor": "H2O.ai",
+    "release_date": "2024-07",
+    "aliases": ["H2O Danube3 4B", "h2o-danube3-4b", "h2o-danube3-4b-chat", "h2oai/h2o-danube3-4b-chat"]
   }
 ]

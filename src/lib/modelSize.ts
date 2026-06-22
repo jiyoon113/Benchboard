@@ -61,6 +61,10 @@ const DISCLOSED_B: Record<string, number> = {
   "minimax-m2": 230,
   "minimax-m2.1": 230,
   // Korea
+  // Tiny models whose name omits the "B" (or uses "M")
+  "phi-2": 2.7,
+  "smollm2-360m": 0.36,
+  "smollm2-135m": 0.135,
   "exaone-4": 32,
   "ax-4": 72, // continual-pretrained on Qwen2.5-72B
   "ax-3.1-light": 7,
