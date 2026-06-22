@@ -1342,12 +1342,12 @@
     "vendor": "Meta",
     "release_date": "2024-07",
     "aliases": [
-      "Llama 3.1 8B",
       "llama-3.1-8b",
-      "Llama 3.1 8B Instruct",
       "Meta-Llama-3.1-8B-Instruct",
-      "meta-llama/Llama-3.1-8B-Instruct",
-      "llama3.1-8b"
+      "Llama 3.1 8B Instruct",
+      "llama3.1-8b",
+      "Llama 3.1 8B",
+      "meta-llama/Llama-3.1-8B-Instruct"
     ]
   },
   {
