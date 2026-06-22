@@ -30,6 +30,19 @@ const BENCHMARKS: Record<string, string> = {
   "arc-agi":             "arc-agi",
 };
 
+/** llm-stats leaderboard pages render a freshness line (e.g. "Last updated:
+ *  2026-05-30" or "Updated May 30, 2026"). Capture it once per page so every
+ *  row carries the *source's* date in `published`, distinct from our
+ *  `fetched_at`. Best-effort: returns undefined when the page omits it.
+ *  Page-level is the right grain — a scraped leaderboard has one update stamp,
+ *  not a per-row date. */
+function parsePublished(html: string): string | undefined {
+  const m = html.match(
+    /(?:last\s+)?updated\b[^0-9A-Za-z]*((?:[0-9]{4}-[0-9]{2}-[0-9]{2})|(?:[A-Z][a-z]+\.?\s+\d{1,2},?\s+\d{4}))/i,
+  );
+  return m ? m[1].trim() : undefined;
+}
+
 function parseLeaderboard(html: string): Array<{ name: string; score: number }> {
   const results: Array<{ name: string; score: number }> = [];
   // Each row: <tr ...><td>rank</td><td>...<a href="/models/...">NAME</a>...org...</td><td>..SCORE..</td>
@@ -66,6 +79,7 @@ async function fetchBenchmark(slug: string, benchmarkId: string, fetched_at: str
   }
   const html = await res.text();
   const rows = parseLeaderboard(html);
+  const published = parsePublished(html);
 
   const records: ScoreRecord[] = [];
   for (const row of rows) {
@@ -79,7 +93,12 @@ async function fetchBenchmark(slug: string, benchmarkId: string, fetched_at: str
       benchmark_id: benchmarkId,
       score: row.score,
       config: "default",
-      source: { kind: "github_repo", url, fetched_at },
+      source: {
+        kind: "github_repo",
+        url,
+        fetched_at,
+        ...(published ? { published } : {}),
+      },
     });
   }
   return records;

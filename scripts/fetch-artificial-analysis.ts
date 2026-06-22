@@ -55,6 +55,20 @@ function normScore(raw: unknown): number | null {
   return Math.round((n > 0 && n <= 1 ? n * 100 : n) * 10) / 10;
 }
 
+/** When AA returns an eval as an object it can carry a freshness timestamp
+ *  alongside `score`. Pull it into `published` so the record keeps the
+ *  *source's* date, distinct from our `fetched_at`. Best-effort: returns
+ *  undefined for bare-number evals or when no known date key is present. */
+function extractPublished(raw: unknown): string | undefined {
+  if (raw == null || typeof raw !== "object") return undefined;
+  const o = raw as Record<string, unknown>;
+  for (const k of ["last_updated", "updated_at", "evaluated_at", "measured_at", "date"]) {
+    const v = o[k];
+    if (typeof v === "string" && v) return v;
+  }
+  return undefined;
+}
+
 async function main() {
   const key =
     process.env.AA_API_KEY ??
@@ -97,12 +111,18 @@ async function main() {
       const score = normScore(evals[field]);
       if (score === null) continue;
       const config = [target.config, tag].filter(Boolean).join(", ") || "default";
+      const published = extractPublished(evals[field]);
       records.push({
         model_id: id,
         benchmark_id: target.id,
         score,
         config,
-        source: { kind: "aggregator_api", url: ENDPOINT, fetched_at },
+        source: {
+          kind: "aggregator_api",
+          url: ENDPOINT,
+          fetched_at,
+          ...(published ? { published } : {}),
+        },
       });
     }
   }
