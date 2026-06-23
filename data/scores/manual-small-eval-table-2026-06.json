@@ -2,155 +2,12 @@
   {
     "model_id": "phi-4-mini",
     "benchmark_id": "mmlu",
-    "score": 63,
+    "score": 65,
     "config": "default",
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "mmlu-pro",
-    "score": 40.2,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "mmlu-redux",
-    "score": 64.6,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "supergpqa",
-    "score": 20.2,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "drop",
-    "score": 59.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "gpqa",
-    "score": 25.2,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "arc-challenge",
-    "score": 79.4,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "gsm8k",
-    "score": 74.7,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "math",
-    "score": 25.7,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "math-500",
-    "score": 21.2,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "aime-2024",
-    "score": 10,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "aime-2025",
-    "score": 3.3,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -163,7 +20,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 68.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 46.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -171,12 +54,38 @@
   {
     "model_id": "gemma-3-4b",
     "benchmark_id": "mmlu-pro",
-    "score": 40.7,
+    "score": 41.7,
     "config": "default",
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 47,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "mmlu-redux",
+    "score": 66.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -184,12 +93,38 @@
   {
     "model_id": "gemma-3-4b",
     "benchmark_id": "mmlu-redux",
-    "score": 62.2,
+    "score": 60.8,
     "config": "default",
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-redux",
+    "score": 70.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "supergpqa",
+    "score": 20.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -202,150 +137,7 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "drop",
-    "score": 73.1,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "gpqa",
-    "score": 24.8,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "arc-challenge",
-    "score": 76.8,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "gsm8k",
-    "score": 79.8,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "math",
-    "score": 29.6,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "math-500",
-    "score": 29.4,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "aime-2024",
-    "score": 10,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "gemma-3-4b",
-    "benchmark_id": "aime-2025",
-    "score": 10,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "llama-3.1-8b",
-    "benchmark_id": "mmlu",
-    "score": 70,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "llama-3.1-8b",
-    "benchmark_id": "mmlu-pro",
-    "score": 45.4,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-02-26"
-    }
-  },
-  {
-    "model_id": "llama-3.1-8b",
-    "benchmark_id": "mmlu-redux",
-    "score": 70.6,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -358,7 +150,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "drop",
+    "score": 59.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "drop",
+    "score": 73.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -371,7 +189,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (openbench harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gpqa",
+    "score": 25.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gpqa",
+    "score": 24.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -384,7 +228,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 79.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "arc-challenge",
+    "score": 76.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -397,7 +267,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gsm8k",
+    "score": 74.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "gsm8k",
+    "score": 79.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -410,7 +306,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math",
+    "score": 25.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math",
+    "score": 29.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -423,7 +345,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math-500",
+    "score": 21.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "math-500",
+    "score": 29.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -436,7 +384,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "aime-2024",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2024",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -449,7 +423,33 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "aime-2025",
+    "score": 3.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "aime-2025",
+    "score": 10,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
@@ -462,7 +462,7 @@
     "source": {
       "kind": "manual",
       "url": "",
-      "reported_by": "Comparison eval table (0–1 scores, normalized ×100)",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
