@@ -2744,6 +2744,13 @@
     "description": "End-to-end terminal/CLI agent tasks. Score depends on the agent harness, recorded in config."
   },
   {
+    "id": "terminal-bench-hard",
+    "name": "Terminal Bench Hard",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Hard split of Terminal-Bench — agentic command-line task completion."
+  },
+  {
     "id": "terminal-bench-in-house",
     "name": "Terminal Bench In-House",
     "category": "coding",

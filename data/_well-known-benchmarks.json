@@ -21,6 +21,13 @@
     "description": "Multistep Soft Reasoning — long narrative reasoning (Open LLM Leaderboard v2)."
   },
   {
+    "id": "terminal-bench-hard",
+    "name": "Terminal Bench Hard",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Hard split of Terminal-Bench — agentic command-line task completion."
+  },
+  {
     "id": "commonsenseqa",
     "name": "CommonSenseQA",
     "category": "general",
