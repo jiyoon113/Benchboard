@@ -1,0 +1,50 @@
+[
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu",
+    "score": 84.27,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "lm-evaluation-harness results (results[\"mmlu\"][\"acc,none\"])",
+      "fetched_at": "2026-06-22T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "humaneval",
+    "score": 96.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval",
+      "reported_by": "Price Per Token leaderboard (user-relayed value; direct fetch returned 403, unverified independently)",
+      "fetched_at": "2026-06-22T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "humaneval",
+    "score": 90.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/humaneval",
+      "reported_by": "Price Per Token leaderboard (user-relayed value; direct fetch returned 403, unverified independently)",
+      "fetched_at": "2026-06-22T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-relayed value; direct fetch returned 403, unverified independently)",
+      "fetched_at": "2026-06-22T00:00:00Z"
+    }
+  }
+]
