@@ -466,5 +466,161 @@
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "hle",
+    "score": 3.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "hle",
+    "score": 10.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "hle",
+    "score": 4.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (openbench harness, acc, 0-1 scores normalized x100; self-grade)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "hmmt-feb-2025",
+    "score": 0,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval-custom harness, exact_match, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "scicode",
+    "score": 4.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "scicode",
+    "score": 4.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "scicode",
+    "score": 6.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (scicode-repo harness, sub_problem, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "livecodebench",
+    "score": 20.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "livecodebench",
+    "score": 23.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "livecodebench",
+    "score": 21.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lcb-repo harness, pass@1, 0-1 scores normalized x100; max_tokens-4096; corrected from an earlier 0.000 underestimate)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
   }
 ]
