@@ -622,5 +622,44 @@
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "simpleqa",
+    "score": 10.7,
+    "config": "F1",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (F1 metric, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "simpleqa",
+    "score": 18,
+    "config": "F1",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (F1 metric, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "simpleqa",
+    "score": 35,
+    "config": "F1",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (F1 metric, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
   }
 ]
