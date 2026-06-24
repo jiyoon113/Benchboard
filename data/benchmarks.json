@@ -657,6 +657,13 @@
     "type": "deterministic"
   },
   {
+    "id": "dialogsum",
+    "name": "DialogSum",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Dialogue summarization benchmark."
+  },
+  {
     "id": "docvqa",
     "name": "DocVQA",
     "category": "multimodal",
@@ -1394,6 +1401,13 @@
     "description": "Agentic legal task benchmark."
   },
   {
+    "id": "legalqa",
+    "name": "LegalQA",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Legal-domain question answering."
+  },
+  {
     "id": "lingoqa",
     "name": "LingoQA",
     "category": "vision",
@@ -1695,6 +1709,13 @@
     "name": "MedMCQA Dev",
     "category": "health",
     "type": "deterministic"
+  },
+  {
+    "id": "medqa",
+    "name": "MedQA",
+    "category": "health",
+    "type": "deterministic",
+    "description": "US Medical Licensing Exam-style multiple-choice questions."
   },
   {
     "id": "medqa-mainland-china",
@@ -2477,6 +2498,13 @@
     "type": "deterministic",
     "source_url": "https://scicode-bench.github.io",
     "description": "Scientific code-generation benchmark drawn from real research problems."
+  },
+  {
+    "id": "sciq",
+    "name": "SciQ",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Crowdsourced science multiple-choice QA (physics/chem/bio/earth science)."
   },
   {
     "id": "screenspot-pro",

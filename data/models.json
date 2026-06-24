@@ -1928,6 +1928,18 @@
     ]
   },
   {
+    "id": "phi-4-reasoning",
+    "name": "Phi-4-reasoning",
+    "vendor": "Microsoft",
+    "release_date": "2025-04",
+    "aliases": [
+      "Phi-4-reasoning",
+      "Phi 4 Reasoning",
+      "phi-4-reasoning",
+      "microsoft/Phi-4-reasoning"
+    ]
+  },
+  {
     "id": "phi-4-reasoning-plus",
     "name": "Phi-4 Reasoning Plus",
     "vendor": "Microsoft",

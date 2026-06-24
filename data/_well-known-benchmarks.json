@@ -1,5 +1,33 @@
 [
   {
+    "id": "sciq",
+    "name": "SciQ",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Crowdsourced science multiple-choice QA (physics/chem/bio/earth science)."
+  },
+  {
+    "id": "medqa",
+    "name": "MedQA",
+    "category": "health",
+    "type": "deterministic",
+    "description": "US Medical Licensing Exam-style multiple-choice questions."
+  },
+  {
+    "id": "legalqa",
+    "name": "LegalQA",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Legal-domain question answering."
+  },
+  {
+    "id": "dialogsum",
+    "name": "DialogSum",
+    "category": "other",
+    "type": "deterministic",
+    "description": "Dialogue summarization benchmark."
+  },
+  {
     "id": "spider",
     "name": "Spider",
     "category": "coding",
