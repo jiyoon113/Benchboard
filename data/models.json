@@ -1138,7 +1138,8 @@
       "Grok 3",
       "Grok-3 Mini",
       "grok-3-mini",
-      "Grok 3 Mini"
+      "Grok 3 Mini",
+      "Grok 3 Beta"
     ]
   },
   {
@@ -1227,7 +1228,9 @@
       "moonshot-v1-kimi-k2",
       "Kimi K2 Instruct",
       "kimi-k2-instruct",
-      "Kimi K2 0905"
+      "Kimi K2 0905",
+      "Kimi K2 0711",
+      "Kimi K2 0905 (exacto)"
     ]
   },
   {
@@ -1625,7 +1628,8 @@
     "aliases": [
       "Mistral Small 3.2",
       "Mistral Small 3.2 24B Instruct",
-      "mistral-small-3.2"
+      "mistral-small-3.2",
+      "Mistral Small 3.2 24B"
     ]
   },
   {
@@ -1726,7 +1730,8 @@
     "aliases": [
       "Amazon Nova Lite",
       "Nova Lite",
-      "nova-lite"
+      "nova-lite",
+      "Nova Lite 1.0"
     ]
   },
   {
@@ -1737,7 +1742,8 @@
     "aliases": [
       "Amazon Nova Micro",
       "Nova Micro",
-      "nova-micro"
+      "nova-micro",
+      "Nova Micro 1.0"
     ]
   },
   {
@@ -1747,7 +1753,8 @@
     "release_date": "2024-12",
     "aliases": [
       "Nova Pro",
-      "nova-pro"
+      "nova-pro",
+      "Nova Pro 1.0"
     ]
   },
   {
@@ -1795,7 +1802,8 @@
     "release_date": "2025-04",
     "aliases": [
       "o4-mini",
-      "OpenAI o4-mini"
+      "OpenAI o4-mini",
+      "o4 Mini High"
     ]
   },
   {
