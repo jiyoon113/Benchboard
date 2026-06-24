@@ -613,7 +613,8 @@
     "aliases": [
       "gemini-1.5-pro",
       "gemini-1.5-pro-001",
-      "gemini-1.5-pro-002"
+      "gemini-1.5-pro-002",
+      "gemini-1.5-pro-001-feb24"
     ]
   },
   {
@@ -1854,7 +1855,8 @@
       "Phi-3 Mini",
       "phi-3-mini",
       "Phi-3-mini-128k-instruct",
-      "microsoft/phi-3-mini-128k-instruct"
+      "microsoft/phi-3-mini-128k-instruct",
+      "Phi-3-mini-4k-instruct"
     ]
   },
   {
@@ -1865,7 +1867,8 @@
     "aliases": [
       "Phi-3 Small",
       "phi-3-small",
-      "Phi-3-small-128k-instruct"
+      "Phi-3-small-128k-instruct",
+      "Phi-3-small-8k-instruct"
     ]
   },
   {

@@ -1,18 +1,5 @@
 [
   {
-    "model_id": "gemini-1.5-pro",
-    "benchmark_id": "bbh",
-    "score": 89.2,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "bbh_external.csv",
-      "published": "2024-05-14",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
-    }
-  },
-  {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "bbh",
     "score": 82.9,
@@ -22,7 +9,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "bbh_external.csv",
       "published": "2024-07-23",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "bbh",
+    "score": 81.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -35,7 +35,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "bbh_external.csv",
       "published": "2024-09-19",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "bbh",
+    "score": 79.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -48,7 +61,59 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "bbh_external.csv",
       "published": "2023-06-13",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "bbh",
+    "score": 71.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-2",
+    "benchmark_id": "bbh",
+    "score": 59.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2023-12-12",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "bbh",
+    "score": 55.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-02-21",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "bbh",
+    "score": 35.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "bbh_external.csv",
+      "published": "2024-02-21",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   }
 ]

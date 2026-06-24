@@ -9,7 +9,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-02-19",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -22,7 +22,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-11-18",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -35,7 +35,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-05-19",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "claude-fable-5",
+    "benchmark_id": "simpleqa",
+    "score": 68.3,
+    "config": "xhigh",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-06-09",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -48,7 +61,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-09-24",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -61,7 +74,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-17",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "simpleqa",
+    "score": 57,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-24",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -74,7 +100,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-04-20",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -87,7 +113,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-06-17",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -100,7 +126,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-04-16",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -113,7 +139,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-04-16",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -126,7 +152,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-08-07",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -139,7 +165,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-07-25",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "simpleqa",
+    "score": 49.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-03-31",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -152,7 +191,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-11-13",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -165,7 +204,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-02-05",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     },
     "variants": [
       {
@@ -176,7 +215,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2026-02-05",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       },
       {
@@ -187,7 +226,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2026-02-05",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       }
     ]
@@ -202,7 +241,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-03-05",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -215,7 +254,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-11-24",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.8",
+    "benchmark_id": "simpleqa",
+    "score": 39.5,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-05-28",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -228,7 +280,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-11",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     },
     "variants": [
       {
@@ -239,7 +291,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-12-11",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       },
       {
@@ -250,7 +302,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-12-11",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       },
       {
@@ -261,7 +313,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-12-11",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       }
     ]
@@ -276,7 +328,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-04-20",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "grok-4.3",
+    "benchmark_id": "simpleqa",
+    "score": 38,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-17",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -289,7 +354,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-04-07",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -302,7 +367,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-08-05",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -315,7 +380,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-01-27",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -328,7 +393,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-11-06",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -341,7 +406,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-22",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -354,7 +419,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-02-17",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -367,7 +432,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-01",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-plus",
+    "benchmark_id": "simpleqa",
+    "score": 26,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-02-16",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -380,7 +458,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-04-16",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -393,7 +471,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-09-29",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     },
     "variants": [
       {
@@ -404,7 +482,7 @@
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-09-29",
-          "fetched_at": "2026-06-11T08:47:43.603Z"
+          "fetched_at": "2026-06-24T03:45:02.293Z"
         }
       }
     ]
@@ -419,7 +497,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-08-05",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -432,7 +510,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2024-10-22",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -445,7 +523,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-10-15",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   }
 ]

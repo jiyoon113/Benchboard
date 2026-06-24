@@ -9,7 +9,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-07-18",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -22,7 +22,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2023-06-13",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -35,7 +35,97 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-08-17",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3.5-mini",
+    "benchmark_id": "gsm8k",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-08-16",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "gsm8k",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 82.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-07-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "gsm8k",
+    "score": 65.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "gsm8k",
+    "score": 46.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-02-21",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "gsm8k",
+    "score": 34.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "gsm8k",
+    "score": 17.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-02-21",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   }
 ]

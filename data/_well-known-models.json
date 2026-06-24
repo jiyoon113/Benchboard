@@ -404,7 +404,8 @@
     "aliases": [
       "gemini-1.5-pro",
       "gemini-1.5-pro-001",
-      "gemini-1.5-pro-002"
+      "gemini-1.5-pro-002",
+      "gemini-1.5-pro-001-feb24"
     ]
   },
   {
@@ -519,7 +520,12 @@
     "name": "Llama 3.1 8B",
     "vendor": "Meta",
     "release_date": "2024-07",
-    "aliases": ["llama-3.1-8b", "Meta-Llama-3.1-8B-Instruct", "Llama 3.1 8B Instruct", "llama3.1-8b"]
+    "aliases": [
+      "llama-3.1-8b",
+      "Meta-Llama-3.1-8B-Instruct",
+      "Llama 3.1 8B Instruct",
+      "llama3.1-8b"
+    ]
   },
   {
     "id": "llama-3.2-90b",
@@ -2229,7 +2235,8 @@
     "aliases": [
       "Phi-3 Small",
       "phi-3-small",
-      "Phi-3-small-128k-instruct"
+      "Phi-3-small-128k-instruct",
+      "Phi-3-small-8k-instruct"
     ]
   },
   {
@@ -2241,7 +2248,8 @@
       "Phi-3 Mini",
       "phi-3-mini",
       "Phi-3-mini-128k-instruct",
-      "microsoft/phi-3-mini-128k-instruct"
+      "microsoft/phi-3-mini-128k-instruct",
+      "Phi-3-mini-4k-instruct"
     ]
   },
   {

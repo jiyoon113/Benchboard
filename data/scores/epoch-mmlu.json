@@ -9,7 +9,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-12-26",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -22,7 +22,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-12-12",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -35,7 +35,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-02-29",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -48,7 +48,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-07-23",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -61,7 +61,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2023-06-13",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -74,7 +74,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-09-24",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -87,7 +87,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-07-23",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -100,7 +100,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2025-02-26",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -113,7 +113,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-12-11",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -126,7 +126,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-04-18",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mmlu",
+    "score": 77.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -139,7 +152,46 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-02-29",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2-27b",
+    "benchmark_id": "mmlu",
+    "score": 75.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-06-24",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-small",
+    "benchmark_id": "mmlu",
+    "score": 75.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-14b",
+    "benchmark_id": "mmlu",
+    "score": 75.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -152,7 +204,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-10-22",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -165,7 +217,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2024-03-07",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   },
   {
@@ -178,7 +230,124 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "mmlu_external.csv",
       "published": "2025-02-26",
-      "fetched_at": "2026-06-11T08:47:43.603Z"
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2-9b",
+    "benchmark_id": "mmlu",
+    "score": 72.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-06-24",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "phi-3-mini",
+    "benchmark_id": "mmlu",
+    "score": 68.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-04-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-7b",
+    "benchmark_id": "mmlu",
+    "score": 68,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "mmlu",
+    "score": 59.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-05-27",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "llama-3.2-11b",
+    "benchmark_id": "mmlu",
+    "score": 56.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-09-24",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 56.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-07-23",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-1.5b",
+    "benchmark_id": "mmlu",
+    "score": 53.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "mmlu",
+    "score": 42.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-02-21",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
+    }
+  },
+  {
+    "model_id": "qwen2.5-coder-0.5b",
+    "benchmark_id": "mmlu",
+    "score": 42,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "mmlu_external.csv",
+      "published": "2024-09-18",
+      "fetched_at": "2026-06-24T03:45:02.293Z"
     }
   }
 ]
