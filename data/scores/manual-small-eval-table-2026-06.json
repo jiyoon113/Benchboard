@@ -661,5 +661,18 @@
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2025-02-26"
     }
+  },
+  {
+    "model_id": "gemma-3-4b",
+    "benchmark_id": "bbh",
+    "score": 66.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "",
+      "reported_by": "Comparison eval table (lm-eval harness, 0-1 scores normalized x100)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-02-26"
+    }
   }
 ]
