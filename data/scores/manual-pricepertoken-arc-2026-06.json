@@ -1,0 +1,230 @@
+[
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "arc-challenge",
+    "score": 96.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "arc-challenge",
+    "score": 96,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "arc-challenge",
+    "score": 96,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "minimax-m1",
+    "benchmark_id": "arc-challenge",
+    "score": 95.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "arc-challenge",
+    "score": 95.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "o4-mini",
+    "benchmark_id": "arc-challenge",
+    "score": 95.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "arc-challenge",
+    "score": 95.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-4-maverick",
+    "benchmark_id": "arc-challenge",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.7,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "arc-challenge",
+    "score": 94,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-4-scout",
+    "benchmark_id": "arc-challenge",
+    "score": 93.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "arc-challenge",
+    "score": 92.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "arc-challenge",
+    "score": 92.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.2",
+    "benchmark_id": "arc-challenge",
+    "score": 91.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "arc-challenge",
+    "score": 91,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-micro",
+    "benchmark_id": "arc-challenge",
+    "score": 86.9,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "arc-challenge",
+    "score": 56.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/arc-challenge",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  }
+]

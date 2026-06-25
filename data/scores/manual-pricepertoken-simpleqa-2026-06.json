@@ -1,0 +1,302 @@
+[
+  {
+    "model_id": "gemini-2.5-pro",
+    "benchmark_id": "simpleqa",
+    "score": 53,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "simpleqa",
+    "score": 46.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "simpleqa",
+    "score": 40.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "simpleqa",
+    "score": 26.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-r1",
+    "benchmark_id": "simpleqa",
+    "score": 25.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "simpleqa",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3.1",
+    "benchmark_id": "simpleqa",
+    "score": 23.3,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "simpleqa",
+    "score": 23,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-4-maverick",
+    "benchmark_id": "simpleqa",
+    "score": 22.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "simpleqa",
+    "score": 14,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 12.7,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 12.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-pro",
+    "benchmark_id": "simpleqa",
+    "score": 12.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "mistral-small-3.2",
+    "benchmark_id": "simpleqa",
+    "score": 9.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemma-3-27b",
+    "benchmark_id": "simpleqa",
+    "score": 8.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-4-scout",
+    "benchmark_id": "simpleqa",
+    "score": 7.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-lite",
+    "benchmark_id": "simpleqa",
+    "score": 6.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "simpleqa",
+    "score": 5.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-30b-a3b",
+    "benchmark_id": "simpleqa",
+    "score": 5.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "simpleqa",
+    "score": 5.5,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-32b",
+    "benchmark_id": "simpleqa",
+    "score": 5.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nova-micro",
+    "benchmark_id": "simpleqa",
+    "score": 4.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "simpleqa",
+    "score": 2.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "simpleqa",
+    "score": 0.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://pricepertoken.com/leaderboards/benchmark/simpleqa",
+      "reported_by": "Price Per Token leaderboard (user-provided screenshot, 2026-06-25)",
+      "fetched_at": "2026-06-25T00:00:00Z"
+    }
+  }
+]
