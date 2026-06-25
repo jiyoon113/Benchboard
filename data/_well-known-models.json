@@ -440,7 +440,8 @@
     "aliases": [
       "Gemini 2.5",
       "gemini-2.5-pro",
-      "gemini-2.5-pro-exp"
+      "gemini-2.5-pro-exp",
+      "Gemini 2.5 Pro Preview 05-06"
     ]
   },
   {
@@ -660,7 +661,9 @@
     "aliases": [
       "qwen3-30b-a3b",
       "Qwen3 30B A3B",
-      "Qwen3-30B-A3B"
+      "Qwen3-30B-A3B",
+      "Qwen3 30B A3B Thinking 2507",
+      "Qwen3-30B-A3B-Thinking-2507"
     ]
   },
   {
@@ -685,7 +688,8 @@
       "deepseek-r1",
       "DeepSeek-R1",
       "deepseek-reasoner",
-      "DeepSeek-R1-0528"
+      "DeepSeek-R1-0528",
+      "R1 0528"
     ]
   },
   {
@@ -1573,7 +1577,8 @@
       "Qwen3-VL-235B-A22B",
       "qwen3-vl-235b-a22b",
       "Qwen3-VL",
-      "qwen3-vl-235b"
+      "qwen3-vl-235b",
+      "Qwen3 VL 235B A22B Instruct"
     ]
   },
   {
