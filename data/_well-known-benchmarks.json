@@ -354,7 +354,7 @@
     "description": "HumanEval with 80× more test cases. Pass@1."
   },
   {
-    "id": "mbpp-plus",
+    "id": "mbpp+",
     "name": "MBPP+",
     "category": "coding",
     "type": "deterministic",

@@ -25,6 +25,7 @@ const HOST_LABEL: Array<[string, string]> = [
   ["artificialanalysis.ai", "Artificial Analysis"],
   ["scale.com", "Scale SEAL"],
   ["llm-stats.com", "LLM-Stats"],
+  ["pricepertoken.com", "PricePerToken"],
   ["wulong.dev", "LMArena"],
   ["lmarena.ai", "LMArena"],
   ["arxiv.org", "arXiv"],
@@ -65,7 +66,8 @@ function sourceLabel(s: ScoreVariant["source"]): string {
  *  local filesystem path from a tech-report PDF. */
 function sourceTitle(s: ScoreVariant["source"]): string {
   const label = sourceLabel(s);
-  return /^https?:\/\//i.test(s.url) ? `${label} — ${s.url}` : label;
+  const detail = s.ref ? `${label}: ${s.ref}` : label;
+  return /^https?:\/\//i.test(s.url) ? `${detail} - ${s.url}` : detail;
 }
 
 interface Props {

@@ -1668,7 +1668,9 @@
     "id": "mbpp+",
     "name": "MBPP+",
     "category": "coding",
-    "type": "deterministic"
+    "type": "deterministic",
+    "source_url": "https://evalplus.github.io/leaderboard.html",
+    "description": "MBPP with stricter test suite. Pass@1."
   },
   {
     "id": "mcp-atlas",

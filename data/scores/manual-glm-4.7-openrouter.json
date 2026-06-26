@@ -11,7 +11,9 @@
       "fetched_at": "2026-06-17T00:00:00Z",
       "published": "2026-06-17"
     },
-    "extra": { "n": 1172 }
+    "extra": {
+      "n": 1172
+    }
   },
   {
     "model_id": "glm-4.7",
@@ -25,21 +27,9 @@
       "fetched_at": "2026-06-17T00:00:00Z",
       "published": "2026-06-17"
     },
-    "extra": { "n": 1319 }
-  },
-  {
-    "model_id": "glm-4.7",
-    "benchmark_id": "mmlu-redux",
-    "score": 94.03,
-    "config": "temp=0, full set",
-    "source": {
-      "kind": "manual",
-      "url": "https://openrouter.ai/z-ai/glm-4.7",
-      "reported_by": "self-run via OpenRouter",
-      "fetched_at": "2026-06-17T00:00:00Z",
-      "published": "2026-06-17"
-    },
-    "extra": { "n": 5330 }
+    "extra": {
+      "n": 1319
+    }
   },
   {
     "model_id": "glm-4.7",
@@ -53,6 +43,24 @@
       "fetched_at": "2026-06-17T00:00:00Z",
       "published": "2026-06-17"
     },
-    "extra": { "n": 500 }
+    "extra": {
+      "n": 500
+    }
+  },
+  {
+    "model_id": "glm-4.7",
+    "benchmark_id": "mmlu-redux",
+    "score": 94.03,
+    "config": "temp=0, full set",
+    "source": {
+      "kind": "manual",
+      "url": "https://openrouter.ai/z-ai/glm-4.7",
+      "reported_by": "self-run via OpenRouter",
+      "fetched_at": "2026-06-17T00:00:00Z",
+      "published": "2026-06-17"
+    },
+    "extra": {
+      "n": 5330
+    }
   }
 ]
