@@ -4,38 +4,65 @@ import { withBase } from "../lib/url";
 import { loadAllScores, loadModels } from "../lib/loadData";
 import { sizeClass, sizeLabel } from "../lib/modelSize";
 
-// Curated set of key reasoning / knowledge / coding benchmarks. Each row is a
-// model; each column one of these. The view gathers every model that has at
-// least one of them filled, so you can see coverage at a glance.
+// Curated coverage matrix. Each row is one target model; each column is one
+// target benchmark, so coverage stays scoped to the current review set.
 const BENCH: Array<[string, string]> = [
-  ["gpqa", "GPQA"],
-  ["scicode", "SciCode"],
+  ["aime-2024", "AIME 2024"],
   ["aime-2025", "AIME 2025"],
+  ["arc-challenge", "ARC Challenge"],
+  ["bbh", "BBH"],
+  ["drop", "Drop"],
+  ["gpqa", "GPQA"],
+  ["gsm8k", "GSM8K"],
   ["hle", "HLE"],
-  ["mmlu-pro", "MMLU-Pro"],
+  ["hmmt-feb-2025", "HMMT Feb 2025"],
+  ["humaneval", "HumanEval"],
+  ["math", "MATH"],
   ["math-500", "MATH-500"],
-  ["livecodebench", "LiveCodeBench"],
+  ["mbpp", "MBPP"],
+  ["mmlu", "MMLU"],
+  ["mmlu-pro", "MMLU-Pro"],
   ["mmlu-redux", "MMLU-Redux"],
   ["simpleqa", "SimpleQA"],
   ["supergpqa", "SuperGPQA"],
-  ["aime-2024", "AIME 2024"],
-  ["gsm8k", "GSM8K"],
-  ["mmlu", "MMLU"],
-  ["hmmt-feb-2025", "HMMT Feb 2025"],
-  ["math", "MATH"],
-  ["arc-challenge", "ARC Challenge"],
-  ["drop", "Drop"],
-  ["mbpp", "MBPP"],
-  ["humaneval", "HumanEval"],
-  ["bbh", "BBH"],
+  ["scicode", "SciCode"],
+  ["livecodebench", "LiveCodeBench"],
+];
+const TARGET_MODELS = [
+  "claude-3.5-sonnet",
+  "claude-sonnet-4",
+  "claude-sonnet-4.5",
+  "deepseek-v3",
+  "gemini-2.5-flash",
+  "gemini-3-pro",
+  "gemma-3-4b",
+  "glm-4.6",
+  "glm-4.7",
+  "gpt-4o",
+  "gpt-5.1",
+  "gpt-oss-120b",
+  "gpt-oss-20b",
+  "grok-4",
+  "kimi-k2.5",
+  "kimi-k2",
+  "llama-3.1-405b",
+  "llama-3.1-70b",
+  "llama-3.1-8b",
+  "nova-pro",
+  "phi-4",
+  "phi-4-mini",
+  "qwen-2.5-72b",
+  "qwen3-235b",
 ];
 const ids = BENCH.map((b) => b[0]);
+const targetIds = new Set(TARGET_MODELS);
 
 const [scores, models] = await Promise.all([loadAllScores(), loadModels()]);
 const meta = new Map(models.map((m) => [m.id, m]));
 const byModel = new Map<string, Record<string, number>>();
 for (const r of scores) {
   if (!ids.includes(r.benchmark_id)) continue;
+  if (!targetIds.has(r.model_id)) continue;
   if (!byModel.has(r.model_id)) byModel.set(r.model_id, {});
   byModel.get(r.model_id)![r.benchmark_id] = r.score;
 }
@@ -50,9 +77,10 @@ interface Row {
   scores: (number | null)[];
 }
 const rows: Row[] = [];
-for (const [mid, sc] of byModel) {
+for (const mid of TARGET_MODELS) {
   const m = meta.get(mid);
   if (!m) continue;
+  const sc = byModel.get(mid) ?? {};
   const arr = ids.map((id) =>
     id in sc ? Math.round(sc[id] * 10) / 10 : null,
   );
@@ -66,7 +94,6 @@ for (const [mid, sc] of byModel) {
     scores: arr,
   });
 }
-rows.sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
 
 // Per-column min/max for heatmap normalisation.
 const colMin = ids.map(() => Infinity);
@@ -92,7 +119,7 @@ const base = withBase("/models/");
   <div class="mb-4">
     <h1 class="text-xl font-semibold tracking-tight">Benchmark coverage</h1>
     <p class="text-sm text-neutral-600 mt-1">
-      {rows.length} models with at least one of these {BENCH.length} key benchmarks.
+      {rows.length} target models across these {BENCH.length} key benchmarks.
       Heatmap is per-column (relative to that benchmark's range). Click a column header to sort.
     </p>
   </div>
@@ -107,8 +134,8 @@ const base = withBase("/models/");
     </div>
     <label class="flex items-center gap-2">
       <span class="text-neutral-500">Min filled</span>
-      <input type="range" id="minN" min="1" max={BENCH.length} value="5" class="w-32" />
-      <span id="minN-out" class="tabular-nums w-6 text-neutral-700">5</span>
+      <input type="range" id="minN" min="0" max={BENCH.length} value="0" class="w-32" />
+      <span id="minN-out" class="tabular-nums w-6 text-neutral-700">0</span>
     </label>
     <input
       id="search"
@@ -128,7 +155,7 @@ const base = withBase("/models/");
 
   <script is:inline define:vars={{ payload, base }}>
     const { benches, rows, colMin, colMax } = payload;
-    const state = { size: "all", minN: 5, q: "", sort: -1, dir: -1 };
+    const state = { size: "all", minN: 0, q: "", sort: -1, dir: -1 };
 
     function heat(v, i) {
       if (v == null) return "";
