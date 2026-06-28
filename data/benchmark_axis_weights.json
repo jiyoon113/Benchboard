@@ -1,0 +1,383 @@
+{
+  "run_id": "demo-agentic-coding-2026-06-27",
+  "axes": [
+    {
+      "id": "coding",
+      "name": "Coding execution",
+      "description": "Program synthesis, repair, and test-facing implementation skill.",
+      "source": "learned",
+      "stability": 0.91,
+      "confidence": 0.9,
+      "lineage_status": "renamed",
+      "related_benchmarks": [
+        "humaneval",
+        "mbpp",
+        "livecodebench",
+        "scicode"
+      ],
+      "high_performing_models": [
+        "o4-mini",
+        "claude-sonnet-4.5",
+        "gpt-5"
+      ]
+    },
+    {
+      "id": "multi_step_reasoning",
+      "name": "Multi-step reasoning",
+      "description": "Sustained decomposition across symbolic, textual, and tool-like tasks.",
+      "source": "learned",
+      "stability": 0.87,
+      "confidence": 0.86,
+      "lineage_status": "merged",
+      "related_benchmarks": [
+        "bbh",
+        "livecodebench",
+        "aime-2024"
+      ],
+      "high_performing_models": [
+        "gpt-5",
+        "gemini-3-pro",
+        "claude-opus-4.6"
+      ]
+    },
+    {
+      "id": "math_reasoning",
+      "name": "Math reasoning",
+      "description": "Competition-style quantitative reasoning and proof-like execution.",
+      "source": "learned",
+      "stability": 0.82,
+      "confidence": 0.81,
+      "lineage_status": "split",
+      "related_benchmarks": [
+        "aime-2024",
+        "math-500",
+        "hmmt-feb-2025"
+      ],
+      "high_performing_models": [
+        "gpt-5",
+        "gemini-3-pro",
+        "deepseek-r1"
+      ]
+    },
+    {
+      "id": "factual_qa",
+      "name": "Factual QA",
+      "description": "Closed-book factual precision and calibration under direct questions.",
+      "source": "profiling",
+      "stability": 0.76,
+      "confidence": 0.74,
+      "lineage_status": "unchanged",
+      "related_benchmarks": [
+        "simpleqa",
+        "mmlu-pro",
+        "gpqa-diamond"
+      ],
+      "high_performing_models": [
+        "gpt-5",
+        "gemini-3-pro",
+        "claude-sonnet-4.5"
+      ]
+    },
+    {
+      "id": "long_context_retrieval",
+      "name": "Long-context retrieval",
+      "description": "Needle retrieval, synthesis, and citation fidelity over long inputs.",
+      "source": "survey",
+      "stability": 0.73,
+      "confidence": 0.72,
+      "lineage_status": "new",
+      "related_benchmarks": [
+        "ruler",
+        "loogle",
+        "longbench"
+      ],
+      "high_performing_models": [
+        "gemini-3-pro",
+        "claude-opus-4.6",
+        "gpt-5"
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "humaneval",
+      "name": "HumanEval",
+      "cost": 1.0,
+      "time_minutes": 8,
+      "weights": {
+        "coding": 0.96,
+        "multi_step_reasoning": 0.24,
+        "math_reasoning": 0.08,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Low-cost coding anchor with strong historical comparability."
+    },
+    {
+      "id": "mbpp",
+      "name": "MBPP",
+      "cost": 1.1,
+      "time_minutes": 10,
+      "weights": {
+        "coding": 0.9,
+        "multi_step_reasoning": 0.3,
+        "math_reasoning": 0.12,
+        "factual_qa": 0.02,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Broader everyday programming prompts that complement HumanEval."
+    },
+    {
+      "id": "livecodebench",
+      "name": "LiveCodeBench",
+      "cost": 2.4,
+      "time_minutes": 35,
+      "weights": {
+        "coding": 0.92,
+        "multi_step_reasoning": 0.76,
+        "math_reasoning": 0.34,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Bridges code generation with harder planning and recency pressure."
+    },
+    {
+      "id": "scicode",
+      "name": "SciCode",
+      "cost": 2.0,
+      "time_minutes": 28,
+      "weights": {
+        "coding": 0.78,
+        "multi_step_reasoning": 0.66,
+        "math_reasoning": 0.5,
+        "factual_qa": 0.1,
+        "long_context_retrieval": 0.04
+      },
+      "rationale": "Scientific programming signal that reduces interview-code redundancy."
+    },
+    {
+      "id": "bbh",
+      "name": "BBH",
+      "cost": 1.8,
+      "time_minutes": 24,
+      "weights": {
+        "coding": 0.18,
+        "multi_step_reasoning": 0.88,
+        "math_reasoning": 0.46,
+        "factual_qa": 0.18,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Broad reasoning signal that code-only subsets miss."
+    },
+    {
+      "id": "aime-2024",
+      "name": "AIME 2024",
+      "cost": 1.5,
+      "time_minutes": 20,
+      "weights": {
+        "coding": 0.04,
+        "multi_step_reasoning": 0.72,
+        "math_reasoning": 0.94,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Strong math reasoning probe, usually selected when math weight rises."
+    },
+    {
+      "id": "simpleqa",
+      "name": "SimpleQA",
+      "cost": 0.9,
+      "time_minutes": 9,
+      "weights": {
+        "coding": 0,
+        "multi_step_reasoning": 0.08,
+        "math_reasoning": 0.02,
+        "factual_qa": 0.95,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Cheap factuality check, held out for this demo target."
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "cost": 2.2,
+      "time_minutes": 32,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.24,
+        "math_reasoning": 0.02,
+        "factual_qa": 0.12,
+        "long_context_retrieval": 0.94
+      },
+      "rationale": "Long-context retrieval probe, excluded by target weighting."
+    },
+    {
+      "id": "swe-bench-verified",
+      "name": "SWE-bench Verified",
+      "cost": 2.8,
+      "time_minutes": 45,
+      "weights": {
+        "coding": 0.88,
+        "multi_step_reasoning": 0.82,
+        "math_reasoning": 0.1,
+        "factual_qa": 0.02,
+        "long_context_retrieval": 0.12
+      },
+      "rationale": "Repository-level software engineering tasks for agentic coding behavior."
+    },
+    {
+      "id": "bigcodebench",
+      "name": "BigCodeBench",
+      "cost": 1.9,
+      "time_minutes": 26,
+      "weights": {
+        "coding": 0.86,
+        "multi_step_reasoning": 0.54,
+        "math_reasoning": 0.18,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Broader code-generation coverage with less HumanEval-style saturation."
+    },
+    {
+      "id": "math-500",
+      "name": "MATH-500",
+      "cost": 1.4,
+      "time_minutes": 18,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.62,
+        "math_reasoning": 0.9,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Compact math reasoning probe that complements AIME-style contest items."
+    },
+    {
+      "id": "hmmt-feb-2025",
+      "name": "HMMT Feb 2025",
+      "cost": 1.7,
+      "time_minutes": 22,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.68,
+        "math_reasoning": 0.92,
+        "factual_qa": 0.04,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Harder competition-math signal for reasoning-heavy target suites."
+    },
+    {
+      "id": "mmlu-pro",
+      "name": "MMLU-Pro",
+      "cost": 1.3,
+      "time_minutes": 18,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.34,
+        "math_reasoning": 0.24,
+        "factual_qa": 0.82,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Professional-domain QA signal with stronger factual coverage than coding sets."
+    },
+    {
+      "id": "gpqa-diamond",
+      "name": "GPQA Diamond",
+      "cost": 1.6,
+      "time_minutes": 22,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.58,
+        "math_reasoning": 0.54,
+        "factual_qa": 0.78,
+        "long_context_retrieval": 0
+      },
+      "rationale": "Expert science QA that mixes factual precision and multi-step reasoning."
+    },
+    {
+      "id": "longbench",
+      "name": "LongBench",
+      "cost": 2.0,
+      "time_minutes": 30,
+      "weights": {
+        "coding": 0.04,
+        "multi_step_reasoning": 0.34,
+        "math_reasoning": 0.04,
+        "factual_qa": 0.32,
+        "long_context_retrieval": 0.86
+      },
+      "rationale": "Long-context reading and synthesis benchmark for retrieval-heavy targets."
+    },
+    {
+      "id": "loogle",
+      "name": "LooGLE",
+      "cost": 2.1,
+      "time_minutes": 31,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.3,
+        "math_reasoning": 0.02,
+        "factual_qa": 0.26,
+        "long_context_retrieval": 0.9
+      },
+      "rationale": "Long-dependency retrieval and reasoning tasks over extended contexts."
+    },
+    {
+      "id": "needle-in-haystack",
+      "name": "Needle-in-a-Haystack",
+      "cost": 1.5,
+      "time_minutes": 20,
+      "weights": {
+        "coding": 0.0,
+        "multi_step_reasoning": 0.18,
+        "math_reasoning": 0.0,
+        "factual_qa": 0.12,
+        "long_context_retrieval": 0.82
+      },
+      "rationale": "Cheap sanity check for exact retrieval across very long contexts."
+    },
+    {
+      "id": "infinitebench",
+      "name": "InfiniteBench",
+      "cost": 2.5,
+      "time_minutes": 36,
+      "weights": {
+        "coding": 0.02,
+        "multi_step_reasoning": 0.4,
+        "math_reasoning": 0.04,
+        "factual_qa": 0.22,
+        "long_context_retrieval": 0.88
+      },
+      "rationale": "Stress test for retrieval and reasoning at very long sequence lengths."
+    },
+    {
+      "id": "drop",
+      "name": "DROP",
+      "cost": 1.0,
+      "time_minutes": 14,
+      "weights": {
+        "coding": 0.0,
+        "multi_step_reasoning": 0.64,
+        "math_reasoning": 0.34,
+        "factual_qa": 0.48,
+        "long_context_retrieval": 0.06
+      },
+      "rationale": "Discrete reasoning over passages with arithmetic and factual grounding."
+    },
+    {
+      "id": "truthfulqa",
+      "name": "TruthfulQA",
+      "cost": 0.9,
+      "time_minutes": 10,
+      "weights": {
+        "coding": 0.0,
+        "multi_step_reasoning": 0.12,
+        "math_reasoning": 0.02,
+        "factual_qa": 0.74,
+        "long_context_retrieval": 0.0
+      },
+      "rationale": "Calibration and truthfulness signal for direct factual questions."
+    }
+  ]
+}

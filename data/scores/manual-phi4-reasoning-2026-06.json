@@ -1,73 +1,8 @@
 [
   {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "aime-2024",
-    "score": 10,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "math-500",
-    "score": 71.8,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "gpqa",
-    "score": 36.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
     "model_id": "deepseek-r1-distill-qwen-7b",
     "benchmark_id": "aime-2024",
     "score": 53.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "deepseek-r1-distill-qwen-7b",
-    "benchmark_id": "math-500",
-    "score": 91.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "deepseek-r1-distill-qwen-7b",
-    "benchmark_id": "gpqa",
-    "score": 49.5,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -91,22 +26,9 @@
     }
   },
   {
-    "model_id": "deepseek-r1-distill-llama-8b",
-    "benchmark_id": "math-500",
-    "score": 86.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "deepseek-r1-distill-llama-8b",
-    "benchmark_id": "gpqa",
-    "score": 47.3,
+    "model_id": "phi-4-mini",
+    "benchmark_id": "aime-2024",
+    "score": 10,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -130,61 +52,9 @@
     }
   },
   {
-    "model_id": "llama-3.2-3b",
-    "benchmark_id": "math-500",
-    "score": 44.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "llama-3.2-3b",
-    "benchmark_id": "gpqa",
-    "score": 25.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2504.21233",
-      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2025-04-30"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "mmlu",
-    "score": 84.8,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "mmlu",
-    "score": 77.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "mmlu",
-    "score": 79.9,
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "arena-hard",
+    "score": 78.4,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -196,34 +66,8 @@
   },
   {
     "model_id": "gpt-4o-mini",
-    "benchmark_id": "mmlu",
-    "score": 81.8,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "mmlu",
-    "score": 86.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "mmlu",
-    "score": 85.3,
+    "benchmark_id": "arena-hard",
+    "score": 76.2,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -235,137 +79,7 @@
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "mmlu",
-    "score": 88.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "gpqa",
-    "score": 56.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "gpqa",
-    "score": 31.2,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "gpqa",
-    "score": 42.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "gpqa",
-    "score": 40.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "gpqa",
-    "score": 49.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "gpqa",
-    "score": 49,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "gpqa",
-    "score": 50.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "math",
-    "score": 80.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "math",
-    "score": 44.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "math",
+    "benchmark_id": "arena-hard",
     "score": 75.6,
     "config": "Instruct",
     "source": {
@@ -377,74 +91,9 @@
     }
   },
   {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "math",
-    "score": 73,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "math",
-    "score": 66.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "math",
-    "score": 80,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "math",
-    "score": 74.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
     "model_id": "phi-4",
-    "benchmark_id": "humaneval",
-    "score": 82.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "humaneval",
-    "score": 67.8,
+    "benchmark_id": "arena-hard",
+    "score": 75.4,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -456,21 +105,8 @@
   },
   {
     "model_id": "qwen2.5-14b",
-    "benchmark_id": "humaneval",
-    "score": 72.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "humaneval",
-    "score": 86.2,
+    "benchmark_id": "arena-hard",
+    "score": 70.2,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -482,47 +118,8 @@
   },
   {
     "model_id": "llama-3.3-70b",
-    "benchmark_id": "humaneval",
-    "score": 78.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "humaneval",
-    "score": 80.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "humaneval",
-    "score": 90.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "mgsm",
-    "score": 80.6,
+    "benchmark_id": "arena-hard",
+    "score": 65.5,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -534,34 +131,8 @@
   },
   {
     "model_id": "phi-3-medium",
-    "benchmark_id": "mgsm",
-    "score": 53.5,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "mgsm",
-    "score": 79.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "mgsm",
-    "score": 86.5,
+    "benchmark_id": "arena-hard",
+    "score": 45.8,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -573,60 +144,8 @@
   },
   {
     "model_id": "llama-3.3-70b",
-    "benchmark_id": "mgsm",
-    "score": 89.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "mgsm",
-    "score": 87.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "mgsm",
-    "score": 90.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "simpleqa",
-    "score": 3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "simpleqa",
-    "score": 7.6,
+    "benchmark_id": "drop",
+    "score": 90.2,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -638,47 +157,8 @@
   },
   {
     "model_id": "qwen2.5-14b",
-    "benchmark_id": "simpleqa",
-    "score": 5.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "simpleqa",
-    "score": 9.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "simpleqa",
-    "score": 20.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "simpleqa",
-    "score": 10.2,
+    "benchmark_id": "drop",
+    "score": 85.5,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -690,8 +170,34 @@
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "simpleqa",
-    "score": 39.4,
+    "benchmark_id": "drop",
+    "score": 80.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "drop",
+    "score": 79.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "drop",
+    "score": 76.7,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -728,48 +234,9 @@
     }
   },
   {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "drop",
-    "score": 85.5,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "drop",
-    "score": 79.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "drop",
-    "score": 90.2,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "drop",
-    "score": 76.7,
+    "model_id": "phi-4",
+    "benchmark_id": "gpqa",
+    "score": 56.1,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -781,8 +248,8 @@
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "drop",
-    "score": 80.9,
+    "benchmark_id": "gpqa",
+    "score": 50.6,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -793,61 +260,22 @@
     }
   },
   {
-    "model_id": "phi-4",
-    "benchmark_id": "mmlu-pro",
-    "score": 70.4,
+    "model_id": "deepseek-r1-distill-qwen-7b",
+    "benchmark_id": "gpqa",
+    "score": 49.5,
     "config": "Instruct",
     "source": {
       "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
       "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "mmlu-pro",
-    "score": 51.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "mmlu-pro",
-    "score": 63.2,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "mmlu-pro",
-    "score": 63.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
+      "published": "2025-04-30"
     }
   },
   {
     "model_id": "llama-3.3-70b",
-    "benchmark_id": "mmlu-pro",
-    "score": 64.4,
+    "benchmark_id": "gpqa",
+    "score": 49.1,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -859,8 +287,8 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "mmlu-pro",
-    "score": 69.6,
+    "benchmark_id": "gpqa",
+    "score": 49,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -868,51 +296,90 @@
       "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
       "fetched_at": "2026-06-22T00:00:00Z",
       "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-8b",
+    "benchmark_id": "gpqa",
+    "score": 47.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "gpqa",
+    "score": 42.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "gpqa",
+    "score": 40.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "gpqa",
+    "score": 36.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "gpqa",
+    "score": 31.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "gpqa",
+    "score": 25.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
     }
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "mmlu-pro",
-    "score": 73,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "humaneval+",
-    "score": 82.8,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "humaneval+",
-    "score": 69.2,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "humaneval+",
-    "score": 79.1,
+    "benchmark_id": "humaneval",
+    "score": 90.6,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -924,8 +391,8 @@
   },
   {
     "model_id": "gpt-4o-mini",
-    "benchmark_id": "humaneval+",
-    "score": 82,
+    "benchmark_id": "humaneval",
+    "score": 86.2,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -936,9 +403,9 @@
     }
   },
   {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "humaneval+",
-    "score": 77.9,
+    "model_id": "phi-4",
+    "benchmark_id": "humaneval",
+    "score": 82.6,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -950,8 +417,47 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "humaneval+",
-    "score": 78.4,
+    "benchmark_id": "humaneval",
+    "score": 80.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "humaneval",
+    "score": 78.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "humaneval",
+    "score": 72.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "humaneval",
+    "score": 67.8,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -976,34 +482,8 @@
   },
   {
     "model_id": "phi-4",
-    "benchmark_id": "arena-hard",
-    "score": 75.4,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "arena-hard",
-    "score": 45.8,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "arena-hard",
-    "score": 70.2,
+    "benchmark_id": "humaneval+",
+    "score": 82.8,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -1015,8 +495,8 @@
   },
   {
     "model_id": "gpt-4o-mini",
-    "benchmark_id": "arena-hard",
-    "score": 76.2,
+    "benchmark_id": "humaneval+",
+    "score": 82,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -1027,9 +507,9 @@
     }
   },
   {
-    "model_id": "llama-3.3-70b",
-    "benchmark_id": "arena-hard",
-    "score": 65.5,
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "humaneval+",
+    "score": 79.1,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -1041,7 +521,7 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "arena-hard",
+    "benchmark_id": "humaneval+",
     "score": 78.4,
     "config": "Instruct",
     "source": {
@@ -1053,113 +533,9 @@
     }
   },
   {
-    "model_id": "gpt-4o",
-    "benchmark_id": "arena-hard",
-    "score": 75.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "livebench",
-    "score": 47.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-3-medium",
-    "benchmark_id": "livebench",
-    "score": 28.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "livebench",
-    "score": 46.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "livebench",
-    "score": 48.1,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
     "model_id": "llama-3.3-70b",
-    "benchmark_id": "livebench",
-    "score": 57.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "livebench",
-    "score": 55.3,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "livebench",
-    "score": 57.6,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "phi-4",
-    "benchmark_id": "ifeval",
-    "score": 63,
+    "benchmark_id": "humaneval+",
+    "score": 77.9,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -1171,34 +547,8 @@
   },
   {
     "model_id": "phi-3-medium",
-    "benchmark_id": "ifeval",
-    "score": 57.9,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "qwen2.5-14b",
-    "benchmark_id": "ifeval",
-    "score": 78.7,
-    "config": "Instruct",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2412.08905",
-      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
-      "fetched_at": "2026-06-22T00:00:00Z",
-      "published": "2024-12-12"
-    }
-  },
-  {
-    "model_id": "gpt-4o-mini",
-    "benchmark_id": "ifeval",
-    "score": 80,
+    "benchmark_id": "humaneval+",
+    "score": 69.2,
     "config": "Instruct",
     "source": {
       "kind": "manual",
@@ -1238,6 +588,656 @@
     "model_id": "gpt-4o",
     "benchmark_id": "ifeval",
     "score": 84.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "ifeval",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "ifeval",
+    "score": 78.7,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "ifeval",
+    "score": 63,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "ifeval",
+    "score": 57.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "livebench",
+    "score": 57.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "livebench",
+    "score": 57.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "livebench",
+    "score": 55.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "livebench",
+    "score": 48.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "livebench",
+    "score": 47.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "livebench",
+    "score": 46.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "livebench",
+    "score": 28.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "math",
+    "score": 80.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math",
+    "score": 80,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "math",
+    "score": 75.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "math",
+    "score": 74.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "math",
+    "score": 73,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "math",
+    "score": 66.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "math",
+    "score": 44.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-qwen-7b",
+    "benchmark_id": "math-500",
+    "score": 91.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "deepseek-r1-distill-llama-8b",
+    "benchmark_id": "math-500",
+    "score": 86.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "math-500",
+    "score": 71.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "llama-3.2-3b",
+    "benchmark_id": "math-500",
+    "score": 44.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "reported_by": "Phi-4-Mini-Reasoning report (arXiv:2504.21233)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2025-04-30"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mgsm",
+    "score": 90.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mgsm",
+    "score": 89.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mgsm",
+    "score": 87.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mgsm",
+    "score": 86.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mgsm",
+    "score": 80.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mgsm",
+    "score": 79.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mgsm",
+    "score": 53.5,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.1,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu",
+    "score": 86.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 85.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu",
+    "score": 84.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu",
+    "score": 81.8,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu",
+    "score": 79.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mmlu",
+    "score": 77.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-pro",
+    "score": 73,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "mmlu-pro",
+    "score": 70.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu-pro",
+    "score": 69.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 64.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 63.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "mmlu-pro",
+    "score": 63.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "mmlu-pro",
+    "score": 51.3,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "simpleqa",
+    "score": 39.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "llama-3.3-70b",
+    "benchmark_id": "simpleqa",
+    "score": 20.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "simpleqa",
+    "score": 10.2,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "simpleqa",
+    "score": 9.9,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-3-medium",
+    "benchmark_id": "simpleqa",
+    "score": 7.6,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "qwen2.5-14b",
+    "benchmark_id": "simpleqa",
+    "score": 5.4,
+    "config": "Instruct",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "reported_by": "Phi-4 technical report (arXiv:2412.08905)",
+      "fetched_at": "2026-06-22T00:00:00Z",
+      "published": "2024-12-12"
+    }
+  },
+  {
+    "model_id": "phi-4",
+    "benchmark_id": "simpleqa",
+    "score": 3,
     "config": "Instruct",
     "source": {
       "kind": "manual",

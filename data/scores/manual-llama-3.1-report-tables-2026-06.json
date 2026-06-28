@@ -1,0 +1,2049 @@
+[
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "agieval-english",
+    "score": 0.716,
+    "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "AGIEval English",
+      "shots": "3-5",
+      "metric": "average/acc_char",
+      "score_percent": 71.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "agieval-english",
+    "score": 0.646,
+    "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "AGIEval English",
+      "shots": "3-5",
+      "metric": "average/acc_char",
+      "score_percent": 64.6
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "agieval-english",
+    "score": 0.63,
+    "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "AGIEval English",
+      "shots": "3-5",
+      "metric": "average/acc_char",
+      "score_percent": 63
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "agieval-english",
+    "score": 0.478,
+    "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "AGIEval English",
+      "shots": "3-5",
+      "metric": "average/acc_char",
+      "score_percent": 47.8
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "agieval-english",
+    "score": 0.471,
+    "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "AGIEval English",
+      "shots": "3-5",
+      "metric": "average/acc_char",
+      "score_percent": 47.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "api-bank",
+    "score": 0.92,
+    "config": "instruction tuned, API-Bank, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "API-Bank",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 92
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "api-bank",
+    "score": 0.9,
+    "config": "instruction tuned, API-Bank, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "API-Bank",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 90
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "api-bank",
+    "score": 0.851,
+    "config": "instruction tuned, API-Bank, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "API-Bank",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 85.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "api-bank",
+    "score": 0.826,
+    "config": "instruction tuned, API-Bank, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "API-Bank",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 82.6
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "api-bank",
+    "score": 0.483,
+    "config": "instruction tuned, API-Bank, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "API-Bank",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 48.3
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arc-c",
+    "score": 0.969,
+    "config": "instruction tuned, ARC-C, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "ARC-C",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 96.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "arc-c",
+    "score": 0.948,
+    "config": "instruction tuned, ARC-C, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "ARC-C",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 94.8
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arc-c",
+    "score": 0.944,
+    "config": "instruction tuned, ARC-C, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "ARC-C",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 94.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-c",
+    "score": 0.834,
+    "config": "instruction tuned, ARC-C, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "ARC-C",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 83.4
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arc-c",
+    "score": 0.824,
+    "config": "instruction tuned, ARC-C, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "ARC-C",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 82.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arc-challenge",
+    "score": 0.961,
+    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "ARC-Challenge",
+      "shots": "25",
+      "metric": "acc_char",
+      "score_percent": 96.1
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "arc-challenge",
+    "score": 0.931,
+    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "ARC-Challenge",
+      "shots": "25",
+      "metric": "acc_char",
+      "score_percent": 93.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "arc-challenge",
+    "score": 0.929,
+    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "ARC-Challenge",
+      "shots": "25",
+      "metric": "acc_char",
+      "score_percent": 92.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 0.797,
+    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "ARC-Challenge",
+      "shots": "25",
+      "metric": "acc_char",
+      "score_percent": 79.7
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "arc-challenge",
+    "score": 0.794,
+    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "ARC-Challenge",
+      "shots": "25",
+      "metric": "acc_char",
+      "score_percent": 79.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "bbh",
+    "score": 0.859,
+    "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BIG-Bench Hard (CoT)",
+      "shots": "3",
+      "metric": "average/em",
+      "score_percent": 85.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "bbh",
+    "score": 0.816,
+    "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BIG-Bench Hard (CoT)",
+      "shots": "3",
+      "metric": "average/em",
+      "score_percent": 81.6
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bbh",
+    "score": 0.813,
+    "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BIG-Bench Hard (CoT)",
+      "shots": "3",
+      "metric": "average/em",
+      "score_percent": 81.3
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bbh",
+    "score": 0.642,
+    "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BIG-Bench Hard (CoT)",
+      "shots": "3",
+      "metric": "average/em",
+      "score_percent": 64.2
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "bbh",
+    "score": 0.611,
+    "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BIG-Bench Hard (CoT)",
+      "shots": "3",
+      "metric": "average/em",
+      "score_percent": 61.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "bfcl",
+    "score": 0.885,
+    "config": "instruction tuned, BFCL, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "BFCL",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 88.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "bfcl",
+    "score": 0.848,
+    "config": "instruction tuned, BFCL, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "BFCL",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 84.8
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "bfcl",
+    "score": 0.83,
+    "config": "instruction tuned, BFCL, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "BFCL",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 83
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "bfcl",
+    "score": 0.761,
+    "config": "instruction tuned, BFCL, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "BFCL",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 76.1
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "bfcl",
+    "score": 0.603,
+    "config": "instruction tuned, BFCL, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "BFCL",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 60.3
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "boolq",
+    "score": 0.8,
+    "config": "base pretrained, BoolQ, 0-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BoolQ",
+      "shots": "0",
+      "metric": "acc_char",
+      "score_percent": 80
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "boolq",
+    "score": 0.794,
+    "config": "base pretrained, BoolQ, 0-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BoolQ",
+      "shots": "0",
+      "metric": "acc_char",
+      "score_percent": 79.4
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "boolq",
+    "score": 0.79,
+    "config": "base pretrained, BoolQ, 0-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BoolQ",
+      "shots": "0",
+      "metric": "acc_char",
+      "score_percent": 79
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "boolq",
+    "score": 0.757,
+    "config": "base pretrained, BoolQ, 0-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BoolQ",
+      "shots": "0",
+      "metric": "acc_char",
+      "score_percent": 75.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "boolq",
+    "score": 0.75,
+    "config": "base pretrained, BoolQ, 0-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "BoolQ",
+      "shots": "0",
+      "metric": "acc_char",
+      "score_percent": 75
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "commonsenseqa",
+    "score": 0.858,
+    "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "CommonSenseQA",
+      "shots": "7",
+      "metric": "acc_char",
+      "score_percent": 85.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "commonsenseqa",
+    "score": 0.841,
+    "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "CommonSenseQA",
+      "shots": "7",
+      "metric": "acc_char",
+      "score_percent": 84.1
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "commonsenseqa",
+    "score": 0.838,
+    "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "CommonSenseQA",
+      "shots": "7",
+      "metric": "acc_char",
+      "score_percent": 83.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "commonsenseqa",
+    "score": 0.75,
+    "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "CommonSenseQA",
+      "shots": "7",
+      "metric": "acc_char",
+      "score_percent": 75
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "commonsenseqa",
+    "score": 0.726,
+    "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "CommonSenseQA",
+      "shots": "7",
+      "metric": "acc_char",
+      "score_percent": 72.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "drop",
+    "score": 0.848,
+    "config": "base pretrained, DROP (F1), 3-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "DROP (F1)",
+      "shots": "3",
+      "metric": "f1",
+      "score_percent": 84.8
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "drop",
+    "score": 0.797,
+    "config": "base pretrained, DROP (F1), 3-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "DROP (F1)",
+      "shots": "3",
+      "metric": "f1",
+      "score_percent": 79.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "drop",
+    "score": 0.796,
+    "config": "base pretrained, DROP (F1), 3-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "DROP (F1)",
+      "shots": "3",
+      "metric": "f1",
+      "score_percent": 79.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "drop",
+    "score": 0.595,
+    "config": "base pretrained, DROP (F1), 3-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "DROP (F1)",
+      "shots": "3",
+      "metric": "f1",
+      "score_percent": 59.5
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "drop",
+    "score": 0.584,
+    "config": "base pretrained, DROP (F1), 3-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "DROP (F1)",
+      "shots": "3",
+      "metric": "f1",
+      "score_percent": 58.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gorilla-api-bench",
+    "score": 0.353,
+    "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Gorilla Benchmark API Bench",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 35.3
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gorilla-api-bench",
+    "score": 0.297,
+    "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Gorilla Benchmark API Bench",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 29.7
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gorilla-api-bench",
+    "score": 0.147,
+    "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Gorilla Benchmark API Bench",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 14.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gorilla-api-bench",
+    "score": 0.082,
+    "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Gorilla Benchmark API Bench",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 8.2
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gorilla-api-bench",
+    "score": 0.017,
+    "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Gorilla Benchmark API Bench",
+      "shots": "0",
+      "metric": "acc",
+      "score_percent": 1.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gpqa",
+    "score": 0.507,
+    "config": "instruction tuned, GPQA, 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GPQA",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 50.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.467,
+    "config": "instruction tuned, GPQA, 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GPQA",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 46.7
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gpqa",
+    "score": 0.395,
+    "config": "instruction tuned, GPQA, 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GPQA",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 39.5
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gpqa",
+    "score": 0.346,
+    "config": "instruction tuned, GPQA, 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GPQA",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 34.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gpqa",
+    "score": 0.304,
+    "config": "instruction tuned, GPQA, 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GPQA",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 30.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "gsm8k",
+    "score": 0.968,
+    "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GSM-8K (CoT)",
+      "shots": "8",
+      "metric": "em_maj1@1",
+      "score_percent": 96.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "gsm8k",
+    "score": 0.951,
+    "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GSM-8K (CoT)",
+      "shots": "8",
+      "metric": "em_maj1@1",
+      "score_percent": 95.1
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "gsm8k",
+    "score": 0.93,
+    "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GSM-8K (CoT)",
+      "shots": "8",
+      "metric": "em_maj1@1",
+      "score_percent": 93
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "gsm8k",
+    "score": 0.845,
+    "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GSM-8K (CoT)",
+      "shots": "8",
+      "metric": "em_maj1@1",
+      "score_percent": 84.5
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "gsm8k",
+    "score": 0.806,
+    "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "GSM-8K (CoT)",
+      "shots": "8",
+      "metric": "em_maj1@1",
+      "score_percent": 80.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "humaneval",
+    "score": 0.89,
+    "config": "instruction tuned, HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 89
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "humaneval",
+    "score": 0.817,
+    "config": "instruction tuned, HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 81.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "humaneval",
+    "score": 0.805,
+    "config": "instruction tuned, HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 80.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "humaneval",
+    "score": 0.726,
+    "config": "instruction tuned, HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 72.6
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "humaneval",
+    "score": 0.604,
+    "config": "instruction tuned, HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 60.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "ifeval",
+    "score": 0.886,
+    "config": "instruction tuned, IFEval",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "IFEval",
+      "shots": "",
+      "metric": "",
+      "score_percent": 88.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.875,
+    "config": "instruction tuned, IFEval",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "IFEval",
+      "shots": "",
+      "metric": "",
+      "score_percent": 87.5
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "ifeval",
+    "score": 0.829,
+    "config": "instruction tuned, IFEval",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "IFEval",
+      "shots": "",
+      "metric": "",
+      "score_percent": 82.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "ifeval",
+    "score": 0.804,
+    "config": "instruction tuned, IFEval",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "IFEval",
+      "shots": "",
+      "metric": "",
+      "score_percent": 80.4
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "ifeval",
+    "score": 0.768,
+    "config": "instruction tuned, IFEval",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "IFEval",
+      "shots": "",
+      "metric": "",
+      "score_percent": 76.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "math",
+    "score": 0.738,
+    "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MATH (CoT)",
+      "shots": "0",
+      "metric": "final_em",
+      "score_percent": 73.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "math",
+    "score": 0.68,
+    "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MATH (CoT)",
+      "shots": "0",
+      "metric": "final_em",
+      "score_percent": 68
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "math",
+    "score": 0.519,
+    "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MATH (CoT)",
+      "shots": "0",
+      "metric": "final_em",
+      "score_percent": 51.9
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "math",
+    "score": 0.51,
+    "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MATH (CoT)",
+      "shots": "0",
+      "metric": "final_em",
+      "score_percent": 51
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "math",
+    "score": 0.291,
+    "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MATH (CoT)",
+      "shots": "0",
+      "metric": "final_em",
+      "score_percent": 29.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mbpp+",
+    "score": 0.886,
+    "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MBPP ++ base version",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 88.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mbpp+",
+    "score": 0.86,
+    "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MBPP ++ base version",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 86
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mbpp+",
+    "score": 0.825,
+    "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MBPP ++ base version",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 82.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp+",
+    "score": 0.728,
+    "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MBPP ++ base version",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 72.8
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mbpp+",
+    "score": 0.706,
+    "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MBPP ++ base version",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 70.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mgsm",
+    "score": 0.916,
+    "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multilingual MGSM (CoT)",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 91.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mgsm",
+    "score": 0.869,
+    "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multilingual MGSM (CoT)",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 86.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mgsm",
+    "score": 0.689,
+    "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multilingual MGSM (CoT)",
+      "shots": "0",
+      "metric": "em",
+      "score_percent": 68.9
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu",
+    "score": 0.886,
+    "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU (CoT)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 88.6
+    },
+    "variants": [
+      {
+        "score": 0.873,
+        "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
+        "source": "manual"
+      },
+      {
+        "score": 0.852,
+        "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu",
+    "score": 0.86,
+    "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU (CoT)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 86
+    },
+    "variants": [
+      {
+        "score": 0.836,
+        "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
+        "source": "manual"
+      },
+      {
+        "score": 0.793,
+        "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu",
+    "score": 0.82,
+    "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU",
+      "shots": "5",
+      "metric": "macro_avg/acc",
+      "score_percent": 82
+    },
+    "variants": [
+      {
+        "score": 0.809,
+        "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
+        "source": "manual"
+      },
+      {
+        "score": 0.795,
+        "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu",
+    "score": 0.73,
+    "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU (CoT)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 73
+    },
+    "variants": [
+      {
+        "score": 0.694,
+        "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
+        "source": "manual"
+      },
+      {
+        "score": 0.667,
+        "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu",
+    "score": 0.685,
+    "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU",
+      "shots": "5",
+      "metric": "macro_avg/acc",
+      "score_percent": 68.5
+    },
+    "variants": [
+      {
+        "score": 0.667,
+        "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      },
+      {
+        "score": 0.653,
+        "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.733,
+    "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU-Pro (CoT)",
+      "shots": "5",
+      "metric": "micro_avg/acc_char",
+      "score_percent": 73.3
+    },
+    "variants": [
+      {
+        "score": 0.616,
+        "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.664,
+    "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU-Pro (CoT)",
+      "shots": "5",
+      "metric": "micro_avg/acc_char",
+      "score_percent": 66.4
+    },
+    "variants": [
+      {
+        "score": 0.538,
+        "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.634,
+    "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU-Pro (CoT)",
+      "shots": "5",
+      "metric": "micro_avg/acc_char",
+      "score_percent": 63.4
+    },
+    "variants": [
+      {
+        "score": 0.55,
+        "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.483,
+    "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU-Pro (CoT)",
+      "shots": "5",
+      "metric": "micro_avg/acc_char",
+      "score_percent": 48.3
+    },
+    "variants": [
+      {
+        "score": 0.371,
+        "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 0.455,
+    "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "MMLU-Pro (CoT)",
+      "shots": "5",
+      "metric": "micro_avg/acc_char",
+      "score_percent": 45.5
+    },
+    "variants": [
+      {
+        "score": 0.362,
+        "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
+        "source": "manual"
+      }
+    ]
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "multipl-e-humaneval",
+    "score": 0.752,
+    "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 75.2
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "multipl-e-humaneval",
+    "score": 0.655,
+    "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 65.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "multipl-e-humaneval",
+    "score": 0.508,
+    "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E HumanEval",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 50.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "multipl-e-mbpp",
+    "score": 0.657,
+    "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E MBPP",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 65.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "multipl-e-mbpp",
+    "score": 0.62,
+    "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E MBPP",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 62
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "multipl-e-mbpp",
+    "score": 0.524,
+    "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Multipl-E MBPP",
+      "shots": "0",
+      "metric": "pass@1",
+      "score_percent": 52.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "nexus",
+    "score": 0.587,
+    "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Nexus (0-shot)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 58.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "nexus",
+    "score": 0.567,
+    "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Nexus (0-shot)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 56.7
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "nexus",
+    "score": 0.478,
+    "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Nexus (0-shot)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 47.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "nexus",
+    "score": 0.385,
+    "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Nexus (0-shot)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 38.5
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "nexus",
+    "score": 0.181,
+    "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B Instruct",
+      "model_family": "instruction tuned",
+      "benchmark_display_name": "Nexus (0-shot)",
+      "shots": "0",
+      "metric": "macro_avg/acc",
+      "score_percent": 18.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "quac",
+    "score": 0.536,
+    "config": "base pretrained, QuAC (F1), 1-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "QuAC (F1)",
+      "shots": "1",
+      "metric": "f1",
+      "score_percent": 53.6
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "quac",
+    "score": 0.511,
+    "config": "base pretrained, QuAC (F1), 1-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "QuAC (F1)",
+      "shots": "1",
+      "metric": "f1",
+      "score_percent": 51.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "quac",
+    "score": 0.511,
+    "config": "base pretrained, QuAC (F1), 1-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "QuAC (F1)",
+      "shots": "1",
+      "metric": "f1",
+      "score_percent": 51.1
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "quac",
+    "score": 0.449,
+    "config": "base pretrained, QuAC (F1), 1-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "QuAC (F1)",
+      "shots": "1",
+      "metric": "f1",
+      "score_percent": 44.9
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "quac",
+    "score": 0.444,
+    "config": "base pretrained, QuAC (F1), 1-shot, f1",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "QuAC (F1)",
+      "shots": "1",
+      "metric": "f1",
+      "score_percent": 44.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "squad",
+    "score": 0.893,
+    "config": "base pretrained, SQuAD, 1-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "SQuAD",
+      "shots": "1",
+      "metric": "em",
+      "score_percent": 89.3
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "squad",
+    "score": 0.856,
+    "config": "base pretrained, SQuAD, 1-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "SQuAD",
+      "shots": "1",
+      "metric": "em",
+      "score_percent": 85.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "squad",
+    "score": 0.818,
+    "config": "base pretrained, SQuAD, 1-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "SQuAD",
+      "shots": "1",
+      "metric": "em",
+      "score_percent": 81.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "squad",
+    "score": 0.77,
+    "config": "base pretrained, SQuAD, 1-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "SQuAD",
+      "shots": "1",
+      "metric": "em",
+      "score_percent": 77
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "squad",
+    "score": 0.764,
+    "config": "base pretrained, SQuAD, 1-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "SQuAD",
+      "shots": "1",
+      "metric": "em",
+      "score_percent": 76.4
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "triviaqa-wiki",
+    "score": 0.918,
+    "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "TriviaQA-Wiki",
+      "shots": "5",
+      "metric": "em",
+      "score_percent": 91.8
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "triviaqa-wiki",
+    "score": 0.898,
+    "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "TriviaQA-Wiki",
+      "shots": "5",
+      "metric": "em",
+      "score_percent": 89.8
+    }
+  },
+  {
+    "model_id": "llama-3-70b",
+    "benchmark_id": "triviaqa-wiki",
+    "score": 0.897,
+    "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "TriviaQA-Wiki",
+      "shots": "5",
+      "metric": "em",
+      "score_percent": 89.7
+    }
+  },
+  {
+    "model_id": "llama-3-8b",
+    "benchmark_id": "triviaqa-wiki",
+    "score": 0.785,
+    "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "TriviaQA-Wiki",
+      "shots": "5",
+      "metric": "em",
+      "score_percent": 78.5
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "triviaqa-wiki",
+    "score": 0.776,
+    "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "TriviaQA-Wiki",
+      "shots": "5",
+      "metric": "em",
+      "score_percent": 77.6
+    }
+  },
+  {
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "winogrande",
+    "score": 0.867,
+    "config": "base pretrained, Winogrande, 5-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 405B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "Winogrande",
+      "shots": "5",
+      "metric": "acc_char",
+      "score_percent": 86.7
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "winogrande",
+    "score": 0.833,
+    "config": "base pretrained, Winogrande, 5-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 70B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "Winogrande",
+      "shots": "5",
+      "metric": "acc_char",
+      "score_percent": 83.3
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "winogrande",
+    "score": 0.605,
+    "config": "base pretrained, Winogrande, 5-shot, acc_char",
+    "source": "manual",
+    "extra": {
+      "source_table": "Llama 3.1 evaluation table",
+      "model_display_name": "Llama 3.1 8B",
+      "model_family": "base pretrained",
+      "benchmark_display_name": "Winogrande",
+      "shots": "5",
+      "metric": "acc_char",
+      "score_percent": 60.5
+    }
+  }
+]

@@ -11,6 +11,36 @@ import { BENCHMARKS_PATH } from "./lib/paths.ts";
 const MODEL_PACK = path.join(DATA_DIR, "_well-known-models.json");
 const BENCH_PACK = path.join(DATA_DIR, "_well-known-benchmarks.json");
 
+const VENDOR_NORMALIZATION: Record<string, string> = {
+  "Alibaba Cloud / Qwen Team": "Alibaba",
+  "AI2": "Allen Institute for AI",
+  "Deepseek": "DeepSeek",
+  "LG": "LG AI Research",
+  "Mistral AI": "Mistral",
+  "Moonshot AI": "Moonshot",
+};
+
+const NON_MODEL_IDS = new Set([
+  "2025_human_panel",
+  "architects",
+  "human-panel",
+  "icecuber",
+  "nvarc_2025",
+  "nvarc-2025",
+  "stem-grad",
+  "stem_grad",
+]);
+
+function normalizeVendor(vendor: string): string {
+  return VENDOR_NORMALIZATION[vendor] ?? vendor;
+}
+
+function isModelEntry(model: Model): boolean {
+  if (NON_MODEL_IDS.has(model.id)) return false;
+  if (model.vendor.startsWith("ARC Prize")) return false;
+  return model.vendor !== "Human";
+}
+
 async function main() {
   const modelPack = await readJson<Model[]>(MODEL_PACK, []);
   const existingModels = await readJson<Model[]>(MODELS_PATH, []);
@@ -44,16 +74,21 @@ async function main() {
 
   for (const p of modelPack) {
     const prev = mmap.get(p.id);
+    const vendor = !prev?.vendor || prev.vendor === "Unknown" ? p.vendor : prev.vendor;
     mmap.set(p.id, {
       id: p.id,
       name: prev?.name ?? p.name,
-      vendor: prev?.vendor ?? p.vendor,
+      // Hand-curated pack values should replace only placeholder vendors.
+      vendor: normalizeVendor(vendor),
       release_date: prev?.release_date ?? p.release_date,
       report_url: prev?.report_url ?? p.report_url,
       aliases: Array.from(new Set([...(prev?.aliases ?? []), ...p.aliases])),
     });
   }
-  const modelsOut = [...mmap.values()].sort((a, b) => a.id.localeCompare(b.id));
+  const modelsOut = [...mmap.values()]
+    .map((model) => ({ ...model, vendor: normalizeVendor(model.vendor) }))
+    .filter(isModelEntry)
+    .sort((a, b) => a.id.localeCompare(b.id));
   await writeJson(MODELS_PATH, modelsOut);
 
   const benchPack = await readJson<Benchmark[]>(BENCH_PACK, []);

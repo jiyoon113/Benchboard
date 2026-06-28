@@ -2127,28 +2127,6 @@
     }
   },
   {
-    "model_id": "hermes-4-405b",
-    "benchmark_id": "gpqa",
-    "score": 72.7,
-    "config": "Diamond, reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 53.6,
-        "config": "Diamond, non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "solar-pro-3",
     "benchmark_id": "gpqa",
     "score": 72.4,
@@ -2194,28 +2172,6 @@
     "variants": [
       {
         "score": 61.3,
-        "config": "Diamond, non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "hermes-4-70b",
-    "benchmark_id": "gpqa",
-    "score": 69.9,
-    "config": "Diamond, reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 49.1,
         "config": "Diamond, non-reasoning",
         "source": {
           "kind": "aggregator_api",
@@ -4126,28 +4082,6 @@
     ]
   },
   {
-    "model_id": "hermes-4-405b",
-    "benchmark_id": "hle",
-    "score": 10.3,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 4.2,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "claude-3.7-sonnet",
     "benchmark_id": "hle",
     "score": 10.3,
@@ -4377,28 +4311,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-25T05:43:08.075Z"
     }
-  },
-  {
-    "model_id": "hermes-4-70b",
-    "benchmark_id": "hle",
-    "score": 7.9,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 3.6,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "sonar-pro",
@@ -5773,28 +5685,6 @@
     ]
   },
   {
-    "model_id": "hermes-4-405b",
-    "benchmark_id": "livecodebench",
-    "score": 68.6,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 54.6,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "glm-4.5-air",
     "benchmark_id": "livecodebench",
     "score": 68.4,
@@ -5818,28 +5708,6 @@
     "variants": [
       {
         "score": 44.9,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "hermes-4-70b",
-    "benchmark_id": "livecodebench",
-    "score": 65.3,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 26.9,
         "config": "non-reasoning",
         "source": {
           "kind": "aggregator_api",
@@ -8149,28 +8017,6 @@
     ]
   },
   {
-    "model_id": "hermes-4-405b",
-    "benchmark_id": "mmlu-pro",
-    "score": 82.9,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 72.9,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "grok-3",
     "benchmark_id": "mmlu-pro",
     "score": 82.8,
@@ -8334,28 +8180,6 @@
       "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
       "fetched_at": "2026-06-25T05:43:08.075Z"
     }
-  },
-  {
-    "model_id": "hermes-4-70b",
-    "benchmark_id": "mmlu-pro",
-    "score": 81.1,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 66.4,
-        "config": "non-reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
   },
   {
     "model_id": "llama-4-maverick",
@@ -10540,28 +10364,6 @@
     }
   },
   {
-    "model_id": "hermes-4-405b",
-    "benchmark_id": "scicode",
-    "score": 34.6,
-    "config": "non-reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 25.2,
-        "config": "reasoning",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
     "model_id": "gpt-oss-20b",
     "benchmark_id": "scicode",
     "score": 34.4,
@@ -10575,28 +10377,6 @@
       {
         "score": 34,
         "config": "low",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-          "fetched_at": "2026-06-25T05:43:08.075Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "hermes-4-70b",
-    "benchmark_id": "scicode",
-    "score": 34.1,
-    "config": "reasoning",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://artificialanalysis.ai/api/v2/data/llms/models",
-      "fetched_at": "2026-06-25T05:43:08.075Z"
-    },
-    "variants": [
-      {
-        "score": 27.7,
-        "config": "non-reasoning",
         "source": {
           "kind": "aggregator_api",
           "url": "https://artificialanalysis.ai/api/v2/data/llms/models",

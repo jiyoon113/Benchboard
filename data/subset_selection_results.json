@@ -1,0 +1,112 @@
+{
+  "run_id": "demo-agentic-coding-2026-06-27",
+  "target_capability": "Agentic coding assistant",
+  "default_request": {
+    "target_axes": [
+      {
+        "axis_id": "coding",
+        "weight": 0.58
+      },
+      {
+        "axis_id": "multi_step_reasoning",
+        "weight": 0.42
+      }
+    ],
+    "benchmark_count": 5,
+    "cost_penalty": 0.25
+  },
+  "results": [
+    {
+      "source_id": "dynamic-vloop",
+      "benchmark_count": 5,
+      "selected_benchmarks": [
+        "humaneval",
+        "mbpp",
+        "livecodebench",
+        "scicode",
+        "bbh"
+      ],
+      "coverage_score": 0.91,
+      "expected_predictive_utility": 0.86,
+      "utility_components": {
+        "relevance": 0.93,
+        "redundancy_reduction": 0.78,
+        "predictive_gain": 0.88,
+        "cost_efficiency": 0.72
+      },
+      "selection_reasons": [
+        "HumanEval and MBPP anchor low-cost coding comparability.",
+        "LiveCodeBench bridges coding with multi-step planning.",
+        "SciCode adds scientific coding and reduces pure interview-code redundancy.",
+        "BBH supplies broad reasoning signal absent from code-only subsets."
+      ],
+      "duplicate_notes": [
+        "AIME 2024 was held out because BBH and LiveCodeBench already covered most reasoning variance for this target.",
+        "HumanEval and MBPP overlap, but both are cheap and improve interpretability for demo viewers."
+      ],
+      "reject_reasons": [
+        "Long-context retrieval axis excluded: target weight below 0.15.",
+        "Dynamic split of math reasoning accepted but not selected into this k=5 subset."
+      ],
+      "baseline_subsets": {
+        "random": [
+          "simpleqa",
+          "ruler",
+          "mbpp",
+          "aime-2024",
+          "bbh"
+        ],
+        "stratified-random": [
+          "humaneval",
+          "aime-2024",
+          "simpleqa",
+          "ruler",
+          "bbh"
+        ],
+        "correlation-only": [
+          "humaneval",
+          "mbpp",
+          "livecodebench",
+          "aime-2024",
+          "math-500"
+        ],
+        "max-coverage": [
+          "humaneval",
+          "livecodebench",
+          "bbh",
+          "simpleqa",
+          "ruler"
+        ]
+      }
+    },
+    {
+      "source_id": "fixed-vloop",
+      "benchmark_count": 5,
+      "selected_benchmarks": [
+        "humaneval",
+        "mbpp",
+        "livecodebench",
+        "bbh",
+        "aime-2024"
+      ],
+      "coverage_score": 0.86,
+      "expected_predictive_utility": 0.81,
+      "utility_components": {
+        "relevance": 0.89,
+        "redundancy_reduction": 0.7,
+        "predictive_gain": 0.82,
+        "cost_efficiency": 0.7
+      },
+      "selection_reasons": [
+        "Fixed taxonomy treats math reasoning as a stronger proxy for multi-step reasoning."
+      ],
+      "duplicate_notes": [
+        "Correlation among code benchmarks is higher than in the dynamic-vloop subset."
+      ],
+      "reject_reasons": [
+        "Taxonomy refinement disabled for this source."
+      ],
+      "baseline_subsets": {}
+    }
+  ]
+}

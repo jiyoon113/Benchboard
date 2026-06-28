@@ -8,6 +8,9 @@
       "agentic",
       "deductive"
     ],
+    "aegis": [
+      "safety"
+    ],
     "agentdojo": [
       "agentic",
       "deductive"
@@ -20,6 +23,10 @@
     "agieval": [
       "deductive",
       "factuality",
+      "knowledge-recall"
+    ],
+    "agieval-english": [
+      "deductive",
       "knowledge-recall"
     ],
     "ai2d": [
@@ -51,6 +58,11 @@
       "math",
       "quantitative"
     ],
+    "aime-2026": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
     "alignbench-v1.1": [
       "chinese",
       "multilingual"
@@ -65,6 +77,19 @@
       "deductive",
       "knowledge-recall",
       "multilingual"
+    ],
+    "androidworld": [
+      "agentic",
+      "deductive"
+    ],
+    "apex": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "api-bank": [
+      "agentic",
+      "deductive"
     ],
     "apollo-research-sabotage": [
       "knowledge-recall"
@@ -90,6 +115,13 @@
       "inductive",
       "spatial-geometric"
     ],
+    "arc-agi-3": [
+      "agentic",
+      "analogical",
+      "deductive",
+      "inductive",
+      "spatial-geometric"
+    ],
     "arc-c": [
       "knowledge-recall"
     ],
@@ -107,10 +139,22 @@
     "arena-hard-v2": [
       "preference"
     ],
+    "arena-hard-v2.0": [
+      "preference"
+    ],
     "autologi": [
       "deductive",
       "inductive",
       "knowledge-recall"
+    ],
+    "automationbench": [
+      "agentic",
+      "deductive"
+    ],
+    "babyvision": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "bbh": [
       "deductive",
@@ -120,15 +164,27 @@
     "bbq": [
       "safety"
     ],
+    "bbq-bias-score": [
+      "safety"
+    ],
     "betterchartqa": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "bfcl": [
       "agentic",
       "deductive"
     ],
+    "bfcl-v2": [
+      "agentic",
+      "deductive"
+    ],
     "bfcl-v3": [
+      "agentic",
+      "deductive"
+    ],
+    "bfcl-v4": [
       "agentic",
       "deductive"
     ],
@@ -160,6 +216,16 @@
     "blend": [
       "multilingual"
     ],
+    "blueprint-bench-2": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "boolq": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
     "browsecomp": [
       "agentic",
       "deductive"
@@ -178,6 +244,10 @@
       "deductive",
       "knowledge-recall"
     ],
+    "browsecomp-zh": [
+      "agentic",
+      "deductive"
+    ],
     "c-eval": [
       "chinese",
       "multilingual"
@@ -186,20 +256,35 @@
       "chinese",
       "multilingual"
     ],
+    "cc-ocr": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "ccpm": [
       "chinese",
       "multilingual"
     ],
     "chartqa": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "charxiv": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "chatbot-arena": [
       "preference"
+    ],
+    "claw-eval": [
+      "agentic",
+      "deductive"
+    ],
+    "claweval": [
+      "agentic",
+      "deductive"
     ],
     "click": [
       "korean",
@@ -248,6 +333,10 @@
       "instruction-following",
       "semantic-comprehension"
     ],
+    "commonsenseqa": [
+      "commonsense-causal",
+      "knowledge-recall"
+    ],
     "computational-biology-biomysterybench": [
       "knowledge-recall",
       "medical"
@@ -256,9 +345,31 @@
       "knowledge-recall",
       "medical"
     ],
+    "countbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "coworkbench": [
+      "agentic",
+      "deductive"
+    ],
+    "crag": [
+      "factuality",
+      "knowledge-recall"
+    ],
     "creative-writing-v3": [
       "knowledge-recall",
       "preference"
+    ],
+    "critpt": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "crux-i": [
+      "coding",
+      "deductive"
     ],
     "crux-o": [
       "coding",
@@ -295,6 +406,10 @@
     "cyscenariobench": [
       "safety"
     ],
+    "deepplanning": [
+      "agentic",
+      "deductive"
+    ],
     "deepsearchqa": [
       "knowledge-recall"
     ],
@@ -319,16 +434,38 @@
       "quantitative",
       "semantic-comprehension"
     ],
+    "dynamath": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "eclektic": [
       "multilingual"
     ],
+    "egoschema": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "embspatialbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "erqa": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "evalplus": [
       "coding",
       "deductive"
+    ],
+    "exploitbench": [
+      "safety"
     ],
     "facts-grounding": [
       "factuality",
@@ -346,6 +483,9 @@
       "agentic",
       "deductive"
     ],
+    "finqa": [
+      "knowledge-recall"
+    ],
     "fortress": [
       "safety"
     ],
@@ -354,6 +494,10 @@
       "factuality",
       "knowledge-recall",
       "long-context"
+    ],
+    "frontiercode": [
+      "coding",
+      "deductive"
     ],
     "frontiermath": [
       "deductive",
@@ -373,6 +517,10 @@
     "global-mmlu": [
       "deductive",
       "knowledge-recall",
+      "multilingual"
+    ],
+    "global-piqa": [
+      "commonsense-causal",
       "multilingual"
     ],
     "gmmlu-english": [
@@ -399,6 +547,10 @@
       "deductive",
       "knowledge-recall",
       "multilingual"
+    ],
+    "gorilla-api-bench": [
+      "agentic",
+      "deductive"
     ],
     "gpqa": [
       "deductive",
@@ -458,7 +610,16 @@
       "preference",
       "safety"
     ],
+    "groundui-1k": [
+      "agentic",
+      "deductive"
+    ],
     "gsm8k": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "gsm8k-platinum": [
       "deductive",
       "math",
       "quantitative"
@@ -466,6 +627,10 @@
     "hae-rae-v1.1": [
       "korean",
       "multilingual"
+    ],
+    "hallusionbench": [
+      "multimodal",
+      "semantic-comprehension"
     ],
     "healthbench": [
       "knowledge-recall",
@@ -489,6 +654,10 @@
     ],
     "healthbench-hard-hallucinations": [
       "factuality",
+      "knowledge-recall",
+      "medical"
+    ],
+    "healthbench-professional": [
       "knowledge-recall",
       "medical"
     ],
@@ -516,7 +685,29 @@
       "knowledge-recall",
       "quantitative"
     ],
+    "hle-verified": [
+      "knowledge-recall"
+    ],
+    "hle-w-tool": [
+      "agentic",
+      "deductive"
+    ],
     "hmmt-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-feb-2025": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-feb-2026": [
+      "deductive",
+      "math",
+      "quantitative"
+    ],
+    "hmmt-nov-2025": [
       "deductive",
       "math",
       "quantitative"
@@ -535,6 +726,11 @@
     "humaneval+": [
       "coding",
       "deductive"
+    ],
+    "hypersim": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "ifbench": [
       "instruction-following",
@@ -577,6 +773,9 @@
     "instruction-hierarchy-evaluations": [
       "instruction-following",
       "knowledge-recall"
+    ],
+    "jigsaw": [
+      "safety"
     ],
     "jmmlu": [
       "deductive",
@@ -726,6 +925,9 @@
       "multilingual",
       "preference"
     ],
+    "korbench": [
+      "knowledge-recall"
+    ],
     "kormedmcqa": [
       "knowledge-recall",
       "korean",
@@ -746,6 +948,15 @@
       "deductive",
       "math",
       "quantitative"
+    ],
+    "legal-agent-benchmark": [
+      "agentic",
+      "deductive"
+    ],
+    "lingoqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "livebench": [
       "knowledge-recall"
@@ -823,6 +1034,10 @@
       "contextual-recall",
       "long-context"
     ],
+    "longbench-v2": [
+      "contextual-recall",
+      "long-context"
+    ],
     "longrag": [
       "contextual-recall",
       "long-context"
@@ -856,6 +1071,11 @@
     "lv-eval": [
       "contextual-recall",
       "long-context"
+    ],
+    "lvbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
     ],
     "makemepay": [
       "safety"
@@ -892,6 +1112,14 @@
       "math",
       "quantitative"
     ],
+    "mathvision": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "mathvista": [
       "deductive",
       "math",
@@ -899,11 +1127,10 @@
       "quantitative",
       "semantic-comprehension"
     ],
-    "mbpp": [
-      "coding",
-      "deductive"
+    "maxife": [
+      "multilingual"
     ],
-    "mbpp-evalplus": [
+    "mbpp": [
       "coding",
       "deductive"
     ],
@@ -912,6 +1139,10 @@
       "deductive"
     ],
     "mcp-atlas": [
+      "agentic",
+      "deductive"
+    ],
+    "mcp-mark": [
       "agentic",
       "deductive"
     ],
@@ -936,6 +1167,10 @@
       "medical"
     ],
     "medqa-usmle-5-options": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "medxpertqa-mm": [
       "knowledge-recall",
       "medical"
     ],
@@ -970,6 +1205,26 @@
       "deductive",
       "inductive",
       "multilingual"
+    ],
+    "mlvu": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
+    "mm-mind2web": [
+      "agentic",
+      "deductive"
+    ],
+    "mmbench-en-dev-v1.1": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmlongbench-doc": [
+      "contextual-recall",
+      "long-context",
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "mmlu": [
       "deductive",
@@ -1057,6 +1312,10 @@
       "deductive",
       "knowledge-recall"
     ],
+    "mmlu-language-thai": [
+      "deductive",
+      "knowledge-recall"
+    ],
     "mmlu-language-yoruba": [
       "deductive",
       "knowledge-recall"
@@ -1074,6 +1333,11 @@
       "deductive",
       "knowledge-recall",
       "medical"
+    ],
+    "mmlu-prox": [
+      "deductive",
+      "knowledge-recall",
+      "multilingual"
     ],
     "mmlu-redux": [
       "deductive",
@@ -1121,6 +1385,15 @@
       "multimodal",
       "semantic-comprehension"
     ],
+    "mmstar": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "mmvu": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
     "model-context-mcp-evaluation": [
       "agentic",
       "deductive"
@@ -1136,6 +1409,10 @@
     "monorepo-bench": [
       "coding",
       "deductive"
+    ],
+    "mrcr": [
+      "contextual-recall",
+      "long-context"
     ],
     "mrcr-v2": [
       "contextual-recall",
@@ -1199,12 +1476,32 @@
       "deductive",
       "preference"
     ],
+    "multiif": [
+      "instruction-following",
+      "multilingual"
+    ],
     "multinrc": [
       "multilingual"
     ],
     "multipl-e": [
       "coding",
       "deductive"
+    ],
+    "multipl-e-humaneval": [
+      "coding",
+      "deductive"
+    ],
+    "multipl-e-mbpp": [
+      "coding",
+      "deductive"
+    ],
+    "musr": [
+      "knowledge-recall"
+    ],
+    "mvbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
     ],
     "naturalquestions": [
       "deductive",
@@ -1224,6 +1521,28 @@
       "long-context",
       "multilingual"
     ],
+    "nl2repo": [
+      "coding",
+      "deductive"
+    ],
+    "nova-63": [
+      "multilingual"
+    ],
+    "nuscene": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "ocrbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "odinw13": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "ojbench": [
       "coding",
       "deductive"
@@ -1235,7 +1554,8 @@
     ],
     "omnidocbench-1.5": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "openai-mrcr": [
       "contextual-recall",
@@ -1290,6 +1610,12 @@
       "commonsense-causal",
       "knowledge-recall"
     ],
+    "pmc-vqa": [
+      "knowledge-recall",
+      "medical",
+      "multimodal",
+      "semantic-comprehension"
+    ],
     "polymath": [
       "deductive",
       "math",
@@ -1307,6 +1633,27 @@
       "instruction-following",
       "semantic-comprehension"
     ],
+    "quac": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "qwenclaw": [
+      "agentic",
+      "deductive"
+    ],
+    "qwenclawbench": [
+      "agentic",
+      "deductive"
+    ],
+    "qwenwebbench": [
+      "coding",
+      "deductive"
+    ],
+    "qwenworldbench": [
+      "agentic",
+      "deductive"
+    ],
     "race-high": [
       "contextual-recall",
       "knowledge-recall",
@@ -1316,6 +1663,20 @@
       "contextual-recall",
       "knowledge-recall",
       "semantic-comprehension"
+    ],
+    "realworldqa": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "refcoco": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "refspatialbench": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "ruler": [
       "contextual-recall",
@@ -1330,6 +1691,20 @@
       "coding",
       "deductive"
     ],
+    "screenspot-pro": [
+      "agentic",
+      "deductive",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "seal-0": [
+      "agentic",
+      "deductive"
+    ],
+    "seccodebench": [
+      "coding",
+      "deductive"
+    ],
     "securitbio": [
       "safety"
     ],
@@ -1337,14 +1712,43 @@
       "factuality",
       "knowledge-recall"
     ],
+    "simpleqa-hallucination-rate": [
+      "factuality",
+      "knowledge-recall"
+    ],
     "simpleqa-verified": [
       "factuality",
       "knowledge-recall"
+    ],
+    "simplevqa": [
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "skillsbench": [
+      "agentic",
+      "deductive"
+    ],
+    "slake": [
+      "knowledge-recall",
+      "medical"
+    ],
+    "spider": [
+      "coding",
+      "deductive"
     ],
     "spreadsheetbench": [
       "agentic",
       "coding",
       "deductive"
+    ],
+    "squad": [
+      "contextual-recall",
+      "knowledge-recall",
+      "semantic-comprehension"
+    ],
+    "squality": [
+      "contextual-recall",
+      "long-context"
     ],
     "structural-biology-multiple-choice": [
       "coding",
@@ -1356,9 +1760,19 @@
       "knowledge-recall",
       "medical"
     ],
+    "sunrgbd": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "supergpqa": [
       "deductive",
       "knowledge-recall"
+    ],
+    "swe-agentless": [
+      "agentic",
+      "coding",
+      "deductive"
     ],
     "swe-bench-multilingual": [
       "coding",
@@ -1408,12 +1822,30 @@
       "agentic",
       "deductive"
     ],
+    "tau2-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "tau2-telecom": [
+      "agentic",
+      "deductive"
+    ],
     "terminal-bench": [
       "agentic",
       "coding",
       "deductive"
     ],
     "terminal-bench-2.0": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-2.1": [
+      "agentic",
+      "coding",
+      "deductive"
+    ],
+    "terminal-bench-hard": [
       "agentic",
       "coding",
       "deductive"
@@ -1428,10 +1860,19 @@
       "coding",
       "deductive"
     ],
+    "textvqa": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
     "theoremqa": [
       "deductive",
       "math",
       "quantitative"
+    ],
+    "tool-decathlon": [
+      "agentic",
+      "deductive"
     ],
     "toolathlon": [
       "agentic",
@@ -1440,6 +1881,10 @@
     "triviaqa": [
       "deductive",
       "factuality",
+      "knowledge-recall"
+    ],
+    "triviaqa-wiki": [
+      "deductive",
       "knowledge-recall"
     ],
     "troubleshootingbench": [
@@ -1467,6 +1912,16 @@
       "math",
       "quantitative"
     ],
+    "v-star": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "vatex": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
     "vct": [
       "deductive",
       "math",
@@ -1484,23 +1939,63 @@
       "multimodal",
       "semantic-comprehension"
     ],
+    "video-mme": [
+      "multimodal",
+      "semantic-comprehension",
+      "temporal"
+    ],
     "videommmu": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "temporal"
     ],
     "virology-capabilities-test": [
       "safety"
+    ],
+    "visualwebbench": [
+      "agentic",
+      "deductive",
+      "multimodal",
+      "semantic-comprehension"
+    ],
+    "vita-bench": [
+      "agentic",
+      "deductive"
+    ],
+    "vitabench": [
+      "agentic",
+      "deductive"
+    ],
+    "vlmsareblind": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "we-math": [
+      "deductive",
+      "math",
+      "multimodal",
+      "quantitative",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "webarena": [
       "agentic",
       "deductive",
       "preference"
     ],
+    "widesearch": [
+      "agentic",
+      "deductive"
+    ],
     "wildbench": [
       "preference"
     ],
     "wildchat": [
       "knowledge-recall",
+      "safety"
+    ],
+    "wildguard": [
       "safety"
     ],
     "wildjailbreak": [
@@ -1557,7 +2052,13 @@
     ],
     "zerobench": [
       "multimodal",
-      "semantic-comprehension"
+      "semantic-comprehension",
+      "spatial-geometric"
+    ],
+    "zerobenchsub": [
+      "multimodal",
+      "semantic-comprehension",
+      "spatial-geometric"
     ],
     "zeroscrolls": [
       "contextual-recall",
@@ -1576,6 +2077,9 @@
       "agent-domain",
       "agent-integrated"
     ],
+    "aegis": [
+      "safety-t"
+    ],
     "agentdojo": [
       "agent-integrated"
     ],
@@ -1585,6 +2089,9 @@
     ],
     "agieval": [
       "hallucination",
+      "knowledge"
+    ],
+    "agieval-english": [
       "knowledge"
     ],
     "ai2d": [
@@ -1607,6 +2114,9 @@
     "aime-2025-single-attempt": [
       "mathematics"
     ],
+    "aime-2026": [
+      "mathematics"
+    ],
     "alignbench-v1.1": [
       "knowledge"
     ],
@@ -1618,6 +2128,16 @@
     ],
     "ammlu": [
       "knowledge"
+    ],
+    "androidworld": [
+      "agent-integrated"
+    ],
+    "apex": [
+      "mathematics"
+    ],
+    "api-bank": [
+      "agent-integrated",
+      "finance"
     ],
     "apollo-research-sabotage": [
       "knowledge"
@@ -1638,6 +2158,10 @@
       "knowledge",
       "reasoning"
     ],
+    "arc-agi-3": [
+      "agent-integrated",
+      "reasoning"
+    ],
     "arc-c": [
       "knowledge",
       "reasoning"
@@ -1656,15 +2180,27 @@
     "arena-hard-v2": [
       "linguistic"
     ],
+    "arena-hard-v2.0": [
+      "linguistic"
+    ],
     "autologi": [
       "knowledge",
       "reasoning"
+    ],
+    "automationbench": [
+      "agent-integrated"
+    ],
+    "babyvision": [
+      "knowledge"
     ],
     "bbh": [
       "knowledge",
       "reasoning"
     ],
     "bbq": [
+      "safety-t"
+    ],
+    "bbq-bias-score": [
       "safety-t"
     ],
     "betterchartqa": [
@@ -1674,7 +2210,15 @@
       "agent-domain",
       "agent-integrated"
     ],
+    "bfcl-v2": [
+      "agent-domain",
+      "agent-integrated"
+    ],
     "bfcl-v3": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "bfcl-v4": [
       "agent-domain",
       "agent-integrated"
     ],
@@ -1700,6 +2244,12 @@
     "blend": [
       "linguistic"
     ],
+    "blueprint-bench-2": [
+      "knowledge"
+    ],
+    "boolq": [
+      "knowledge"
+    ],
     "browsecomp": [
       "agent-integrated",
       "agent-planning"
@@ -1717,10 +2267,17 @@
       "agent-planning",
       "knowledge"
     ],
+    "browsecomp-zh": [
+      "agent-integrated",
+      "agent-planning"
+    ],
     "c-eval": [
       "knowledge"
     ],
     "c3": [
+      "knowledge"
+    ],
+    "cc-ocr": [
       "knowledge"
     ],
     "ccpm": [
@@ -1734,6 +2291,12 @@
     ],
     "chatbot-arena": [
       "linguistic"
+    ],
+    "claw-eval": [
+      "agent-integrated"
+    ],
+    "claweval": [
+      "agent-integrated"
     ],
     "click": [
       "knowledge"
@@ -1765,15 +2328,34 @@
     "collie": [
       "robustness-t"
     ],
+    "commonsenseqa": [
+      "knowledge",
+      "linguistic"
+    ],
     "computational-biology-biomysterybench": [
       "biology"
     ],
     "computational-biology-biopipelinebench": [
       "biology"
     ],
+    "countbench": [
+      "knowledge"
+    ],
+    "coworkbench": [
+      "agent-integrated"
+    ],
+    "crag": [
+      "hallucination"
+    ],
     "creative-writing-v3": [
       "knowledge",
       "linguistic"
+    ],
+    "critpt": [
+      "mathematics"
+    ],
+    "crux-i": [
+      "code-gen"
     ],
     "crux-o": [
       "code-gen"
@@ -1806,6 +2388,9 @@
     "cyscenariobench": [
       "safety-t"
     ],
+    "deepplanning": [
+      "agent-integrated"
+    ],
     "deepsearchqa": [
       "knowledge"
     ],
@@ -1822,14 +2407,27 @@
     "drop": [
       "mathematics"
     ],
+    "dynamath": [
+      "knowledge"
+    ],
     "eclektic": [
       "linguistic"
+    ],
+    "egoschema": [
+      "chemistry",
+      "knowledge"
+    ],
+    "embspatialbench": [
+      "knowledge"
     ],
     "erqa": [
       "knowledge"
     ],
     "evalplus": [
       "code-gen"
+    ],
+    "exploitbench": [
+      "safety-t"
     ],
     "facts-grounding": [
       "hallucination"
@@ -1847,12 +2445,18 @@
       "agent-integrated",
       "finance"
     ],
+    "finqa": [
+      "finance"
+    ],
     "fortress": [
       "safety-t"
     ],
     "frames": [
       "hallucination",
       "reasoning"
+    ],
+    "frontiercode": [
+      "code-gen"
     ],
     "frontiermath": [
       "mathematics"
@@ -1870,6 +2474,9 @@
       "knowledge",
       "linguistic"
     ],
+    "global-piqa": [
+      "linguistic"
+    ],
     "gmmlu-english": [
       "knowledge"
     ],
@@ -1884,6 +2491,9 @@
     ],
     "gmmlu-overall-average": [
       "knowledge"
+    ],
+    "gorilla-api-bench": [
+      "agent-integrated"
     ],
     "gpqa": [
       "cross-science"
@@ -1931,10 +2541,19 @@
       "linguistic",
       "safety-t"
     ],
+    "groundui-1k": [
+      "agent-integrated"
+    ],
     "gsm8k": [
       "mathematics"
     ],
+    "gsm8k-platinum": [
+      "mathematics"
+    ],
     "hae-rae-v1.1": [
+      "knowledge"
+    ],
+    "hallusionbench": [
       "knowledge"
     ],
     "healthbench": [
@@ -1956,6 +2575,9 @@
       "biology",
       "hallucination"
     ],
+    "healthbench-professional": [
+      "biology"
+    ],
     "hellaswag": [
       "knowledge",
       "linguistic"
@@ -1974,7 +2596,22 @@
       "cross-science",
       "mathematics"
     ],
+    "hle-verified": [
+      "knowledge"
+    ],
+    "hle-w-tool": [
+      "agent-integrated"
+    ],
     "hmmt-2025": [
+      "mathematics"
+    ],
+    "hmmt-feb-2025": [
+      "mathematics"
+    ],
+    "hmmt-feb-2026": [
+      "mathematics"
+    ],
+    "hmmt-nov-2025": [
       "mathematics"
     ],
     "hrm8k": [
@@ -1986,6 +2623,9 @@
     ],
     "humaneval+": [
       "code-gen"
+    ],
+    "hypersim": [
+      "knowledge"
     ],
     "ifbench": [
       "robustness-t"
@@ -2018,6 +2658,9 @@
     ],
     "instruction-hierarchy-evaluations": [
       "knowledge"
+    ],
+    "jigsaw": [
+      "safety-t"
     ],
     "jmmlu": [
       "knowledge"
@@ -2102,6 +2745,9 @@
       "knowledge",
       "linguistic"
     ],
+    "korbench": [
+      "knowledge"
+    ],
     "kormedmcqa": [
       "biology",
       "knowledge"
@@ -2117,6 +2763,12 @@
     "lab-bench-subset": [
       "biology",
       "mathematics"
+    ],
+    "legal-agent-benchmark": [
+      "law"
+    ],
+    "lingoqa": [
+      "knowledge"
     ],
     "livebench": [
       "knowledge",
@@ -2177,6 +2829,9 @@
     "longbench-summarization": [
       "reasoning"
     ],
+    "longbench-v2": [
+      "reasoning"
+    ],
     "longrag": [
       "reasoning"
     ],
@@ -2196,6 +2851,9 @@
     ],
     "lv-eval": [
       "reasoning"
+    ],
+    "lvbench": [
+      "knowledge"
     ],
     "makemepay": [
       "safety-t"
@@ -2222,19 +2880,26 @@
     "math-p-simple": [
       "mathematics"
     ],
+    "mathvision": [
+      "knowledge"
+    ],
     "mathvista": [
       "mathematics"
     ],
-    "mbpp": [
-      "code-gen"
+    "maxife": [
+      "linguistic"
     ],
-    "mbpp-evalplus": [
+    "mbpp": [
       "code-gen"
     ],
     "mbpp+": [
       "code-gen"
     ],
     "mcp-atlas": [
+      "agent-domain",
+      "agent-integrated"
+    ],
+    "mcp-mark": [
       "agent-domain",
       "agent-integrated"
     ],
@@ -2254,6 +2919,9 @@
       "biology"
     ],
     "medqa-usmle-5-options": [
+      "biology"
+    ],
+    "medxpertqa-mm": [
       "biology"
     ],
     "metr-time-horizon": [
@@ -2278,6 +2946,18 @@
     "mlogiqa": [
       "linguistic",
       "reasoning"
+    ],
+    "mlvu": [
+      "knowledge"
+    ],
+    "mm-mind2web": [
+      "agent-integrated"
+    ],
+    "mmbench-en-dev-v1.1": [
+      "knowledge"
+    ],
+    "mmlongbench-doc": [
+      "knowledge"
     ],
     "mmlu": [
       "knowledge"
@@ -2342,6 +3022,9 @@
     "mmlu-language-swahili": [
       "knowledge"
     ],
+    "mmlu-language-thai": [
+      "knowledge"
+    ],
     "mmlu-language-yoruba": [
       "knowledge"
     ],
@@ -2355,6 +3038,10 @@
     "mmlu-professional-medicine": [
       "biology",
       "knowledge"
+    ],
+    "mmlu-prox": [
+      "knowledge",
+      "linguistic"
     ],
     "mmlu-redux": [
       "knowledge"
@@ -2389,6 +3076,12 @@
     "mmmu-single-attempt": [
       "knowledge"
     ],
+    "mmstar": [
+      "knowledge"
+    ],
+    "mmvu": [
+      "knowledge"
+    ],
     "model-context-mcp-evaluation": [
       "agent-domain",
       "agent-integrated"
@@ -2402,6 +3095,9 @@
     ],
     "monorepo-bench": [
       "code-gen"
+    ],
+    "mrcr": [
+      "reasoning"
     ],
     "mrcr-v2": [
       "reasoning"
@@ -2455,11 +3151,26 @@
       "agent-integrated",
       "linguistic"
     ],
+    "multiif": [
+      "linguistic"
+    ],
     "multinrc": [
       "linguistic"
     ],
     "multipl-e": [
       "code-gen"
+    ],
+    "multipl-e-humaneval": [
+      "code-gen"
+    ],
+    "multipl-e-mbpp": [
+      "code-gen"
+    ],
+    "musr": [
+      "knowledge"
+    ],
+    "mvbench": [
+      "knowledge"
     ],
     "naturalquestions": [
       "hallucination",
@@ -2474,6 +3185,21 @@
     ],
     "nih-multi-needle": [
       "linguistic"
+    ],
+    "nl2repo": [
+      "code-gen"
+    ],
+    "nova-63": [
+      "linguistic"
+    ],
+    "nuscene": [
+      "knowledge"
+    ],
+    "ocrbench": [
+      "knowledge"
+    ],
+    "odinw13": [
+      "knowledge"
     ],
     "ojbench": [
       "code-gen"
@@ -2532,6 +3258,9 @@
       "knowledge",
       "linguistic"
     ],
+    "pmc-vqa": [
+      "biology"
+    ],
     "polymath": [
       "mathematics"
     ],
@@ -2544,10 +3273,35 @@
     "protocolqa-open-ended": [
       "robustness-t"
     ],
+    "quac": [
+      "knowledge"
+    ],
+    "qwenclaw": [
+      "agent-integrated"
+    ],
+    "qwenclawbench": [
+      "agent-integrated",
+      "law"
+    ],
+    "qwenwebbench": [
+      "code-gen"
+    ],
+    "qwenworldbench": [
+      "agent-integrated"
+    ],
     "race-high": [
       "knowledge"
     ],
     "race-middle": [
+      "knowledge"
+    ],
+    "realworldqa": [
+      "knowledge"
+    ],
+    "refcoco": [
+      "knowledge"
+    ],
+    "refspatialbench": [
       "knowledge"
     ],
     "ruler": [
@@ -2560,17 +3314,48 @@
     "scicode": [
       "code-gen"
     ],
+    "screenspot-pro": [
+      "agent-integrated"
+    ],
+    "seal-0": [
+      "agent-integrated"
+    ],
+    "seccodebench": [
+      "code-gen"
+    ],
     "securitbio": [
       "safety-t"
     ],
     "simpleqa": [
       "hallucination"
     ],
+    "simpleqa-hallucination-rate": [
+      "hallucination"
+    ],
     "simpleqa-verified": [
       "hallucination"
     ],
+    "simplevqa": [
+      "knowledge"
+    ],
+    "skillsbench": [
+      "agent-integrated"
+    ],
+    "slake": [
+      "biology"
+    ],
+    "spider": [
+      "code-gen",
+      "database-devops"
+    ],
     "spreadsheetbench": [
       "agent-integrated"
+    ],
+    "squad": [
+      "knowledge"
+    ],
+    "squality": [
+      "reasoning"
     ],
     "structural-biology-multiple-choice": [
       "biology",
@@ -2579,9 +3364,15 @@
     "structural-biology-open-ended": [
       "biology"
     ],
+    "sunrgbd": [
+      "knowledge"
+    ],
     "supergpqa": [
       "cross-science",
       "knowledge"
+    ],
+    "swe-agentless": [
+      "code-gen"
     ],
     "swe-bench-multilingual": [
       "code-gen",
@@ -2625,12 +3416,26 @@
     "tau-bench-retail": [
       "agent-integrated"
     ],
+    "tau2-bench": [
+      "agent-integrated"
+    ],
+    "tau2-telecom": [
+      "agent-integrated"
+    ],
     "terminal-bench": [
       "agent-integrated",
       "code-maintenance"
     ],
     "terminal-bench-2.0": [
       "code-gen",
+      "code-maintenance"
+    ],
+    "terminal-bench-2.1": [
+      "agent-integrated",
+      "code-maintenance"
+    ],
+    "terminal-bench-hard": [
+      "agent-integrated",
       "code-maintenance"
     ],
     "terminal-bench-in-house": [
@@ -2641,9 +3446,15 @@
       "code-gen",
       "code-maintenance"
     ],
+    "textvqa": [
+      "knowledge"
+    ],
     "theoremqa": [
       "cross-science",
       "mathematics"
+    ],
+    "tool-decathlon": [
+      "agent-integrated"
     ],
     "toolathlon": [
       "agent-domain",
@@ -2651,6 +3462,9 @@
     ],
     "triviaqa": [
       "hallucination",
+      "knowledge"
+    ],
+    "triviaqa-wiki": [
       "knowledge"
     ],
     "troubleshootingbench": [
@@ -2671,6 +3485,12 @@
     "usamo-2025": [
       "mathematics"
     ],
+    "v-star": [
+      "knowledge"
+    ],
+    "vatex": [
+      "knowledge"
+    ],
     "vct": [
       "mathematics"
     ],
@@ -2686,15 +3506,37 @@
       "education",
       "knowledge"
     ],
+    "video-mme": [
+      "knowledge"
+    ],
     "videommmu": [
       "knowledge"
     ],
     "virology-capabilities-test": [
       "safety-t"
     ],
+    "visualwebbench": [
+      "agent-integrated"
+    ],
+    "vita-bench": [
+      "agent-integrated"
+    ],
+    "vitabench": [
+      "agent-integrated"
+    ],
+    "vlmsareblind": [
+      "knowledge"
+    ],
+    "we-math": [
+      "knowledge",
+      "mathematics"
+    ],
     "webarena": [
       "agent-domain",
       "linguistic"
+    ],
+    "widesearch": [
+      "agent-integrated"
     ],
     "wildbench": [
       "linguistic"
@@ -2702,6 +3544,9 @@
     "wildchat": [
       "knowledge",
       "linguistic"
+    ],
+    "wildguard": [
+      "safety-t"
     ],
     "wildjailbreak": [
       "safety-t"
@@ -2753,6 +3598,9 @@
       "reasoning"
     ],
     "zerobench": [
+      "knowledge"
+    ],
+    "zerobenchsub": [
       "knowledge"
     ],
     "zeroscrolls": [

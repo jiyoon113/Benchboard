@@ -19,13 +19,13 @@ const { title } = Astro.props;
         <div class="flex items-baseline gap-5">
           <a href={withBase("/")} class="font-semibold tracking-tight">benchboard</a>
           <nav class="flex gap-3 text-sm">
-            <a href={withBase("/")} class="text-neutral-600 hover:text-black">Explore</a>
+            <a href={withBase("/")} class="text-neutral-600 hover:text-black">Builder</a>
             <a href={withBase("/non-deterministic")} class="text-neutral-600 hover:text-black">Scores</a>
             <a href={withBase("/trends")} class="text-neutral-600 hover:text-black">Trends</a>
             <a href={withBase("/coverage")} class="text-neutral-600 hover:text-black">Coverage</a>
           </nav>
         </div>
-        <span class="text-xs text-neutral-500">LLM benchmark scoreboard</span>
+        <span class="text-xs text-neutral-500">LLM evaluation planner</span>
       </div>
     </header>
     <main class="mx-auto max-w-6xl px-4 py-6">

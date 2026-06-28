@@ -783,6 +783,186 @@
     }
   },
   {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-airline",
+    "score": 60,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-airline",
+    "score": 56.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bench-airline",
+    "score": 55.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "bench-airline",
+    "score": 54.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bench-airline",
+    "score": 42.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench-airline",
+    "score": 39,
+    "config": "0324",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench-airline",
+    "score": 26.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4",
+    "benchmark_id": "bench-retail",
+    "score": 81.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-4",
+    "benchmark_id": "bench-retail",
+    "score": 75,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-4.1",
+    "benchmark_id": "bench-retail",
+    "score": 74.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "bench-retail",
+    "score": 70.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "bench-retail",
+    "score": 69.1,
+    "config": "0324",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "bench-retail",
+    "score": 64.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "bench-retail",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
+      "reported_by": "kimi-k2",
+      "fetched_at": "2026-06-15T00:00:00Z"
+    }
+  },
+  {
     "model_id": "kimi-k2-base",
     "benchmark_id": "c-eval",
     "score": 92.5,
@@ -4221,186 +4401,6 @@
     "model_id": "gpt-4.1",
     "benchmark_id": "swe-lancer",
     "score": 23,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4",
-    "benchmark_id": "tau2-airline",
-    "score": 60,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "kimi-k2",
-    "benchmark_id": "tau2-airline",
-    "score": 56.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4",
-    "benchmark_id": "tau2-airline",
-    "score": 55.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "gpt-4.1",
-    "benchmark_id": "tau2-airline",
-    "score": 54.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "gemini-2.5-flash",
-    "benchmark_id": "tau2-airline",
-    "score": 42.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "tau2-airline",
-    "score": 39,
-    "config": "0324",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "qwen3-235b",
-    "benchmark_id": "tau2-airline",
-    "score": 26.5,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4",
-    "benchmark_id": "tau2-retail",
-    "score": 81.8,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4",
-    "benchmark_id": "tau2-retail",
-    "score": 75,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "gpt-4.1",
-    "benchmark_id": "tau2-retail",
-    "score": 74.8,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "kimi-k2",
-    "benchmark_id": "tau2-retail",
-    "score": 70.6,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "tau2-retail",
-    "score": 69.1,
-    "config": "0324",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "gemini-2.5-flash",
-    "benchmark_id": "tau2-retail",
-    "score": 64.3,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://arxiv.org/abs/2507.20534",
-      "ref": "Kimi K2 technical report, Table 3 (Kimi-K2-Instruct comparison)",
-      "reported_by": "kimi-k2",
-      "fetched_at": "2026-06-15T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "qwen3-235b",
-    "benchmark_id": "tau2-retail",
-    "score": 57,
     "config": "default",
     "source": {
       "kind": "manual",

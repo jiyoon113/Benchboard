@@ -139,7 +139,10 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
             <span className="text-neutral-500 font-medium uppercase tracking-wide shrink-0">Vendor</span>
             <button
               type="button"
-              onClick={() => setVendorFilter("")}
+              onClick={() => {
+                setVendorFilter("");
+                setSelected(new Set());
+              }}
               className={
                 "rounded px-2 py-0.5 border text-xs " +
                 (vendorFilter === ""
@@ -153,7 +156,10 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
               <button
                 key={v}
                 type="button"
-                onClick={() => setVendorFilter(v === vendorFilter ? "" : v)}
+                onClick={() => {
+                  setVendorFilter(v === vendorFilter ? "" : v);
+                  setSelected(new Set());
+                }}
                 className={
                   "inline-flex items-center gap-1.5 rounded px-2 py-0.5 border text-xs " +
                   (vendorFilter === v
@@ -207,46 +213,54 @@ export default function LeaderboardTable({ benchmarks, rows }: Props) {
           <span className="text-neutral-500 font-medium uppercase tracking-wide mt-1 shrink-0">
             Models
           </span>
-          <div className="flex flex-wrap gap-1 flex-1">
-            {selected.size > 0 && (
-              <button
-                type="button"
-                onClick={() => setSelected(new Set())}
-                className="rounded px-2 py-0.5 border border-neutral-300 hover:border-neutral-400 text-xs"
-              >
-                clear ({selected.size})
-              </button>
-            )}
-            {rows
-              .filter(
-                (r) =>
-                  (!vendorFilter || r.model.vendor === vendorFilter) &&
-                  (!sizeFilter || sizeClass(r.model).key === sizeFilter),
-              )
-              .map((r) => {
-                const on = selected.has(r.model.id);
-                const scoreCount = Object.keys(r.scores).length;
-                return (
+          {!vendorFilter && vendors.length > 1 ? (
+            <div className="flex-1 rounded border border-dashed border-neutral-300 bg-white px-3 py-2 text-neutral-500">
+              Vendor를 선택하면 해당 vendor의 모델만 표시됩니다.
+            </div>
+          ) : (
+            <div className="max-h-28 flex-1 overflow-y-auto rounded border border-neutral-200 bg-white p-2">
+              <div className="flex flex-wrap gap-1">
+                {selected.size > 0 && (
                   <button
-                    key={r.model.id}
                     type="button"
-                    onClick={() => toggleModel(r.model.id)}
-                    title={`${r.model.vendor} · ${scoreCount} score${scoreCount === 1 ? "" : "s"} in this view`}
-                    className={
-                      "rounded px-2 py-0.5 border text-xs " +
-                      (on
-                        ? "border-black bg-black text-white"
-                        : "border-neutral-300 hover:border-neutral-400")
-                    }
+                    onClick={() => setSelected(new Set())}
+                    className="rounded px-2 py-0.5 border border-neutral-300 hover:border-neutral-400 text-xs"
                   >
-                    {r.model.name}{" "}
-                    <span className={on ? "opacity-60" : "text-neutral-400"}>
-                      ·{scoreCount}
-                    </span>
+                    clear ({selected.size})
                   </button>
-                );
-              })}
-          </div>
+                )}
+                {rows
+                  .filter(
+                    (r) =>
+                      (!vendorFilter || r.model.vendor === vendorFilter) &&
+                      (!sizeFilter || sizeClass(r.model).key === sizeFilter),
+                  )
+                  .map((r) => {
+                    const on = selected.has(r.model.id);
+                    const scoreCount = Object.keys(r.scores).length;
+                    return (
+                      <button
+                        key={r.model.id}
+                        type="button"
+                        onClick={() => toggleModel(r.model.id)}
+                        title={`${r.model.vendor} · ${scoreCount} score${scoreCount === 1 ? "" : "s"} in this view`}
+                        className={
+                          "rounded px-2 py-0.5 border text-xs " +
+                          (on
+                            ? "border-black bg-black text-white"
+                            : "border-neutral-300 hover:border-neutral-400")
+                        }
+                      >
+                        {r.model.name}{" "}
+                        <span className={on ? "opacity-60" : "text-neutral-400"}>
+                          ·{scoreCount}
+                        </span>
+                      </button>
+                    );
+                  })}
+              </div>
+            </div>
+          )}
         </div>
         <div className="text-xs text-neutral-500">
           Showing {sorted.length} of {rows.length} model{rows.length === 1 ? "" : "s"} ·{" "}

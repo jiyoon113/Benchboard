@@ -1,0 +1,34 @@
+[
+  {
+    "axis_id": "coding",
+    "status": "renamed",
+    "from": "code generation",
+    "to": "coding execution",
+    "source": "dynamic-vloop",
+    "reason": "Repair and test-facing tasks clustered with generation instead of forming a stable separate axis."
+  },
+  {
+    "axis_id": "multi_step_reasoning",
+    "status": "merged",
+    "from": "planning + symbolic reasoning",
+    "to": "multi-step reasoning",
+    "source": "dynamic-vloop",
+    "reason": "The two axes had near-identical model rank patterns after coverage normalization."
+  },
+  {
+    "axis_id": "math_reasoning",
+    "status": "split",
+    "from": "reasoning",
+    "to": "math reasoning",
+    "source": "dynamic-vloop",
+    "reason": "Competition math showed distinct residual behavior from broader reasoning tasks."
+  },
+  {
+    "axis_id": "long_context_retrieval",
+    "status": "new",
+    "from": null,
+    "to": "long-context retrieval",
+    "source": "dynamic-vloop",
+    "reason": "A coherent retrieval-heavy axis emerged, but was not selected for the current target."
+  }
+]

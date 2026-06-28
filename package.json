@@ -23,7 +23,11 @@
     "ingest": "tsx scripts/ingest-tech-report.ts",
     "ingest:watch": "tsx scripts/ingest-watch.ts",
     "publish:drafts": "tsx scripts/publish-drafts.ts",
-    "canonicalize": "tsx scripts/canonicalize-benchmarks.ts"
+    "canonicalize": "tsx scripts/canonicalize-benchmarks.ts",
+    "dev:demo": "npm run demo:data && vite --config vite.demo.config.mjs --host 127.0.0.1",
+    "build:demo": "npm run demo:data && vite build --config vite.demo.config.mjs",
+    "preview:demo": "vite preview --config vite.demo.config.mjs --host 127.0.0.1",
+    "demo:data": "TMPDIR=/tmp TEMP=/tmp TMP=/tmp tsx scripts/build-demo-score-views.ts"
   },
   "dependencies": {
     "@astrojs/react": "^4.0.0",

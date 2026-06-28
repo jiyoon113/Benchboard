@@ -108,6 +108,14 @@ function classify(name: string, group: string): {
 const MODEL_BLOCKLIST = new Set([
   "vaetk",
   "gpt-oss-120b-20b",
+  "2025_human_panel",
+  "human-panel",
+  "stem_grad",
+  "stem-grad",
+  "architects",
+  "icecuber",
+  "nvarc_2025",
+  "nvarc-2025",
 ]);
 
 function parseModelName(raw: string): {
@@ -134,8 +142,10 @@ function inferVendor(name: string): string {
   if (lc.includes("kimi")) return "Moonshot";
   if (lc.includes("grok")) return "xAI";
   if (lc.includes("solar")) return "Upstage";
-  if (lc.includes("exaone")) return "LG";
-  if (lc.includes("vaetk")) return "Unknown";
+  if (lc.includes("olmo")) return "Allen Institute for AI";
+  if (lc.includes("yi")) return "01.AI";
+  if (lc.includes("exaone")) return "LG AI Research";
+  if (lc.includes("vaetk")) return "VAETKI";
   return "Unknown";
 }
 

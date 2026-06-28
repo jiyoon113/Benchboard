@@ -52,6 +52,127 @@ const OVERVIEW_CATEGORIES = new Set<CategorySlug>([
   "non_deterministic",
 ]);
 
+const CONFIG_WORDS = new Set(["high", "medium", "low", "max", "none"]);
+
+function isConfigToken(value: string): boolean {
+  const token = value.trim().toLowerCase();
+  return (
+    CONFIG_WORDS.has(token) ||
+    /^\d+\s*k$/.test(token) ||
+    token.includes("thinking") ||
+    token.includes("reasoning")
+  );
+}
+
+function isModelConfigSuffix(value: string): boolean {
+  const parts = value.split(",").map((part) => part.trim()).filter(Boolean);
+  return parts.length > 0 && parts.every(isConfigToken);
+}
+
+function splitModelConfig(name: string): { baseName: string; config?: string } {
+  const match = name.match(/^(.*?)\s*\(([^()]*)\)\s*$/);
+  if (!match) return { baseName: name };
+  const [, baseName, suffix] = match;
+  if (!isModelConfigSuffix(suffix)) return { baseName: name };
+  return { baseName: baseName.trim(), config: suffix.trim() };
+}
+
+function modelGroupKey(vendor: string, name: string): string {
+  return `${vendor.trim().toLowerCase()}::${name.trim().toLowerCase().replace(/\s+/g, " ")}`;
+}
+
+function mergeConfig(modelConfig: string | undefined, scoreConfig: string): string {
+  const cleanScore = scoreConfig.trim();
+  if (!modelConfig) return cleanScore;
+  if (!cleanScore) return modelConfig;
+  if (cleanScore.toLowerCase().includes(modelConfig.toLowerCase())) return cleanScore;
+  return `${modelConfig}; ${cleanScore}`;
+}
+
+interface ModelGroup {
+  id: string;
+  model: Model;
+  configByModelId: Map<string, string | undefined>;
+}
+
+function buildModelGroups(models: Model[]): Map<string, ModelGroup> {
+  const modelById = new Map(models.map((model) => [model.id, model]));
+  const variantKeys = new Set<string>();
+  const splitByModelId = new Map<string, { baseName: string; config?: string }>();
+
+  for (const model of models) {
+    const split = splitModelConfig(model.name);
+    splitByModelId.set(model.id, split);
+    if (split.config) variantKeys.add(modelGroupKey(model.vendor, split.baseName));
+  }
+
+  const groups = new Map<string, ModelGroup>();
+
+  function representativeFor(model: Model, baseName: string, key: string): Model {
+    const existingBase = models.find(
+      (candidate) =>
+        candidate.vendor === model.vendor &&
+        candidate.name.trim().toLowerCase() === baseName.trim().toLowerCase(),
+    );
+    const source = existingBase ?? model;
+    return {
+      ...source,
+      id: source.id,
+      name: baseName,
+      aliases: Array.from(new Set([...(source.aliases ?? []), model.name, model.id])),
+    };
+  }
+
+  for (const model of models) {
+    const split = splitByModelId.get(model.id) ?? { baseName: model.name };
+    const strippedKey = modelGroupKey(model.vendor, split.baseName);
+    const shouldGroup = Boolean(split.config) || variantKeys.has(strippedKey);
+    const key = shouldGroup ? strippedKey : model.id;
+    let group = groups.get(key);
+    if (!group) {
+      const displayModel = shouldGroup
+        ? representativeFor(model, split.baseName, strippedKey)
+        : modelById.get(model.id) ?? model;
+      group = { id: displayModel.id, model: displayModel, configByModelId: new Map() };
+      groups.set(key, group);
+    }
+    group.configByModelId.set(model.id, split.config);
+  }
+
+  return groups;
+}
+
+function modelGroupForId(
+  modelId: string,
+  modelById: Map<string, Model>,
+  groups: Map<string, ModelGroup>,
+): ModelGroup {
+  const model = modelById.get(modelId);
+  if (!model) {
+    return {
+      id: modelId,
+      model: { id: modelId, name: modelId, vendor: "Unknown", aliases: [] },
+      configByModelId: new Map([[modelId, undefined]]),
+    };
+  }
+  const split = splitModelConfig(model.name);
+  const grouped = groups.get(modelGroupKey(model.vendor, split.baseName));
+  return grouped ?? { id: model.id, model, configByModelId: new Map([[model.id, undefined]]) };
+}
+
+function scoreForModelGroup(score: ScoreRecord, group: ModelGroup): ScoreRecord {
+  const modelConfig = group.configByModelId.get(score.model_id);
+  return {
+    ...score,
+    model_id: group.id,
+    config: mergeConfig(modelConfig, score.config),
+    variants: score.variants?.map((variant) => ({
+      ...variant,
+      config: mergeConfig(modelConfig, variant.config),
+    })),
+  };
+}
+
 export async function loadModels(): Promise<Model[]> {
   return readJson<Model[]>(path.join(DATA, "models.json"), []);
 }
@@ -160,21 +281,31 @@ export async function buildView(category: CategorySlug): Promise<CategoryView> {
   const hiddenBenchmarks = curated ? allInCat.length - benchInCat.length : 0;
   const benchIds = new Set(benchInCat.map((b) => b.id));
 
-  const byModel = new Map<string, Record<string, ScoreRecord>>();
+  const modelById = new Map(models.map((m) => [m.id, m]));
+  const modelGroups = buildModelGroups(models);
+  const byModel = new Map<string, Record<string, ScoreRecord[]>>();
+  const groupedModels = new Map<string, Model>();
+
   for (const s of allScores) {
     if (!benchIds.has(s.benchmark_id)) continue;
-    let bucket = byModel.get(s.model_id);
+    const group = modelGroupForId(s.model_id, modelById, modelGroups);
+    const groupedScore = scoreForModelGroup(s, group);
+    let bucket = byModel.get(group.id);
     if (!bucket) {
       bucket = {};
-      byModel.set(s.model_id, bucket);
+      byModel.set(group.id, bucket);
+      groupedModels.set(group.id, group.model);
     }
-    bucket[s.benchmark_id] = s;
+    (bucket[s.benchmark_id] ??= []).push(groupedScore);
   }
 
-  const modelById = new Map(models.map((m) => [m.id, m]));
   const rows = [...byModel.entries()]
-    .map(([id, scores]) => {
-      const m = modelById.get(id) ?? {
+    .map(([id, scoreLists]) => {
+      const scores: Record<string, ScoreRecord> = {};
+      for (const [benchmarkId, records] of Object.entries(scoreLists)) {
+        scores[benchmarkId] = mergeScores([], records)[0];
+      }
+      const m = groupedModels.get(id) ?? {
         id,
         name: id,
         vendor: "Unknown",
