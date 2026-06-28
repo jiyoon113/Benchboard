@@ -20,7 +20,7 @@ export default defineConfig({
     port: 4173,
   },
   build: {
-    outDir: "../dist-demo",
+    outDir: "../dist",
     emptyOutDir: true,
   },
 });

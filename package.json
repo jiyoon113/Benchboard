@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev": "npm run dev:demo",
+    "build": "npm run build:demo",
+    "preview": "npm run preview:demo",
     "fetch:arena": "tsx --env-file=.env scripts/fetch-arena.ts",
     "fetch:alpaca": "tsx --env-file=.env scripts/fetch-alpaca-eval.ts",
     "fetch:arena-hard": "tsx --env-file=.env scripts/fetch-arena-hard.ts",
@@ -27,7 +27,10 @@
     "dev:demo": "npm run demo:data && vite --config vite.demo.config.mjs --host 127.0.0.1",
     "build:demo": "npm run demo:data && vite build --config vite.demo.config.mjs",
     "preview:demo": "vite preview --config vite.demo.config.mjs --host 127.0.0.1",
-    "demo:data": "TMPDIR=/tmp TEMP=/tmp TMP=/tmp tsx scripts/build-demo-score-views.ts"
+    "demo:data": "TMPDIR=/tmp TEMP=/tmp TMP=/tmp tsx scripts/build-demo-score-views.ts",
+    "dev:astro": "astro dev",
+    "build:astro": "astro build",
+    "preview:astro": "astro preview"
   },
   "dependencies": {
     "@astrojs/react": "^4.0.0",
@@ -45,7 +48,9 @@
     "@types/node": "^22.10.5",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.7.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vite": "^6.4.3"
   }
 }
