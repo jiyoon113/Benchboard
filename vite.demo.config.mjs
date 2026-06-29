@@ -1,11 +1,25 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "tailwindcss";
+import { copyFileSync, existsSync } from "node:fs";
+import { resolve } from "node:path";
 
 export default defineConfig({
   root: "demo",
   base: "/Benchboard/",
-  plugins: [react()],
+  plugins: [
+    react(),
+    {
+      name: "github-pages-spa-fallback",
+      closeBundle() {
+        const indexPath = resolve("dist", "index.html");
+        if (existsSync(indexPath)) {
+          // GitHub Pages serves 404.html for direct visits to SPA routes.
+          copyFileSync(indexPath, resolve("dist", "404.html"));
+        }
+      },
+    },
+  ],
   css: {
     postcss: {
       plugins: [tailwindcss()],
