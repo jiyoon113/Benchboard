@@ -11,6 +11,34 @@ export const BUILDER_COPY = {
   selectionPrinciple: "Not just top correlated benchmarks",
 };
 
+// Hero call-to-action labels. Primary triggers subset generation in place;
+// secondary/tertiary route to the Scores and Axes views.
+export const HERO_CTAS = {
+  primary: "Build compact suite",
+  secondary: "Explore scores",
+  tertiary: "View axes",
+};
+
+// One-line decision framing surfaced under the hero (key claim #6).
+export const KEY_CLAIM =
+  "Balances relevance, redundancy, predictive gain, and cost — not just the top-correlated benchmarks.";
+
+// Builder workflow shown as a numbered strip; mirrors the page's section order.
+export const WORKFLOW_STEPS = [
+  "Select target capability",
+  "Inspect related axes",
+  "Build compact subset",
+  "Compare model shortlist",
+  "Check coverage and provenance",
+] as const;
+
+// Human labels for model_shortlist.json recommendation keys.
+export const RECOMMENDATION_LABELS: Record<string, string> = {
+  best_overall: "Best overall",
+  best_budget: "Best budget",
+  most_reliable: "Most reliable",
+};
+
 // Add a capability here only after adding the matching axis id to
 // data/benchmark_axis_weights.json. The UI highlights ids listed in
 // DEFAULT_TARGET_AXIS_IDS on the first screen.

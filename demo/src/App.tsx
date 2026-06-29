@@ -27,7 +27,11 @@ import {
   DEFAULT_BENCHMARK_COUNT,
   DEFAULT_PLANNER_SOURCE_ID,
   DEFAULT_TARGET_AXIS_IDS,
+  HERO_CTAS,
+  KEY_CLAIM,
   LINEAGE_BADGE_CLASS,
+  RECOMMENDATION_LABELS,
+  WORKFLOW_STEPS,
   coverageBarWidth,
   metricBarWidth,
   metricLabel,
@@ -38,6 +42,12 @@ import {
 const run = runs[0];
 const benchById = new Map(axisWeights.benchmarks.map((bench) => [bench.id, bench]));
 const lineageByAxis = new Map(axisLineage.map((item) => [item.axis_id, item]));
+const shortlistById = new Map(modelShortlist.rankings.map((row) => [row.model_id, row]));
+const recommendationCards = Object.entries(modelShortlist.recommendations).map(([key, modelId]) => ({
+  key,
+  label: RECOMMENDATION_LABELS[key] ?? key,
+  row: shortlistById.get(modelId),
+}));
 
 type Route = "builder" | "axes" | "scores" | "trends" | "coverage";
 
@@ -163,7 +173,38 @@ function BuilderPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-emerald-700">{BUILDER_COPY.eyebrow}</p>
           <h1 className="text-3xl font-bold tracking-tight text-neutral-950 md:text-4xl">{BUILDER_COPY.title}</h1>
           <p className="mt-3 text-sm leading-6 text-neutral-600">{BUILDER_COPY.summary}</p>
+          <div className="mt-5 flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setSubsetReady(true)}
+              className="rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+            >
+              {HERO_CTAS.primary}
+            </button>
+            <a
+              href={pathForRoute("scores")}
+              className="rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:border-neutral-500"
+            >
+              {HERO_CTAS.secondary}
+            </a>
+            <a
+              href={pathForRoute("axes")}
+              className="rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:border-neutral-500"
+            >
+              {HERO_CTAS.tertiary}
+            </a>
+          </div>
+          <p className="mt-3 text-xs leading-5 text-neutral-500">{KEY_CLAIM}</p>
         </div>
+
+        <ol className="grid gap-2 sm:grid-cols-2 lg:grid-cols-5">
+          {WORKFLOW_STEPS.map((step, index) => (
+            <li key={step} className="flex items-start gap-2 rounded-md border border-neutral-200 bg-white px-3 py-2 text-xs text-neutral-600 shadow-sm">
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-neutral-950 text-[11px] font-semibold text-white">{index + 1}</span>
+              <span className="leading-4">{step}</span>
+            </li>
+          ))}
+        </ol>
 
         <div className="grid items-stretch gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,0.8fr)]">
           <div className="h-full rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
@@ -380,12 +421,23 @@ function BuilderPage() {
           {!subsetReady ? (
             <PendingPanel title="No shortlist yet" body="The model shortlist is generated after the compact benchmark subset exists." />
           ) : (
+            <>
+            <div className="mb-3 grid gap-3 sm:grid-cols-3">
+              {recommendationCards.map(({ key, label, row }) => row ? (
+                <div key={key} className="rounded-lg border border-neutral-200 bg-white p-3 shadow-sm">
+                  <div className="text-[11px] font-semibold uppercase tracking-wide text-emerald-700">{label}</div>
+                  <div className="mt-1 font-semibold text-neutral-950">{row.model_name}</div>
+                  <div className="text-xs text-neutral-500">{row.vendor} · ${row.cost_per_mtok.toFixed(1)}/M · regret {row.regret.toFixed(3)}</div>
+                </div>
+              ) : null)}
+            </div>
             <div className="overflow-x-auto rounded-lg border border-neutral-200 bg-white shadow-sm">
               <table className="w-full min-w-[650px] border-collapse text-sm">
                 <thead><tr className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500"><th className="py-2 pl-3 pr-3 font-semibold">Model</th><th className="px-2 py-2 font-semibold">Subset</th><th className="px-2 py-2 font-semibold">Full suite</th><th className="px-2 py-2 font-semibold">Cost</th><th className="px-2 py-2 font-semibold">Regret</th><th className="px-2 py-2 font-semibold">Recommendation</th></tr></thead>
                 <tbody>{modelShortlist.rankings.map((row) => <tr key={row.model_id} className="border-b border-neutral-100 last:border-b-0"><td className="py-3 pl-3 pr-3"><div className="font-semibold text-neutral-950">{row.model_name}</div><div className="text-xs text-neutral-500">{row.vendor}</div></td><td className="px-2 py-3 text-neutral-700">#{row.subset_rank} / {row.subset_score.toFixed(1)}</td><td className="px-2 py-3 text-neutral-700">#{row.full_suite_rank} / {row.full_suite_score.toFixed(1)}</td><td className="px-2 py-3 text-neutral-700">${row.cost_per_mtok.toFixed(1)}/M</td><td className="px-2 py-3 text-neutral-700">{row.regret.toFixed(3)}</td><td className="px-2 py-3"><span className="rounded-md bg-neutral-100 px-2 py-1 text-xs font-medium text-neutral-700">{row.recommendation}</span></td></tr>)}</tbody>
               </table>
             </div>
+            </>
           )}
         </div>
       </section>
@@ -671,10 +723,10 @@ export default function App() {
 
   const nav = [
     ["builder", "Builder"],
-    ["axes", "Axes"],
     ["scores", "Scores"],
     ["trends", "Trends"],
     ["coverage", "Coverage"],
+    ["axes", "Axes"],
   ] as const;
 
   return (
@@ -695,7 +747,7 @@ export default function App() {
               ))}
             </nav>
           </div>
-          <span className="text-xs text-neutral-500">Vite React app</span>
+          <span className="hidden text-xs text-neutral-500 sm:inline">Capability-targeted evaluation planner</span>
         </div>
       </header>
       <main className="mx-auto max-w-6xl px-4 py-6">
