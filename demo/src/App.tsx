@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useState } from "react";
 import runs from "../../data/runs/index.json";
 import axisSources from "../../data/axis_sources.json";
 import axisWeights from "../../data/benchmark_axis_weights.json";
@@ -87,6 +87,19 @@ function MetricBar({ label, value, color = "bg-cyan-500", width }: { label: stri
       </div>
     </div>
   );
+}
+
+function PageHeader({ title, desc }: { title: string; desc: string }) {
+  return (
+    <div className="mb-6 rounded-lg border border-neutral-200 bg-white p-5 shadow-sm">
+      <h1 className="text-2xl font-bold tracking-tight text-neutral-950">{title}</h1>
+      <p className="mt-1 text-sm leading-6 text-neutral-600">{desc}</p>
+    </div>
+  );
+}
+
+function Surface({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return <div className={`rounded-lg border border-neutral-200 bg-white p-4 shadow-sm ${className}`}>{children}</div>;
 }
 
 function LoadingPanel({ label }: { label: string }) {
@@ -476,11 +489,8 @@ function AxesPage() {
 
   return (
     <section>
-      <div className="mb-4">
-        <h1 className="text-2xl font-bold tracking-tight text-neutral-950">Benchmark axes</h1>
-        <p className="mt-1 text-sm text-neutral-600">Profiling ability tags and survey taxonomy for browsing which benchmarks exercise which capability axes.</p>
-      </div>
-      {data ? <TagExplorer data={data} topK={15} /> : <LoadingPanel label="axes" />}
+      <PageHeader title="Benchmark axes" desc="Profiling ability tags and survey taxonomy for browsing which benchmarks exercise which capability axes." />
+      <Surface>{data ? <TagExplorer data={data} topK={15} /> : <LoadingPanel label="axes" />}</Surface>
     </section>
   );
 }
@@ -540,10 +550,8 @@ function ScoresPage() {
 
   return (
     <section>
-      <div className="mb-4">
-        <h1 className="text-2xl font-bold tracking-tight text-neutral-950">Scores</h1>
-        <p className="mt-1 text-sm text-neutral-600">비결정적 / 결정적 큰 그룹 안에서 원래 세부 카테고리별 score table을 볼 수 있습니다.</p>
-      </div>
+      <PageHeader title="Scores" desc="비결정적 / 결정적 큰 그룹 안에서 원래 세부 카테고리별 score table을 볼 수 있습니다." />
+      <Surface>
       <nav className="mb-5 border-b border-neutral-200">
         <ul className="flex gap-1 overflow-x-auto">
           {SCORE_CATEGORIES.map((item) => {
@@ -567,6 +575,7 @@ function ScoresPage() {
       </nav>
       <p className="mb-4 text-sm text-neutral-500">{active.note}</p>
       {view ? <LeaderboardTable benchmarks={view.benchmarks} rows={view.rows} /> : <LoadingPanel label="scores" />}
+      </Surface>
     </section>
   );
 }
@@ -623,12 +632,9 @@ function TrendsPage() {
 
   return (
     <section>
-      <div className="mb-4">
-        <h1 className="text-2xl font-bold tracking-tight text-neutral-950">Benchmark trends</h1>
-        <p className="mt-1 text-sm text-neutral-600">Release-date scatterplots without Chart.js or Astro inline scripts. Toggle vendors and benchmark series directly in React.</p>
-      </div>
+      <PageHeader title="Benchmark trends" desc="Release-date scatterplots without Chart.js or Astro inline scripts. Toggle vendors and benchmark series directly in React." />
       {!trend ? <LoadingPanel label="trends" /> : (
-        <>
+        <Surface>
           <div className="mb-3 flex flex-wrap items-center gap-3">
             <label className="text-sm text-neutral-600">Benchmark</label>
             <select className="rounded border border-neutral-300 bg-white px-2 py-1 text-sm" value={benchmarkId} onChange={(event) => { setBenchmarkId(event.target.value); setHiddenVendors(new Set()); }}>
@@ -640,7 +646,7 @@ function TrendsPage() {
           <div className="mb-2 flex flex-wrap gap-x-4 gap-y-1.5 text-xs text-neutral-500">
             {vendors.map((vendor) => <button key={vendor} type="button" onClick={() => setHiddenVendors((current) => { const next = new Set(current); next.has(vendor) ? next.delete(vendor) : next.add(vendor); return next; })} className="flex items-center gap-1.5" style={{ opacity: hiddenVendors.has(vendor) ? 0.35 : 1 }}><span className="h-2.5 w-2.5 rounded-full" style={{ background: vendorSwatch(vendor) }} />{vendor}</button>)}
           </div>
-          <div className="rounded-lg border border-neutral-200 bg-white p-3 shadow-sm">
+          <div className="rounded-md border border-neutral-200 bg-neutral-50/60 p-3">
             <svg viewBox="0 0 860 380" className="h-[430px] w-full" role="img" aria-label="Benchmark trend scatterplot">
               {[0, 1, 2, 3, 4].map((tick) => { const y = yMin + ((yMax - yMin) * tick) / 4; return <g key={tick}><line x1={plot.left} x2={plot.left + plot.width} y1={sy(y)} y2={sy(y)} stroke="rgba(136,135,128,0.16)" /><text x={plot.left - 10} y={sy(y) + 4} textAnchor="end" className="fill-neutral-500 text-[11px]">{y.toFixed(0)}</text></g>; })}
               {[0, 1, 2, 3, 4, 5].map((tick) => { const x = xMin + ((xMax - xMin) * tick) / 5; return <g key={tick}><line x1={sx(x)} x2={sx(x)} y1={plot.top} y2={plot.top + plot.height} stroke="rgba(136,135,128,0.10)" /><text x={sx(x)} y={plot.top + plot.height + 24} textAnchor="middle" className="fill-neutral-500 text-[11px]">{fmtMonth(x)}</text></g>; })}
@@ -649,7 +655,7 @@ function TrendsPage() {
               {visiblePoints.map((point) => <circle key={`${point.model}-${point.date}-${point.score}`} cx={sx(point.x)} cy={sy(point.y)} r="6" fill={vendorSwatch(point.vendor)} stroke="white" strokeWidth="1"><title>{point.model} - {point.score} ({fmtYearMonth(point.x)}, {point.vendor})</title></circle>)}
             </svg>
           </div>
-        </>
+        </Surface>
       )}
     </section>
   );
@@ -694,16 +700,16 @@ function CoveragePage() {
 
   return (
     <section>
-      <div className="mb-4"><h1 className="text-2xl font-bold tracking-tight text-neutral-950">Benchmark coverage</h1><p className="mt-1 text-sm text-neutral-600">React heatmap for target models across key benchmarks. Column headers sort without inline scripts.</p></div>
-      {!data ? <LoadingPanel label="coverage" /> : <>
+      <PageHeader title="Benchmark coverage" desc="React heatmap for target models across key benchmarks. Column headers sort without inline scripts." />
+      {!data ? <LoadingPanel label="coverage" /> : <Surface>
         <div className="mb-3 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
           <div className="flex items-center gap-1"><span className="mr-1 text-neutral-500">Size</span>{["all", "small", "medium", "large"].map((item) => <button key={item} type="button" onClick={() => setSize(item)} className={`rounded border px-2 py-0.5 capitalize ${size === item ? "border-neutral-950 bg-neutral-950 text-white" : "border-neutral-300 text-neutral-600"}`}>{item}</button>)}</div>
           <label className="flex items-center gap-2"><span className="text-neutral-500">Min filled</span><input type="range" min={0} max={data.benches.length} value={minFilled} onChange={(event) => setMinFilled(Number(event.target.value))} className="w-32" /><span className="w-6 tabular-nums text-neutral-700">{minFilled}</span></label>
           <input type="text" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="filter model / vendor..." className="w-48 rounded border border-neutral-300 px-2 py-1 text-sm" />
           <span className="ml-auto tabular-nums text-neutral-500">{rows.length}/{data.rows.length}</span>
         </div>
-        <div className="overflow-x-auto rounded border border-neutral-200"><table className="min-w-full border-collapse text-xs"><thead><tr className="border-b border-neutral-200 bg-neutral-50"><th className="px-3 py-2 text-left font-medium text-neutral-500">Model</th><th onClick={() => toggleSort(-1)} className="cursor-pointer px-2 py-2 text-right font-medium text-neutral-500 hover:text-black">n{sort === -1 ? (dir < 0 ? " ▼" : " ▲") : ""}</th>{data.benches.map((bench, index) => <th key={bench} onClick={() => toggleSort(index)} className="cursor-pointer whitespace-nowrap px-1.5 py-2 text-right font-medium text-neutral-500 hover:text-black">{bench}{sort === index ? (dir < 0 ? " ▼" : " ▲") : ""}</th>)}</tr></thead><tbody>{rows.map((row: CoverageRow) => <tr key={row.id} className="border-b border-neutral-100 hover:bg-neutral-50"><td className="sticky left-0 bg-white px-3 py-1.5"><div className="font-medium text-neutral-900">{row.name}</div><div className="text-[10px] text-neutral-500">{row.vendor}{row.sizeLabel ? ` · ${row.sizeLabel}` : ""}</div></td><td className="px-2 py-1.5 text-right tabular-nums text-neutral-700">{row.n}</td>{row.scores.map((score, index) => <td key={index} className="px-1.5 py-1.5 text-right tabular-nums" style={{ background: heat(score, index, data) }}>{score == null ? <span className="text-neutral-300">.</span> : score}</td>)}</tr>)}</tbody></table></div>
-      </>}
+        <div className="overflow-x-auto rounded-md border border-neutral-200"><table className="min-w-full border-collapse text-xs"><thead><tr className="border-b border-neutral-200 bg-neutral-50"><th className="px-3 py-2 text-left font-medium text-neutral-500">Model</th><th onClick={() => toggleSort(-1)} className="cursor-pointer px-2 py-2 text-right font-medium text-neutral-500 hover:text-black">n{sort === -1 ? (dir < 0 ? " ▼" : " ▲") : ""}</th>{data.benches.map((bench, index) => <th key={bench} onClick={() => toggleSort(index)} className="cursor-pointer whitespace-nowrap px-1.5 py-2 text-right font-medium text-neutral-500 hover:text-black">{bench}{sort === index ? (dir < 0 ? " ▼" : " ▲") : ""}</th>)}</tr></thead><tbody>{rows.map((row: CoverageRow) => <tr key={row.id} className="border-b border-neutral-100 hover:bg-neutral-50"><td className="sticky left-0 bg-white px-3 py-1.5"><div className="font-medium text-neutral-900">{row.name}</div><div className="text-[10px] text-neutral-500">{row.vendor}{row.sizeLabel ? ` · ${row.sizeLabel}` : ""}</div></td><td className="px-2 py-1.5 text-right tabular-nums text-neutral-700">{row.n}</td>{row.scores.map((score, index) => <td key={index} className="px-1.5 py-1.5 text-right tabular-nums" style={{ background: heat(score, index, data) }}>{score == null ? <span className="text-neutral-300">.</span> : score}</td>)}</tr>)}</tbody></table></div>
+      </Surface>}
     </section>
   );
 }
@@ -730,8 +736,8 @@ export default function App() {
   ] as const;
 
   return (
-    <div className="min-h-screen bg-white text-neutral-900 antialiased">
-      <header className="border-b border-neutral-200">
+    <div className="min-h-screen bg-neutral-50 text-neutral-900 antialiased">
+      <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-baseline gap-5">
             <a href={pathForRoute("builder")} className="font-semibold tracking-tight">benchboard</a>
