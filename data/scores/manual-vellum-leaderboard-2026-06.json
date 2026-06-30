@@ -13,9 +13,9 @@
     }
   },
   {
-    "model_id": "minimax-m3",
-    "benchmark_id": "swe-bench-verified",
-    "score": 80.5,
+    "model_id": "claude-opus-4.1",
+    "benchmark_id": "mmmlu",
+    "score": 89.5,
     "config": "default",
     "source": {
       "kind": "manual",
@@ -26,9 +26,9 @@
     }
   },
   {
-    "model_id": "claude-opus-4.1",
-    "benchmark_id": "mmmlu",
-    "score": 89.5,
+    "model_id": "minimax-m3",
+    "benchmark_id": "swe-bench-verified",
+    "score": 80.5,
     "config": "default",
     "source": {
       "kind": "manual",

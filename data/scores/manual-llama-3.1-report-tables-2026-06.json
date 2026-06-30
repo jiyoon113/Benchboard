@@ -161,7 +161,7 @@
   },
   {
     "model_id": "llama-3.1-405b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 0.969,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
@@ -173,11 +173,18 @@
       "shots": "0",
       "metric": "acc",
       "score_percent": 96.9
-    }
+    },
+    "variants": [
+      {
+        "score": 0.961,
+        "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+        "source": "manual"
+      }
+    ]
   },
   {
     "model_id": "llama-3.1-70b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 0.948,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
@@ -189,11 +196,18 @@
       "shots": "0",
       "metric": "acc",
       "score_percent": 94.8
-    }
+    },
+    "variants": [
+      {
+        "score": 0.929,
+        "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+        "source": "manual"
+      }
+    ]
   },
   {
     "model_id": "llama-3-70b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 0.944,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
@@ -205,11 +219,18 @@
       "shots": "0",
       "metric": "acc",
       "score_percent": 94.4
-    }
+    },
+    "variants": [
+      {
+        "score": 0.931,
+        "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+        "source": "manual"
+      }
+    ]
   },
   {
     "model_id": "llama-3.1-8b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 0.834,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
@@ -221,11 +242,18 @@
       "shots": "0",
       "metric": "acc",
       "score_percent": 83.4
-    }
+    },
+    "variants": [
+      {
+        "score": 0.797,
+        "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+        "source": "manual"
+      }
+    ]
   },
   {
     "model_id": "llama-3-8b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 0.824,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
@@ -237,87 +265,14 @@
       "shots": "0",
       "metric": "acc",
       "score_percent": 82.4
-    }
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "arc-challenge",
-    "score": 0.961,
-    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
-    "source": "manual",
-    "extra": {
-      "source_table": "Llama 3.1 evaluation table",
-      "model_display_name": "Llama 3.1 405B",
-      "model_family": "base pretrained",
-      "benchmark_display_name": "ARC-Challenge",
-      "shots": "25",
-      "metric": "acc_char",
-      "score_percent": 96.1
-    }
-  },
-  {
-    "model_id": "llama-3-70b",
-    "benchmark_id": "arc-challenge",
-    "score": 0.931,
-    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
-    "source": "manual",
-    "extra": {
-      "source_table": "Llama 3.1 evaluation table",
-      "model_display_name": "Llama 3 70B",
-      "model_family": "base pretrained",
-      "benchmark_display_name": "ARC-Challenge",
-      "shots": "25",
-      "metric": "acc_char",
-      "score_percent": 93.1
-    }
-  },
-  {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "arc-challenge",
-    "score": 0.929,
-    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
-    "source": "manual",
-    "extra": {
-      "source_table": "Llama 3.1 evaluation table",
-      "model_display_name": "Llama 3.1 70B",
-      "model_family": "base pretrained",
-      "benchmark_display_name": "ARC-Challenge",
-      "shots": "25",
-      "metric": "acc_char",
-      "score_percent": 92.9
-    }
-  },
-  {
-    "model_id": "llama-3.1-8b",
-    "benchmark_id": "arc-challenge",
-    "score": 0.797,
-    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
-    "source": "manual",
-    "extra": {
-      "source_table": "Llama 3.1 evaluation table",
-      "model_display_name": "Llama 3.1 8B",
-      "model_family": "base pretrained",
-      "benchmark_display_name": "ARC-Challenge",
-      "shots": "25",
-      "metric": "acc_char",
-      "score_percent": 79.7
-    }
-  },
-  {
-    "model_id": "llama-3-8b",
-    "benchmark_id": "arc-challenge",
-    "score": 0.794,
-    "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
-    "source": "manual",
-    "extra": {
-      "source_table": "Llama 3.1 evaluation table",
-      "model_display_name": "Llama 3 8B",
-      "model_family": "base pretrained",
-      "benchmark_display_name": "ARC-Challenge",
-      "shots": "25",
-      "metric": "acc_char",
-      "score_percent": 79.4
-    }
+    },
+    "variants": [
+      {
+        "score": 0.794,
+        "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
+        "source": "manual"
+      }
+    ]
   },
   {
     "model_id": "llama-3.1-405b",

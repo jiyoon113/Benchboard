@@ -179,12 +179,6 @@
     "description": "ARC Prize interactive ARC-AGI-3 leaderboard."
   },
   {
-    "id": "arc-c",
-    "name": "ARC-C",
-    "category": "general",
-    "type": "deterministic"
-  },
-  {
     "id": "arc-challenge",
     "name": "ARC Challenge",
     "category": "general",

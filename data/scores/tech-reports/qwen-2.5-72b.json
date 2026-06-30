@@ -13,7 +13,7 @@
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "arc-c",
+    "benchmark_id": "arc-challenge",
     "score": 72.4,
     "config": "25-shot",
     "source": {

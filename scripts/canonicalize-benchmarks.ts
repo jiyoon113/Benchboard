@@ -64,6 +64,8 @@ const ALIAS_MAP: Record<string, AliasTarget> = {
   "gpqa-diamond": { to: "gpqa", config: "Diamond" },
   // SimpleQA spellings
   "simpleqa-evaluations": "simpleqa",
+  // ARC-Challenge: extractor emits the "ARC-C" acronym as a separate column.
+  "arc-c": "arc-challenge",
   // MMMLU
   "mmmlu-average": "mmmlu",
   // BBQ (Bias Benchmark for QA) — Anthropic system cards use the full name,

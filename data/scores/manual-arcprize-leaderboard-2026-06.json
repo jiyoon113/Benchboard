@@ -2,7 +2,7 @@
   {
     "model_id": "gemini-3-1-pro-preview",
     "benchmark_id": "arc-agi-1",
-    "score": 98.0,
+    "score": 98,
     "config": "Semi-Private Eval, CoT, cost/task $0.5223",
     "source": "arcprize",
     "extra": {
@@ -37,7 +37,7 @@
   {
     "model_id": "gemini_3_deep_think_022026",
     "benchmark_id": "arc-agi-1",
-    "score": 96.0,
+    "score": 96,
     "config": "Semi-Private Eval, CoT, cost/task $7.171",
     "source": "arcprize",
     "extra": {
@@ -54,7 +54,7 @@
   {
     "model_id": "gpt-5-5-2026-04-22-thinking-xhigh",
     "benchmark_id": "arc-agi-1",
-    "score": 95.0,
+    "score": 95,
     "config": "Semi-Private Eval, CoT, cost/task $0.73",
     "source": "arcprize",
     "extra": {
@@ -72,7 +72,7 @@
   {
     "model_id": "gpt-5-5-pro-2026-04-23-xhigh",
     "benchmark_id": "arc-agi-1",
-    "score": 95.0,
+    "score": 95,
     "config": "Semi-Private Eval, CoT, cost/task $4.52",
     "source": "arcprize",
     "extra": {
@@ -143,7 +143,7 @@
   {
     "model_id": "claude-opus-4-6-thinking-120k-high",
     "benchmark_id": "arc-agi-1",
-    "score": 94.0,
+    "score": 94,
     "config": "Semi-Private Eval, CoT, cost/task $1.3948",
     "source": "arcprize",
     "extra": {
@@ -197,7 +197,7 @@
   {
     "model_id": "claude-opus-4-6-thinking-120k-max",
     "benchmark_id": "arc-agi-1",
-    "score": 93.0,
+    "score": 93,
     "config": "Semi-Private Eval, CoT, cost/task $1.8791",
     "source": "arcprize",
     "extra": {
@@ -287,7 +287,7 @@
   {
     "model_id": "claude-opus-4-6-thinking-120k-medium",
     "benchmark_id": "arc-agi-1",
-    "score": 92.0,
+    "score": 92,
     "config": "Semi-Private Eval, CoT, cost/task $0.9647",
     "source": "arcprize",
     "extra": {
@@ -305,7 +305,7 @@
   {
     "model_id": "anthropic-opus-4-8-high",
     "benchmark_id": "arc-agi-1",
-    "score": 92.0,
+    "score": 92,
     "config": "Semi-Private Eval, CoT, cost/task $1.0416",
     "source": "arcprize",
     "extra": {
@@ -323,7 +323,7 @@
   {
     "model_id": "claude-4-7-max",
     "benchmark_id": "arc-agi-1",
-    "score": 92.0,
+    "score": 92,
     "config": "Semi-Private Eval, CoT, cost/task $2.58",
     "source": "arcprize",
     "extra": {
@@ -359,7 +359,7 @@
   {
     "model_id": "claude-4-7-low",
     "benchmark_id": "arc-agi-1",
-    "score": 91.0,
+    "score": 91,
     "config": "Semi-Private Eval, CoT, cost/task $0.76",
     "source": "arcprize",
     "extra": {
@@ -377,7 +377,7 @@
   {
     "model_id": "claude-4-7-medium",
     "benchmark_id": "arc-agi-1",
-    "score": 91.0,
+    "score": 91,
     "config": "Semi-Private Eval, CoT, cost/task $1.04",
     "source": "arcprize",
     "extra": {
@@ -431,7 +431,7 @@
   {
     "model_id": "anthropic-opus-4-8-low",
     "benchmark_id": "arc-agi-1",
-    "score": 88.0,
+    "score": 88,
     "config": "Semi-Private Eval, CoT, cost/task $0.6711",
     "source": "arcprize",
     "extra": {
@@ -521,7 +521,7 @@
   {
     "model_id": "claude-opus-4-6-thinking-120k-low",
     "benchmark_id": "arc-agi-1",
-    "score": 86.0,
+    "score": 86,
     "config": "Semi-Private Eval, CoT, cost/task $0.648",
     "source": "arcprize",
     "extra": {
@@ -539,7 +539,7 @@
   {
     "model_id": "claude_sonnet_4_6_max",
     "benchmark_id": "arc-agi-1",
-    "score": 86.0,
+    "score": 86,
     "config": "Semi-Private Eval, CoT, cost/task $1.452",
     "source": "arcprize",
     "extra": {
@@ -611,7 +611,7 @@
   {
     "model_id": "claude-opus-4-5-20251101-thinking-64k",
     "benchmark_id": "arc-agi-1",
-    "score": 80.0,
+    "score": 80,
     "config": "Semi-Private Eval, CoT, cost/task $1.47",
     "source": "arcprize",
     "extra": {
@@ -664,7 +664,7 @@
   {
     "model_id": "glm-5.2",
     "benchmark_id": "arc-agi-1",
-    "score": 77.0,
+    "score": 77,
     "config": "Semi-Private Eval, CoT, cost/task $0.1916",
     "source": "arcprize",
     "extra": {
@@ -717,7 +717,7 @@
   {
     "model_id": "gemini-3-pro-preview",
     "benchmark_id": "arc-agi-1",
-    "score": 75.0,
+    "score": 75,
     "config": "Semi-Private Eval, CoT, cost/task $0.4926",
     "source": "arcprize",
     "extra": {
@@ -771,7 +771,7 @@
   {
     "model_id": "claude-opus-4-5-20251101-thinking-16k",
     "benchmark_id": "arc-agi-1",
-    "score": 72.0,
+    "score": 72,
     "config": "Semi-Private Eval, CoT, cost/task $0.62",
     "source": "arcprize",
     "extra": {
@@ -1001,7 +1001,7 @@
   {
     "model_id": "gpt-5-4-mini-high",
     "benchmark_id": "arc-agi-1",
-    "score": 58.0,
+    "score": 58,
     "config": "Semi-Private Eval, CoT, cost/task $0.27",
     "source": "arcprize",
     "extra": {
@@ -1055,7 +1055,7 @@
   {
     "model_id": "o3-pro-2025-06-10-medium",
     "benchmark_id": "arc-agi-1",
-    "score": 57.0,
+    "score": 57,
     "config": "Semi-Private Eval, CoT + Synthesis, cost/task $3.1766",
     "source": "arcprize",
     "extra": {
@@ -1073,7 +1073,7 @@
   {
     "model_id": "deepseek-v3.2",
     "benchmark_id": "arc-agi-1",
-    "score": 57.0,
+    "score": 57,
     "config": "Semi-Private Eval, Base LLM, cost/task $0.08",
     "source": "arcprize",
     "extra": {
@@ -1305,7 +1305,7 @@
   {
     "model_id": "gpt-5-2025-08-07-low",
     "benchmark_id": "arc-agi-1",
-    "score": 44.0,
+    "score": 44,
     "config": "Semi-Private Eval, CoT, cost/task $0.1531",
     "source": "arcprize",
     "extra": {
@@ -1359,7 +1359,7 @@
   {
     "model_id": "gemini-2-5-pro-2025-06-17-thinking-16k",
     "benchmark_id": "arc-agi-1",
-    "score": 41.0,
+    "score": 41,
     "config": "Semi-Private Eval, CoT, cost/task $0.4839",
     "source": "arcprize",
     "extra": {
@@ -1395,7 +1395,7 @@
   {
     "model_id": "claude-sonnet-4-20250514-thinking-16k-bedrock",
     "benchmark_id": "arc-agi-1",
-    "score": 40.0,
+    "score": 40,
     "config": "Semi-Private Eval, CoT, cost/task $0.3658",
     "source": "arcprize",
     "extra": {
@@ -1413,7 +1413,7 @@
   {
     "model_id": "trm-2025-10-07",
     "benchmark_id": "arc-agi-1",
-    "score": 40.0,
+    "score": 40,
     "config": "Semi-Private Eval, cost/task $1.7638",
     "source": "arcprize",
     "extra": {
@@ -1429,7 +1429,7 @@
   {
     "model_id": "claude-opus-4-5-20251101-thinking-none",
     "benchmark_id": "arc-agi-1",
-    "score": 40.0,
+    "score": 40,
     "config": "Semi-Private Eval, CoT, cost/task $0.13",
     "source": "arcprize",
     "extra": {
@@ -1501,7 +1501,7 @@
   {
     "model_id": "gemini-2-5-pro-2025-06-17-thinking-32k",
     "benchmark_id": "arc-agi-1",
-    "score": 37.0,
+    "score": 37,
     "config": "Semi-Private Eval, CoT, cost/task $0.5123",
     "source": "arcprize",
     "extra": {
@@ -1608,7 +1608,7 @@
   {
     "model_id": "gpt-5-4-nano-medium",
     "benchmark_id": "arc-agi-1",
-    "score": 33.0,
+    "score": 33,
     "config": "Semi-Private Eval, CoT, cost/task $0.04",
     "source": "arcprize",
     "extra": {
@@ -1644,7 +1644,7 @@
   {
     "model_id": "claude-sonnet-4-5-20250929-thinking-1k",
     "benchmark_id": "arc-agi-1",
-    "score": 31.0,
+    "score": 31,
     "config": "Semi-Private Eval, CoT, cost/task $0.0928",
     "source": "arcprize",
     "extra": {
@@ -1698,7 +1698,7 @@
   {
     "model_id": "claude-sonnet-4-20250514-thinking-8k-bedrock",
     "benchmark_id": "arc-agi-1",
-    "score": 29.0,
+    "score": 29,
     "config": "Semi-Private Eval, CoT, cost/task $0.1952",
     "source": "arcprize",
     "extra": {
@@ -1716,7 +1716,7 @@
   {
     "model_id": "gemini-3-flash-preview-thinking-low",
     "benchmark_id": "arc-agi-1",
-    "score": 29.0,
+    "score": 29,
     "config": "Semi-Private Eval, CoT, cost/task $0.0163",
     "source": "arcprize",
     "extra": {
@@ -1752,7 +1752,7 @@
   {
     "model_id": "claude-sonnet-4-20250514-thinking-1k",
     "benchmark_id": "arc-agi-1",
-    "score": 28.0,
+    "score": 28,
     "config": "Semi-Private Eval, CoT, cost/task $0.0937",
     "source": "arcprize",
     "extra": {
@@ -1787,7 +1787,7 @@
   {
     "model_id": "claude-opus-4-20250514-thinking-1k",
     "benchmark_id": "arc-agi-1",
-    "score": 27.0,
+    "score": 27,
     "config": "Semi-Private Eval, CoT, cost/task $0.5021",
     "source": "arcprize",
     "extra": {
@@ -2089,7 +2089,7 @@
   {
     "model_id": "gemini-2-5-flash-preview-05-20-thinking-1k",
     "benchmark_id": "arc-agi-1",
-    "score": 16.0,
+    "score": 16,
     "config": "Semi-Private Eval, CoT, cost/task $0.0356",
     "source": "arcprize",
     "extra": {
@@ -2107,7 +2107,7 @@
   {
     "model_id": "gemini-2-5-pro-2025-06-17-thinking-1k",
     "benchmark_id": "arc-agi-1",
-    "score": 16.0,
+    "score": 16,
     "config": "Semi-Private Eval, CoT, cost/task $0.0573",
     "source": "arcprize",
     "extra": {
@@ -2178,7 +2178,7 @@
   {
     "model_id": "o1-mini-2024-09-12",
     "benchmark_id": "arc-agi-1",
-    "score": 14.0,
+    "score": 14,
     "config": "Semi-Private Eval, CoT, cost/task $0.135",
     "source": "arcprize",
     "extra": {
@@ -2213,7 +2213,7 @@
   {
     "model_id": "gpt-5-4-mini-low",
     "benchmark_id": "arc-agi-1",
-    "score": 13.0,
+    "score": 13,
     "config": "Semi-Private Eval, CoT, cost/task $0.04",
     "source": "arcprize",
     "extra": {
@@ -2266,7 +2266,7 @@
   {
     "model_id": "qwen3-235b-a22b-instruct-2507",
     "benchmark_id": "arc-agi-1",
-    "score": 11.0,
+    "score": 11,
     "config": "Semi-Private Eval, Base LLM, cost/task $0.0025",
     "source": "arcprize",
     "extra": {
@@ -2317,7 +2317,7 @@
   {
     "model_id": "gpt-5-2025-08-07-minimal",
     "benchmark_id": "arc-agi-1",
-    "score": 6.0,
+    "score": 6,
     "config": "Semi-Private Eval, Base LLM, cost/task $0.0335",
     "source": "arcprize",
     "extra": {
@@ -2421,7 +2421,7 @@
   {
     "model_id": "magistral-small-2506",
     "benchmark_id": "arc-agi-1",
-    "score": 5.0,
+    "score": 5,
     "config": "Semi-Private Eval, CoT, cost/task $0.0399",
     "source": "arcprize",
     "extra": {
