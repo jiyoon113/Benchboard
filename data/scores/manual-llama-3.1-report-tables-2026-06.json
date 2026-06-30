@@ -2,7 +2,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "agieval-english",
-    "score": 0.716,
+    "score": 71.6,
     "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
     "source": "manual",
     "extra": {
@@ -18,7 +18,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "agieval-english",
-    "score": 0.646,
+    "score": 64.6,
     "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
     "source": "manual",
     "extra": {
@@ -34,7 +34,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "agieval-english",
-    "score": 0.63,
+    "score": 63,
     "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
     "source": "manual",
     "extra": {
@@ -50,7 +50,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "agieval-english",
-    "score": 0.478,
+    "score": 47.8,
     "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
     "source": "manual",
     "extra": {
@@ -66,7 +66,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "agieval-english",
-    "score": 0.471,
+    "score": 47.1,
     "config": "base pretrained, AGIEval English, 3-5-shot, average/acc_char",
     "source": "manual",
     "extra": {
@@ -82,7 +82,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "api-bank",
-    "score": 0.92,
+    "score": 92,
     "config": "instruction tuned, API-Bank, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -98,7 +98,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "api-bank",
-    "score": 0.9,
+    "score": 90,
     "config": "instruction tuned, API-Bank, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -114,7 +114,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "api-bank",
-    "score": 0.851,
+    "score": 85.1,
     "config": "instruction tuned, API-Bank, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -130,7 +130,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "api-bank",
-    "score": 0.826,
+    "score": 82.6,
     "config": "instruction tuned, API-Bank, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -146,7 +146,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "api-bank",
-    "score": 0.483,
+    "score": 48.3,
     "config": "instruction tuned, API-Bank, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -162,7 +162,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "arc-challenge",
-    "score": 0.969,
+    "score": 96.9,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -176,7 +176,7 @@
     },
     "variants": [
       {
-        "score": 0.961,
+        "score": 96.1,
         "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
         "source": "manual"
       }
@@ -185,7 +185,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "arc-challenge",
-    "score": 0.948,
+    "score": 94.8,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -199,7 +199,7 @@
     },
     "variants": [
       {
-        "score": 0.929,
+        "score": 92.9,
         "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
         "source": "manual"
       }
@@ -208,7 +208,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "arc-challenge",
-    "score": 0.944,
+    "score": 94.4,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -222,7 +222,7 @@
     },
     "variants": [
       {
-        "score": 0.931,
+        "score": 93.1,
         "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
         "source": "manual"
       }
@@ -231,7 +231,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "arc-challenge",
-    "score": 0.834,
+    "score": 83.4,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -245,7 +245,7 @@
     },
     "variants": [
       {
-        "score": 0.797,
+        "score": 79.7,
         "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
         "source": "manual"
       }
@@ -254,7 +254,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "arc-challenge",
-    "score": 0.824,
+    "score": 82.4,
     "config": "instruction tuned, ARC-C, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -268,7 +268,7 @@
     },
     "variants": [
       {
-        "score": 0.794,
+        "score": 79.4,
         "config": "base pretrained, ARC-Challenge, 25-shot, acc_char",
         "source": "manual"
       }
@@ -277,7 +277,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "bbh",
-    "score": 0.859,
+    "score": 85.9,
     "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
     "source": "manual",
     "extra": {
@@ -293,7 +293,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "bbh",
-    "score": 0.816,
+    "score": 81.6,
     "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
     "source": "manual",
     "extra": {
@@ -309,7 +309,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "bbh",
-    "score": 0.813,
+    "score": 81.3,
     "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
     "source": "manual",
     "extra": {
@@ -325,7 +325,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "bbh",
-    "score": 0.642,
+    "score": 64.2,
     "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
     "source": "manual",
     "extra": {
@@ -341,7 +341,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "bbh",
-    "score": 0.611,
+    "score": 61.1,
     "config": "base pretrained, BIG-Bench Hard (CoT), 3-shot, average/em",
     "source": "manual",
     "extra": {
@@ -357,7 +357,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "bfcl",
-    "score": 0.885,
+    "score": 88.5,
     "config": "instruction tuned, BFCL, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -373,7 +373,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "bfcl",
-    "score": 0.848,
+    "score": 84.8,
     "config": "instruction tuned, BFCL, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -389,7 +389,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "bfcl",
-    "score": 0.83,
+    "score": 83,
     "config": "instruction tuned, BFCL, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -405,7 +405,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "bfcl",
-    "score": 0.761,
+    "score": 76.1,
     "config": "instruction tuned, BFCL, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -421,7 +421,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "bfcl",
-    "score": 0.603,
+    "score": 60.3,
     "config": "instruction tuned, BFCL, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -437,7 +437,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "boolq",
-    "score": 0.8,
+    "score": 80,
     "config": "base pretrained, BoolQ, 0-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -453,7 +453,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "boolq",
-    "score": 0.794,
+    "score": 79.4,
     "config": "base pretrained, BoolQ, 0-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -469,7 +469,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "boolq",
-    "score": 0.79,
+    "score": 79,
     "config": "base pretrained, BoolQ, 0-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -485,7 +485,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "boolq",
-    "score": 0.757,
+    "score": 75.7,
     "config": "base pretrained, BoolQ, 0-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -501,7 +501,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "boolq",
-    "score": 0.75,
+    "score": 75,
     "config": "base pretrained, BoolQ, 0-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -517,7 +517,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "commonsenseqa",
-    "score": 0.858,
+    "score": 85.8,
     "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -533,7 +533,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "commonsenseqa",
-    "score": 0.841,
+    "score": 84.1,
     "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -549,7 +549,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "commonsenseqa",
-    "score": 0.838,
+    "score": 83.8,
     "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -565,7 +565,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "commonsenseqa",
-    "score": 0.75,
+    "score": 75,
     "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -581,7 +581,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "commonsenseqa",
-    "score": 0.726,
+    "score": 72.6,
     "config": "base pretrained, CommonSenseQA, 7-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -597,7 +597,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "drop",
-    "score": 0.848,
+    "score": 84.8,
     "config": "base pretrained, DROP (F1), 3-shot, f1",
     "source": "manual",
     "extra": {
@@ -613,7 +613,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "drop",
-    "score": 0.797,
+    "score": 79.7,
     "config": "base pretrained, DROP (F1), 3-shot, f1",
     "source": "manual",
     "extra": {
@@ -629,7 +629,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "drop",
-    "score": 0.796,
+    "score": 79.6,
     "config": "base pretrained, DROP (F1), 3-shot, f1",
     "source": "manual",
     "extra": {
@@ -645,7 +645,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "drop",
-    "score": 0.595,
+    "score": 59.5,
     "config": "base pretrained, DROP (F1), 3-shot, f1",
     "source": "manual",
     "extra": {
@@ -661,7 +661,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "drop",
-    "score": 0.584,
+    "score": 58.4,
     "config": "base pretrained, DROP (F1), 3-shot, f1",
     "source": "manual",
     "extra": {
@@ -677,7 +677,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "gorilla-api-bench",
-    "score": 0.353,
+    "score": 35.3,
     "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -693,7 +693,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "gorilla-api-bench",
-    "score": 0.297,
+    "score": 29.7,
     "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -709,7 +709,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "gorilla-api-bench",
-    "score": 0.147,
+    "score": 14.7,
     "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -725,7 +725,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "gorilla-api-bench",
-    "score": 0.082,
+    "score": 8.2,
     "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -741,7 +741,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "gorilla-api-bench",
-    "score": 0.017,
+    "score": 1.7,
     "config": "instruction tuned, Gorilla Benchmark API Bench, 0-shot, acc",
     "source": "manual",
     "extra": {
@@ -757,7 +757,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "gpqa",
-    "score": 0.507,
+    "score": 50.7,
     "config": "instruction tuned, GPQA, 0-shot, em",
     "source": "manual",
     "extra": {
@@ -773,7 +773,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "gpqa",
-    "score": 0.467,
+    "score": 46.7,
     "config": "instruction tuned, GPQA, 0-shot, em",
     "source": "manual",
     "extra": {
@@ -789,7 +789,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "gpqa",
-    "score": 0.395,
+    "score": 39.5,
     "config": "instruction tuned, GPQA, 0-shot, em",
     "source": "manual",
     "extra": {
@@ -805,7 +805,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "gpqa",
-    "score": 0.346,
+    "score": 34.6,
     "config": "instruction tuned, GPQA, 0-shot, em",
     "source": "manual",
     "extra": {
@@ -821,7 +821,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "gpqa",
-    "score": 0.304,
+    "score": 30.4,
     "config": "instruction tuned, GPQA, 0-shot, em",
     "source": "manual",
     "extra": {
@@ -837,7 +837,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "gsm8k",
-    "score": 0.968,
+    "score": 96.8,
     "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
     "source": "manual",
     "extra": {
@@ -853,7 +853,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "gsm8k",
-    "score": 0.951,
+    "score": 95.1,
     "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
     "source": "manual",
     "extra": {
@@ -869,7 +869,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "gsm8k",
-    "score": 0.93,
+    "score": 93,
     "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
     "source": "manual",
     "extra": {
@@ -885,7 +885,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "gsm8k",
-    "score": 0.845,
+    "score": 84.5,
     "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
     "source": "manual",
     "extra": {
@@ -901,7 +901,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "gsm8k",
-    "score": 0.806,
+    "score": 80.6,
     "config": "instruction tuned, GSM-8K (CoT), 8-shot, em_maj1@1",
     "source": "manual",
     "extra": {
@@ -917,7 +917,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "humaneval",
-    "score": 0.89,
+    "score": 89,
     "config": "instruction tuned, HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -933,7 +933,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "humaneval",
-    "score": 0.817,
+    "score": 81.7,
     "config": "instruction tuned, HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -949,7 +949,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "humaneval",
-    "score": 0.805,
+    "score": 80.5,
     "config": "instruction tuned, HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -965,7 +965,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "humaneval",
-    "score": 0.726,
+    "score": 72.6,
     "config": "instruction tuned, HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -981,7 +981,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "humaneval",
-    "score": 0.604,
+    "score": 60.4,
     "config": "instruction tuned, HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -997,7 +997,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "ifeval",
-    "score": 0.886,
+    "score": 88.6,
     "config": "instruction tuned, IFEval",
     "source": "manual",
     "extra": {
@@ -1013,7 +1013,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "ifeval",
-    "score": 0.875,
+    "score": 87.5,
     "config": "instruction tuned, IFEval",
     "source": "manual",
     "extra": {
@@ -1029,7 +1029,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "ifeval",
-    "score": 0.829,
+    "score": 82.9,
     "config": "instruction tuned, IFEval",
     "source": "manual",
     "extra": {
@@ -1045,7 +1045,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "ifeval",
-    "score": 0.804,
+    "score": 80.4,
     "config": "instruction tuned, IFEval",
     "source": "manual",
     "extra": {
@@ -1061,7 +1061,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "ifeval",
-    "score": 0.768,
+    "score": 76.8,
     "config": "instruction tuned, IFEval",
     "source": "manual",
     "extra": {
@@ -1077,7 +1077,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "math",
-    "score": 0.738,
+    "score": 73.8,
     "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
     "source": "manual",
     "extra": {
@@ -1093,7 +1093,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "math",
-    "score": 0.68,
+    "score": 68,
     "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
     "source": "manual",
     "extra": {
@@ -1109,7 +1109,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "math",
-    "score": 0.519,
+    "score": 51.9,
     "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
     "source": "manual",
     "extra": {
@@ -1125,7 +1125,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "math",
-    "score": 0.51,
+    "score": 51,
     "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
     "source": "manual",
     "extra": {
@@ -1141,7 +1141,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "math",
-    "score": 0.291,
+    "score": 29.1,
     "config": "instruction tuned, MATH (CoT), 0-shot, final_em",
     "source": "manual",
     "extra": {
@@ -1157,7 +1157,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "mbpp+",
-    "score": 0.886,
+    "score": 88.6,
     "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1173,7 +1173,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "mbpp+",
-    "score": 0.86,
+    "score": 86,
     "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1189,7 +1189,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "mbpp+",
-    "score": 0.825,
+    "score": 82.5,
     "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1205,7 +1205,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "mbpp+",
-    "score": 0.728,
+    "score": 72.8,
     "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1221,7 +1221,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "mbpp+",
-    "score": 0.706,
+    "score": 70.6,
     "config": "instruction tuned, MBPP ++ base version, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1237,7 +1237,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "mgsm",
-    "score": 0.916,
+    "score": 91.6,
     "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
     "source": "manual",
     "extra": {
@@ -1253,7 +1253,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "mgsm",
-    "score": 0.869,
+    "score": 86.9,
     "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
     "source": "manual",
     "extra": {
@@ -1269,7 +1269,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "mgsm",
-    "score": 0.689,
+    "score": 68.9,
     "config": "instruction tuned, Multilingual MGSM (CoT), 0-shot, em",
     "source": "manual",
     "extra": {
@@ -1285,7 +1285,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "mmlu",
-    "score": 0.886,
+    "score": 88.6,
     "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1299,12 +1299,12 @@
     },
     "variants": [
       {
-        "score": 0.873,
+        "score": 87.3,
         "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
         "source": "manual"
       },
       {
-        "score": 0.852,
+        "score": 85.2,
         "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1313,7 +1313,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "mmlu",
-    "score": 0.86,
+    "score": 86,
     "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1327,12 +1327,12 @@
     },
     "variants": [
       {
-        "score": 0.836,
+        "score": 83.6,
         "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
         "source": "manual"
       },
       {
-        "score": 0.793,
+        "score": 79.3,
         "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1341,7 +1341,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "mmlu",
-    "score": 0.82,
+    "score": 82,
     "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1355,12 +1355,12 @@
     },
     "variants": [
       {
-        "score": 0.809,
+        "score": 80.9,
         "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
         "source": "manual"
       },
       {
-        "score": 0.795,
+        "score": 79.5,
         "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1369,7 +1369,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "mmlu",
-    "score": 0.73,
+    "score": 73,
     "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1383,12 +1383,12 @@
     },
     "variants": [
       {
-        "score": 0.694,
+        "score": 69.4,
         "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
         "source": "manual"
       },
       {
-        "score": 0.667,
+        "score": 66.7,
         "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1397,7 +1397,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "mmlu",
-    "score": 0.685,
+    "score": 68.5,
     "config": "instruction tuned, MMLU, 5-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1411,12 +1411,12 @@
     },
     "variants": [
       {
-        "score": 0.667,
+        "score": 66.7,
         "config": "base pretrained, MMLU, 5-shot, macro_avg/acc_char",
         "source": "manual"
       },
       {
-        "score": 0.653,
+        "score": 65.3,
         "config": "instruction tuned, MMLU (CoT), 0-shot, macro_avg/acc",
         "source": "manual"
       }
@@ -1425,7 +1425,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "mmlu-pro",
-    "score": 0.733,
+    "score": 73.3,
     "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
     "source": "manual",
     "extra": {
@@ -1439,7 +1439,7 @@
     },
     "variants": [
       {
-        "score": 0.616,
+        "score": 61.6,
         "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1448,7 +1448,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "mmlu-pro",
-    "score": 0.664,
+    "score": 66.4,
     "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
     "source": "manual",
     "extra": {
@@ -1462,7 +1462,7 @@
     },
     "variants": [
       {
-        "score": 0.538,
+        "score": 53.8,
         "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1471,7 +1471,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "mmlu-pro",
-    "score": 0.634,
+    "score": 63.4,
     "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
     "source": "manual",
     "extra": {
@@ -1485,7 +1485,7 @@
     },
     "variants": [
       {
-        "score": 0.55,
+        "score": 55,
         "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1494,7 +1494,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "mmlu-pro",
-    "score": 0.483,
+    "score": 48.3,
     "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
     "source": "manual",
     "extra": {
@@ -1508,7 +1508,7 @@
     },
     "variants": [
       {
-        "score": 0.371,
+        "score": 37.1,
         "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1517,7 +1517,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "mmlu-pro",
-    "score": 0.455,
+    "score": 45.5,
     "config": "instruction tuned, MMLU-Pro (CoT), 5-shot, micro_avg/acc_char",
     "source": "manual",
     "extra": {
@@ -1531,7 +1531,7 @@
     },
     "variants": [
       {
-        "score": 0.362,
+        "score": 36.2,
         "config": "base pretrained, MMLU-Pro (CoT), 5-shot, macro_avg/acc_char",
         "source": "manual"
       }
@@ -1540,7 +1540,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "multipl-e-humaneval",
-    "score": 0.752,
+    "score": 75.2,
     "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1556,7 +1556,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "multipl-e-humaneval",
-    "score": 0.655,
+    "score": 65.5,
     "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1572,7 +1572,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "multipl-e-humaneval",
-    "score": 0.508,
+    "score": 50.8,
     "config": "instruction tuned, Multipl-E HumanEval, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1588,7 +1588,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "multipl-e-mbpp",
-    "score": 0.657,
+    "score": 65.7,
     "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1604,7 +1604,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "multipl-e-mbpp",
-    "score": 0.62,
+    "score": 62,
     "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1620,7 +1620,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "multipl-e-mbpp",
-    "score": 0.524,
+    "score": 52.4,
     "config": "instruction tuned, Multipl-E MBPP, 0-shot, pass@1",
     "source": "manual",
     "extra": {
@@ -1636,7 +1636,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "nexus",
-    "score": 0.587,
+    "score": 58.7,
     "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1652,7 +1652,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "nexus",
-    "score": 0.567,
+    "score": 56.7,
     "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1668,7 +1668,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "nexus",
-    "score": 0.478,
+    "score": 47.8,
     "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1684,7 +1684,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "nexus",
-    "score": 0.385,
+    "score": 38.5,
     "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1700,7 +1700,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "nexus",
-    "score": 0.181,
+    "score": 18.1,
     "config": "instruction tuned, Nexus (0-shot), 0-shot, macro_avg/acc",
     "source": "manual",
     "extra": {
@@ -1716,7 +1716,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "quac",
-    "score": 0.536,
+    "score": 53.6,
     "config": "base pretrained, QuAC (F1), 1-shot, f1",
     "source": "manual",
     "extra": {
@@ -1732,7 +1732,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "quac",
-    "score": 0.511,
+    "score": 51.1,
     "config": "base pretrained, QuAC (F1), 1-shot, f1",
     "source": "manual",
     "extra": {
@@ -1748,7 +1748,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "quac",
-    "score": 0.511,
+    "score": 51.1,
     "config": "base pretrained, QuAC (F1), 1-shot, f1",
     "source": "manual",
     "extra": {
@@ -1764,7 +1764,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "quac",
-    "score": 0.449,
+    "score": 44.9,
     "config": "base pretrained, QuAC (F1), 1-shot, f1",
     "source": "manual",
     "extra": {
@@ -1780,7 +1780,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "quac",
-    "score": 0.444,
+    "score": 44.4,
     "config": "base pretrained, QuAC (F1), 1-shot, f1",
     "source": "manual",
     "extra": {
@@ -1796,7 +1796,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "squad",
-    "score": 0.893,
+    "score": 89.3,
     "config": "base pretrained, SQuAD, 1-shot, em",
     "source": "manual",
     "extra": {
@@ -1812,7 +1812,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "squad",
-    "score": 0.856,
+    "score": 85.6,
     "config": "base pretrained, SQuAD, 1-shot, em",
     "source": "manual",
     "extra": {
@@ -1828,7 +1828,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "squad",
-    "score": 0.818,
+    "score": 81.8,
     "config": "base pretrained, SQuAD, 1-shot, em",
     "source": "manual",
     "extra": {
@@ -1844,7 +1844,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "squad",
-    "score": 0.77,
+    "score": 77,
     "config": "base pretrained, SQuAD, 1-shot, em",
     "source": "manual",
     "extra": {
@@ -1860,7 +1860,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "squad",
-    "score": 0.764,
+    "score": 76.4,
     "config": "base pretrained, SQuAD, 1-shot, em",
     "source": "manual",
     "extra": {
@@ -1876,7 +1876,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "triviaqa-wiki",
-    "score": 0.918,
+    "score": 91.8,
     "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
     "source": "manual",
     "extra": {
@@ -1892,7 +1892,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "triviaqa-wiki",
-    "score": 0.898,
+    "score": 89.8,
     "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
     "source": "manual",
     "extra": {
@@ -1908,7 +1908,7 @@
   {
     "model_id": "llama-3-70b",
     "benchmark_id": "triviaqa-wiki",
-    "score": 0.897,
+    "score": 89.7,
     "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
     "source": "manual",
     "extra": {
@@ -1924,7 +1924,7 @@
   {
     "model_id": "llama-3-8b",
     "benchmark_id": "triviaqa-wiki",
-    "score": 0.785,
+    "score": 78.5,
     "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
     "source": "manual",
     "extra": {
@@ -1940,7 +1940,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "triviaqa-wiki",
-    "score": 0.776,
+    "score": 77.6,
     "config": "base pretrained, TriviaQA-Wiki, 5-shot, em",
     "source": "manual",
     "extra": {
@@ -1956,7 +1956,7 @@
   {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "winogrande",
-    "score": 0.867,
+    "score": 86.7,
     "config": "base pretrained, Winogrande, 5-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -1972,7 +1972,7 @@
   {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "winogrande",
-    "score": 0.833,
+    "score": 83.3,
     "config": "base pretrained, Winogrande, 5-shot, acc_char",
     "source": "manual",
     "extra": {
@@ -1988,7 +1988,7 @@
   {
     "model_id": "llama-3.1-8b",
     "benchmark_id": "winogrande",
-    "score": 0.605,
+    "score": 60.5,
     "config": "base pretrained, Winogrande, 5-shot, acc_char",
     "source": "manual",
     "extra": {
