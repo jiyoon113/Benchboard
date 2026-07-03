@@ -245,13 +245,6 @@ function BuilderPage() {
           <h1 className="text-3xl font-bold tracking-tight text-neutral-950 md:text-4xl">{BUILDER_COPY.title}</h1>
           <p className="mt-3 text-sm leading-6 text-neutral-600">{BUILDER_COPY.summary}</p>
           <div className="mt-5 flex flex-wrap items-center gap-2">
-            <button
-              type="button"
-              onClick={() => setSubsetReady(true)}
-              className="rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
-            >
-              {HERO_CTAS.primary}
-            </button>
             <a
               href={pathForRoute("scores")}
               className="rounded-md border border-neutral-300 bg-white px-4 py-2 text-sm font-semibold text-neutral-700 hover:border-neutral-500"
