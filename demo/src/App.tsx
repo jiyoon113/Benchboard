@@ -270,8 +270,8 @@ function BuilderPage() {
           ))}
         </ol>
 
-        <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(300px,0.8fr)]">
-          <div className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
+        <div className="grid items-stretch gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(300px,0.8fr)]">
+          <div className="flex h-full flex-col rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
             <div>
               <h2 className="text-base font-semibold text-neutral-950">Target capability</h2>
               <p className="mt-0.5 text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
@@ -340,7 +340,7 @@ function BuilderPage() {
               </label>
             </div>
 
-            <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-4">
+            <div className="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-4">
               <p className="text-xs leading-5 text-neutral-500">
                 {subsetReady ? `${selectedBenchmarks.length} of ${rankedBenchmarks.length} candidate benchmarks selected` : `${rankedBenchmarks.length} matching candidates · top-k recomputed from axes, cost, and budget`}
               </p>
