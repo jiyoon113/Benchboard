@@ -20,6 +20,8 @@ import {
   type CoverageRow,
   type TrendData,
   type TrendPoint,
+  COVERAGE_MODEL_COUNT,
+  COVERAGE_BENCH_COUNT,
 } from "./data";
 import {
   BUILDER_COPY,
@@ -227,7 +229,6 @@ function BuilderPage() {
                 <p className="text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
               </div>
               <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-                <div className="rounded-md border border-neutral-200 bg-neutral-50 px-3 py-2 text-xs text-neutral-600">{BUILDER_COPY.selectionPrinciple}</div>
                 <button
                   type="button"
                   onClick={() => setSubsetReady(true)}
@@ -271,7 +272,7 @@ function BuilderPage() {
                     resetSubset();
                   }}
                 >
-                  {axisSources.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}
+                  {axisSources.filter((item) => item.id === "dynamic-vloop").map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}
                 </select>
               </label>
               <label className="space-y-2">
@@ -315,19 +316,13 @@ function BuilderPage() {
 
           <aside className="flex h-full flex-col justify-between rounded-lg bg-neutral-950 p-4 text-white shadow-sm">
             <div>
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
-                  <h2 className="mt-1 text-xl font-semibold">{source.label}</h2>
-                </div>
-                <span className="rounded-md border border-white/15 px-2 py-1 text-xs text-neutral-300">{pct(source.confidence)} confidence</span>
-              </div>
-              <p className="mt-4 text-sm leading-6 text-neutral-300">{source.description}</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
+              <h2 className="mt-1 text-xl font-semibold">{source.label}</h2>
             </div>
             <div className="mt-6 grid grid-cols-3 gap-3">
-              <div><div className="text-2xl font-semibold">{run.score_matrix_coverage.models}</div><div className="text-xs text-neutral-400">models</div></div>
-              <div><div className="text-2xl font-semibold">{run.score_matrix_coverage.benchmarks}</div><div className="text-xs text-neutral-400">benchmarks</div></div>
-              <div><div className="text-2xl font-semibold">{pct(run.score_matrix_coverage.density)}</div><div className="text-xs text-neutral-400">coverage</div></div>
+              <div><div className="text-2xl font-semibold">{COVERAGE_MODEL_COUNT}</div><div className="text-xs text-neutral-400">models</div></div>
+              <div><div className="text-2xl font-semibold">{COVERAGE_BENCH_COUNT}</div><div className="text-xs text-neutral-400">benchmarks</div></div>
+              <div><div className="text-2xl font-semibold">100%</div><div className="text-xs text-neutral-400">coverage</div></div>
             </div>
           </aside>
         </div>

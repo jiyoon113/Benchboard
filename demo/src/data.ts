@@ -173,6 +173,10 @@ const TARGET_MODELS = [
   "phi-4", "phi-4-mini", "qwen-2.5-72b", "qwen3-235b",
 ];
 
+// Counts shown on the Builder tab so its summary matches the Coverage tab.
+export const COVERAGE_MODEL_COUNT = TARGET_MODELS.length;
+export const COVERAGE_BENCH_COUNT = COVERAGE_BENCH.length;
+
 export interface CoverageRow {
   id: string;
   name: string;
