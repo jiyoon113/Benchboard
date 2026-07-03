@@ -51,6 +51,62 @@ const recommendationCards = Object.entries(modelShortlist.recommendations).map((
   row: shortlistById.get(modelId),
 }));
 
+// Validation panel: does the compact-subset ranking preserve the full-suite ranking?
+const VALIDATION_K = 3;
+const RANK_PAIRS = modelShortlist.rankings.map((r) => [r.subset_rank, r.full_suite_rank] as [number, number]);
+
+function spearmanRho(pairs: Array<[number, number]>) {
+  const n = pairs.length;
+  if (n < 2) return 1;
+  const d2 = pairs.reduce((sum, [a, b]) => sum + (a - b) ** 2, 0);
+  return 1 - (6 * d2) / (n * (n * n - 1));
+}
+
+function kendallTau(pairs: Array<[number, number]>) {
+  let concordant = 0;
+  let discordant = 0;
+  for (let i = 0; i < pairs.length; i++) {
+    for (let j = i + 1; j < pairs.length; j++) {
+      const s = Math.sign(pairs[i][0] - pairs[j][0]) * Math.sign(pairs[i][1] - pairs[j][1]);
+      if (s > 0) concordant++;
+      else if (s < 0) discordant++;
+    }
+  }
+  const total = concordant + discordant;
+  return total ? (concordant - discordant) / total : 1;
+}
+
+function ndcgAtK(k: number) {
+  const dcg = (rows: typeof modelShortlist.rankings) =>
+    rows.slice(0, k).reduce((sum, r, i) => sum + r.full_suite_score / Math.log2(i + 2), 0);
+  const bySubset = [...modelShortlist.rankings].sort((a, b) => a.subset_rank - b.subset_rank);
+  const ideal = [...modelShortlist.rankings].sort((a, b) => b.full_suite_score - a.full_suite_score);
+  const idcg = dcg(ideal);
+  return idcg ? dcg(bySubset) / idcg : 1;
+}
+
+function topKOverlap(k: number) {
+  const subsetTop = new Set(modelShortlist.rankings.filter((r) => r.subset_rank <= k).map((r) => r.model_id));
+  const fullTop = modelShortlist.rankings.filter((r) => r.full_suite_rank <= k);
+  const hit = fullTop.filter((r) => subsetTop.has(r.model_id)).length;
+  return fullTop.length ? hit / fullTop.length : 1;
+}
+
+const selectedModelRegret = modelShortlist.rankings.find((r) => r.subset_rank === 1)?.regret ?? 0;
+
+const validationStats = [
+  { key: "spearman", label: "Spearman ρ", value: spearmanRho(RANK_PAIRS).toFixed(2),
+    tip: "Spearman rank correlation: how closely the subset's overall model ordering matches the full suite (1.00 = identical)." },
+  { key: "kendall", label: "Kendall's τ", value: kendallTau(RANK_PAIRS).toFixed(2),
+    tip: "Kendall's τ: agreement of every pairwise model ordering between the subset and the full suite (1.00 = identical)." },
+  { key: "ndcg", label: `NDCG@${VALIDATION_K}`, value: ndcgAtK(VALIDATION_K).toFixed(2),
+    tip: `NDCG@${VALIDATION_K}: ranking quality of the top ${VALIDATION_K} models under the subset, weighting higher positions more (1.00 = ideal).` },
+  { key: "overlap", label: `top-${VALIDATION_K} overlap`, value: pct(topKOverlap(VALIDATION_K)),
+    tip: `Share of the full suite's top-${VALIDATION_K} models that the subset also ranks in its own top ${VALIDATION_K}.` },
+  { key: "regret", label: "selected-model regret", value: selectedModelRegret.toFixed(3),
+    tip: "Full-suite performance gap between the model the subset picks as best and the true best model (0 = no regret)." },
+];
+
 type Route = "builder" | "axes" | "scores" | "trends" | "coverage";
 
 function routeFromPath(): Route {
@@ -221,9 +277,9 @@ function BuilderPage() {
           ))}
         </ol>
 
-        <div className="grid items-stretch gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(320px,0.8fr)]">
-          <div className="h-full rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
-            <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+        <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(300px,0.8fr)]">
+          <div className="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
+            <div className="mb-3 flex flex-wrap items-start justify-between gap-3">
               <div>
                 <h2 className="text-base font-semibold text-neutral-950">Target capability</h2>
                 <p className="text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
@@ -261,8 +317,8 @@ function BuilderPage() {
               ))}
             </div>
 
-            <div className="mt-5 grid gap-4 md:grid-cols-3">
-              <label className="space-y-2">
+            <div className="mt-4 grid gap-3 md:grid-cols-3">
+              <label className="space-y-1.5">
                 <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Axis source</span>
                 <select
                   className="w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm"
@@ -275,7 +331,7 @@ function BuilderPage() {
                   {axisSources.filter((item) => item.id === "dynamic-vloop").map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}
                 </select>
               </label>
-              <label className="space-y-2">
+              <label className="space-y-1.5">
                 <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Benchmark count</span>
                 <input
                   className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm"
@@ -289,7 +345,7 @@ function BuilderPage() {
                   }}
                 />
               </label>
-              <label className="space-y-2">
+              <label className="space-y-1.5">
                 <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Cost penalty</span>
                 <input
                   className="w-full accent-emerald-600"
@@ -306,7 +362,7 @@ function BuilderPage() {
               </label>
             </div>
 
-            <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-4">
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-3">
               <span className="text-xs text-neutral-500">
                 {subsetReady ? `${selectedBenchmarks.length} benchmarks selected from ${rankedBenchmarks.length} matching candidates` : `${rankedBenchmarks.length} matching benchmark candidates`}
               </span>
@@ -314,18 +370,35 @@ function BuilderPage() {
             </div>
           </div>
 
-          <aside className="flex h-full flex-col justify-between rounded-lg bg-neutral-950 p-4 text-white shadow-sm">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
-              <h2 className="mt-1 text-xl font-semibold">{source.label}</h2>
-            </div>
-            <div className="mt-6 grid grid-cols-3 gap-3">
+          <aside className="rounded-lg bg-neutral-950 p-4 text-white shadow-sm">
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
+            <h2 className="mt-1 text-lg font-semibold">{source.label}</h2>
+            <div className="mt-4 grid grid-cols-3 gap-3">
               <div><div className="text-2xl font-semibold">{COVERAGE_MODEL_COUNT}</div><div className="text-xs text-neutral-400">models</div></div>
               <div><div className="text-2xl font-semibold">{COVERAGE_BENCH_COUNT}</div><div className="text-xs text-neutral-400">benchmarks</div></div>
               <div><div className="text-2xl font-semibold">100%</div><div className="text-xs text-neutral-400">coverage</div></div>
             </div>
           </aside>
         </div>
+      </section>
+
+      <section className="mt-8 rounded-xl border border-neutral-200 bg-white p-5 shadow-md">
+        <SectionTitle eyebrow="Validation panel" title="Validation" note="Does the compact subset preserve the full-suite model ranking? Hover a metric for its meaning." />
+        {!subsetReady ? (
+          <PendingPanel title="No validation yet" body="Generate a compact subset to compare its model ranking against the full suite." />
+        ) : (
+          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-5">
+            {validationStats.map((stat) => (
+              <div key={stat.key} title={stat.tip} className="cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                <div className="flex items-center gap-1 text-xs font-medium text-neutral-500">
+                  <span>{stat.label}</span>
+                  <span className="text-neutral-400" aria-hidden="true">ⓘ</span>
+                </div>
+                <div className="mt-1 text-2xl font-semibold tabular-nums text-neutral-950">{stat.value}</div>
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       <section className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
@@ -454,7 +527,6 @@ function BuilderPage() {
         <SectionTitle eyebrow="Run provenance" title="Guardrails and coverage" />
         <div className="grid gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
           <dl className="space-y-3 text-sm">
-            <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Run id</dt><dd className="mt-1 break-words font-medium text-neutral-900">{run.run_id}</dd></div>
             <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Condition</dt><dd className="mt-1 text-neutral-700">{run.condition}</dd></div>
             <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Selected source</dt><dd className="mt-1 text-neutral-700">{source.label}</dd></div>
           </dl>
