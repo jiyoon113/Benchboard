@@ -550,24 +550,17 @@ function BuilderPage() {
                 </tbody>
               </table>
             </div>
-            </>
-          )}
-        </div>
-      </section>
-
-      <section className="mt-8 rounded-xl border border-neutral-200 bg-white p-5 shadow-md">
-        <SectionTitle eyebrow="Run provenance" title="Guardrails and coverage" />
-        <div className="grid gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-          <dl className="space-y-3 text-sm">
-            <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Condition</dt><dd className="mt-1 text-neutral-700">{run.condition}</dd></div>
-            <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Selected source</dt><dd className="mt-1 text-neutral-700">{source.label}</dd></div>
-          </dl>
-          {!subsetReady ? (
-            <PendingPanel title="No subset run selected" body="Guardrail notes appear after subset generation." />
-          ) : (
-            <div className="space-y-2">
-              {selectedResult.reject_reasons.map((reason) => <p key={reason} className="rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-900">{reason}</p>)}
+            <div className="mt-5 border-t border-neutral-200 pt-4">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-neutral-500">Run provenance</p>
+              <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+                <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Condition</dt><dd className="mt-1 text-neutral-700">{run.condition}</dd></div>
+                <div><dt className="text-xs uppercase tracking-wide text-neutral-500">Selected source</dt><dd className="mt-1 text-neutral-700">{source.label}</dd></div>
+              </dl>
+              <div className="mt-3 space-y-2">
+                {selectedResult.reject_reasons.map((reason) => <p key={reason} className="rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-900">{reason}</p>)}
+              </div>
             </div>
+            </>
           )}
         </div>
       </section>
