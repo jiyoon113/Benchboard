@@ -376,18 +376,24 @@ function BuilderPage() {
       </section>
 
       <section className="mt-8 rounded-xl border border-neutral-200 bg-white p-5 shadow-md">
-        <SectionTitle eyebrow="Validation panel" title="Validation" note="Does the compact subset preserve the full-suite model ranking? Hover a metric for its meaning." />
+        <div className="mb-4">
+          <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Validation</p>
+          <p className="mt-1 text-xs leading-5 text-neutral-500">Does the compact subset preserve the full-suite model ranking?</p>
+        </div>
         {!subsetReady ? (
           <PendingPanel title="No validation yet" body="Generate a compact subset to compare its model ranking against the full suite." />
         ) : (
           <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-5">
             {validationStats.map((stat) => (
-              <div key={stat.key} title={stat.tip} className="cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+              <div key={stat.key} className="group relative cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
                 <div className="flex items-center gap-1 text-xs font-medium text-neutral-500">
                   <span>{stat.label}</span>
                   <span className="text-neutral-400" aria-hidden="true">ⓘ</span>
                 </div>
                 <div className="mt-1 text-2xl font-semibold tabular-nums text-neutral-950">{stat.value}</div>
+                <div className="pointer-events-none absolute left-0 top-full z-20 mt-1 hidden w-56 rounded-md bg-neutral-900 px-3 py-2 text-xs leading-4 text-white shadow-lg group-hover:block">
+                  {stat.tip}
+                </div>
               </div>
             ))}
           </div>
