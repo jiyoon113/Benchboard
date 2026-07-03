@@ -740,7 +740,7 @@ export default function App() {
       <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-baseline gap-5">
-            <a href={pathForRoute("builder")} className="font-semibold tracking-tight">benchboard</a>
+            <a href={pathForRoute("builder")} className="font-semibold tracking-tight">BenchPress</a>
             <nav className="flex gap-3 text-sm">
               {nav.map(([id, label]) => (
                 <a
