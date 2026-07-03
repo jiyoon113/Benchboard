@@ -271,46 +271,31 @@ function BuilderPage() {
         </ol>
 
         <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(300px,0.8fr)]">
-          <div className="rounded-lg border border-neutral-200 bg-white p-4 shadow-sm">
-            <div className="mb-3 flex flex-wrap items-start justify-between gap-3">
-              <div>
-                <h2 className="text-base font-semibold text-neutral-950">Target capability</h2>
-                <p className="text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
-              </div>
-              <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-                <button
-                  type="button"
-                  onClick={() => setSubsetReady(true)}
-                  className="rounded-md bg-neutral-950 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800"
-                >
-                  Generate compact subset
-                </button>
-                <button
-                  type="button"
-                  onClick={resetSubset}
-                  className="rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm font-semibold text-neutral-700 hover:border-neutral-500"
-                >
-                  Reset
-                </button>
-              </div>
+          <div className="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
+            <div>
+              <h2 className="text-base font-semibold text-neutral-950">Target capability</h2>
+              <p className="mt-0.5 text-xs text-neutral-500">{BUILDER_COPY.demoPath}</p>
             </div>
 
-            <div className="flex flex-wrap gap-2">
+            <div className="mt-5">
+              <span className="text-[11px] font-semibold uppercase tracking-wide text-neutral-500">Capabilities</span>
+              <div className="mt-2 flex flex-wrap gap-2">
               {CAPABILITY_OPTIONS.map(([id, label]) => (
                 <button
                   key={id}
                   type="button"
                   onClick={() => toggleAxis(id)}
-                  className={`rounded-md border px-3 py-2 text-sm font-medium transition ${
-                    selectedAxes.includes(id) ? "border-neutral-950 bg-neutral-950 text-white" : "border-neutral-300 bg-white text-neutral-700 hover:border-neutral-500"
+                  className={`rounded-full border px-3.5 py-1.5 text-sm font-medium transition ${
+                    selectedAxes.includes(id) ? "border-neutral-950 bg-neutral-950 text-white" : "border-neutral-300 bg-white text-neutral-600 hover:border-neutral-400 hover:text-neutral-900"
                   }`}
                 >
                   {label}
                 </button>
               ))}
+              </div>
             </div>
 
-            <div className="mt-4 grid gap-3 md:grid-cols-3">
+            <div className="mt-5 grid gap-4 border-t border-neutral-200 pt-5 sm:grid-cols-3">
               <label className="space-y-1.5">
                 <span className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Axis source</span>
                 <select
@@ -355,21 +340,36 @@ function BuilderPage() {
               </label>
             </div>
 
-            <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-3">
-              <span className="text-xs text-neutral-500">
-                {subsetReady ? `${selectedBenchmarks.length} benchmarks selected from ${rankedBenchmarks.length} matching candidates` : `${rankedBenchmarks.length} matching benchmark candidates`}
-              </span>
-              <span className="text-xs text-neutral-500">Top k is recomputed from target axes, cost penalty, and benchmark budget.</span>
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-neutral-200 pt-4">
+              <p className="text-xs leading-5 text-neutral-500">
+                {subsetReady ? `${selectedBenchmarks.length} of ${rankedBenchmarks.length} candidate benchmarks selected` : `${rankedBenchmarks.length} matching candidates · top-k recomputed from axes, cost, and budget`}
+              </p>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={resetSubset}
+                  className="rounded-md border border-neutral-300 bg-white px-3.5 py-2 text-sm font-semibold text-neutral-700 hover:border-neutral-500"
+                >
+                  Reset
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSubsetReady(true)}
+                  className="rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                >
+                  Generate compact subset
+                </button>
+              </div>
             </div>
           </div>
 
-          <aside className="rounded-lg bg-neutral-950 p-4 text-white shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
+          <aside className="rounded-xl bg-neutral-950 p-6 text-white shadow-sm">
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
             <h2 className="mt-1 text-lg font-semibold">{source.label}</h2>
-            <div className="mt-4 grid grid-cols-3 gap-3">
-              <div><div className="text-2xl font-semibold">{COVERAGE_MODEL_COUNT}</div><div className="text-xs text-neutral-400">models</div></div>
-              <div><div className="text-2xl font-semibold">{COVERAGE_BENCH_COUNT}</div><div className="text-xs text-neutral-400">benchmarks</div></div>
-              <div><div className="text-2xl font-semibold">100%</div><div className="text-xs text-neutral-400">coverage</div></div>
+            <div className="mt-5 grid grid-cols-3 divide-x divide-white/10">
+              <div className="pr-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_MODEL_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">models</div></div>
+              <div className="px-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_BENCH_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">benchmarks</div></div>
+              <div className="px-3"><div className="text-2xl font-semibold tabular-nums">100%</div><div className="mt-0.5 text-xs text-neutral-400">coverage</div></div>
             </div>
           </aside>
         </div>
