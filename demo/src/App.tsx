@@ -363,41 +363,43 @@ function BuilderPage() {
             </div>
           </div>
 
-          <aside className="rounded-xl bg-neutral-950 p-6 text-white shadow-sm">
-            <p className="text-[11px] font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
-            <h2 className="mt-1 text-lg font-semibold">{source.label}</h2>
-            <div className="mt-5 grid grid-cols-3 divide-x divide-white/10">
-              <div className="pr-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_MODEL_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">models</div></div>
-              <div className="px-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_BENCH_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">benchmarks</div></div>
-              <div className="px-3"><div className="text-2xl font-semibold tabular-nums">100%</div><div className="mt-0.5 text-xs text-neutral-400">coverage</div></div>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section className="mt-8 rounded-xl border border-neutral-200 bg-white p-5 shadow-md">
-        <div className="mb-4">
-          <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Validation</p>
-          <p className="mt-1 text-xs leading-5 text-neutral-500">Does the compact subset preserve the full-suite model ranking?</p>
-        </div>
-        {!subsetReady ? (
-          <PendingPanel title="No validation yet" body="Generate a compact subset to compare its model ranking against the full suite." />
-        ) : (
-          <div className="grid gap-3 sm:grid-cols-3 lg:grid-cols-5">
-            {validationStats.map((stat) => (
-              <div key={stat.key} className="group relative cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                <div className="flex items-center gap-1 text-xs font-medium text-neutral-500">
-                  <span>{stat.label}</span>
-                  <span className="text-neutral-400" aria-hidden="true">ⓘ</span>
-                </div>
-                <div className="mt-1 text-2xl font-semibold tabular-nums text-neutral-950">{stat.value}</div>
-                <div className="pointer-events-none absolute left-0 top-full z-20 mt-1 hidden w-56 rounded-md bg-neutral-900 px-3 py-2 text-xs leading-4 text-white shadow-lg group-hover:block">
-                  {stat.tip}
-                </div>
+          <div className="space-y-6">
+            <aside className="rounded-xl bg-neutral-950 p-6 text-white shadow-sm">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-emerald-300">Selected source</p>
+              <h2 className="mt-1 text-lg font-semibold">{source.label}</h2>
+              <div className="mt-5 grid grid-cols-3 divide-x divide-white/10">
+                <div className="pr-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_MODEL_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">models</div></div>
+                <div className="px-3"><div className="text-2xl font-semibold tabular-nums">{COVERAGE_BENCH_COUNT}</div><div className="mt-0.5 text-xs text-neutral-400">benchmarks</div></div>
+                <div className="px-3"><div className="text-2xl font-semibold tabular-nums">100%</div><div className="mt-0.5 text-xs text-neutral-400">coverage</div></div>
               </div>
-            ))}
+            </aside>
+
+            <div className="rounded-xl border border-neutral-200 bg-white p-5 shadow-md">
+              <div className="mb-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-neutral-500">Validation</p>
+                <p className="mt-1 text-xs leading-5 text-neutral-500">Does the compact subset preserve the full-suite model ranking?</p>
+              </div>
+              {!subsetReady ? (
+                <PendingPanel title="No validation yet" body="Generate a compact subset to compare its model ranking against the full suite." />
+              ) : (
+                <div className="grid grid-cols-2 gap-3">
+                  {validationStats.map((stat) => (
+                    <div key={stat.key} className="group relative cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
+                      <div className="flex items-center gap-1 text-xs font-medium text-neutral-500">
+                        <span>{stat.label}</span>
+                        <span className="text-neutral-400" aria-hidden="true">ⓘ</span>
+                      </div>
+                      <div className="mt-1 text-2xl font-semibold tabular-nums text-neutral-950">{stat.value}</div>
+                      <div className="pointer-events-none absolute left-0 top-full z-20 mt-1 hidden w-56 rounded-md bg-neutral-900 px-3 py-2 text-xs leading-4 text-white shadow-lg group-hover:block">
+                        {stat.tip}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-        )}
+        </div>
       </section>
 
       <section className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)]">
