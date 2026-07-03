@@ -165,12 +165,12 @@ const COVERAGE_BENCH: Array<[string, string]> = [
   ["livecodebench", "LiveCodeBench"],
 ];
 
+// BenchPress main set: 13 models × 20 benchmarks (matches
+// Benchpress/data/leaderboard_scores.json). COVERAGE_BENCH above holds the 20.
 const TARGET_MODELS = [
-  "claude-3.5-sonnet", "claude-sonnet-4", "claude-sonnet-4.5", "deepseek-v3",
-  "gemini-2.5-flash", "gemini-3-pro", "gemma-3-4b", "glm-4.6", "glm-4.7",
-  "gpt-4o", "gpt-5.1", "gpt-oss-120b", "gpt-oss-20b", "grok-4", "kimi-k2.5",
-  "kimi-k2", "llama-3.1-405b", "llama-3.1-70b", "llama-3.1-8b", "nova-pro",
-  "phi-4", "phi-4-mini", "qwen-2.5-72b", "qwen3-235b",
+  "deepseek-v3", "gpt-4o", "qwen-2.5-72b", "qwen3-235b", "claude-3.5-sonnet",
+  "gpt-oss-120b", "gpt-oss-20b", "llama-3.1-8b", "phi-4-mini", "claude-sonnet-4",
+  "gemma-3-4b", "kimi-k2", "glm-4.7",
 ];
 
 // Counts shown on the Builder tab so its summary matches the Coverage tab.
