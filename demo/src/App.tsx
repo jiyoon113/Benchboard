@@ -107,6 +107,16 @@ const validationStats = [
     tip: "Full-suite performance gap between the model the subset picks as best and the true best model (0 = no regret)." },
 ];
 
+// Model shortlist rendered transposed: metrics as row labels, models as columns.
+type ShortlistRow = (typeof modelShortlist.rankings)[number];
+const SHORTLIST_METRICS: Array<{ label: string; render: (r: ShortlistRow) => string; badge?: boolean }> = [
+  { label: "Subset", render: (r) => `#${r.subset_rank} / ${r.subset_score.toFixed(1)}` },
+  { label: "Full suite", render: (r) => `#${r.full_suite_rank} / ${r.full_suite_score.toFixed(1)}` },
+  { label: "Cost", render: (r) => `$${r.cost_per_mtok.toFixed(1)}/M` },
+  { label: "Regret", render: (r) => r.regret.toFixed(3) },
+  { label: "Recommendation", render: (r) => r.recommendation, badge: true },
+];
+
 type Route = "builder" | "axes" | "scores" | "trends" | "coverage";
 
 function routeFromPath(): Route {
@@ -515,8 +525,29 @@ function BuilderPage() {
             </div>
             <div className="overflow-x-auto rounded-lg border border-neutral-200 bg-white">
               <table className="w-full min-w-[650px] border-collapse text-sm">
-                <thead><tr className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500"><th className="py-2 pl-3 pr-3 font-semibold">Model</th><th className="px-2 py-2 font-semibold">Subset</th><th className="px-2 py-2 font-semibold">Full suite</th><th className="px-2 py-2 font-semibold">Cost</th><th className="px-2 py-2 font-semibold">Regret</th><th className="px-2 py-2 font-semibold">Recommendation</th></tr></thead>
-                <tbody>{modelShortlist.rankings.map((row) => <tr key={row.model_id} className="border-b border-neutral-100 last:border-b-0"><td className="py-3 pl-3 pr-3"><div className="font-semibold text-neutral-950">{row.model_name}</div><div className="text-xs text-neutral-500">{row.vendor}</div></td><td className="px-2 py-3 text-neutral-700">#{row.subset_rank} / {row.subset_score.toFixed(1)}</td><td className="px-2 py-3 text-neutral-700">#{row.full_suite_rank} / {row.full_suite_score.toFixed(1)}</td><td className="px-2 py-3 text-neutral-700">${row.cost_per_mtok.toFixed(1)}/M</td><td className="px-2 py-3 text-neutral-700">{row.regret.toFixed(3)}</td><td className="px-2 py-3"><span className="rounded-md bg-neutral-100 px-2 py-1 text-xs font-medium text-neutral-700">{row.recommendation}</span></td></tr>)}</tbody>
+                <thead>
+                  <tr className="border-b border-neutral-200 bg-neutral-50 text-left">
+                    <th className="sticky left-0 z-10 bg-neutral-50 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-neutral-500">Model</th>
+                    {modelShortlist.rankings.map((row) => (
+                      <th key={row.model_id} className="whitespace-nowrap px-3 py-2 text-left">
+                        <div className="font-semibold text-neutral-950">{row.model_name}</div>
+                        <div className="text-xs font-normal text-neutral-500">{row.vendor}</div>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {SHORTLIST_METRICS.map((metric) => (
+                    <tr key={metric.label} className="border-b border-neutral-100 last:border-b-0">
+                      <th scope="row" className="sticky left-0 z-10 whitespace-nowrap bg-white px-3 py-3 text-left text-xs font-semibold uppercase tracking-wide text-neutral-500">{metric.label}</th>
+                      {modelShortlist.rankings.map((row) => (
+                        <td key={row.model_id} className="whitespace-nowrap px-3 py-3 text-neutral-700">
+                          {metric.badge ? <span className="rounded-md bg-neutral-100 px-2 py-1 text-xs font-medium text-neutral-700">{metric.render(row)}</span> : metric.render(row)}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
               </table>
             </div>
             </>
