@@ -382,15 +382,15 @@ function BuilderPage() {
               {!subsetReady ? (
                 <PendingPanel title="No validation yet" body="Generate a compact subset to compare its model ranking against the full suite." />
               ) : (
-                <div className="grid grid-cols-2 gap-3">
+                <div className="divide-y divide-neutral-200 rounded-lg border border-neutral-200">
                   {validationStats.map((stat) => (
-                    <div key={stat.key} className="group relative cursor-help rounded-lg border border-neutral-200 bg-neutral-50 p-3">
-                      <div className="flex items-center gap-1 text-xs font-medium text-neutral-500">
-                        <span>{stat.label}</span>
+                    <div key={stat.key} className="group relative flex cursor-help items-center justify-between gap-2 px-3 py-2.5">
+                      <span className="flex items-center gap-1 text-sm text-neutral-600">
+                        {stat.label}
                         <span className="text-neutral-400" aria-hidden="true">ⓘ</span>
-                      </div>
-                      <div className="mt-1 text-2xl font-semibold tabular-nums text-neutral-950">{stat.value}</div>
-                      <div className="pointer-events-none absolute left-0 top-full z-20 mt-1 hidden w-56 rounded-md bg-neutral-900 px-3 py-2 text-xs leading-4 text-white shadow-lg group-hover:block">
+                      </span>
+                      <span className="text-base font-semibold tabular-nums text-neutral-950">{stat.value}</span>
+                      <div className="pointer-events-none absolute left-3 top-full z-20 hidden w-56 rounded-md bg-neutral-900 px-3 py-2 text-xs leading-4 text-white shadow-lg group-hover:block">
                         {stat.tip}
                       </div>
                     </div>
