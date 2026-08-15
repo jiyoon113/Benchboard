@@ -720,7 +720,34 @@
         "type":  "deterministic",
         "language":  "ko",
         "source_url":  "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
-        "description":  "AI Hub benchmark dataset for Korean LLM reliability, including harmlessness and information accuracy categories."
+        "description":  "AI Hub benchmark dataset for Korean LLM reliability, covering the 3H-style categories harmlessness, information accuracy, and helpfulness."
+    },
+    {
+        "id":  "nia-llm-reliability-harmlessness-ko",
+        "name":  "NIA LLM Reliability Harmlessness Ko",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko",
+        "source_url":  "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
+        "description":  "Harmlessness slice of AI Hub's Korean LLM reliability benchmark: bias, hate, illegal-risk, and sensitivity categories."
+    },
+    {
+        "id":  "nia-llm-reliability-information-accuracy-ko",
+        "name":  "NIA LLM Reliability Information Accuracy Ko",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko",
+        "source_url":  "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
+        "description":  "Information-accuracy slice of AI Hub's Korean LLM reliability benchmark: Korean, English, math, society, science, Korean history, and general knowledge categories."
+    },
+    {
+        "id":  "nia-llm-reliability-helpfulness-ko",
+        "name":  "NIA LLM Reliability Helpfulness Ko",
+        "category":  "korean",
+        "type":  "deterministic",
+        "language":  "ko",
+        "source_url":  "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
+        "description":  "Helpfulness slice of AI Hub's Korean LLM reliability benchmark: clarification and nonsense categories."
     },
     {
         "id":  "global-norm-culture-ko",
