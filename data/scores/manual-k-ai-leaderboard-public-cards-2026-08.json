@@ -1,0 +1,650 @@
+[
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "click",
+    "score": 0.987,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "click",
+    "score": 0.987,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "click",
+    "score": 0.984,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "click",
+    "score": 0.853,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "click",
+    "score": 0.799,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "click",
+    "score": 0.797,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "click",
+    "score": 0.794,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "click",
+    "score": 0.794,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "click",
+    "score": 0.77,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.742,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.736,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.712,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.654,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.65,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.646,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.646,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.638,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "com2-main-ko",
+    "score": 0.593,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "k-ai-average",
+    "score": 0.621,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "k-ai-average",
+    "score": 0.62,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "k-ai-average",
+    "score": 0.611,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "k-ai-average",
+    "score": 0.584,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "k-ai-average",
+    "score": 0.56,
+    "config": "official AI Hub submission",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "k-ai-average",
+    "score": 0.56,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "k-ai-average",
+    "score": 0.559,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "k-ai-average",
+    "score": 0.551,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "k-ai-average",
+    "score": 0.549,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.077,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.07,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.07,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.07,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.07,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.065,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.062,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.061,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "k-ai-hle-ko",
+    "score": 0.044,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.725,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.72,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.702,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.7,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.676,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.668,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.666,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.658,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "kommlu-pro",
+    "score": 0.636,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "dino-leetaehun-finetune-v3",
+    "benchmark_id": "musr-ko",
+    "score": 0.759,
+    "config": "sft_v3",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+      "reported_by": "Dino-LeeTaeHun finetune-v3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "totorong-extgemma4-40-5b",
+    "benchmark_id": "musr-ko",
+    "score": 0.644,
+    "config": "K-AI Leaderboard, submitted 2026-06-12",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+      "reported_by": "TOTORONG extGemma4-40_5B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b-v2",
+    "benchmark_id": "musr-ko",
+    "score": 0.617,
+    "config": "K-AI Leaderboard, scored 2026-06-26",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-28b-mix",
+    "benchmark_id": "musr-ko",
+    "score": 0.611,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "quetta-27b-koreasoner-v3",
+    "benchmark_id": "musr-ko",
+    "score": 0.604,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+      "reported_by": "NewenAI QuettaLLMs-27B-Koreasoner-V3 model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "jgos-31b-citizen",
+    "benchmark_id": "musr-ko",
+    "score": 0.591,
+    "config": "K-AI Leaderboard #1 comparison row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+      "reported_by": "websfactory Webs-Sejong-31B-v2 model card comparison row",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "rogue-27b-kr",
+    "benchmark_id": "musr-ko",
+    "score": 0.584,
+    "config": "K-AI Leaderboard",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+      "reported_by": "GinigenAI Rogue-27B-KR model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "warecube-ko-27b-v3",
+    "benchmark_id": "musr-ko",
+    "score": 0.584,
+    "config": "K-AI Leaderboard external actual row",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Anserwise/AWAXIS-Hybrid-28B",
+      "reported_by": "Anserwise AWAXIS-Hybrid-28B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "webs-sejong-31b",
+    "benchmark_id": "musr-ko",
+    "score": 0.57,
+    "config": "K-AI Leaderboard, scored 2026-06-24",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+      "reported_by": "websfactory Webs-Sejong-31B model card",
+      "fetched_at": "2026-08-15T00:00:00Z"
+    }
+  }
+]

@@ -1459,6 +1459,15 @@
     "type": "deterministic"
   },
   {
+    "id": "k-ai-average",
+    "name": "K-AI Average",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "Composite average across the K-AI Leaderboard Korean private evaluation suite."
+  },
+  {
     "id": "k-ai-hle-ko",
     "name": "K-AI HLE Ko",
     "category": "korean",
@@ -1466,6 +1475,15 @@
     "language": "ko",
     "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
     "description": "K-AI Leaderboard HLE(Ko): Korean high-difficulty logic and reasoning metric."
+  },
+  {
+    "id": "k-ai-leaderboard-average",
+    "name": "K-AI Leaderboard Average",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "Composite average across the K-AI Leaderboard Korean private evaluation suite."
   },
   {
     "id": "k-dtcbench",

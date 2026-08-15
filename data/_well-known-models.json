@@ -5001,5 +5001,77 @@
     "release_date": "2026-06-30",
     "report_url": "https://openrouter.ai/anthropic/claude-sonnet-5",
     "aliases": ["Claude Sonnet 5", "claude-sonnet-5", "anthropic/claude-sonnet-5"]
+  },
+  {
+    "id": "quetta-27b-koreasoner-v3",
+    "name": "QuettaLLMs-27B-Koreasoner-V3",
+    "vendor": "NewenAI",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+    "aliases": ["QuettaLLMs-27B-Koreasoner-V3", "NewenAI/QuettaLLMs-27B-Koreasoner-V3", "Quetta-V3", "QuettaLLMs-V3"]
+  },
+  {
+    "id": "rogue-27b-kr",
+    "name": "Rogue-27B-KR",
+    "vendor": "GinigenAI",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/ginigen-ai/Rogue-27B-KR",
+    "aliases": ["Rogue-27B-KR", "ginigen-ai/Rogue-27B-KR"]
+  },
+  {
+    "id": "webs-sejong-31b",
+    "name": "Webs-Sejong-31B",
+    "vendor": "websfactory",
+    "release_date": "2026-06-24",
+    "report_url": "https://huggingface.co/websfactory/Webs-Sejong-31B",
+    "aliases": ["Webs-Sejong-31B", "websfactory/Webs-Sejong-31B"]
+  },
+  {
+    "id": "webs-sejong-31b-v2",
+    "name": "Webs-Sejong-31B-v2",
+    "vendor": "websfactory",
+    "release_date": "2026-06-26",
+    "report_url": "https://huggingface.co/websfactory/Webs-Sejong-31B-v2",
+    "aliases": ["Webs-Sejong-31B-v2", "websfactory/Webs-Sejong-31B-v2"]
+  },
+  {
+    "id": "jgos-31b-citizen",
+    "name": "JGOS-31B-Citizen",
+    "vendor": "JGOS-Model",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/JGOS-Model/JGOS-31B-Citizen",
+    "aliases": ["JGOS-31B-Citizen", "JGOS-Model/JGOS-31B-Citizen"]
+  },
+  {
+    "id": "dino-leetaehun-finetune-v3",
+    "name": "Dino-LeeTaeHun finetune-v3",
+    "vendor": "Dino-LeeTaeHun",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/Dino-LeeTaeHun/finetune-v3",
+    "aliases": ["Dino-LeeTaeHun/finetune-v3", "finetune-v3", "sft_v3"]
+  },
+  {
+    "id": "totorong-extgemma4-40-5b",
+    "name": "extGemma4-40_5B",
+    "vendor": "TOTORONG",
+    "release_date": "2026-06-12",
+    "report_url": "https://huggingface.co/TOTORONG/extGemma4-40_5B",
+    "aliases": ["extGemma4-40_5B", "TOTORONG/extGemma4-40_5B", "Solon_Athens_v5_STEM-31B"]
+  },
+  {
+    "id": "rogue-28b-mix",
+    "name": "Rogue-28B-MIX",
+    "vendor": "GinigenAI",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/ginigen-ai/Rogue-28B-MIX",
+    "aliases": ["Rogue-28B-MIX", "ginigen-ai/Rogue-28B-MIX"]
+  },
+  {
+    "id": "warecube-ko-27b-v3",
+    "name": "Warecube-KO-27B-v3",
+    "vendor": "Warecube",
+    "release_date": "2026",
+    "report_url": "https://huggingface.co/Warecube/Warecube-KO-27B-v3",
+    "aliases": ["Warecube-KO-27B-v3", "Warecube/Warecube-KO-27B-v3"]
   }
 ]
