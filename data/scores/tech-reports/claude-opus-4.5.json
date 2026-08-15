@@ -1,9 +1,9 @@
 [
   {
     "model_id": "claude-opus-4.5",
-    "benchmark_id": "2-bench-airline",
-    "score": 87.8,
-    "config": "corrected",
+    "benchmark_id": "2-bench",
+    "score": 98.2,
+    "config": "Telecom",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
@@ -12,8 +12,28 @@
     },
     "variants": [
       {
+        "score": 88.9,
+        "config": "RETAIL",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-opus-4.5__system-card.pdf",
+          "ref": "p.26",
+          "fetched_at": "2026-06-08T03:16:13.730Z"
+        }
+      },
+      {
+        "score": 87.8,
+        "config": "corrected, AIRLINE",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-opus-4.5__system-card.pdf",
+          "ref": "p.26",
+          "fetched_at": "2026-06-08T03:16:13.730Z"
+        }
+      },
+      {
         "score": 70.1,
-        "config": "original",
+        "config": "original, AIRLINE",
         "source": {
           "kind": "tech_report",
           "url": "claude-opus-4.5__system-card.pdf",
@@ -25,9 +45,9 @@
   },
   {
     "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "2-bench-airline",
-    "score": 77.4,
-    "config": "corrected",
+    "benchmark_id": "2-bench",
+    "score": 98,
+    "config": "Telecom",
     "source": {
       "kind": "tech_report",
       "url": "claude-opus-4.5__system-card.pdf",
@@ -37,8 +57,30 @@
     },
     "variants": [
       {
+        "score": 86.2,
+        "config": "RETAIL",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-opus-4.5__system-card.pdf",
+          "ref": "p.26",
+          "reported_by": "claude-opus-4.5",
+          "fetched_at": "2026-06-08T03:16:13.730Z"
+        }
+      },
+      {
+        "score": 77.4,
+        "config": "corrected, AIRLINE",
+        "source": {
+          "kind": "tech_report",
+          "url": "claude-opus-4.5__system-card.pdf",
+          "ref": "p.26",
+          "reported_by": "claude-opus-4.5",
+          "fetched_at": "2026-06-08T03:16:13.730Z"
+        }
+      },
+      {
         "score": 70,
-        "config": "original",
+        "config": "original, AIRLINE",
         "source": {
           "kind": "tech_report",
           "url": "claude-opus-4.5__system-card.pdf",
@@ -48,56 +90,6 @@
         }
       }
     ]
-  },
-  {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "2-bench-retail",
-    "score": 88.9,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.26",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "2-bench-retail",
-    "score": 86.2,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.26",
-      "reported_by": "claude-opus-4.5",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "2-bench-telecom",
-    "score": 98.2,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.26",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
-  },
-  {
-    "model_id": "claude-sonnet-4.5",
-    "benchmark_id": "2-bench-telecom",
-    "score": 98,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "claude-opus-4.5__system-card.pdf",
-      "ref": "p.26",
-      "reported_by": "claude-opus-4.5",
-      "fetched_at": "2026-06-08T03:16:13.730Z"
-    }
   },
   {
     "model_id": "claude-opus-4.5",

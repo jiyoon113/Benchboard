@@ -1,0 +1,554 @@
+[
+  {
+    "model_id": "claude-opus-5",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 59.2,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-opus-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.6",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 58.7,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.6",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.8-max",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 58.4,
+    "config": "OpenRouter snapshot 2026-08-14; qwen/qwen3.8-max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 57.8,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-sol",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k3",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 54.3,
+    "config": "OpenRouter snapshot 2026-08-14; moonshotai/kimi-k3",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 50.2,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-terra",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-5",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 49.7,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-sonnet-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 49.6,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-pro-0813",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.5",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 48.9,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 48.4,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-flash-0731",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 46.9,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-luna",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.7-flash",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 45.1,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.7-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.6-flash",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 40.5,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.6-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro4",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 33.6,
+    "config": "OpenRouter snapshot 2026-08-14; upstage/solar-pro4",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-3.5-lightning",
+    "benchmark_id": "artificial-analysis-agentic-index",
+    "score": 13.8,
+    "config": "OpenRouter snapshot 2026-08-14; nvidia/nemotron-3.5-lightning",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-5",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 78,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-opus-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 77.4,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-sol",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.6",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 76.8,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.6",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 76.7,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-terra",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k3",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 76.2,
+    "config": "OpenRouter snapshot 2026-08-14; moonshotai/kimi-k3",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.7-flash",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 76.1,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.7-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.5",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 72.4,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.8-max",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 71.8,
+    "config": "OpenRouter snapshot 2026-08-14; qwen/qwen3.8-max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-5",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 71.5,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-sonnet-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 71.4,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-luna",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.6-flash",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 69.2,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.6-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 69.1,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-flash-0731",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 68.8,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-pro-0813",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro4",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 52.7,
+    "config": "OpenRouter snapshot 2026-08-14; upstage/solar-pro4",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-3.5-lightning",
+    "benchmark_id": "artificial-analysis-coding-index",
+    "score": 26.8,
+    "config": "OpenRouter snapshot 2026-08-14; nvidia/nemotron-3.5-lightning",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-5",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 63.1,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-opus-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 60.9,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-sol",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.6",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 60.9,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.6",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "kimi-k3",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 59.7,
+    "config": "OpenRouter snapshot 2026-08-14; moonshotai/kimi-k3",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "qwen3.8-max",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 58.1,
+    "config": "OpenRouter snapshot 2026-08-14; qwen/qwen3.8-max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 56.6,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-terra",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.7-flash",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 56,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.7-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "grok-4.5",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 55.8,
+    "config": "OpenRouter snapshot 2026-08-14; x-ai/grok-4.5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-5",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 55.3,
+    "config": "OpenRouter snapshot 2026-08-14; anthropic/claude-sonnet-5",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-pro",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 53.2,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-pro-0813",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 52.3,
+    "config": "OpenRouter snapshot 2026-08-14; openai/gpt-5.6-luna",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 51.8,
+    "config": "OpenRouter snapshot 2026-08-14; deepseek/deepseek-v4-flash-0731",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.6-flash",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 51.6,
+    "config": "OpenRouter snapshot 2026-08-14; google/gemini-3.6-flash",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "motif-3-beta",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 44,
+    "config": "model-card snapshot 2026-08-14",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+      "reported_by": "Motif 3 Beta official model card",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "solar-pro4",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 41.6,
+    "config": "OpenRouter snapshot 2026-08-14; upstage/solar-pro4",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "nemotron-3.5-lightning",
+    "benchmark_id": "artificial-analysis-intelligence-index",
+    "score": 23.6,
+    "config": "OpenRouter snapshot 2026-08-14; nvidia/nemotron-3.5-lightning",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://openrouter.ai/api/v1/models",
+      "reported_by": "OpenRouter model API (Artificial Analysis benchmark fields)",
+      "fetched_at": "2026-08-14T00:00:00Z"
+    }
+  }
+]

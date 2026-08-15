@@ -1,8 +1,20 @@
 [
   {
+    "id": "2-bench",
+    "name": "τ2 -BENCH",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "aa-lcr",
     "name": "AA-LCR",
     "category": "long",
+    "type": "deterministic"
+  },
+  {
+    "id": "aav-capsid-packaging-prediction",
+    "name": "AAV Capsid Packaging Prediction",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -29,6 +41,13 @@
     "name": "AgentHarm",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "agents'-last-exam",
+    "name": "Agents' Last Exam",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Long-horizon professional agent evaluation."
   },
   {
     "id": "agieval",
@@ -88,6 +107,12 @@
     "description": "American Invitational Mathematics Examination 2026."
   },
   {
+    "id": "aime26",
+    "name": "AIME26",
+    "category": "math",
+    "type": "deterministic"
+  },
+  {
     "id": "alignbench-v1.1",
     "name": "AlignBench v1.1",
     "category": "chinese",
@@ -108,6 +133,21 @@
     "description": "Length-controlled win rate vs GPT-4-Preview, judged by GPT-4-turbo."
   },
   {
+    "id": "alpacaeval2.0",
+    "name": "AlpacaEval2.0",
+    "category": "preference",
+    "type": "non_deterministic"
+  },
+  {
+    "id": "amc-2022-23",
+    "name": "AMC 2022-23",
+    "category": "math",
+    "type": "deterministic",
+    "language": "en",
+    "source_url": "https://llm-stats.com/benchmarks/amc-2022-23",
+    "description": "American Mathematics Competitions problems from the 2022-23 academic year; accuracy."
+  },
+  {
     "id": "ammlu",
     "name": "AMMLU",
     "category": "general",
@@ -126,6 +166,12 @@
     "category": "math",
     "type": "deterministic",
     "description": "Hard math-reasoning benchmark."
+  },
+  {
+    "id": "apex-shortlist",
+    "name": "Apex-shortlist",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "api-bank",
@@ -212,6 +258,36 @@
     "description": "Arena-Hard v2.0 creative-writing win rate."
   },
   {
+    "id": "arenahard",
+    "name": "ArenaHard",
+    "category": "preference",
+    "type": "deterministic"
+  },
+  {
+    "id": "artificial-analysis-agentic-index",
+    "name": "Artificial Analysis Agentic Index",
+    "category": "agent",
+    "type": "deterministic",
+    "source_url": "https://artificialanalysis.ai/",
+    "description": "Artificial Analysis composite agentic index; snapshot version is recorded in score config/source."
+  },
+  {
+    "id": "artificial-analysis-coding-index",
+    "name": "Artificial Analysis Coding Index",
+    "category": "coding",
+    "type": "deterministic",
+    "source_url": "https://artificialanalysis.ai/",
+    "description": "Artificial Analysis composite coding index; snapshot version is recorded in score config/source."
+  },
+  {
+    "id": "artificial-analysis-intelligence-index",
+    "name": "Artificial Analysis Intelligence Index",
+    "category": "general",
+    "type": "deterministic",
+    "source_url": "https://artificialanalysis.ai/",
+    "description": "Artificial Analysis composite intelligence index; snapshot version is recorded in score config/source."
+  },
+  {
     "id": "autologi",
     "name": "AutoLogi",
     "category": "general",
@@ -224,6 +300,18 @@
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Tool-use / workflow-automation agent benchmark."
+  },
+  {
+    "id": "avoidance-+-correctness",
+    "name": "Avoidance + Correctness",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "avoidance-only",
+    "name": "Avoidance only",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "babyvision",
@@ -332,6 +420,12 @@
     "type": "deterministic"
   },
   {
+    "id": "blink",
+    "name": "BLINK",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "blueprint-bench-2",
     "name": "Blueprint Bench 2",
     "category": "vision",
@@ -386,11 +480,23 @@
     "language": "zh"
   },
   {
+    "id": "c-simpleqa",
+    "name": "C-SimpleQA",
+    "category": "factuality",
+    "type": "deterministic"
+  },
+  {
     "id": "c3",
     "name": "C3",
     "category": "chinese",
     "type": "deterministic",
     "language": "zh"
+  },
+  {
+    "id": "capture-the-flag",
+    "name": "Capture the Flag",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "cc-ocr",
@@ -409,6 +515,12 @@
     "id": "chartqa",
     "name": "ChartQA",
     "category": "vision",
+    "type": "deterministic"
+  },
+  {
+    "id": "chartqapro",
+    "name": "CHARTQAPRO",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
@@ -445,6 +557,12 @@
     "category": "korean",
     "type": "deterministic",
     "language": "ko"
+  },
+  {
+    "id": "clotho-v1",
+    "name": "Clotho-v1",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "cluewsc",
@@ -508,6 +626,24 @@
     "type": "deterministic"
   },
   {
+    "id": "com2-main",
+    "name": "Com2-main",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "K-AI Leaderboard Korean situational context and dialogue intent understanding metric."
+  },
+  {
+    "id": "com2-main-ko",
+    "name": "Com2 Main Ko",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "K-AI Leaderboard Com2-main(Ko): Korean situational context and dialogue intent understanding metric."
+  },
+  {
     "id": "commonsenseqa",
     "name": "CommonSenseQA",
     "category": "general",
@@ -524,6 +660,12 @@
     "id": "computational-biology-biopipelinebench",
     "name": "Computational Biology, BioPipelineBench",
     "category": "health",
+    "type": "deterministic"
+  },
+  {
+    "id": "connectors",
+    "name": "Connectors",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -648,6 +790,12 @@
     "type": "deterministic"
   },
   {
+    "id": "dna-sequence-design-for-transcription-factor-binding",
+    "name": "DNA sequence design for transcription factor binding",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "docvqa",
     "name": "DocVQA",
     "category": "multimodal",
@@ -687,6 +835,12 @@
     "description": "Embodied spatial reasoning."
   },
   {
+    "id": "emotional-reliance",
+    "name": "Emotional reliance",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "erqa",
     "name": "ERQA",
     "category": "vision",
@@ -705,6 +859,12 @@
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Capture-the-flag style cybersecurity exploitation benchmark (Cap-F)."
+  },
+  {
+    "id": "extremism",
+    "name": "Extremism",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "facts-grounding",
@@ -731,11 +891,47 @@
     "type": "deterministic"
   },
   {
+    "id": "financial-transaction",
+    "name": "Financial transaction",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "finqa",
     "name": "FinQA",
     "category": "other",
     "type": "deterministic",
     "description": "Numerical reasoning over financial reports."
+  },
+  {
+    "id": "fleurs-en",
+    "name": "Fleurs-en",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "fleurs-en2ko",
+    "name": "Fleurs-en2ko",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "fleurs-ko",
+    "name": "Fleurs-ko",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "fleurs-ko2en",
+    "name": "Fleurs-ko2en",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "flores+",
+    "name": "Flores+",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "fortress",
@@ -784,10 +980,47 @@
     "type": "deterministic"
   },
   {
+    "id": "gdpval-aa-v2",
+    "name": "GDPval-AA v2",
+    "category": "general",
+    "type": "deterministic",
+    "description": "Artificial Analysis professional knowledge-work evaluation, reported as Elo."
+  },
+  {
+    "id": "general-confirmation",
+    "name": "General confirmation",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "geneval",
+    "name": "GenEval",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "global-mmlu",
     "name": "Global MMLU",
     "category": "multilinguality",
     "type": "deterministic"
+  },
+  {
+    "id": "global-norm-and-culture-evaluation",
+    "name": "Global Norm and Culture Evaluation",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=1&dataSetSn=71832&topMenu=",
+    "description": "AI Hub Korean benchmark evaluation dataset for global norms and culture."
+  },
+  {
+    "id": "global-norm-culture-ko",
+    "name": "Global Norm Culture Ko",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=1&dataSetSn=71832&topMenu=",
+    "description": "AI Hub Korean benchmark evaluation dataset for global norms and culture."
   },
   {
     "id": "global-piqa",
@@ -824,6 +1057,12 @@
     "id": "gmmlu-overall-average",
     "name": "GMMLU Overall average",
     "category": "general",
+    "type": "deterministic"
+  },
+  {
+    "id": "gore",
+    "name": "Gore",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -939,6 +1178,14 @@
     "description": "Cleaned/relabeled GSM8K (platinum)."
   },
   {
+    "id": "hae-rae-v1.0",
+    "name": "HAE-RAE v1.0",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "description": "Korean language and cultural knowledge benchmark, version 1.0."
+  },
+  {
     "id": "hae-rae-v1.1",
     "name": "HAE-RAE v1.1",
     "category": "korean",
@@ -946,11 +1193,35 @@
     "language": "ko"
   },
   {
+    "id": "haerae",
+    "name": "HAERAE",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "hallusionbench",
     "name": "HallusionBench",
     "category": "multimodal",
     "type": "deterministic",
     "description": "Visual hallucination benchmark."
+  },
+  {
+    "id": "hard-negative-protein-binding-prediction",
+    "name": "Hard-negative protein binding prediction",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "harms-erotic",
+    "name": "harms-erotic",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "hate",
+    "name": "Hate",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "healthbench",
@@ -1018,6 +1289,12 @@
     "id": "hiddenmath-hard",
     "name": "HiddenMAth-Hard",
     "category": "math",
+    "type": "deterministic"
+  },
+  {
+    "id": "high-stakes-communication",
+    "name": "High-stakes communication",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -1096,6 +1373,12 @@
     "description": "3D/spatial understanding (Hypersim)."
   },
   {
+    "id": "if-eval",
+    "name": "IF-Eval",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "ifbench",
     "name": "IFBench",
     "category": "instruction",
@@ -1107,6 +1390,12 @@
     "category": "instruction",
     "type": "deterministic",
     "description": "Instruction-following evaluation ??verifiable constraints (e.g. word count, format)."
+  },
+  {
+    "id": "imgedit",
+    "name": "ImgEdit",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "imo-answerbench",
@@ -1170,6 +1459,33 @@
     "type": "deterministic"
   },
   {
+    "id": "k-ai-hle-ko",
+    "name": "K-AI HLE Ko",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "K-AI Leaderboard HLE(Ko): Korean high-difficulty logic and reasoning metric."
+  },
+  {
+    "id": "k-dtcbench",
+    "name": "K-DTCBench",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "k-mmbench",
+    "name": "K-MMBench",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "k-viscuit",
+    "name": "K-VISCUIT",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
     "id": "kbankmmlu",
     "name": "KBankMMLU",
     "category": "korean",
@@ -1182,6 +1498,15 @@
     "category": "korean",
     "type": "deterministic",
     "language": "ko"
+  },
+  {
+    "id": "kcsat-korean",
+    "name": "KCSAT Korean",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://github.com/Marker-Inc-Korea/Korean-SAT-LLM-Leaderboard",
+    "description": "Korean-language section of the Korean College Scholastic Ability Test; annual raw scores and average standard scores."
   },
   {
     "id": "kernel-task",
@@ -1204,19 +1529,24 @@
     "language": "ko"
   },
   {
-    "id": "kmmlu-pro",
-    "name": "KMMLU-Pro",
-    "category": "korean",
-    "type": "deterministic",
-    "language": "ko"
-  },
-  {
     "id": "kmmlu-redux",
     "name": "KMMLU-Redux",
     "category": "korean",
     "type": "deterministic",
     "language": "ko",
     "description": "Cleaned variant of KMMLU."
+  },
+  {
+    "id": "kmmmu",
+    "name": "KMMMU",
+    "category": "multimodal",
+    "type": "deterministic"
+  },
+  {
+    "id": "kmo26",
+    "name": "KMO26",
+    "category": "korean",
+    "type": "deterministic"
   },
   {
     "id": "knowledge",
@@ -1239,6 +1569,15 @@
     "language": "ko"
   },
   {
+    "id": "ko-arena-hard",
+    "name": "Ko Arena Hard",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=wblextrldata&currMenu=520&dataSetSn=71897&topMenu=100",
+    "description": "NIA AI Hub Korean localized Arena-Hard benchmark subset."
+  },
+  {
     "id": "ko-arena-hard-v2",
     "name": "Ko Arena Hard v2",
     "category": "korean",
@@ -1246,11 +1585,74 @@
     "language": "ko"
   },
   {
+    "id": "ko-bfcl",
+    "name": "Ko-BFCL",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=wblextrldata&currMenu=520&dataSetSn=71897&topMenu=100",
+    "description": "NIA AI Hub Korean localized Berkeley Function Calling Leaderboard subset."
+  },
+  {
+    "id": "ko-eq-bench",
+    "name": "Ko-EQ-Bench",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean emotional intelligence metric."
+  },
+  {
+    "id": "ko-gpqa",
+    "name": "Ko-GPQA",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean GPQA-style reasoning metric."
+  },
+  {
+    "id": "ko-gsm8k",
+    "name": "Ko-GSM8K",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean GSM8K-style math metric."
+  },
+  {
+    "id": "ko-harmlessness",
+    "name": "Ko-Harmlessness",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean harmlessness metric."
+  },
+  {
+    "id": "ko-helpfulness",
+    "name": "Ko-Helpfulness",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean helpfulness metric."
+  },
+  {
     "id": "ko-ifeval",
     "name": "Ko-IFEval",
     "category": "korean",
     "type": "deterministic",
     "language": "ko"
+  },
+  {
+    "id": "ko-long-context",
+    "name": "Ko Long Context",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=&currMenu=&dataSetSn=71882&topMenu=",
+    "description": "NIA AI Hub Korean long-context understanding benchmark with 4K-128K context ranges."
   },
   {
     "id": "ko-longbench",
@@ -1310,10 +1712,28 @@
     "description": "Korean translation of MT-Bench. LLM-as-judge."
   },
   {
+    "id": "ko-tau2",
+    "name": "Ko-tau2",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=wblextrldata&currMenu=520&dataSetSn=71897&topMenu=100",
+    "description": "NIA AI Hub Korean localized tau2 benchmark subset."
+  },
+  {
     "id": "ko-webrag",
     "name": "Ko-WebRAG",
     "category": "korean",
     "type": "deterministic"
+  },
+  {
+    "id": "ko-winogrande",
+    "name": "Ko-WinoGrande",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 Korean WinoGrande-style commonsense metric."
   },
   {
     "id": "kobalt",
@@ -1323,6 +1743,15 @@
     "language": "ko"
   },
   {
+    "id": "kommlu-pro",
+    "name": "KoMMLU-Pro",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "K-AI Leaderboard Korean multi-domain knowledge and commonsense metric; also reported as KMMLU-Pro."
+  },
+  {
     "id": "komt-bench",
     "name": "KoMT-Bench",
     "category": "korean",
@@ -1330,18 +1759,86 @@
     "language": "ko"
   },
   {
+    "id": "konet",
+    "name": "KoNET",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
     "id": "korbench",
     "name": "KoRBench",
-    "category": "general",
+    "category": "korean",
     "type": "deterministic",
+    "language": "ko",
     "description": "Knowledge-orthogonal reasoning benchmark."
+  },
+  {
+    "id": "korean-long-context-understanding",
+    "name": "Korean Long-Context Understanding",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=&currMenu=&dataSetSn=71882&topMenu=",
+    "description": "NIA AI Hub Korean long-context understanding benchmark with 4K-128K context ranges."
   },
   {
     "id": "kormedmcqa",
     "name": "KorMedMCQA",
     "category": "korean",
     "type": "deterministic",
-    "language": "ko"
+    "language": "ko",
+    "description": "Korean medical multiple-choice QA benchmark."
+  },
+  {
+    "id": "kornat-alignment",
+    "name": "KorNAT Alignment",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=extrldata&dataSetSn=71871",
+    "description": "NIA AI Hub Korean social-value and culture alignment benchmark dataset."
+  },
+  {
+    "id": "kornat-knowledge",
+    "name": "KorNAT-Knowledge",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 KorNAT knowledge metric."
+  },
+  {
+    "id": "kornat-social-value",
+    "name": "KorNAT-Social-Value",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10326&topMenu=103",
+    "description": "Open Ko-LLM Leaderboard Season 2 KorNAT social-value metric."
+  },
+  {
+    "id": "kreta",
+    "name": "KRETA",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "ks-eval",
+    "name": "KS-Eval",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "ksponspeech-c",
+    "name": "KsponSpeech-c",
+    "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "ksponspeech-o",
+    "name": "KsponSpeech-o",
+    "category": "korean",
+    "type": "deterministic"
   },
   {
     "id": "lab-bench",
@@ -1368,6 +1865,18 @@
     "type": "deterministic",
     "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "description": "Agentic legal task benchmark."
+  },
+  {
+    "id": "librispeech-c",
+    "name": "LibriSpeech-c",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "librispeech-o",
+    "name": "LibriSpeech-o",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "lingoqa",
@@ -1435,6 +1944,12 @@
     "type": "deterministic"
   },
   {
+    "id": "llava-w",
+    "name": "LLaVA-W",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "loft",
     "name": "LOFT",
     "category": "long",
@@ -1444,6 +1959,12 @@
     "id": "logickor",
     "name": "LogicKor",
     "category": "korean",
+    "type": "deterministic"
+  },
+  {
+    "id": "logicvista",
+    "name": "LOGICVISTA",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -1485,6 +2006,12 @@
   {
     "id": "longbench-summarization",
     "name": "LongBench - Summarization",
+    "category": "long",
+    "type": "deterministic"
+  },
+  {
+    "id": "longbench-v1",
+    "name": "LongBench v1",
     "category": "long",
     "type": "deterministic"
   },
@@ -1551,6 +2078,12 @@
     "type": "deterministic"
   },
   {
+    "id": "manufacturing-benchmark",
+    "name": "Manufacturing Benchmark",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "mask",
     "name": "MASK",
     "category": "safety",
@@ -1589,6 +2122,12 @@
     "type": "deterministic",
     "source_url": "https://math-perturb.github.io",
     "description": "MATH level-5 ?얜챷????????癰귣똻???롫뮉 揶쎛甕곗눘??癰궰??simple perturbation) ?怨몄뒠. ??? MATH?? ??쑨??????젫 鈺곌퀗援?"
+  },
+  {
+    "id": "math-vision",
+    "name": "MATH-VISION",
+    "category": "math",
+    "type": "deterministic"
   },
   {
     "id": "mathvision",
@@ -1680,6 +2219,12 @@
     "category": "health",
     "type": "deterministic",
     "description": "Expert medical multimodal QA."
+  },
+  {
+    "id": "mental-health",
+    "name": "Mental health",
+    "category": "health",
+    "type": "deterministic"
   },
   {
     "id": "metr-time-horizon",
@@ -2157,6 +2702,15 @@
     "description": "Multistep Soft Reasoning ??long narrative reasoning (Open LLM Leaderboard v2)."
   },
   {
+    "id": "musr-ko",
+    "name": "MuSR Ko",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://aihub.or.kr/aihubnews/notice/view.do?currMenu=131&nttSn=10486&topMenu=103",
+    "description": "K-AI Leaderboard MuSR(Ko): Korean multi-step reasoning over complex context metric."
+  },
+  {
     "id": "mvbench",
     "name": "MVBench",
     "category": "video",
@@ -2170,10 +2724,34 @@
     "type": "deterministic"
   },
   {
+    "id": "naver-tv-content",
+    "name": "NAVER TV Content",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "nexus",
     "name": "Nexus",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "nia-korean-llm-reliability-benchmark",
+    "name": "NIA Korean LLM Reliability Benchmark",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
+    "description": "AI Hub benchmark dataset for Korean LLM reliability, including harmlessness and information accuracy categories."
+  },
+  {
+    "id": "nia-llm-reliability-ko",
+    "name": "NIA LLM Reliability Ko",
+    "category": "korean",
+    "type": "deterministic",
+    "language": "ko",
+    "source_url": "https://www.aihub.or.kr/aihubdata/data/view.do?aihubDataSe=%3Ddata&currMenu=115&dataSetSn=71760&topMenu=100",
+    "description": "AI Hub benchmark dataset for Korean LLM reliability, including harmlessness and information accuracy categories."
   },
   {
     "id": "nih",
@@ -2193,6 +2771,12 @@
     "category": "coding",
     "type": "deterministic",
     "description": "Long-horizon natural-language-to-repository coding."
+  },
+  {
+    "id": "nonviolent-illicit-behavior",
+    "name": "Nonviolent illicit behavior",
+    "category": "other",
+    "type": "deterministic"
   },
   {
     "id": "nova-63",
@@ -2216,6 +2800,12 @@
     "description": "OCR benchmark."
   },
   {
+    "id": "ocrbench-v2",
+    "name": "OCRBENCH v2",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "odinw13",
     "name": "ODInW13",
     "category": "vision",
@@ -2235,9 +2825,32 @@
     "type": "deterministic"
   },
   {
+    "id": "olymmath",
+    "name": "OlymMATH",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://github.com/RUCAIBox/OlymMATH",
+    "description": "Bilingual Olympiad-level mathematics benchmark with English/Chinese easy and hard subsets."
+  },
+  {
+    "id": "omni-math",
+    "name": "Omni-MATH",
+    "category": "math",
+    "type": "deterministic",
+    "language": "en",
+    "source_url": "https://omni-math.github.io/",
+    "description": "Olympiad-level mathematics benchmark of 4,428 problems across 33 subdomains and 10 difficulty levels."
+  },
+  {
     "id": "omnidocbench-1.5",
     "name": "OmniDocBench 1.5",
     "category": "vision",
+    "type": "deterministic"
+  },
+  {
+    "id": "omnidocbench-v1.5",
+    "name": "OMNIDOCBENCH V1.5",
+    "category": "multimodal",
     "type": "deterministic"
   },
   {
@@ -2287,6 +2900,13 @@
     "name": "OSWorld",
     "category": "agent",
     "type": "deterministic"
+  },
+  {
+    "id": "osworld-2.0",
+    "name": "OSWorld 2.0",
+    "category": "agent",
+    "type": "deterministic",
+    "description": "Computer-use benchmark reported using the OSWorld 2.0 environment."
   },
   {
     "id": "osworld-verified",
@@ -2413,6 +3033,12 @@
     "description": "Real-world visual QA."
   },
   {
+    "id": "red-teaming-benchmark",
+    "name": "Red-teaming Benchmark",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "refcoco",
     "name": "RefCOCO",
     "category": "vision",
@@ -2461,6 +3087,12 @@
     "description": "Search agent benchmark."
   },
   {
+    "id": "search-and-function-calling",
+    "name": "Search and Function-Calling",
+    "category": "general",
+    "type": "deterministic"
+  },
+  {
     "id": "seccodebench",
     "name": "SecCodeBench",
     "category": "coding",
@@ -2468,9 +3100,63 @@
     "description": "Secure-coding benchmark."
   },
   {
+    "id": "securebio-human-pathogen-capabilities-test",
+    "name": "SecureBio Human Pathogen Capabilities Test",
+    "category": "health",
+    "type": "deterministic"
+  },
+  {
+    "id": "securebio-molecular-biology-capabilities-test",
+    "name": "SecureBio Molecular Biology Capabilities Test",
+    "category": "health",
+    "type": "deterministic"
+  },
+  {
+    "id": "securebio-reprobait",
+    "name": "SecureBio ReproBAIT",
+    "category": "health",
+    "type": "deterministic"
+  },
+  {
+    "id": "securebio-virology-capabilities-test",
+    "name": "SecureBio Virology Capabilities Test",
+    "category": "health",
+    "type": "deterministic"
+  },
+  {
+    "id": "securebio-world-class-bio",
+    "name": "SecureBio World-Class Bio",
+    "category": "health",
+    "type": "deterministic"
+  },
+  {
     "id": "securitbio",
     "name": "SecuritBio",
     "category": "safety",
+    "type": "deterministic"
+  },
+  {
+    "id": "seed-img",
+    "name": "SEED-IMG",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "self-harm",
+    "name": "self-harm",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "sexual",
+    "name": "Sexual",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
+    "id": "sexual-minors",
+    "name": "Sexual/minors",
+    "category": "other",
     "type": "deterministic"
   },
   {
@@ -2698,6 +3384,12 @@
     "type": "deterministic"
   },
   {
+    "id": "text-to-speech",
+    "name": "Text-to-Speech",
+    "category": "other",
+    "type": "deterministic"
+  },
+  {
     "id": "textvqa",
     "name": "TextVQA",
     "category": "vision",
@@ -2721,7 +3413,8 @@
     "id": "toolathlon",
     "name": "Toolathlon",
     "category": "agent",
-    "type": "deterministic"
+    "type": "deterministic",
+    "description": "Tool-use benchmark for multi-step tasks across heterogeneous tools."
   },
   {
     "id": "triviaqa",
@@ -2759,6 +3452,14 @@
     "name": "TurkishMMLU",
     "category": "general",
     "type": "deterministic"
+  },
+  {
+    "id": "u-math",
+    "name": "U-MATH",
+    "category": "math",
+    "type": "deterministic",
+    "source_url": "https://toloka.ai/math-benchmark",
+    "description": "University-level mathematics benchmark with 1,100 problems, including text-only and visual subsets."
   },
   {
     "id": "uhura-eval",
@@ -2822,6 +3523,12 @@
     "id": "videommmu",
     "name": "VideoMMMU",
     "category": "video",
+    "type": "deterministic"
+  },
+  {
+    "id": "violent-illicit-behavior",
+    "name": "Violent Illicit behavior",
+    "category": "other",
     "type": "deterministic"
   },
   {

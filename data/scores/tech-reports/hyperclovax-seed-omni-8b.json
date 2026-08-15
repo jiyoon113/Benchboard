@@ -1,0 +1,388 @@
+[
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "clotho-v1",
+    "score": 0.259,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "docvqa",
+    "score": 90.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "fleurs-en",
+    "score": 7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "fleurs-en2ko",
+    "score": 24.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "fleurs-ko",
+    "score": 15.33,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "fleurs-ko2en",
+    "score": 22.91,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "flores+-enko",
+    "score": 29.2,
+    "config": "1-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "flores+-koen",
+    "score": 27.8,
+    "config": "1-shot",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "geneval",
+    "score": 0.64,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "gsm8k",
+    "score": 87.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "haerae",
+    "score": 75.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "imgedit",
+    "score": 3.83,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "k-dtcbench",
+    "score": 78.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "k-mmbench",
+    "score": 80.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "kobalt",
+    "score": 27.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "kommlu-pro",
+    "score": 64.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "konet",
+    "score": 33,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "ksponspeech-c",
+    "score": 28.74,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "ksponspeech-o",
+    "score": 33.09,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "librispeech-c",
+    "score": 1.93,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "librispeech-o",
+    "score": 4.47,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "llava-w",
+    "score": 93.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "mmlu",
+    "score": 75.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "mmlu-pro",
+    "score": 54.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "naver-tv-content",
+    "score": 69.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "seed-img",
+    "score": 80.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "text-to-speech-english",
+    "score": 4.44,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.14",
+      "reported_by": "hyperclovax-seed-omni-8b",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "text-to-speech-english",
+    "score": 3.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "text-to-speech-korean",
+    "score": 4.22,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.14",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "gemini-2.5-flash",
+    "benchmark_id": "text-to-speech-korean",
+    "score": 4.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.14",
+      "reported_by": "hyperclovax-seed-omni-8b",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "textvqa",
+    "score": 80.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-omni-8b",
+    "benchmark_id": "video-mme",
+    "score": 58.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "hyperclovax-seed-omni-8b__technical-report.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-08-14T09:18:39.566Z"
+    }
+  }
+]

@@ -1,0 +1,1901 @@
+[
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "aav-capsid-packaging-prediction",
+    "score": 0.529,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.42",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "aav-capsid-packaging-prediction",
+    "score": 0.528,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.42",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "avoidance-+-correctness",
+    "score": 0.44,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "avoidance-+-correctness",
+    "score": 0.44,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "avoidance-+-correctness",
+    "score": 0.37,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "avoidance-+-correctness",
+    "score": 0.32,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "avoidance-only",
+    "score": 0.88,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "avoidance-only",
+    "score": 0.83,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "avoidance-only",
+    "score": 0.81,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "avoidance-only",
+    "score": 0.73,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.10",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "capture-the-flag-internal",
+    "score": 96.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.47",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "connectors",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "connectors",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "connectors",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "connectors",
+    "score": 0.999,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "connectors",
+    "score": 0.971,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "dna-sequence-design-for-transcription-factor-binding",
+    "score": 13.82,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "dna-sequence-design-for-transcription-factor-binding",
+    "score": 13.7,
+    "config": "pass@1",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "emotional-reliance",
+    "score": 0.976,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "emotional-reliance",
+    "score": 0.957,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "emotional-reliance",
+    "score": 0.953,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "emotional-reliance",
+    "score": 0.953,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "emotional-reliance",
+    "score": 0.915,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "extremism",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.987,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "extremism",
+    "score": 0.986,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "extremism",
+    "score": 0.981,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.978,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "extremism",
+    "score": 0.981,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.966,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "extremism",
+    "score": 0.975,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.962,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "financial-transaction",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "financial-transaction",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "financial-transaction",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "financial-transaction",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "financial-transaction",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "general-confirmation",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "general-confirmation",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "general-confirmation",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "general-confirmation",
+    "score": 0.93,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "general-confirmation",
+    "score": 0.93,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "gore",
+    "score": 0.877,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "gore",
+    "score": 0.708,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "gore",
+    "score": 0.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "gore",
+    "score": 0.585,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "hard-negative-protein-binding-prediction",
+    "score": 7.6,
+    "config": "pass@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.43",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "hard-negative-protein-binding-prediction",
+    "score": 0.4,
+    "config": "pass@4",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.43",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "harms-erotic",
+    "score": 0.998,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "harms-erotic",
+    "score": 0.991,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "harms-erotic",
+    "score": 0.987,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "harms-erotic",
+    "score": 0.986,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "harms-erotic",
+    "score": 0.986,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "hate",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.999,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "hate",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.996,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.9",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "hate",
+    "score": 0.999,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.982,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.6",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "hate",
+    "score": 0.999,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "hate",
+    "score": 0.988,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.927,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.6",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench",
+    "score": 57.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "healthbench",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "healthbench",
+    "score": 57,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "healthbench",
+    "score": 56.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "healthbench",
+    "score": 56.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "healthbench",
+    "score": 55.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "healthbench",
+    "score": 54,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "healthbench",
+    "score": 50.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "healthbench-consensus",
+    "score": 96.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "healthbench-consensus",
+    "score": 95,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "healthbench-consensus",
+    "score": 94.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench-hard",
+    "score": 34.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "healthbench-hard",
+    "score": 34.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "healthbench-hard",
+    "score": 33.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "healthbench-hard",
+    "score": 32.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "healthbench-hard",
+    "score": 32,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "healthbench-hard",
+    "score": 31.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "healthbench-hard",
+    "score": 29.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "healthbench-hard",
+    "score": 25.4,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "healthbench-professional",
+    "score": 60.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "healthbench-professional",
+    "score": 57.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "healthbench-professional",
+    "score": 55.7,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "healthbench-professional",
+    "score": 51.8,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "healthbench-professional",
+    "score": 48.1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench-professional",
+    "score": 46.2,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-2-2025-12-11-thinking-none",
+    "benchmark_id": "healthbench-professional",
+    "score": 45.9,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "healthbench-professional",
+    "score": 39.6,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.13",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "high-stakes-communication",
+    "score": 1,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "high-stakes-communication",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "high-stakes-communication",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "high-stakes-communication",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "high-stakes-communication",
+    "score": 0.98,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.11",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "mental-health",
+    "score": 0.991,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "mental-health",
+    "score": 0.989,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "mental-health",
+    "score": 0.985,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "mental-health",
+    "score": 0.975,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "mental-health",
+    "score": 0.82,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.15",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "multimodal-troubleshooting-virology",
+    "score": 55.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.36",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "nonviolent-illicit-behavior",
+    "score": 0.993,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "nonviolent-illicit-behavior",
+    "score": 0.993,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "nonviolent-illicit-behavior",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "nonviolent-illicit-behavior",
+    "score": 0.987,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "protocolqa-open-ended",
+    "score": 43.5,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.37",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "search-and-function-calling",
+    "score": 0.946,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "search-and-function-calling",
+    "score": 0.91,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "search-and-function-calling",
+    "score": 0.91,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "search-and-function-calling",
+    "score": 0.897,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "search-and-function-calling",
+    "score": 0.568,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.12",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "securebio-human-pathogen-capabilities-test",
+    "score": 68.4,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "securebio-molecular-biology-capabilities-test",
+    "score": 60,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "securebio-reprobait",
+    "score": 85,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "securebio-reprobait",
+    "score": 82,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "securebio-virology-capabilities-test",
+    "score": 53.5,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "securebio-world-class-bio",
+    "score": 68.3,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "securebio-world-class-bio",
+    "score": 59.7,
+    "config": "railfree",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.44",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "self-harm",
+    "score": 0.99,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.905,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.15",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "self-harm",
+    "score": 0.989,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.856,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.15",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "self-harm",
+    "score": 0.986,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.947,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.15",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "self-harm",
+    "score": 0.986,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.955,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.15",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "self-harm",
+    "score": 0.983,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.9",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    },
+    "variants": [
+      {
+        "score": 0.868,
+        "config": "default",
+        "source": {
+          "kind": "tech_report",
+          "url": "gpt-5.6-sol__system-card.pdf",
+          "ref": "p.15",
+          "reported_by": "gpt-5.6-sol",
+          "fetched_at": "2026-08-14T08:42:12.830Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "self-harm-standard",
+    "score": 0.962,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "self-harm-standard",
+    "score": 0.961,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "self-harm-standard",
+    "score": 0.954,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "self-harm-standard",
+    "score": 0.945,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "sexual",
+    "score": 0.966,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "sexual",
+    "score": 0.948,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "sexual",
+    "score": 0.944,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "sexual",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "sexual-minors",
+    "score": 0.974,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "sexual-minors",
+    "score": 0.974,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "sexual-minors",
+    "score": 0.973,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "sexual-minors",
+    "score": 0.948,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "troubleshootingbench",
+    "score": 48,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.40",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.2-thinking",
+    "benchmark_id": "violent-illicit-behavior",
+    "score": 0.975,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "violent-illicit-behavior",
+    "score": 0.952,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "violent-illicit-behavior",
+    "score": 0.94,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "reported_by": "gpt-5.6-sol",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-sol",
+    "benchmark_id": "violent-illicit-behavior",
+    "score": 0.934,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "gpt-5.6-sol__system-card.pdf",
+      "ref": "p.6",
+      "fetched_at": "2026-08-14T08:42:12.830Z"
+    }
+  }
+]

@@ -8,7 +8,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -20,7 +20,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -32,7 +32,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -44,7 +44,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -56,7 +56,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -68,7 +68,19 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 23.7,
+    "config": "length-controlled",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -80,7 +92,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -92,7 +104,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -104,7 +116,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -116,7 +128,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -128,7 +140,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -140,7 +152,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -152,7 +164,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -164,7 +176,31 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "arena-hard",
+    "score": 23.4,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "gpt-3.5-turbo",
+    "benchmark_id": "arena-hard",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -176,7 +212,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -188,7 +224,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -200,7 +236,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -212,7 +248,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -224,7 +260,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -236,7 +272,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -248,7 +284,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -260,7 +296,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -272,7 +308,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -284,7 +320,31 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "chatbot-arena",
+    "score": 1114,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "gpt-3.5-turbo",
+    "benchmark_id": "chatbot-arena",
+    "score": 1105,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "reported_by": "wildbench",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -295,7 +355,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -306,7 +366,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -317,7 +377,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -328,7 +388,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -339,7 +399,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -350,7 +410,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -361,7 +421,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -372,7 +432,18 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "wildbench",
+    "score": 73.90625,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   },
   {
@@ -383,7 +454,18 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-06-11T08:36:14.980Z"
+      "fetched_at": "2026-08-14T07:38:00.307Z"
+    }
+  },
+  {
+    "model_id": "gpt-3.5-turbo",
+    "benchmark_id": "wildbench",
+    "score": 71.0546875,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-08-14T07:38:00.307Z"
     }
   }
 ]

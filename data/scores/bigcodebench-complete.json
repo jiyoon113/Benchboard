@@ -7,7 +7,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -18,7 +18,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -29,7 +29,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -40,7 +40,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -51,7 +51,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -62,7 +62,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -73,7 +73,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -84,7 +84,18 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
+    }
+  },
+  {
+    "model_id": "gpt-3.5-turbo",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 50.6,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -95,7 +106,18 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
+    }
+  },
+  {
+    "model_id": "deepseek-coder-v2-lite",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 47.6,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -106,7 +128,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   },
   {
@@ -117,7 +139,29 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
-      "fetched_at": "2026-06-11T08:36:21.491Z"
+      "fetched_at": "2026-08-14T07:38:16.173Z"
+    }
+  },
+  {
+    "model_id": "yi-1.5-9b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 35.5,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-08-14T07:38:16.173Z"
+    }
+  },
+  {
+    "model_id": "yi-1.5-6b",
+    "benchmark_id": "bigcodebench-complete",
+    "score": 27.5,
+    "config": "default",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=bigcode%2Fbigcodebench-results&config=default&split=train&offset=0&limit=500",
+      "fetched_at": "2026-08-14T07:38:16.173Z"
     }
   }
 ]

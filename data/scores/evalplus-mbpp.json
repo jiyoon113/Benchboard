@@ -1,5 +1,16 @@
 [
   {
+    "model_id": "qwen2.5-coder-32b",
+    "benchmark_id": "mbpp+",
+    "score": 77,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
     "model_id": "gemini-1.5-pro",
     "benchmark_id": "mbpp+",
     "score": 74.6,
@@ -7,7 +18,7 @@
     "source": {
       "kind": "github_repo",
       "url": "https://evalplus.github.io/results.json",
-      "fetched_at": "2026-06-11T08:36:18.927Z"
+      "fetched_at": "2026-08-14T07:38:10.698Z"
     }
   },
   {
@@ -18,7 +29,29 @@
     "source": {
       "kind": "github_repo",
       "url": "https://evalplus.github.io/results.json",
-      "fetched_at": "2026-06-11T08:36:18.927Z"
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "codellama-34b",
+    "benchmark_id": "mbpp+",
+    "score": 56.3,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "mbpp+",
+    "score": 55.6,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
     }
   },
   {
@@ -29,7 +62,62 @@
     "source": {
       "kind": "github_repo",
       "url": "https://evalplus.github.io/results.json",
-      "fetched_at": "2026-06-11T08:36:18.927Z"
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "mbpp+",
+    "score": 49.7,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "codellama-7b",
+    "benchmark_id": "mbpp+",
+    "score": 46.8,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "gemma-7b",
+    "benchmark_id": "mbpp+",
+    "score": 43.4,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "mistral-7b",
+    "benchmark_id": "mbpp+",
+    "score": 42.1,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
+    }
+  },
+  {
+    "model_id": "gemma-2b",
+    "benchmark_id": "mbpp+",
+    "score": 34.1,
+    "config": "MBPP+",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://evalplus.github.io/results.json",
+      "fetched_at": "2026-08-14T07:38:10.698Z"
     }
   }
 ]

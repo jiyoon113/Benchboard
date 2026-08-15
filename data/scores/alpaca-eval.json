@@ -7,7 +7,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1873
@@ -21,7 +21,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1488
@@ -35,7 +35,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1861
@@ -49,7 +49,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1388
@@ -63,7 +63,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1626
@@ -77,7 +77,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1420
@@ -91,7 +91,7 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1919
@@ -105,10 +105,24 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1362
+    }
+  },
+  {
+    "model_id": "mixtral-8x7b",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 23.68848260134481,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-08-14T07:37:49.278Z"
+    },
+    "extra": {
+      "avg_length": 1465
     }
   },
   {
@@ -119,10 +133,24 @@
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-06-11T08:36:10.230Z"
+      "fetched_at": "2026-08-14T07:37:49.278Z"
     },
     "extra": {
       "avg_length": 1899
+    }
+  },
+  {
+    "model_id": "phi-2",
+    "benchmark_id": "alpacaeval-2.0",
+    "score": 4.398682270855682,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-08-14T07:37:49.278Z"
+    },
+    "extra": {
+      "avg_length": 626
     }
   }
 ]

@@ -1,0 +1,2114 @@
+[
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "2-bench-airline",
+    "score": 67.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "2-bench-airline",
+    "score": 62,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "2-bench-airline",
+    "score": 60.4,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "2-bench-airline",
+    "score": 60,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "2-bench-airline",
+    "score": 56.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "2-bench-retail",
+    "score": 84.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "2-bench-retail",
+    "score": 78.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "2-bench-retail",
+    "score": 78.3,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "2-bench-retail",
+    "score": 77.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "2-bench-retail",
+    "score": 67,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "2-bench-telecom",
+    "score": 99.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "2-bench-telecom",
+    "score": 74.1,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "2-bench-telecom",
+    "score": 73.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "2-bench-telecom",
+    "score": 73,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "2-bench-telecom",
+    "score": 44.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "aa-lcr",
+    "score": 68,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "aa-lcr",
+    "score": 67.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "aa-lcr",
+    "score": 58.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "aa-lcr",
+    "score": 53.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "aa-lcr",
+    "score": 50.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "ai2d",
+    "score": 92.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "ai2d",
+    "score": 89.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ai2d",
+    "score": 89,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "ai2d",
+    "score": 88.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "ai2d",
+    "score": 88.2,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "aime-2026",
+    "score": 93.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "aime-2026",
+    "score": 92.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "aime-2026",
+    "score": 92.4,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "aime-2026",
+    "score": 92.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "aime-2026",
+    "score": 89.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "babyvision",
+    "score": 44.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "babyvision",
+    "score": 22.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "babyvision",
+    "score": 20.9,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "babyvision",
+    "score": 18.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "babyvision",
+    "score": 17.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "blink",
+    "score": 71.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "blink",
+    "score": 68.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "blink",
+    "score": 68.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "blink",
+    "score": 67.7,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "blink",
+    "score": 67.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "chartqapro",
+    "score": 66.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "chartqapro",
+    "score": 62.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "chartqapro",
+    "score": 61.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "chartqapro",
+    "score": 61.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "chartqapro",
+    "score": 60.9,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "charxiv-rq",
+    "score": 79.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "charxiv-rq",
+    "score": 71.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "charxiv-rq",
+    "score": 68.6,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "charxiv-rq",
+    "score": 66.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "charxiv-rq",
+    "score": 65.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "gpqa",
+    "score": 85.5,
+    "config": "reasoning, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "gpqa",
+    "score": 82.3,
+    "config": "REASONING: HIGH, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "gpqa",
+    "score": 80.5,
+    "config": "reasoning, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "gpqa",
+    "score": 79.1,
+    "config": "reasoning, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "gpqa",
+    "score": 77.1,
+    "config": "thinking, Diamond",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "hallusionbench",
+    "score": 70,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "hallusionbench",
+    "score": 67.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "hallusionbench",
+    "score": 66.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "hallusionbench",
+    "score": 63.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "hallusionbench",
+    "score": 63.2,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "ifbench",
+    "score": 76.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "ifbench",
+    "score": 74,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "ifbench",
+    "score": 67.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ifbench",
+    "score": 62.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "ifbench",
+    "score": 59.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "ifeval",
+    "score": 95,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "ifeval",
+    "score": 92.8,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "ifeval",
+    "score": 89.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ifeval",
+    "score": 89.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "ifeval",
+    "score": 88.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "k-viscuit",
+    "score": 84,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "k-viscuit",
+    "score": 83.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "k-viscuit",
+    "score": 80.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "k-viscuit",
+    "score": 78.5,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "k-viscuit",
+    "score": 78.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "kmmmu",
+    "score": 51.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kmmmu",
+    "score": 42.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "kmmmu",
+    "score": 42.6,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "kmmmu",
+    "score": 42.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "kmmmu",
+    "score": 37.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "kobalt",
+    "score": 63.6,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "kobalt",
+    "score": 61.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "kobalt",
+    "score": 54.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kobalt",
+    "score": 52.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "kobalt",
+    "score": 51.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "kommlu-pro",
+    "score": 73,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "kommlu-pro",
+    "score": 72.5,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "kommlu-pro",
+    "score": 71.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kommlu-pro",
+    "score": 67.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "kommlu-pro",
+    "score": 67.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "kreta",
+    "score": 96.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "kreta",
+    "score": 94.8,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "kreta",
+    "score": 92.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kreta",
+    "score": 91.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "kreta",
+    "score": 90.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 81.4,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 80.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 80.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "livecodebench-v6",
+    "score": 78.1,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "livecodebench-v6",
+    "score": 70.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "logicvista",
+    "score": 77,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "logicvista",
+    "score": 73.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "logicvista",
+    "score": 72.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "logicvista",
+    "score": 70.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "logicvista",
+    "score": 70.3,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "math-vision",
+    "score": 86,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "math-vision",
+    "score": 75.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "math-vision",
+    "score": 74.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "math-vision",
+    "score": 71.9,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "math-vision",
+    "score": 70.2,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mathvista-mini",
+    "score": 87.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "mathvista-mini",
+    "score": 85.9,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mathvista-mini",
+    "score": 85.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mathvista-mini",
+    "score": 85,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mathvista-mini",
+    "score": 79.1,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "medxpertqa-mm",
+    "score": 62.4,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "medxpertqa-mm",
+    "score": 47.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "medxpertqa-mm",
+    "score": 42.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "medxpertqa-mm",
+    "score": 41.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "medxpertqa-mm",
+    "score": 34.4,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.8,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.3,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mmmlu-kodeesja",
+    "score": 88.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mmmlu-kodeesja",
+    "score": 88.1,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mmmlu-kodeesja",
+    "score": 86.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "mmmlu-kodeesja",
+    "score": 85.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmmlu-kodeesja",
+    "score": 85.4,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mmmu",
+    "score": 82.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mmmu",
+    "score": 80.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mmmu",
+    "score": 79,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmmu",
+    "score": 78.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "mmmu",
+    "score": 78.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mmmu-pro",
+    "score": 75,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mmmu-pro",
+    "score": 69.3,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mmmu-pro",
+    "score": 67.3,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "mmstar",
+    "score": 81,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "mmstar",
+    "score": 79.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "mmstar",
+    "score": 78.7,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmstar",
+    "score": 74.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "mmstar",
+    "score": 74.1,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "ocrbench-v2",
+    "score": 68.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "ocrbench-v2",
+    "score": 67.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "ocrbench-v2",
+    "score": 66.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ocrbench-v2",
+    "score": 63.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "ocrbench-v2",
+    "score": 55.8,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "omnidocbench-v1.5",
+    "score": 88.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "omnidocbench-v1.5",
+    "score": 84.5,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "omnidocbench-v1.5",
+    "score": 83.1,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "omnidocbench-v1.5",
+    "score": 81.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "omnidocbench-v1.5",
+    "score": 77,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "we-math",
+    "score": 84,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "we-math",
+    "score": 79.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "we-math",
+    "score": 74.8,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-32b",
+    "benchmark_id": "we-math",
+    "score": 71.6,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "we-math",
+    "score": 70.3,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.7",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "gpt-5-mini",
+    "benchmark_id": "wmt24++-kodeesjavi",
+    "score": 96.7,
+    "config": "REASONING: HIGH",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3.5-27b",
+    "benchmark_id": "wmt24++-kodeesjavi",
+    "score": 94.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "qwen3-vl-235b",
+    "benchmark_id": "wmt24++-kodeesjavi",
+    "score": 94.4,
+    "config": "thinking",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "wmt24++-kodeesjavi",
+    "score": 91.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  },
+  {
+    "model_id": "k-exaone-236b-a23b",
+    "benchmark_id": "wmt24++-kodeesjavi",
+    "score": 90.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "tech_report",
+      "url": "exaone-4.5-33b__technical-report.pdf",
+      "ref": "p.8",
+      "reported_by": "exaone-4.5-33b",
+      "fetched_at": "2026-08-14T08:26:26.804Z"
+    }
+  }
+]

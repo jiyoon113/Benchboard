@@ -19,6 +19,63 @@
     }
   },
   {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "arc-challenge",
+    "score": 94.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json full resync: ARC Challenge / Qwen3-235B",
+      "reported_by": "Benchpress",
+      "published": "2026-06-23",
+      "fetched_at": "2026-07-03T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "ARC Challenge",
+      "benchpress_model": "Qwen3-235B",
+      "benchpress_fraction": 0.947
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "bbh",
+    "score": 84.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json full resync: BBH / GPT-oss-20b",
+      "reported_by": "Benchpress",
+      "published": "2026-06-23",
+      "fetched_at": "2026-07-03T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "BBH",
+      "benchpress_model": "GPT-oss-20b",
+      "benchpress_fraction": 0.841
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "bbh",
+    "score": 82.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json full resync: BBH / GPT-oss-120b",
+      "reported_by": "Benchpress",
+      "published": "2026-06-23",
+      "fetched_at": "2026-07-03T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "BBH",
+      "benchpress_model": "GPT-oss-120b",
+      "benchpress_fraction": 0.821
+    }
+  },
+  {
     "model_id": "gemma-3-4b",
     "benchmark_id": "bbh",
     "score": 66.5,
@@ -114,101 +171,6 @@
     }
   },
   {
-    "model_id": "phi-4-mini",
-    "benchmark_id": "simpleqa",
-    "score": 10.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json full resync: SimpleQA / Phi-4-Mini",
-      "reported_by": "Benchpress",
-      "published": "2026-06-23",
-      "fetched_at": "2026-07-03T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "SimpleQA",
-      "benchpress_model": "Phi-4-Mini",
-      "benchpress_fraction": 0.107
-    }
-  },
-  {
-    "model_id": "llama-3.1-8b",
-    "benchmark_id": "simpleqa",
-    "score": 35,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json full resync: SimpleQA / Llama-3.1-8B",
-      "reported_by": "Benchpress",
-      "published": "2026-06-23",
-      "fetched_at": "2026-07-03T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "SimpleQA",
-      "benchpress_model": "Llama-3.1-8B",
-      "benchpress_fraction": 0.35
-    }
-  },
-  {
-    "model_id": "qwen3-235b",
-    "benchmark_id": "arc-challenge",
-    "score": 94.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json full resync: ARC Challenge / Qwen3-235B",
-      "reported_by": "Benchpress",
-      "published": "2026-06-23",
-      "fetched_at": "2026-07-03T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "ARC Challenge",
-      "benchpress_model": "Qwen3-235B",
-      "benchpress_fraction": 0.947
-    }
-  },
-  {
-    "model_id": "gpt-oss-20b",
-    "benchmark_id": "bbh",
-    "score": 84.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json full resync: BBH / GPT-oss-20b",
-      "reported_by": "Benchpress",
-      "published": "2026-06-23",
-      "fetched_at": "2026-07-03T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "BBH",
-      "benchpress_model": "GPT-oss-20b",
-      "benchpress_fraction": 0.841
-    }
-  },
-  {
-    "model_id": "gpt-oss-120b",
-    "benchmark_id": "bbh",
-    "score": 82.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json full resync: BBH / GPT-oss-120b",
-      "reported_by": "Benchpress",
-      "published": "2026-06-23",
-      "fetched_at": "2026-07-03T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "BBH",
-      "benchpress_model": "GPT-oss-120b",
-      "benchpress_fraction": 0.821
-    }
-  },
-  {
     "model_id": "claude-sonnet-4",
     "benchmark_id": "math",
     "score": 90.3,
@@ -247,6 +209,25 @@
     }
   },
   {
+    "model_id": "llama-3.1-8b",
+    "benchmark_id": "simpleqa",
+    "score": 35,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json full resync: SimpleQA / Llama-3.1-8B",
+      "reported_by": "Benchpress",
+      "published": "2026-06-23",
+      "fetched_at": "2026-07-03T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SimpleQA",
+      "benchpress_model": "Llama-3.1-8B",
+      "benchpress_fraction": 0.35
+    }
+  },
+  {
     "model_id": "gemma-3-4b",
     "benchmark_id": "simpleqa",
     "score": 18,
@@ -263,6 +244,25 @@
       "benchpress_benchmark": "SimpleQA",
       "benchpress_model": "Gemma-3-4B",
       "benchpress_fraction": 0.18
+    }
+  },
+  {
+    "model_id": "phi-4-mini",
+    "benchmark_id": "simpleqa",
+    "score": 10.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json full resync: SimpleQA / Phi-4-Mini",
+      "reported_by": "Benchpress",
+      "published": "2026-06-23",
+      "fetched_at": "2026-07-03T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SimpleQA",
+      "benchpress_model": "Phi-4-Mini",
+      "benchpress_fraction": 0.107
     }
   }
 ]

@@ -1,43 +1,5 @@
 [
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "aime-2024",
-    "score": 16,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "AIME 2024",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.16
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "aime-2024",
-    "score": 9.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "AIME 2024",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.093
-    }
-  },
-  {
     "model_id": "gpt-oss-120b",
     "benchmark_id": "aime-2024",
     "score": 96.6,
@@ -95,6 +57,63 @@
     }
   },
   {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "aime-2024",
+    "score": 23.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / Qwen2.5-72B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "AIME 2024",
+      "benchpress_model": "Qwen2.5-72B",
+      "benchpress_fraction": 0.233
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "aime-2024",
+    "score": 16,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "AIME 2024",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.16
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "aime-2024",
+    "score": 9.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / GPT-4o",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "AIME 2024",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.093
+    }
+  },
+  {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "aime-2024",
     "score": 3.3,
@@ -114,22 +133,22 @@
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "aime-2024",
-    "score": 23.3,
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "aime-2025",
+    "score": 97.9,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2024 / Qwen2.5-72B",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2025 / GPT-oss-120b",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "AIME 2024",
-      "benchpress_model": "Qwen2.5-72B",
-      "benchpress_fraction": 0.233
+      "benchpress_benchmark": "AIME 2025",
+      "benchpress_model": "GPT-oss-120b",
+      "benchpress_fraction": 0.979
     }
   },
   {
@@ -171,22 +190,41 @@
     }
   },
   {
-    "model_id": "gpt-oss-120b",
-    "benchmark_id": "aime-2025",
-    "score": 97.9,
+    "model_id": "llama-3.1-405b",
+    "benchmark_id": "arc-challenge",
+    "score": 96.9,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: AIME 2025 / GPT-oss-120b",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: ARC Challenge / Llama-3.1-405B",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "AIME 2025",
-      "benchpress_model": "GPT-oss-120b",
-      "benchpress_fraction": 0.979
+      "benchpress_benchmark": "ARC Challenge",
+      "benchpress_model": "Llama-3.1-405B",
+      "benchpress_fraction": 0.969
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "arc-challenge",
+    "score": 96.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: ARC Challenge / GPT-4o",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "ARC Challenge",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.968
     }
   },
   {
@@ -228,25 +266,6 @@
     }
   },
   {
-    "model_id": "gpt-4o",
-    "benchmark_id": "arc-challenge",
-    "score": 96.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: ARC Challenge / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "ARC Challenge",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.968
-    }
-  },
-  {
     "model_id": "kimi-k2",
     "benchmark_id": "arc-challenge",
     "score": 95.73,
@@ -263,25 +282,6 @@
       "benchpress_benchmark": "ARC Challenge",
       "benchpress_model": "KIMI-K2-Instruct",
       "benchpress_fraction": 0.9573
-    }
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "arc-challenge",
-    "score": 96.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: ARC Challenge / Llama-3.1-405B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "ARC Challenge",
-      "benchpress_model": "Llama-3.1-405B",
-      "benchpress_fraction": 0.969
     }
   },
   {
@@ -342,22 +342,22 @@
     }
   },
   {
-    "model_id": "deepseek-v3",
+    "model_id": "kimi-k2",
     "benchmark_id": "bbh",
-    "score": 87.6,
+    "score": 88.71,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / DeepSeek-v3",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / KIMI-K2-Instruct",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "BBH",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.876
+      "benchpress_model": "KIMI-K2-Instruct",
+      "benchpress_fraction": 0.8871
     }
   },
   {
@@ -380,22 +380,41 @@
     }
   },
   {
-    "model_id": "kimi-k2",
+    "model_id": "deepseek-v3",
     "benchmark_id": "bbh",
-    "score": 88.71,
+    "score": 87.6,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / KIMI-K2-Instruct",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / DeepSeek-v3",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "BBH",
-      "benchpress_model": "KIMI-K2-Instruct",
-      "benchpress_fraction": 0.8871
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.876
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "bbh",
+    "score": 86.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / Qwen2.5-72B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "BBH",
+      "benchpress_model": "Qwen2.5-72B",
+      "benchpress_fraction": 0.863
     }
   },
   {
@@ -437,41 +456,79 @@
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "bbh",
-    "score": 86.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: BBH / Qwen2.5-72B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "BBH",
-      "benchpress_model": "Qwen2.5-72B",
-      "benchpress_fraction": 0.863
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
+    "model_id": "gpt-5",
     "benchmark_id": "gpqa",
-    "score": 59.4,
+    "score": 85.4,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-5",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "GPQA",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.594
+      "benchpress_model": "GPT-5",
+      "benchpress_fraction": 0.854
+    }
+  },
+  {
+    "model_id": "gpt-oss-120b",
+    "benchmark_id": "gpqa",
+    "score": 80.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-oss-120b",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GPQA",
+      "benchpress_model": "GPT-oss-120b",
+      "benchpress_fraction": 0.801
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gpqa",
+    "score": 75.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / KIMI-K2-Instruct",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GPQA",
+      "benchpress_model": "KIMI-K2-Instruct",
+      "benchpress_fraction": 0.751
+    }
+  },
+  {
+    "model_id": "gpt-oss-20b",
+    "benchmark_id": "gpqa",
+    "score": 71.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-oss-20b",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GPQA",
+      "benchpress_model": "GPT-oss-20b",
+      "benchpress_fraction": 0.715
     }
   },
   {
@@ -513,6 +570,25 @@
     }
   },
   {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gpqa",
+    "score": 59.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GPQA",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.594
+    }
+  },
+  {
     "model_id": "gpt-4o",
     "benchmark_id": "gpqa",
     "score": 54.3,
@@ -529,82 +605,6 @@
       "benchpress_benchmark": "GPQA",
       "benchpress_model": "GPT-4o",
       "benchpress_fraction": 0.543
-    }
-  },
-  {
-    "model_id": "gpt-5",
-    "benchmark_id": "gpqa",
-    "score": 85.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-5",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GPQA",
-      "benchpress_model": "GPT-5",
-      "benchpress_fraction": 0.854
-    }
-  },
-  {
-    "model_id": "gpt-oss-120b",
-    "benchmark_id": "gpqa",
-    "score": 80.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-oss-120b",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GPQA",
-      "benchpress_model": "GPT-oss-120b",
-      "benchpress_fraction": 0.801
-    }
-  },
-  {
-    "model_id": "gpt-oss-20b",
-    "benchmark_id": "gpqa",
-    "score": 71.5,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / GPT-oss-20b",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GPQA",
-      "benchpress_model": "GPT-oss-20b",
-      "benchpress_fraction": 0.715
-    }
-  },
-  {
-    "model_id": "kimi-k2",
-    "benchmark_id": "gpqa",
-    "score": 75.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GPQA / KIMI-K2-Instruct",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GPQA",
-      "benchpress_model": "KIMI-K2-Instruct",
-      "benchpress_fraction": 0.751
     }
   },
   {
@@ -646,22 +646,22 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
+    "model_id": "llama-3.1-405b",
     "benchmark_id": "gsm8k",
-    "score": 96.4,
+    "score": 96.8,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / Llama-3.1-405B",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "GSM8K",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.964
+      "benchpress_model": "Llama-3.1-405B",
+      "benchpress_fraction": 0.968
     }
   },
   {
@@ -684,6 +684,25 @@
     }
   },
   {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "gsm8k",
+    "score": 96.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GSM8K",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.964
+    }
+  },
+  {
     "model_id": "gpt-4o",
     "benchmark_id": "gsm8k",
     "score": 95.2,
@@ -700,44 +719,6 @@
       "benchpress_benchmark": "GSM8K",
       "benchpress_model": "GPT-4o",
       "benchpress_fraction": 0.952
-    }
-  },
-  {
-    "model_id": "kimi-k2",
-    "benchmark_id": "gsm8k",
-    "score": 92.12,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / KIMI-K2-Instruct",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GSM8K",
-      "benchpress_model": "KIMI-K2-Instruct",
-      "benchpress_fraction": 0.9212
-    }
-  },
-  {
-    "model_id": "llama-3.1-405b",
-    "benchmark_id": "gsm8k",
-    "score": 96.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / Llama-3.1-405B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "GSM8K",
-      "benchpress_model": "Llama-3.1-405B",
-      "benchpress_fraction": 0.968
     }
   },
   {
@@ -760,6 +741,25 @@
     }
   },
   {
+    "model_id": "kimi-k2",
+    "benchmark_id": "gsm8k",
+    "score": 92.12,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: GSM8K / KIMI-K2-Instruct",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "GSM8K",
+      "benchpress_model": "KIMI-K2-Instruct",
+      "benchpress_fraction": 0.9212
+    }
+  },
+  {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "gsm8k",
     "score": 91.5,
@@ -776,25 +776,6 @@
       "benchpress_benchmark": "GSM8K",
       "benchpress_model": "Qwen2.5-72B",
       "benchpress_fraction": 0.915
-    }
-  },
-  {
-    "model_id": "gpt-5",
-    "benchmark_id": "healthbench",
-    "score": 54.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HealthBench / GPT-5",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HealthBench",
-      "benchpress_model": "GPT-5",
-      "benchpress_fraction": 0.543
     }
   },
   {
@@ -836,6 +817,25 @@
     }
   },
   {
+    "model_id": "gpt-5",
+    "benchmark_id": "healthbench",
+    "score": 54.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HealthBench / GPT-5",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HealthBench",
+      "benchpress_model": "GPT-5",
+      "benchpress_fraction": 0.543
+    }
+  },
+  {
     "model_id": "gpt-oss-20b",
     "benchmark_id": "healthbench",
     "score": 42.5,
@@ -852,44 +852,6 @@
       "benchpress_benchmark": "HealthBench",
       "benchpress_model": "GPT-oss-20b",
       "benchpress_fraction": 0.425
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "hellaswag",
-    "score": 92,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HellaSwag / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HellaSwag",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.92
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "hellaswag",
-    "score": 91.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HellaSwag / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HellaSwag",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.916
     }
   },
   {
@@ -928,6 +890,44 @@
       "benchpress_benchmark": "HellaSwag",
       "benchpress_model": "KIMI-K2-Instruct",
       "benchpress_fraction": 0.946
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "hellaswag",
+    "score": 92,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HellaSwag / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HellaSwag",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.92
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hellaswag",
+    "score": 91.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HellaSwag / DeepSeek-v3",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HellaSwag",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.916
     }
   },
   {
@@ -988,63 +988,6 @@
     }
   },
   {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "hle",
-    "score": 3.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HLE",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.036
-    }
-  },
-  {
-    "model_id": "glm-5",
-    "benchmark_id": "hle",
-    "score": 7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / GLM-5",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HLE",
-      "benchpress_model": "GLM-5",
-      "benchpress_fraction": 0.07
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "hle",
-    "score": 3.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HLE",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.033
-    }
-  },
-  {
     "model_id": "gpt-5",
     "benchmark_id": "hle",
     "score": 26.5,
@@ -1102,22 +1045,79 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "humaneval",
-    "score": 92.1,
+    "model_id": "glm-5",
+    "benchmark_id": "hle",
+    "score": 7,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HumanEval / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / GLM-5",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HLE",
+      "benchpress_model": "GLM-5",
+      "benchpress_fraction": 0.07
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "hle",
+    "score": 3.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / DeepSeek-v3",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HLE",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.036
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "hle",
+    "score": 3.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HLE / GPT-4o",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HLE",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.033
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "humaneval",
+    "score": 93.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HumanEval / GPT-5",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "HumanEval",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.921
+      "benchpress_model": "GPT-5",
+      "benchpress_fraction": 0.934
     }
   },
   {
@@ -1140,6 +1140,25 @@
     }
   },
   {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "humaneval",
+    "score": 92.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HumanEval / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "HumanEval",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.921
+    }
+  },
+  {
     "model_id": "gpt-4o",
     "benchmark_id": "humaneval",
     "score": 90.2,
@@ -1156,25 +1175,6 @@
       "benchpress_benchmark": "HumanEval",
       "benchpress_model": "GPT-4o",
       "benchpress_fraction": 0.902
-    }
-  },
-  {
-    "model_id": "gpt-5",
-    "benchmark_id": "humaneval",
-    "score": 93.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: HumanEval / GPT-5",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "HumanEval",
-      "benchpress_model": "GPT-5",
-      "benchpress_fraction": 0.934
     }
   },
   {
@@ -1216,25 +1216,6 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "kmmlu",
-    "score": 61,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "KMMLU",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.61
-    }
-  },
-  {
     "model_id": "gpt-4o",
     "benchmark_id": "kmmlu",
     "score": 64.2,
@@ -1251,25 +1232,6 @@
       "benchpress_benchmark": "KMMLU",
       "benchpress_model": "GPT-4o",
       "benchpress_fraction": 0.642
-    }
-  },
-  {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "kmmlu",
-    "score": 48.5,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU / Llama-3.1-70B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "KMMLU",
-      "benchpress_model": "Llama-3.1-70B",
-      "benchpress_fraction": 0.485
     }
   },
   {
@@ -1293,26 +1255,45 @@
   },
   {
     "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "kmmlu-pro",
-    "score": 35,
+    "benchmark_id": "kmmlu",
+    "score": 61,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU-Pro / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU / Claude-3.5-Sonnet",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "KMMLU-Pro",
+      "benchpress_benchmark": "KMMLU",
       "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.35
+      "benchpress_fraction": 0.61
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "kmmlu",
+    "score": 48.5,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU / Llama-3.1-70B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "KMMLU",
+      "benchpress_model": "Llama-3.1-70B",
+      "benchpress_fraction": 0.485
     }
   },
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "kmmlu-pro",
+    "benchmark_id": "kommlu-pro",
     "score": 38,
     "config": "default",
     "source": {
@@ -1330,27 +1311,27 @@
     }
   },
   {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "kmmlu-pro",
-    "score": 27,
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "kommlu-pro",
+    "score": 35,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU-Pro / Llama-3.1-70B",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU-Pro / Claude-3.5-Sonnet",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "KMMLU-Pro",
-      "benchpress_model": "Llama-3.1-70B",
-      "benchpress_fraction": 0.27
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.35
     }
   },
   {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "kmmlu-pro",
+    "benchmark_id": "kommlu-pro",
     "score": 31,
     "config": "default",
     "source": {
@@ -1368,60 +1349,22 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "math",
-    "score": 71.1,
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "kommlu-pro",
+    "score": 27,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: KMMLU-Pro / Llama-3.1-70B",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "MATH",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.711
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "math",
-    "score": 61.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MATH",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.616
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "math",
-    "score": 76.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MATH",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.766
+      "benchpress_benchmark": "KMMLU-Pro",
+      "benchpress_model": "Llama-3.1-70B",
+      "benchpress_fraction": 0.27
     }
   },
   {
@@ -1444,22 +1387,22 @@
     }
   },
   {
-    "model_id": "kimi-k2",
+    "model_id": "gpt-4o",
     "benchmark_id": "math",
-    "score": 70.22,
+    "score": 76.6,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / KIMI-K2-Instruct",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / GPT-4o",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "MATH",
-      "benchpress_model": "KIMI-K2-Instruct",
-      "benchpress_fraction": 0.7022
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.766
     }
   },
   {
@@ -1479,6 +1422,44 @@
       "benchpress_benchmark": "MATH",
       "benchpress_model": "Llama-3.1-405B",
       "benchpress_fraction": 0.738
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math",
+    "score": 71.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MATH",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.711
+    }
+  },
+  {
+    "model_id": "kimi-k2",
+    "benchmark_id": "math",
+    "score": 70.22,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / KIMI-K2-Instruct",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MATH",
+      "benchpress_model": "KIMI-K2-Instruct",
+      "benchpress_fraction": 0.7022
     }
   },
   {
@@ -1520,22 +1501,22 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "math-500",
-    "score": 78.8,
+    "model_id": "deepseek-v3",
+    "benchmark_id": "math",
+    "score": 61.6,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH-500 / Claude-3.5-Sonnet",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH / DeepSeek-v3",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "MATH-500",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.788
+      "benchpress_benchmark": "MATH",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.616
     }
   },
   {
@@ -1555,6 +1536,44 @@
       "benchpress_benchmark": "MATH-500",
       "benchpress_model": "DeepSeek-v3",
       "benchpress_fraction": 0.902
+    }
+  },
+  {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "math-500",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH-500 / Qwen2.5-72B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MATH-500",
+      "benchpress_model": "Qwen2.5-72B",
+      "benchpress_fraction": 0.8
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "math-500",
+    "score": 78.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH-500 / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MATH-500",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.788
     }
   },
   {
@@ -1615,22 +1634,22 @@
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "math-500",
-    "score": 80,
+    "model_id": "deepseek-v3",
+    "benchmark_id": "mbpp",
+    "score": 89.5,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MATH-500 / Qwen2.5-72B",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MBPP / DeepSeek-v3",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "MATH-500",
-      "benchpress_model": "Qwen2.5-72B",
-      "benchpress_fraction": 0.8
+      "benchpress_benchmark": "MBPP",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.895
     }
   },
   {
@@ -1650,25 +1669,6 @@
       "benchpress_benchmark": "MBPP",
       "benchpress_model": "Claude-3.5-Sonnet",
       "benchpress_fraction": 0.884
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "mbpp",
-    "score": 89.5,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MBPP / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MBPP",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.895
     }
   },
   {
@@ -1729,63 +1729,6 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "mmlu",
-    "score": 88.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.889
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "mmlu",
-    "score": 89.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.894
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "mmlu",
-    "score": 88.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.887
-    }
-  },
-  {
     "model_id": "gpt-5",
     "benchmark_id": "mmlu",
     "score": 92.5,
@@ -1824,22 +1767,60 @@
     }
   },
   {
-    "model_id": "gpt-oss-20b",
+    "model_id": "deepseek-v3",
     "benchmark_id": "mmlu",
-    "score": 85.3,
+    "score": 89.4,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / GPT-oss-20b",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / DeepSeek-v3",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "MMLU",
-      "benchpress_model": "GPT-oss-20b",
-      "benchpress_fraction": 0.853
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.894
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu",
+    "score": 88.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MMLU",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.889
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu",
+    "score": 88.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / GPT-4o",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MMLU",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.887
     }
   },
   {
@@ -1862,6 +1843,25 @@
     }
   },
   {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "mmlu",
+    "score": 86.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / Qwen2.5-72B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MMLU",
+      "benchpress_model": "Qwen2.5-72B",
+      "benchpress_fraction": 0.861
+    }
+  },
+  {
     "model_id": "llama-3.1-70b",
     "benchmark_id": "mmlu",
     "score": 86,
@@ -1881,22 +1881,22 @@
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
+    "model_id": "gpt-oss-20b",
     "benchmark_id": "mmlu",
-    "score": 86.1,
+    "score": 85.3,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / Qwen2.5-72B",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU / GPT-oss-20b",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
       "benchpress_benchmark": "MMLU",
-      "benchpress_model": "Qwen2.5-72B",
-      "benchpress_fraction": 0.861
+      "benchpress_model": "GPT-oss-20b",
+      "benchpress_fraction": 0.853
     }
   },
   {
@@ -1938,25 +1938,6 @@
     }
   },
   {
-    "model_id": "gpt-4o",
-    "benchmark_id": "mmlu-pro",
-    "score": 72.6,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Pro / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU-Pro",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.726
-    }
-  },
-  {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "mmlu-pro",
     "score": 73.3,
@@ -1973,6 +1954,25 @@
       "benchpress_benchmark": "MMLU-Pro",
       "benchpress_model": "Llama-3.1-405B",
       "benchpress_fraction": 0.733
+    }
+  },
+  {
+    "model_id": "gpt-4o",
+    "benchmark_id": "mmlu-pro",
+    "score": 72.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Pro / GPT-4o",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MMLU-Pro",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.726
     }
   },
   {
@@ -1995,25 +1995,6 @@
     }
   },
   {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "mmlu-redux",
-    "score": 88.2,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Redux / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU-Redux",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.882
-    }
-  },
-  {
     "model_id": "deepseek-v3",
     "benchmark_id": "mmlu-redux",
     "score": 90.5,
@@ -2030,6 +2011,25 @@
       "benchpress_benchmark": "MMLU-Redux",
       "benchpress_model": "DeepSeek-v3",
       "benchpress_fraction": 0.905
+    }
+  },
+  {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "mmlu-redux",
+    "score": 88.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Redux / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "MMLU-Redux",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.882
     }
   },
   {
@@ -2052,25 +2052,6 @@
     }
   },
   {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "mmlu-redux",
-    "score": 81,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Redux / Llama-3.1-70B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "MMLU-Redux",
-      "benchpress_model": "Llama-3.1-70B",
-      "benchpress_fraction": 0.81
-    }
-  },
-  {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "mmlu-redux",
     "score": 83.9,
@@ -2090,41 +2071,22 @@
     }
   },
   {
-    "model_id": "claude-sonnet-4.6",
-    "benchmark_id": "simpleqa",
-    "score": 32.1,
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "mmlu-redux",
+    "score": 81,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SimpleQA / Claude-Sonnet-4.6",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: MMLU-Redux / Llama-3.1-70B",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "SimpleQA",
-      "benchpress_model": "Claude-Sonnet-4.6",
-      "benchpress_fraction": 0.321
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "simpleqa",
-    "score": 27.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SimpleQA / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "SimpleQA",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.277
+      "benchpress_benchmark": "MMLU-Redux",
+      "benchpress_model": "Llama-3.1-70B",
+      "benchpress_fraction": 0.81
     }
   },
   {
@@ -2166,6 +2128,44 @@
     }
   },
   {
+    "model_id": "claude-sonnet-4.6",
+    "benchmark_id": "simpleqa",
+    "score": 32.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SimpleQA / Claude-Sonnet-4.6",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SimpleQA",
+      "benchpress_model": "Claude-Sonnet-4.6",
+      "benchpress_fraction": 0.321
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "simpleqa",
+    "score": 27.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SimpleQA / DeepSeek-v3",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SimpleQA",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.277
+    }
+  },
+  {
     "model_id": "gpt-oss-120b",
     "benchmark_id": "simpleqa",
     "score": 16.8,
@@ -2182,25 +2182,6 @@
       "benchpress_benchmark": "SimpleQA",
       "benchpress_model": "GPT-oss-120b",
       "benchpress_fraction": 0.168
-    }
-  },
-  {
-    "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "supergpqa",
-    "score": 44.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SuperGPQA / Claude-3.5-Sonnet",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "SuperGPQA",
-      "benchpress_model": "Claude-3.5-Sonnet",
-      "benchpress_fraction": 0.448
     }
   },
   {
@@ -2223,6 +2204,25 @@
     }
   },
   {
+    "model_id": "claude-3.5-sonnet",
+    "benchmark_id": "supergpqa",
+    "score": 44.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SuperGPQA / Claude-3.5-Sonnet",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SuperGPQA",
+      "benchpress_model": "Claude-3.5-Sonnet",
+      "benchpress_fraction": 0.448
+    }
+  },
+  {
     "model_id": "gpt-4o",
     "benchmark_id": "supergpqa",
     "score": 42.2,
@@ -2242,25 +2242,6 @@
     }
   },
   {
-    "model_id": "llama-3.1-70b",
-    "benchmark_id": "supergpqa",
-    "score": 33.8,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SuperGPQA / Llama-3.1-70B",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "SuperGPQA",
-      "benchpress_model": "Llama-3.1-70B",
-      "benchpress_fraction": 0.338
-    }
-  },
-  {
     "model_id": "qwen-2.5-72b",
     "benchmark_id": "supergpqa",
     "score": 39.8,
@@ -2277,6 +2258,25 @@
       "benchpress_benchmark": "SuperGPQA",
       "benchpress_model": "Qwen2.5-72B",
       "benchpress_fraction": 0.398
+    }
+  },
+  {
+    "model_id": "llama-3.1-70b",
+    "benchmark_id": "supergpqa",
+    "score": 33.8,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: SuperGPQA / Llama-3.1-70B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "SuperGPQA",
+      "benchpress_model": "Llama-3.1-70B",
+      "benchpress_fraction": 0.338
     }
   },
   {
@@ -2318,6 +2318,25 @@
     }
   },
   {
+    "model_id": "qwen-2.5-72b",
+    "benchmark_id": "truthfulqa",
+    "score": 60.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: TruthfulQA / Qwen2.5-72B",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "TruthfulQA",
+      "benchpress_model": "Qwen2.5-72B",
+      "benchpress_fraction": 0.604
+    }
+  },
+  {
     "model_id": "llama-3.1-405b",
     "benchmark_id": "truthfulqa",
     "score": 58,
@@ -2356,22 +2375,22 @@
     }
   },
   {
-    "model_id": "qwen-2.5-72b",
-    "benchmark_id": "truthfulqa",
-    "score": 60.4,
+    "model_id": "gpt-4o",
+    "benchmark_id": "winogrande",
+    "score": 91.7,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: TruthfulQA / Qwen2.5-72B",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: WinoGrande / GPT-4o",
       "reported_by": "Benchpress",
       "published": "2026-07-10",
       "fetched_at": "2026-07-13T00:00:00Z"
     },
     "extra": {
-      "benchpress_benchmark": "TruthfulQA",
-      "benchpress_model": "Qwen2.5-72B",
-      "benchpress_fraction": 0.604
+      "benchpress_benchmark": "WinoGrande",
+      "benchpress_model": "GPT-4o",
+      "benchpress_fraction": 0.917
     }
   },
   {
@@ -2391,44 +2410,6 @@
       "benchpress_benchmark": "WinoGrande",
       "benchpress_model": "Claude-3.5-Sonnet",
       "benchpress_fraction": 0.89
-    }
-  },
-  {
-    "model_id": "deepseek-v3",
-    "benchmark_id": "winogrande",
-    "score": 84.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: WinoGrande / DeepSeek-v3",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "WinoGrande",
-      "benchpress_model": "DeepSeek-v3",
-      "benchpress_fraction": 0.849
-    }
-  },
-  {
-    "model_id": "gpt-4o",
-    "benchmark_id": "winogrande",
-    "score": 91.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://jiyoon113.github.io/Benchboard/coverage",
-      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: WinoGrande / GPT-4o",
-      "reported_by": "Benchpress",
-      "published": "2026-07-10",
-      "fetched_at": "2026-07-13T00:00:00Z"
-    },
-    "extra": {
-      "benchpress_benchmark": "WinoGrande",
-      "benchpress_model": "GPT-4o",
-      "benchpress_fraction": 0.917
     }
   },
   {
@@ -2467,6 +2448,25 @@
       "benchpress_benchmark": "WinoGrande",
       "benchpress_model": "Llama-3.1-70B",
       "benchpress_fraction": 0.854
+    }
+  },
+  {
+    "model_id": "deepseek-v3",
+    "benchmark_id": "winogrande",
+    "score": 84.9,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://jiyoon113.github.io/Benchboard/coverage",
+      "ref": "Benchpress data/leaderboard_scores.json July 2026 backfill: WinoGrande / DeepSeek-v3",
+      "reported_by": "Benchpress",
+      "published": "2026-07-10",
+      "fetched_at": "2026-07-13T00:00:00Z"
+    },
+    "extra": {
+      "benchpress_benchmark": "WinoGrande",
+      "benchpress_model": "DeepSeek-v3",
+      "benchpress_fraction": 0.849
     }
   },
   {

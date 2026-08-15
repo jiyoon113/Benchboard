@@ -178,44 +178,6 @@
   },
   {
     "model_id": "ax-4",
-    "benchmark_id": "kmmlu-pro",
-    "score": 72.43,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://huggingface.co/skt/A.X-4.0",
-      "reported_by": "SKT A.X 4.0 README",
-      "fetched_at": "2026-06-09T00:00:00Z",
-      "published": "2025-07"
-    }
-  },
-  {
-    "model_id": "exaone-4",
-    "benchmark_id": "kmmlu-pro",
-    "score": 67.7,
-    "config": "reasoning",
-    "source": {
-      "kind": "manual",
-      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
-      "reported_by": "EXAONE 4.0 32B README",
-      "fetched_at": "2026-06-09T00:00:00Z",
-      "published": "2025-07"
-    }
-  },
-  {
-    "model_id": "ax-3.1-light",
-    "benchmark_id": "kmmlu-pro",
-    "score": 45.54,
-    "config": "default",
-    "source": {
-      "kind": "manual",
-      "url": "https://huggingface.co/skt/A.X-3.1-Light",
-      "reported_by": "SKT A.X 3.1 Light README",
-      "fetched_at": "2026-06-09T00:00:00Z"
-    }
-  },
-  {
-    "model_id": "ax-4",
     "benchmark_id": "kmmlu-redux",
     "score": 74.18,
     "config": "default",
@@ -332,6 +294,44 @@
     "model_id": "ax-3.1-light",
     "benchmark_id": "kobalt",
     "score": 27.43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-3.1-Light",
+      "reported_by": "SKT A.X 3.1 Light README",
+      "fetched_at": "2026-06-09T00:00:00Z"
+    }
+  },
+  {
+    "model_id": "ax-4",
+    "benchmark_id": "kommlu-pro",
+    "score": 72.43,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-4.0",
+      "reported_by": "SKT A.X 4.0 README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "exaone-4",
+    "benchmark_id": "kommlu-pro",
+    "score": 67.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B",
+      "reported_by": "EXAONE 4.0 32B README",
+      "fetched_at": "2026-06-09T00:00:00Z",
+      "published": "2025-07"
+    }
+  },
+  {
+    "model_id": "ax-3.1-light",
+    "benchmark_id": "kommlu-pro",
+    "score": 45.54,
     "config": "default",
     "source": {
       "kind": "manual",

@@ -229,18 +229,6 @@
   },
   {
     "model_id": "solar-open",
-    "benchmark_id": "kmmlu-pro",
-    "score": 64,
-    "config": "default",
-    "source": {
-      "kind": "tech_report",
-      "url": "solar-open__paper.pdf",
-      "ref": "p.21",
-      "fetched_at": "2026-06-08T04:07:36.976Z"
-    }
-  },
-  {
-    "model_id": "solar-open",
     "benchmark_id": "ko-aime-2024",
     "score": 80.3,
     "config": "default",
@@ -291,6 +279,18 @@
     "model_id": "solar-open",
     "benchmark_id": "kobalt",
     "score": 44.3,
+    "config": "default",
+    "source": {
+      "kind": "tech_report",
+      "url": "solar-open__paper.pdf",
+      "ref": "p.21",
+      "fetched_at": "2026-06-08T04:07:36.976Z"
+    }
+  },
+  {
+    "model_id": "solar-open",
+    "benchmark_id": "kommlu-pro",
+    "score": 64,
     "config": "default",
     "source": {
       "kind": "tech_report",

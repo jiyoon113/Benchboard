@@ -143,7 +143,8 @@
       "claude-3.5-sonnet",
       "claude-3-5-sonnet",
       "claude-3-5-sonnet-20240620",
-      "claude-3-5-sonnet-20241022"
+      "claude-3-5-sonnet-20241022",
+      "Claude Sonnet 3.5 (new)"
     ]
   },
   {
@@ -855,7 +856,8 @@
       "deepseek-r1-distill-qwen-1.5b",
       "DeepSeek R1 Distill Qwen 1.5B",
       "DeepSeek-R1-Distill-Qwen-1.5B",
-      "DeepSeekR1DistillQwen1.5B"
+      "DeepSeekR1DistillQwen1.5B",
+      "DS-R1-Distill (1.5B)"
     ]
   },
   {
@@ -866,7 +868,8 @@
       "deepseek-r1-distill-qwen-14b",
       "DeepSeek R1 Distill Qwen 14B",
       "DeepSeek-R1-Distill-Qwen-14B",
-      "DeepSeekR1DistillQwen14B"
+      "DeepSeekR1DistillQwen14B",
+      "DS-R1-Distill (14B)"
     ]
   },
   {
@@ -877,7 +880,8 @@
     "aliases": [
       "DeepSeek R1 Distill Qwen 32B",
       "deepseek-r1-distill-qwen-32b",
-      "DeepSeek-R1-Distill-Qwen-32B"
+      "DeepSeek-R1-Distill-Qwen-32B",
+      "DS-R1-Distill (32B)"
     ]
   },
   {
@@ -888,7 +892,8 @@
       "deepseek-r1-distill-qwen-7b",
       "DeepSeek R1 Distill Qwen 7B",
       "DeepSeek-R1-Distill-Qwen-7B",
-      "DeepSeekR1DistillQwen7B"
+      "DeepSeekR1DistillQwen7B",
+      "DS-R1-Distill (7B)"
     ]
   },
   {
@@ -920,7 +925,8 @@
       "DeepSeek v3",
       "deepseek-v3",
       "deepseek-chat",
-      "deepseek-v3-0324"
+      "deepseek-v3-0324",
+      "DeepSeek-V3 (MoE 37/671B)"
     ]
   },
   {
@@ -977,7 +983,11 @@
     "release_date": "2026-04-24",
     "aliases": [
       "DeepSeek-V4-Flash",
-      "deepseek-v4-flash"
+      "deepseek-v4-flash",
+      "DeepSeek V4 Flash 0731",
+      "DeepSeek V4 Flash 0731 (Reasoning, Max Effort)",
+      "deepseek-v4-flash-0731",
+      "deepseek-v4-flash-0731_max"
     ]
   },
   {
@@ -1000,7 +1010,11 @@
       "DS-V4-Pro Max",
       "DS-V4-Pro-Max",
       "DeepSeek-V4-Pro-Max",
-      "deepseek-v4-pro-max"
+      "deepseek-v4-pro-max",
+      "DeepSeek V4 Pro 0813",
+      "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+      "deepseek-v4-pro-0813",
+      "deepseek-v4-pro-0813_max"
     ]
   },
   {
@@ -1283,7 +1297,8 @@
       "Gemini 2.5 Pro Preview 05-06",
       "Gemini 2.5 Pro Preview 06-05",
       "gemini-2.5-pro",
-      "gemini-2.5-pro-exp"
+      "gemini-2.5-pro-exp",
+      "Gemini 2.5 Pro Exp 0325"
     ]
   },
   {
@@ -2785,7 +2800,8 @@
       "llama-3.2-11b",
       "Llama 3.2 11B",
       "Llama-3.2-11B",
-      "Llama3.211B"
+      "Llama3.211B",
+      "Llama-3.2 11B Vision"
     ]
   },
   {
@@ -2818,7 +2834,8 @@
     "aliases": [
       "llama-3.2-90b",
       "Llama 3.2 90B Instruct",
-      "Llama 3.2 90B Vision Instruct"
+      "Llama 3.2 90B Vision Instruct",
+      "Llama-3.2 90B Vision"
     ]
   },
   {
@@ -3081,7 +3098,8 @@
     "aliases": [
       "Mistral Large 3",
       "mistral-large-3",
-      "mistral-large-2411"
+      "mistral-large-2411",
+      "Mistral Large 2411 (123B)"
     ]
   },
   {
@@ -3158,7 +3176,8 @@
       "Mistral Small 3",
       "mistral-small-3",
       "Mistral Small 3 24B Instruct",
-      "Mistral Small 24B Instruct 2501"
+      "Mistral Small 24B Instruct 2501",
+      "Mistral Small 2501 (24B)"
     ]
   },
   {
@@ -3422,7 +3441,8 @@
     "report_url": "https://arcprize.org/leaderboard",
     "aliases": [
       "o3-mini-2025-01-31-high",
-      "o3-mini (High)"
+      "o3-mini (High)",
+      "OpenAI o3-mini (high)"
     ],
     "release_date": "2025-01-31"
   },
@@ -3694,7 +3714,8 @@
     "vendor": "Mistral",
     "aliases": [
       "Pixtral Large",
-      "pixtral-large"
+      "pixtral-large",
+      "Pixtral Large 2411 (124B)"
     ]
   },
   {
@@ -3927,7 +3948,8 @@
       "qwen3-235b",
       "Qwen3-235B-A22B-Instruct",
       "Qwen3-235B-A22B-Instruct-2507",
-      "Qwen3-235B-A22B-Thinking-2507"
+      "Qwen3-235B-A22B-Thinking-2507",
+      "Qwen3 (235B-A22B, Think)"
     ]
   },
   {
@@ -3958,7 +3980,8 @@
     "aliases": [
       "qwen3-30b-a3b",
       "Qwen3 30B A3B",
-      "Qwen3-30B-A3B"
+      "Qwen3-30B-A3B",
+      "Qwen3 (30B-A3B, Think)"
     ]
   },
   {
@@ -3977,7 +4000,8 @@
     "vendor": "Alibaba",
     "aliases": [
       "Qwen3 4B",
-      "qwen3-4b"
+      "qwen3-4b",
+      "Qwen3 (4B, Think)"
     ]
   },
   {
@@ -4380,5 +4404,602 @@
       "Yi-1.5-9B",
       "Yi1.59B"
     ]
+  },
+  {
+    "id": "acemath-rl-nemotron-7b",
+    "name": "AceMath-RL Nemotron 7B",
+    "vendor": "NVIDIA",
+    "aliases": [
+      "acemath-rl-nemotron-7b",
+      "AceMath-RL Nemotron 7B",
+      "AceMath-RL (7B)"
+    ]
+  },
+  {
+    "id": "athene-v2-chat-72b",
+    "name": "Athene-V2 Chat 72B",
+    "vendor": "Nexusflow",
+    "aliases": [
+      "athene-v2-chat-72b",
+      "Athene-V2 Chat 72B",
+      "Athene-V2 Chat (72B)"
+    ]
+  },
+  {
+    "id": "deepscaler-preview-1.5b",
+    "name": "DeepScaleR Preview 1.5B",
+    "vendor": "Agentica",
+    "aliases": [
+      "deepscaler-preview-1.5b",
+      "DeepScaleR Preview 1.5B",
+      "DeepScaleR-Pre. (1.5B)",
+      "DeepScaleR-1.5B-Preview"
+    ]
+  },
+  {
+    "id": "deepseek-coder-v2",
+    "name": "DeepSeek-Coder-V2",
+    "vendor": "DeepSeek",
+    "aliases": [
+      "deepseek-coder-v2",
+      "DeepSeek-Coder-V2"
+    ]
+  },
+  {
+    "id": "deepseek-coder-v2-lite",
+    "name": "DeepSeek-Coder-V2-Lite-Instruct",
+    "vendor": "DeepSeek",
+    "aliases": [
+      "deepseek-coder-v2-lite",
+      "DeepSeek-Coder-V2-Lite-Instruct"
+    ]
+  },
+  {
+    "id": "deepseek-math-7b-rl",
+    "name": "DeepSeekMath 7B RL",
+    "vendor": "DeepSeek",
+    "aliases": [
+      "deepseek-math-7b-rl",
+      "DeepSeekMath 7B RL",
+      "DeepSeekMATH-7b-RL"
+    ]
+  },
+  {
+    "id": "gemini-2.0-pro-experimental",
+    "name": "Gemini 2.0 Pro Experimental",
+    "vendor": "Google",
+    "aliases": [
+      "gemini-2.0-pro-experimental",
+      "Gemini 2.0 Pro Experimental",
+      "gemini_2.0_experimental_advanced"
+    ]
+  },
+  {
+    "id": "glm-z1-air-32b",
+    "name": "GLM-Z1-Air 32B",
+    "vendor": "Zhipu AI",
+    "aliases": [
+      "glm-z1-air-32b",
+      "GLM-Z1-Air 32B",
+      "GLM-Z1-Air (32B)",
+      "GLM-Z1-32B-0414"
+    ]
+  },
+  {
+    "id": "gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo",
+    "vendor": "OpenAI",
+    "aliases": [
+      "gpt-3.5-turbo",
+      "GPT-3.5 Turbo",
+      "gpt-3.5-turbo-0125"
+    ]
+  },
+  {
+    "id": "hyperclova-x",
+    "name": "HyperCLOVA X",
+    "vendor": "NAVER",
+    "aliases": [
+      "hyperclova-x",
+      "HyperCLOVA X",
+      "HyperClovaX"
+    ]
+  },
+  {
+    "id": "internlm2-math-plus-mixtral-8x22b",
+    "name": "InternLM2 Math Plus Mixtral 8x22B",
+    "vendor": "Shanghai AI Laboratory",
+    "aliases": [
+      "internlm2-math-plus-mixtral-8x22b",
+      "InternLM2 Math Plus Mixtral 8x22B",
+      "InternLM2-math-plus-mixtral8*22B"
+    ]
+  },
+  {
+    "id": "light-r1-distill-qwen-14b",
+    "name": "Light-R1 Distill Qwen 14B",
+    "vendor": "Qihoo 360",
+    "aliases": [
+      "light-r1-distill-qwen-14b",
+      "Light-R1 Distill Qwen 14B",
+      "Light-R1-DS (14B)"
+    ]
+  },
+  {
+    "id": "light-r1-distill-qwen-32b",
+    "name": "Light-R1 Distill Qwen 32B",
+    "vendor": "Qihoo 360",
+    "aliases": [
+      "light-r1-distill-qwen-32b",
+      "Light-R1 Distill Qwen 32B",
+      "Light-R1-DS (32B)"
+    ]
+  },
+  {
+    "id": "light-r1-distill-qwen-7b",
+    "name": "Light-R1 Distill Qwen 7B",
+    "vendor": "Qihoo 360",
+    "aliases": [
+      "light-r1-distill-qwen-7b",
+      "Light-R1 Distill Qwen 7B",
+      "Light-R1-DS (7B)"
+    ]
+  },
+  {
+    "id": "mathstral-7b",
+    "name": "Mathstral 7B",
+    "vendor": "Mistral",
+    "aliases": [
+      "mathstral-7b",
+      "Mathstral 7B",
+      "Mathstral-7B-v0.1"
+    ]
+  },
+  {
+    "id": "mixtral-8x7b",
+    "name": "Mixtral 8x7B",
+    "vendor": "Mistral",
+    "aliases": [
+      "mixtral-8x7b",
+      "Mixtral 8x7B",
+      "Mixtral-8x7B-Instruct-v0.1"
+    ]
+  },
+  {
+    "id": "numinamath-72b-cot",
+    "name": "NuminaMath 72B CoT",
+    "vendor": "Numina",
+    "aliases": [
+      "numinamath-72b-cot",
+      "NuminaMath 72B CoT",
+      "NuminaMATH-72B-COT",
+      "NuminaMATH-72b-cot"
+    ]
+  },
+  {
+    "id": "openmath-nemotron-1.5b",
+    "name": "OpenMath-Nemotron 1.5B",
+    "vendor": "NVIDIA",
+    "aliases": [
+      "openmath-nemotron-1.5b",
+      "OpenMath-Nemotron 1.5B",
+      "OpenMath-Nemo. (1.5B)"
+    ]
+  },
+  {
+    "id": "openmath-nemotron-14b",
+    "name": "OpenMath-Nemotron 14B",
+    "vendor": "NVIDIA",
+    "aliases": [
+      "openmath-nemotron-14b",
+      "OpenMath-Nemotron 14B",
+      "OpenMath-Nemo. (14B)"
+    ]
+  },
+  {
+    "id": "openmath-nemotron-32b",
+    "name": "OpenMath-Nemotron 32B",
+    "vendor": "NVIDIA",
+    "aliases": [
+      "openmath-nemotron-32b",
+      "OpenMath-Nemotron 32B",
+      "OpenMath-Nemo. (32B)"
+    ]
+  },
+  {
+    "id": "openmath-nemotron-7b",
+    "name": "OpenMath-Nemotron 7B",
+    "vendor": "NVIDIA",
+    "aliases": [
+      "openmath-nemotron-7b",
+      "OpenMath-Nemotron 7B",
+      "OpenMath-Nemo. (7B)"
+    ]
+  },
+  {
+    "id": "openthinker2-32b",
+    "name": "OpenThinker2 32B",
+    "vendor": "OpenThoughts",
+    "aliases": [
+      "openthinker2-32b",
+      "OpenThinker2 32B",
+      "OpenThinker2 (32B)"
+    ]
+  },
+  {
+    "id": "openthinker2-7b",
+    "name": "OpenThinker2 7B",
+    "vendor": "OpenThoughts",
+    "aliases": [
+      "openthinker2-7b",
+      "OpenThinker2 7B",
+      "OpenThinker2 (7B)"
+    ]
+  },
+  {
+    "id": "pixtral-12b",
+    "name": "Pixtral 12B",
+    "vendor": "Mistral",
+    "aliases": [
+      "pixtral-12b",
+      "Pixtral 12B"
+    ]
+  },
+  {
+    "id": "qvq-72b-preview",
+    "name": "QVQ-72B-Preview",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qvq-72b-preview",
+      "QVQ-72B-Preview"
+    ]
+  },
+  {
+    "id": "qwen2-72b",
+    "name": "Qwen2 72B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2-72b",
+      "Qwen2 72B",
+      "Qwen2-72B-Instruct",
+      "Qwen2 72B Instruct"
+    ]
+  },
+  {
+    "id": "qwen2-math-72b",
+    "name": "Qwen2-Math 72B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2-math-72b",
+      "Qwen2-Math 72B",
+      "Qwen2-MATH-72b-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2-math-7b",
+    "name": "Qwen2-Math 7B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2-math-7b",
+      "Qwen2-Math 7B",
+      "Qwen2-MATH-7b-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2-vl-72b",
+    "name": "Qwen2-VL 72B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2-vl-72b",
+      "Qwen2-VL 72B"
+    ]
+  },
+  {
+    "id": "qwen2-vl-7b",
+    "name": "Qwen2-VL 7B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2-vl-7b",
+      "Qwen2-VL 7B"
+    ]
+  },
+  {
+    "id": "qwen2.5-math-72b",
+    "name": "Qwen2.5-Math 72B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2.5-math-72b",
+      "Qwen2.5-Math 72B",
+      "Qwen2.5-MATH-72b-Instruct"
+    ]
+  },
+  {
+    "id": "qwen2.5-math-7b",
+    "name": "Qwen2.5-Math 7B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen2.5-math-7b",
+      "Qwen2.5-Math 7B",
+      "Qwen2.5-MATH-7b-Instruct"
+    ]
+  },
+  {
+    "id": "qwen3-0.6b",
+    "name": "Qwen3 0.6B",
+    "vendor": "Alibaba",
+    "aliases": [
+      "qwen3-0.6b",
+      "Qwen3 0.6B",
+      "Qwen3 (0.6B, Think)"
+    ]
+  },
+  {
+    "id": "skywork-or1-math-7b",
+    "name": "Skywork-OR1 Math 7B",
+    "vendor": "Skywork",
+    "aliases": [
+      "skywork-or1-math-7b",
+      "Skywork-OR1 Math 7B",
+      "Skywork-OR1-Math (7B)"
+    ]
+  },
+  {
+    "id": "skywork-or1-preview-32b",
+    "name": "Skywork-OR1 Preview 32B",
+    "vendor": "Skywork",
+    "aliases": [
+      "skywork-or1-preview-32b",
+      "Skywork-OR1 Preview 32B",
+      "Skywork-OR1-Pre. (32B)"
+    ]
+  },
+  {
+    "id": "skywork-or1-preview-7b",
+    "name": "Skywork-OR1 Preview 7B",
+    "vendor": "Skywork",
+    "aliases": [
+      "skywork-or1-preview-7b",
+      "Skywork-OR1 Preview 7B",
+      "Skywork-OR1-Pre. (7B)"
+    ]
+  },
+  {
+    "id": "solar-mini",
+    "name": "Solar Mini",
+    "vendor": "Upstage",
+    "aliases": [
+      "solar-mini",
+      "Solar Mini"
+    ]
+  },
+  {
+    "id": "solar-mini-ja",
+    "name": "Solar Mini JA",
+    "vendor": "Upstage",
+    "aliases": [
+      "solar-mini-ja",
+      "Solar Mini JA"
+    ]
+  },
+  {
+    "id": "still-3-preview-1.5b",
+    "name": "STILL-3 Preview 1.5B",
+    "vendor": "RUC AI Box",
+    "aliases": [
+      "still-3-preview-1.5b",
+      "STILL-3 Preview 1.5B",
+      "STILL-3-Pre. (1.5B)",
+      "STILL-3-1.5B-preview"
+    ]
+  },
+  {
+    "id": "wizardlm-2-8x22b",
+    "name": "WizardLM 2 8x22B",
+    "vendor": "Microsoft",
+    "aliases": [
+      "wizardlm-2-8x22b",
+      "WizardLM 2 8x22B",
+      "WizardLM-2-8x22B"
+    ]
+  },
+  {
+    "id": "gpt-5.6-sol",
+    "name": "GPT-5.6 Sol",
+    "vendor": "OpenAI",
+    "release_date": "2026-07-09",
+    "report_url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "aliases": ["GPT-5.6", "GPT-5.6 Sol", "gpt-5.6", "gpt-5.6-sol", "gpt-5.6-sol-xhigh", "openai/gpt-5.6-sol"]
+  },
+  {
+    "id": "gpt-5.6-terra",
+    "name": "GPT-5.6 Terra",
+    "vendor": "OpenAI",
+    "release_date": "2026-07-09",
+    "report_url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "aliases": ["GPT-5.6 Terra", "gpt-5.6-terra", "openai/gpt-5.6-terra"]
+  },
+  {
+    "id": "gpt-5.6-luna",
+    "name": "GPT-5.6 Luna",
+    "vendor": "OpenAI",
+    "release_date": "2026-07-09",
+    "report_url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "aliases": ["GPT-5.6 Luna", "gpt-5.6-luna", "openai/gpt-5.6-luna"]
+  },
+  {
+    "id": "claude-opus-5",
+    "name": "Claude Opus 5",
+    "vendor": "Anthropic",
+    "release_date": "2026-07-24",
+    "report_url": "https://openrouter.ai/anthropic/claude-opus-5",
+    "aliases": ["Claude Opus 5", "claude-opus-5", "claude-opus-5-high", "claude-opus-5-max", "anthropic/claude-opus-5"]
+  },
+  {
+    "id": "gemini-3.6-flash",
+    "name": "Gemini 3.6 Flash",
+    "vendor": "Google",
+    "release_date": "2026-07-21",
+    "report_url": "https://openrouter.ai/google/gemini-3.6-flash",
+    "aliases": ["Gemini 3.6 Flash", "gemini-3.6-flash", "gemini-3.6-flash-high", "google/gemini-3.6-flash"]
+  },
+  {
+    "id": "gemini-3.7-flash",
+    "name": "Gemini 3.7 Flash",
+    "vendor": "Google",
+    "release_date": "2026-08-13",
+    "report_url": "https://openrouter.ai/google/gemini-3.7-flash",
+    "aliases": ["Gemini 3.7 Flash", "gemini-3.7-flash", "google/gemini-3.7-flash"]
+  },
+  {
+    "id": "grok-4.5",
+    "name": "Grok 4.5",
+    "vendor": "xAI",
+    "release_date": "2026-07-08",
+    "report_url": "https://openrouter.ai/x-ai/grok-4.5",
+    "aliases": ["Grok 4.5", "grok-4.5", "x-ai/grok-4.5"]
+  },
+  {
+    "id": "grok-4.6",
+    "name": "Grok 4.6",
+    "vendor": "xAI",
+    "release_date": "2026-08-12",
+    "report_url": "https://openrouter.ai/x-ai/grok-4.6",
+    "aliases": ["Grok 4.6", "grok-4.6", "x-ai/grok-4.6"]
+  },
+  {
+    "id": "qwen3.8-max",
+    "name": "Qwen3.8-Max",
+    "vendor": "Alibaba",
+    "release_date": "2026-08-03",
+    "report_url": "https://openrouter.ai/qwen/qwen3.8-max",
+    "aliases": ["Qwen3.8 Max", "Qwen3.8-Max", "qwen3.8-max", "qwen3.8-max_xhigh", "qwen/qwen3.8-max"]
+  },
+  {
+    "id": "kimi-k3",
+    "name": "Kimi K3",
+    "vendor": "Moonshot",
+    "release_date": "2026-07-16",
+    "report_url": "https://openrouter.ai/moonshotai/kimi-k3",
+    "aliases": ["Kimi K3", "kimi-k3", "kimi-k3-max", "moonshotai/kimi-k3"]
+  },
+  {
+    "id": "nemotron-3.5-lightning",
+    "name": "Nemotron 3.5 Lightning",
+    "vendor": "NVIDIA",
+    "release_date": "2026-08-11",
+    "report_url": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
+    "aliases": ["Nemotron 3.5 Lightning", "NVIDIA Nemotron 3.5 Lightning", "nemotron-3.5-lightning", "nvidia/nemotron-3.5-lightning"]
+  },
+  {
+    "id": "solar-pro4",
+    "name": "Solar Pro 4",
+    "vendor": "Upstage",
+    "release_date": "2026-08-10",
+    "report_url": "https://openrouter.ai/upstage/solar-pro4",
+    "aliases": ["Solar Pro 4", "Solar-Pro4", "solar-pro4", "solar-pro-4", "upstage/solar-pro4"]
+  },
+  {
+    "id": "solar-open",
+    "name": "Solar Open 100B",
+    "vendor": "Upstage",
+    "release_date": "2025-12-31",
+    "report_url": "https://huggingface.co/upstage/Solar-Open-100B",
+    "aliases": ["Solar Open", "Solar Open 100B", "Solar-Open-100B", "solar-open", "upstage/Solar-Open-100B"]
+  },
+  {
+    "id": "solar-open2-250b",
+    "name": "Solar Open 2 250B-A15B",
+    "vendor": "Upstage",
+    "release_date": "2026-07-29",
+    "report_url": "https://huggingface.co/upstage/Solar-Open2-250B",
+    "aliases": ["Solar Open 2", "Solar Open 2 250B-A15B", "Solar-Open2-250B", "solar-open2-250b", "upstage/Solar-Open2-250B"]
+  },
+  {
+    "id": "ax-k1",
+    "name": "A.X K1 519B-A33B",
+    "vendor": "SKT",
+    "release_date": "2026-01-04",
+    "report_url": "https://huggingface.co/skt/A.X-K1",
+    "aliases": ["A.X K1", "A.X K1 519B-A33B", "A.X-K1", "ax-k1", "skt/A.X-K1"]
+  },
+  {
+    "id": "ax-k2",
+    "name": "A.X K2 688B-A33B",
+    "vendor": "SKT",
+    "release_date": "2026-08-09",
+    "report_url": "https://huggingface.co/skt/A.X-K2",
+    "aliases": ["A.X K2", "A.X K2 688B-A33B", "A.X-K2", "ax-k2", "skt/A.X-K2"]
+  },
+  {
+    "id": "exaone-4.5-33b",
+    "name": "EXAONE 4.5 33B",
+    "vendor": "LG AI Research",
+    "release_date": "2026-04-09",
+    "report_url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+    "aliases": ["EXAONE 4.5", "EXAONE 4.5 33B", "EXAONE-4.5-33B", "exaone-4.5-33b", "LGAI-EXAONE/EXAONE-4.5-33B"]
+  },
+  {
+    "id": "k-exaone-2.0-750b-a37b",
+    "name": "K-EXAONE 2.0 750B-A37B",
+    "vendor": "LG AI Research",
+    "release_date": "2026-07-30",
+    "report_url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+    "aliases": ["K-EXAONE 2.0", "K-EXAONE 2.0 0803", "K-EXAONE 2.0 750B-A37B", "K-EXAONE-2.0-750B-A37B", "k-exaone-2.0-750b-a37b", "LGAI-EXAONE/K-EXAONE-2.0-750B-A37B"]
+  },
+  {
+    "id": "hyperclovax-seed-think-14b",
+    "name": "HyperCLOVA X SEED Think 14B",
+    "vendor": "NAVER Cloud",
+    "release_date": "2026-05-28",
+    "report_url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+    "aliases": ["HyperCLOVA X SEED Think 14B", "HyperCLOVAX-SEED-Think-14B", "hyperclovax-seed-think-14b", "naver-hyperclovax/HyperCLOVAX-SEED-Think-14B"]
+  },
+  {
+    "id": "hyperclovax-seed-think-32b",
+    "name": "HyperCLOVA X SEED Think 32B",
+    "vendor": "NAVER Cloud",
+    "release_date": "2026-07-31",
+    "report_url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+    "aliases": ["HyperCLOVA X SEED Think 32B", "HyperCLOVA X SEED Think (32B)", "HyperCLOVAX-SEED-Think-32B", "hyperclovax-seed-think-32b", "naver-hyperclovax/HyperCLOVAX-SEED-Think-32B"]
+  },
+  {
+    "id": "hyperclovax-seed-omni-8b",
+    "name": "HyperCLOVA X SEED Omni 8B",
+    "vendor": "NAVER Cloud",
+    "release_date": "2026-01-06",
+    "report_url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B",
+    "aliases": ["HyperCLOVA X SEED Omni 8B", "HyperCLOVAX-SEED-Omni-8B", "hyperclovax-seed-omni-8b", "naver-hyperclovax/HyperCLOVAX-SEED-Omni-8B"]
+  },
+  {
+    "id": "kanana-2-30b-a3b-base-2601",
+    "name": "Kanana 2 30B-A3B Base",
+    "vendor": "Kakao",
+    "release_date": "2026-01",
+    "report_url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+    "aliases": ["Kanana 2 30B-A3B Base", "kanana-2-30b-a3b-base-2601", "kakaocorp/kanana-2-30b-a3b-base-2601"]
+  },
+  {
+    "id": "kanana-2-30b-a3b-mid-2601",
+    "name": "Kanana 2 30B-A3B Mid",
+    "vendor": "Kakao",
+    "release_date": "2026-01",
+    "report_url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-mid-2601",
+    "aliases": ["Kanana 2 30B-A3B Mid", "kanana-2-30b-a3b-mid-2601", "kakaocorp/kanana-2-30b-a3b-mid-2601"]
+  },
+  {
+    "id": "motif-3-beta",
+    "name": "Motif 3 Beta",
+    "vendor": "Motif Technologies",
+    "release_date": "2026-08-05",
+    "report_url": "https://huggingface.co/Motif-Technologies/Motif-3-Beta",
+    "aliases": ["Motif 3", "Motif 3 Beta", "Motif 3 (Beta)", "Motif-3-Beta", "motif-3-beta", "Motif-Technologies/Motif-3-Beta"]
+  },
+  {
+    "id": "claude-sonnet-5",
+    "name": "Claude Sonnet 5",
+    "vendor": "Anthropic",
+    "release_date": "2026-06-30",
+    "report_url": "https://openrouter.ai/anthropic/claude-sonnet-5",
+    "aliases": ["Claude Sonnet 5", "claude-sonnet-5", "anthropic/claude-sonnet-5"]
   }
 ]

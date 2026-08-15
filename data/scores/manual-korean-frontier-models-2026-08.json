@@ -1,0 +1,1367 @@
+[
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "aa-lcr",
+    "score": 66,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "aa-lcr",
+    "score": 62.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "aa-lcr",
+    "score": 56.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "aa-lcr",
+    "score": 50.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ai2d",
+    "score": 89,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "aime-2025",
+    "score": 92.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "aime-2025",
+    "score": 89.8,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "aime-2026",
+    "score": 97.1,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "aime-2026",
+    "score": 95.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "aime-2026",
+    "score": 92.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "aime-2026",
+    "score": 92.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "apex",
+    "score": 45.8,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-think-14b",
+    "benchmark_id": "arena-hard",
+    "score": 58.26,
+    "config": "v0.1; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-05-28"
+    },
+    "variants": [
+      {
+        "score": 27.33,
+        "config": "v0.1; non-thinking",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+          "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+          "fetched_at": "2026-08-14T00:00:00Z",
+          "published": "2026-05-28"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "bbh",
+    "score": 79.76,
+    "config": "3-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "bbh",
+    "score": 76.46,
+    "config": "3-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "bench-airline",
+    "score": 56.5,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "bench-retail",
+    "score": 77.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "click",
+    "score": 91.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "click",
+    "score": 90.7,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "click",
+    "score": 84.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "gpqa",
+    "score": 86.3,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "gpqa",
+    "score": 85.6,
+    "config": "Diamond; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "gpqa",
+    "score": 82.2,
+    "config": "Diamond",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "gpqa",
+    "score": 80.5,
+    "config": "Diamond; reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "gpqa",
+    "score": 74,
+    "config": "Diamond; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-think-14b",
+    "benchmark_id": "gsm8k",
+    "score": 95.53,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-05-28"
+    },
+    "variants": [
+      {
+        "score": 93.48,
+        "config": "non-thinking",
+        "source": {
+          "kind": "manual",
+          "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+          "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+          "fetched_at": "2026-08-14T00:00:00Z",
+          "published": "2026-05-28"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "gsm8k",
+    "score": 82.71,
+    "config": "8-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "gsm8k",
+    "score": 76.57,
+    "config": "8-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "hae-rae-v1.0",
+    "score": 88.91,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "hae-rae-v1.0",
+    "score": 88.73,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "hae-rae-v1.1",
+    "score": 73.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "hallusionbench",
+    "score": 63.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "hle",
+    "score": 28.8,
+    "config": "without tools",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "hle",
+    "score": 27.8,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "hle",
+    "score": 18.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "hle",
+    "score": 8.6,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "hmmt-feb-2026",
+    "score": 78.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "hrm8k",
+    "score": 92.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "hrm8k",
+    "score": 89.4,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-think-14b",
+    "benchmark_id": "humaneval",
+    "score": 94.51,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-05-28"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "humaneval",
+    "score": 75.29,
+    "config": "pass@1; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "humaneval",
+    "score": 71.34,
+    "config": "pass@1; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "ifbench",
+    "score": 80,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "ifbench",
+    "score": 75.9,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "ifbench",
+    "score": 72.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ifbench",
+    "score": 62.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "ifeval",
+    "score": 92.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ifeval",
+    "score": 89.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "ifeval",
+    "score": 80.4,
+    "config": "prompt-strict; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "kbl",
+    "score": 75.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "kgc-safety",
+    "score": 99.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "kmmlu",
+    "score": 62.15,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "kmmlu",
+    "score": 61.98,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "ko-aime-2025",
+    "score": 97.7,
+    "config": "in-house",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "ko-ifeval",
+    "score": 81,
+    "config": "prompt-strict; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "ko-longbench",
+    "score": 89.6,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "kobalt",
+    "score": 73,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kobalt",
+    "score": 52.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "kobalt",
+    "score": 48.8,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "kommlu-pro",
+    "score": 80.5,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "kommlu-pro",
+    "score": 78.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "kommlu-pro",
+    "score": 69.1,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "kommlu-pro",
+    "score": 68.1,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "kommlu-pro",
+    "score": 67.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "kormedmcqa",
+    "score": 93,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "livecodebench",
+    "score": 92.4,
+    "config": "v6",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "livecodebench",
+    "score": 84,
+    "config": "v6 (Feb-May); thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "livecodebench",
+    "score": 81.4,
+    "config": "v6; reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "livecodebench",
+    "score": 75.8,
+    "config": "v6 (2025-02-01 to 2025-05-01); thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "math",
+    "score": 54.4,
+    "config": "4-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "math",
+    "score": 48.86,
+    "config": "4-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-think-14b",
+    "benchmark_id": "math-500",
+    "score": 93.8,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-05-28"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mathvision",
+    "score": 75.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mathvista",
+    "score": 85,
+    "config": "mini; reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "hyperclovax-seed-think-14b",
+    "benchmark_id": "mbpp",
+    "score": 87.59,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-14B",
+      "reported_by": "NAVER HyperCLOVA X SEED Think 14B official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-05-28"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "mbpp",
+    "score": 62.39,
+    "config": "3-shot pass@1; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "mbpp",
+    "score": 60.21,
+    "config": "3-shot pass@1; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "mmlu",
+    "score": 75.44,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "mmlu",
+    "score": 74.83,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "mmlu-pro",
+    "score": 86.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.5,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmlu-pro",
+    "score": 83.3,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "mmlu-pro",
+    "score": 81.5,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "mmlu-pro",
+    "score": 56.14,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "mmlu-pro",
+    "score": 52.61,
+    "config": "5-shot; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmmu",
+    "score": 78.7,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmmu-pro",
+    "score": 68.6,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "mmstar",
+    "score": 74.9,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "ocrbench",
+    "score": 63.2,
+    "config": "v2; reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "omnidocbench-1.5",
+    "score": 81.2,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "scicode",
+    "score": 41,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "scicode",
+    "score": 37.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "scicode",
+    "score": 32.4,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-mid-2601",
+    "benchmark_id": "simpleqa",
+    "score": 29.7,
+    "config": "5-shot MCQA; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card (mid checkpoint column)",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "kanana-2-30b-a3b-base-2601",
+    "benchmark_id": "simpleqa",
+    "score": 29.13,
+    "config": "5-shot MCQA; base evaluation",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/kakaocorp/kanana-2-30b-a3b-base-2601",
+      "reported_by": "Kakao Kanana 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-01"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 70.4,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "swe-bench-verified",
+    "score": 68.2,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "ax-k2",
+    "benchmark_id": "tau2-telecom",
+    "score": 98,
+    "config": "Artificial Analysis; thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K2",
+      "reported_by": "SKT A.X K2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-08-09"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "tau2-telecom",
+    "score": 73,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  },
+  {
+    "model_id": "ax-k1",
+    "benchmark_id": "tau2-telecom",
+    "score": 58.1,
+    "config": "thinking",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/skt/A.X-K1",
+      "reported_by": "SKT A.X K1 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-01-14"
+    }
+  },
+  {
+    "model_id": "k-exaone-2.0-750b-a37b",
+    "benchmark_id": "terminal-bench-2.1",
+    "score": 43.8,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+      "reported_by": "LG AI Research K-EXAONE 2.0 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-30"
+    }
+  },
+  {
+    "model_id": "solar-open2-250b",
+    "benchmark_id": "terminal-bench-hard",
+    "score": 28.3,
+    "config": "default",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+      "reported_by": "Upstage Solar Open 2 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-07-29"
+    }
+  },
+  {
+    "model_id": "exaone-4.5-33b",
+    "benchmark_id": "we-math",
+    "score": 79.1,
+    "config": "reasoning",
+    "source": {
+      "kind": "manual",
+      "url": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+      "reported_by": "LG AI Research EXAONE 4.5 official model card",
+      "fetched_at": "2026-08-14T00:00:00Z",
+      "published": "2026-04-09"
+    }
+  }
+]
