@@ -21,7 +21,10 @@ builds the site, commits changed scores to `main`, and deploys to GitHub Pages
 in the same workflow. It can also be started with `workflow_dispatch`.
 CI runs `npx tsx scripts/fetch-all.ts` without a local `.env`; set the optional
 `AA_API_KEY` repository secret to enable Artificial Analysis. LiveBench still
-requires its local snapshot. A failed fetch or build stops publication.
+requires its local snapshot. Arena reads the same mirror's GitHub snapshots;
+if the latest text snapshot is missing, existing Arena scores are preserved
+and a warning is recorded in the run summary. Other fetch failures or a failed
+build stop publication.
 
 ## 2. Tech-report ingest (deterministic scores from PDFs)
 
