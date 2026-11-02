@@ -1,5 +1,18 @@
 [
   {
+    "model_id": "open-ko-qwen-qwen2-5-coder-14b-instruct",
+    "benchmark_id": "gsm8k",
+    "score": 94.2,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-11-06",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
     "model_id": "gpt-4o-mini",
     "benchmark_id": "gsm8k",
     "score": 91.3,
@@ -9,7 +22,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-07-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -22,7 +35,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2023-06-13",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -35,7 +48,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-08-17",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -48,7 +61,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-09-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -61,7 +74,20 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-06-13",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "open-ko-qwen-qwen2-5-coder-7b-instruct",
+    "benchmark_id": "gsm8k",
+    "score": 86.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "gsm8k_external.csv",
+      "published": "2024-09-17",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -73,7 +99,7 @@
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -86,7 +112,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-09-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -99,7 +125,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-07-23",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -112,7 +138,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-09-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -125,7 +151,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-09-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -138,7 +164,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-02-21",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -151,7 +177,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-09-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
@@ -164,7 +190,7 @@
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "gsm8k_external.csv",
       "published": "2024-02-21",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   }
 ]

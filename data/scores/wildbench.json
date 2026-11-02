@@ -1,98 +1,98 @@
 [
   {
     "model_id": "gpt-4o",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 57.5,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "gpt-4-turbo",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 55,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "claude-3-opus",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 40.5,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "claude-3-sonnet",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 34.9,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "llama-3-70b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 34.4,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "mistral-large",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 32.7,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "mixtral-8x7b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 23.7,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
     "model_id": "llama-3-8b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 22.9,
     "config": "length-controlled",
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -104,7 +104,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -116,7 +116,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -128,7 +128,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -140,7 +140,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -152,7 +152,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -164,7 +164,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -176,7 +176,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -188,7 +188,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -200,7 +200,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -212,7 +212,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -224,7 +224,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -236,7 +236,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -248,7 +248,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -260,7 +260,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -272,7 +272,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -284,7 +284,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -296,7 +296,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -308,7 +308,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -320,7 +320,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -332,7 +332,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -344,7 +344,7 @@
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
       "reported_by": "wildbench",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -355,7 +355,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -366,7 +366,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -377,7 +377,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -388,7 +388,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -399,7 +399,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -410,7 +410,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -421,7 +421,18 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
+    }
+  },
+  {
+    "model_id": "open-ko-01-ai-yi-1-5-9b-chat",
+    "benchmark_id": "wildbench",
+    "score": 75.91976516634051,
+    "config": "WB-Score",
+    "source": {
+      "kind": "hf_dataset",
+      "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -432,7 +443,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -443,7 +454,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -454,7 +465,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   },
   {
@@ -465,7 +476,7 @@
     "source": {
       "kind": "hf_dataset",
       "url": "https://huggingface.co/spaces/allenai/WildBench/raw/main/data_dir/all_stat_wildbench.json",
-      "fetched_at": "2026-08-14T07:38:00.307Z"
+      "fetched_at": "2026-11-02T02:29:32.256Z"
     }
   }
 ]

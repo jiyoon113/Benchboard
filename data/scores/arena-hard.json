@@ -8,7 +8,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 80.75,
@@ -26,7 +26,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 77.25,
@@ -44,7 +44,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 77.42,
@@ -62,7 +62,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 72.66,
@@ -80,7 +80,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 61.43,
@@ -98,7 +98,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 59.82,
@@ -116,12 +116,30 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 57.56,
       "ci_hi": 62.34,
       "avg_tokens": 541,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "open-ko-unsloth-gemma-2-27b-it",
+    "benchmark_id": "arena-hard",
+    "score": 57.51,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-11-02T02:29:31.347Z"
+    },
+    "extra": {
+      "ci_lo": 55.11,
+      "ci_hi": 60.12,
+      "avg_tokens": 577,
       "snapshot_date": "2024-07-31"
     }
   },
@@ -134,7 +152,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 52.85,
@@ -152,7 +170,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 44.57,
@@ -170,7 +188,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 44.12,
@@ -188,7 +206,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 43.84,
@@ -206,12 +224,30 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 39.57,
       "ci_hi": 44.02,
       "avg_tokens": 505,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "open-ko-microsoft-phi-3-medium-4k-instruct",
+    "benchmark_id": "arena-hard",
+    "score": 33.37,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-11-02T02:29:31.347Z"
+    },
+    "extra": {
+      "ci_lo": 31.26,
+      "ci_hi": 35.14,
+      "avg_tokens": 517,
       "snapshot_date": "2024-07-31"
     }
   },
@@ -224,7 +260,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 21.38,
@@ -242,12 +278,30 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 21.67,
       "ci_hi": 25.27,
       "avg_tokens": 329,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "open-ko-01-ai-yi-34b-chat",
+    "benchmark_id": "arena-hard",
+    "score": 23.15,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-11-02T02:29:31.347Z"
+    },
+    "extra": {
+      "ci_lo": 20.75,
+      "ci_hi": 24.7,
+      "avg_tokens": 611,
       "snapshot_date": "2024-07-31"
     }
   },
@@ -260,7 +314,7 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 19.71,
@@ -278,12 +332,48 @@
       "kind": "github_repo",
       "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
       "ref": "arena_hard_leaderboard_20240731.csv",
-      "fetched_at": "2026-08-14T07:37:55.283Z"
+      "fetched_at": "2026-11-02T02:29:31.347Z"
     },
     "extra": {
       "ci_lo": 18.82,
       "ci_hi": 22.61,
       "avg_tokens": 585,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "open-ko-berkeley-nest-starling-lm-7b-alpha",
+    "benchmark_id": "arena-hard",
+    "score": 12.8,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-11-02T02:29:31.347Z"
+    },
+    "extra": {
+      "ci_lo": 11.23,
+      "ci_hi": 14.5,
+      "avg_tokens": 483,
+      "snapshot_date": "2024-07-31"
+    }
+  },
+  {
+    "model_id": "open-ko-openmodels4all-gemma-1-1-7b-it",
+    "benchmark_id": "arena-hard",
+    "score": 12.09,
+    "config": "default",
+    "source": {
+      "kind": "github_repo",
+      "url": "https://raw.githubusercontent.com/lmarena/arena-hard-auto/main/leaderboard/arena_hard_leaderboard_20240731.csv",
+      "ref": "arena_hard_leaderboard_20240731.csv",
+      "fetched_at": "2026-11-02T02:29:31.347Z"
+    },
+    "extra": {
+      "ci_lo": 10.61,
+      "ci_hi": 13.43,
+      "avg_tokens": 341,
       "snapshot_date": "2024-07-31"
     }
   }

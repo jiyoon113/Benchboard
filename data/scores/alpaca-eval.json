@@ -1,13 +1,41 @@
 [
   {
+    "model_id": "open-ko-princeton-nlp-gemma-2-9b-it-simpo",
+    "benchmark_id": "alpacaeval-2",
+    "score": 72.3508446939842,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1833
+    }
+  },
+  {
+    "model_id": "open-ko-princeton-nlp-gemma-2-9b-it-dpo",
+    "benchmark_id": "alpacaeval-2",
+    "score": 67.6620382198043,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 2016
+    }
+  },
+  {
     "model_id": "gpt-4o",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 57.45682883335095,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1873
@@ -15,13 +43,13 @@
   },
   {
     "model_id": "claude-3.5-sonnet",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 52.36675427146999,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1488
@@ -29,41 +57,69 @@
   },
   {
     "model_id": "gpt-4o-mini",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 50.727144855901976,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1861
     }
   },
   {
+    "model_id": "open-ko-princeton-nlp-llama-3-instruct-8b-simpo",
+    "benchmark_id": "alpacaeval-2",
+    "score": 44.65131348921881,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1825
+    }
+  },
+  {
     "model_id": "claude-3-opus",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 40.5095080124761,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1388
     }
   },
   {
+    "model_id": "open-ko-baai-infinity-instruct-7m-gen-mistral-7b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 39.66949964831439,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1742
+    }
+  },
+  {
     "model_id": "qwen-2.5-72b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 38.07461345451606,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1626
@@ -71,13 +127,13 @@
   },
   {
     "model_id": "claude-3-sonnet",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 34.87247436243302,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1420
@@ -85,41 +141,125 @@
   },
   {
     "model_id": "llama-3-70b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 34.42459717459881,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1919
     }
   },
   {
+    "model_id": "open-ko-baai-infinity-instruct-7m-gen-llama3-1-8b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 33.918371039899895,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1640
+    }
+  },
+  {
     "model_id": "mistral-large",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 32.65207998531868,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1362
     }
   },
   {
+    "model_id": "open-ko-baai-infinity-instruct-3m-0625-mistral-7b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 31.42101004652769,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1305
+    }
+  },
+  {
+    "model_id": "open-ko-baai-infinity-instruct-3m-0625-llama3-8b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 27.518835489680203,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1336
+    }
+  },
+  {
+    "model_id": "open-ko-01-ai-yi-34b-chat",
+    "benchmark_id": "alpacaeval-2",
+    "score": 27.19054787762733,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 2123
+    }
+  },
+  {
+    "model_id": "open-ko-baai-infinity-instruct-3m-0613-mistral-7b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 25.501557794727287,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1180
+    }
+  },
+  {
+    "model_id": "open-ko-qwen-qwen1-5-14b-chat",
+    "benchmark_id": "alpacaeval-2",
+    "score": 23.89664677030536,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1607
+    }
+  },
+  {
     "model_id": "mixtral-8x7b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 23.68848260134481,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1465
@@ -127,27 +267,139 @@
   },
   {
     "model_id": "llama-3-8b",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 22.91878467313347,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 1899
     }
   },
   {
+    "model_id": "open-ko-baai-infinity-instruct-3m-0625-qwen2-7b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 21.87399673499932,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1315
+    }
+  },
+  {
+    "model_id": "open-ko-maziyarpanahi-mistral-7b-instruct-v0-3",
+    "benchmark_id": "alpacaeval-2",
+    "score": 20.61004837179779,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1581
+    }
+  },
+  {
+    "model_id": "open-ko-baai-infinity-instruct-3m-0625-yi-1-5-9b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 20.538372631222003,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1449
+    }
+  },
+  {
+    "model_id": "open-ko-yhyu13-lmcocktail-10-7b-v1",
+    "benchmark_id": "alpacaeval-2",
+    "score": 18.950710386651053,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1203
+    }
+  },
+  {
+    "model_id": "open-ko-berkeley-nest-starling-lm-7b-alpha",
+    "benchmark_id": "alpacaeval-2",
+    "score": 14.690471079424972,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1895
+    }
+  },
+  {
+    "model_id": "open-ko-huggingfaceh4-zephyr-7b-beta",
+    "benchmark_id": "alpacaeval-2",
+    "score": 13.203198493136666,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1444
+    }
+  },
+  {
+    "model_id": "open-ko-ehartford-dolphin-2-2-1-mistral-7b",
+    "benchmark_id": "alpacaeval-2",
+    "score": 13.121477650433736,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1130
+    }
+  },
+  {
+    "model_id": "open-ko-ghost-x-ghost-7b-alpha",
+    "benchmark_id": "alpacaeval-2",
+    "score": 6.851138067048422,
+    "config": "length-controlled",
+    "source": {
+      "kind": "alpaca_csv",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
+      "fetched_at": "2026-11-02T02:29:29.714Z"
+    },
+    "extra": {
+      "avg_length": 1681
+    }
+  },
+  {
     "model_id": "phi-2",
-    "benchmark_id": "alpacaeval-2.0",
+    "benchmark_id": "alpacaeval-2",
     "score": 4.398682270855682,
     "config": "length-controlled",
     "source": {
       "kind": "alpaca_csv",
       "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/main/src/alpaca_eval/leaderboards/data_AlpacaEval_2/weighted_alpaca_eval_gpt4_turbo_leaderboard.csv",
-      "fetched_at": "2026-08-14T07:37:49.278Z"
+      "fetched_at": "2026-11-02T02:29:29.714Z"
     },
     "extra": {
       "avg_length": 626

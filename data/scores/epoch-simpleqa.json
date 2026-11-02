@@ -2,435 +2,437 @@
   {
     "model_id": "gemini-3.1-pro",
     "benchmark_id": "simpleqa",
-    "score": 77.3,
-    "config": "default",
+    "score": 73.5,
+    "config": "high",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-02-19",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gemini-3-pro",
-    "benchmark_id": "simpleqa",
-    "score": 72.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-11-18",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5.6-sol",
-    "benchmark_id": "simpleqa",
-    "score": 71.6,
-    "config": "max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-09",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gemini-3.6-flash",
-    "benchmark_id": "simpleqa",
-    "score": 68.7,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-21",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gemini-3.5-flash",
-    "benchmark_id": "simpleqa",
-    "score": 68.4,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-05-19",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "claude-fable-5",
     "benchmark_id": "simpleqa",
-    "score": 68.3,
+    "score": 70.7,
     "config": "xhigh",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-06-09",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "qwen3-max",
+    "model_id": "gpt-5.6-sol",
     "benchmark_id": "simpleqa",
-    "score": 67.5,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-09-24",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gemini-3-flash",
-    "benchmark_id": "simpleqa",
-    "score": 67.4,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-12-17",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "deepseek-v4-pro",
-    "benchmark_id": "simpleqa",
-    "score": 57,
+    "score": 69.7,
     "config": "max",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2026-04-24",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2026-07-09",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "qwen3.6-max",
+    "model_id": "gemini-3.7-flash",
     "benchmark_id": "simpleqa",
-    "score": 56.9,
-    "config": "default",
+    "score": 69.2,
+    "config": "high",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2026-04-20",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2026-08-13",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gemini-3-flash",
+    "benchmark_id": "simpleqa",
+    "score": 66.8,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-12-17",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.5-flash",
+    "benchmark_id": "simpleqa",
+    "score": 66.2,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-05-19",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gemini-3.6-flash",
+    "benchmark_id": "simpleqa",
+    "score": 66.2,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-21",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.5",
+    "benchmark_id": "simpleqa",
+    "score": 63,
+    "config": "xhigh",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-23",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "claude-opus-5",
     "benchmark_id": "simpleqa",
-    "score": 56.7,
+    "score": 59.9,
     "config": "max",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-07-24",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gemini-2.5-pro",
-    "benchmark_id": "simpleqa",
-    "score": 56,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-06-17",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "grok-4.5",
-    "benchmark_id": "simpleqa",
-    "score": 53.5,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-08",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "grok-4.6",
-    "benchmark_id": "simpleqa",
-    "score": 53,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-08-12",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "o3",
-    "benchmark_id": "simpleqa",
-    "score": 53,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-04-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.7",
-    "benchmark_id": "simpleqa",
-    "score": 50.6,
-    "config": "xhigh",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-04-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5",
-    "benchmark_id": "simpleqa",
-    "score": 50.6,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-08-07",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "qwen3-235b",
-    "benchmark_id": "simpleqa",
-    "score": 50.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-07-25",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "qwen3.6-plus",
-    "benchmark_id": "simpleqa",
-    "score": 49.1,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-03-31",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5.1",
-    "benchmark_id": "simpleqa",
-    "score": 48.9,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-11-13",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "grok-4-0709",
-    "benchmark_id": "simpleqa",
-    "score": 47.9,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-07-09",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.6",
-    "benchmark_id": "simpleqa",
-    "score": 46.5,
-    "config": "32K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-02-05",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    },
-    "variants": [
-      {
-        "score": 43.1,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2026-02-05",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      },
-      {
-        "score": 41,
-        "config": "max",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2026-02-05",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "gpt-5.4",
-    "benchmark_id": "simpleqa",
-    "score": 44.8,
-    "config": "xhigh",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-03-05",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5.6-terra",
-    "benchmark_id": "simpleqa",
-    "score": 43.1,
-    "config": "max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-09",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "kimi-k3",
-    "benchmark_id": "simpleqa",
-    "score": 42.7,
-    "config": "max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.5",
-    "benchmark_id": "simpleqa",
-    "score": 41.8,
-    "config": "32K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-11-24",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5.6-luna",
-    "benchmark_id": "simpleqa",
-    "score": 41.7,
-    "config": "max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-07-09",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "claude-opus-4.8",
     "benchmark_id": "simpleqa",
-    "score": 39.5,
+    "score": 53,
     "config": "max",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-05-28",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-max",
+    "benchmark_id": "simpleqa",
+    "score": 52,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-20",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.7",
+    "benchmark_id": "simpleqa",
+    "score": 51.7,
+    "config": "xhigh",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "kimi-k3",
+    "benchmark_id": "simpleqa",
+    "score": 50.6,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5",
+    "benchmark_id": "simpleqa",
+    "score": 50.1,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-08-07",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "o3",
+    "benchmark_id": "simpleqa",
+    "score": 49.4,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-04-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "grok-4.6",
+    "benchmark_id": "simpleqa",
+    "score": 49.3,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-08-12",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 48.9,
+        "config": "xhigh",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2026-08-12",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "qwen3-max",
+    "benchmark_id": "simpleqa",
+    "score": 48.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-09-24",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "grok-4.5",
+    "benchmark_id": "simpleqa",
+    "score": 48.3,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-08",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.1",
+    "benchmark_id": "simpleqa",
+    "score": 48,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-11-13",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.6",
+    "benchmark_id": "simpleqa",
+    "score": 47,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-02-05",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "claude-opus-4.5",
+    "benchmark_id": "simpleqa",
+    "score": 45.7,
+    "config": "32K",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-11-24",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.4",
+    "benchmark_id": "simpleqa",
+    "score": 45.1,
+    "config": "xhigh",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-03-05",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "qwen3.6-plus",
+    "benchmark_id": "simpleqa",
+    "score": 44.1,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-03-31",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-terra",
+    "benchmark_id": "simpleqa",
+    "score": 43.2,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-09",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "o1",
+    "benchmark_id": "simpleqa",
+    "score": 41.1,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2024-12-17",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-5.6-luna",
+    "benchmark_id": "simpleqa",
+    "score": 41,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-09",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "qwen3-235b",
+    "benchmark_id": "simpleqa",
+    "score": 40.4,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-07-25",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "gpt-5-2-2025-12-11-thinking-none",
     "benchmark_id": "simpleqa",
-    "score": 38.9,
+    "score": 37.1,
     "config": "xhigh",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-11",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     },
     "variants": [
       {
-        "score": 38.2,
+        "score": 34.3,
         "config": "high",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-12-11",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
+          "fetched_at": "2026-11-02T02:29:52.019Z"
         }
       },
       {
-        "score": 35.4,
-        "config": "medium",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2025-12-11",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      },
-      {
-        "score": 34.7,
+        "score": 32.8,
         "config": "low",
         "source": {
           "kind": "aggregator_api",
           "url": "https://epoch.ai/data/benchmark_data.zip",
           "ref": "simpleqa_verified.csv",
           "published": "2025-12-11",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      },
+      {
+        "score": 32.7,
+        "config": "medium",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2025-12-11",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "claude-sonnet-4.6",
+    "benchmark_id": "simpleqa",
+    "score": 35.5,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-02-17",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 32.8,
+        "config": "max",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2026-02-17",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
         }
       }
     ]
@@ -438,161 +440,161 @@
   {
     "model_id": "kimi-k2.6",
     "benchmark_id": "simpleqa",
-    "score": 38.7,
+    "score": 34.9,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-04-20",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "glm-5.2",
-    "benchmark_id": "simpleqa",
-    "score": 38.1,
-    "config": "max",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-06-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "gpt-5.5",
-    "benchmark_id": "simpleqa",
-    "score": 38,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-05-05",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "grok-4.3",
-    "benchmark_id": "simpleqa",
-    "score": 38,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-04-17",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "glm-5",
-    "benchmark_id": "simpleqa",
-    "score": 37.3,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-04-07",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "claude-opus-4.1",
-    "benchmark_id": "simpleqa",
-    "score": 34.8,
-    "config": "27K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-08-05",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "kimi-k2.5",
     "benchmark_id": "simpleqa",
-    "score": 33.9,
+    "score": 34.3,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2026-01-27",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "kimi-k2-thinking",
+    "model_id": "glm-5.2",
     "benchmark_id": "simpleqa",
-    "score": 31.6,
+    "score": 34.2,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-06-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "glm-5",
+    "benchmark_id": "simpleqa",
+    "score": 34,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2025-11-06",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2026-04-07",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "claude-sonnet-5",
+    "benchmark_id": "simpleqa",
+    "score": 33.7,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-06-30",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 32.9,
+        "config": "xhigh",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2026-06-30",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "deepseek-v4-flash",
+    "benchmark_id": "simpleqa",
+    "score": 33.6,
+    "config": "max",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-07-31",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "grok-4.3",
+    "benchmark_id": "simpleqa",
+    "score": 33.2,
+    "config": "high",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2026-04-17",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "glm-4.7",
     "benchmark_id": "simpleqa",
-    "score": 31.5,
+    "score": 32.2,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-12-22",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "claude-sonnet-4.6",
+    "model_id": "gpt-4-1-2025-04-14",
     "benchmark_id": "simpleqa",
-    "score": 29,
-    "config": "32K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2026-02-17",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "deepseek-r1",
-    "benchmark_id": "simpleqa",
-    "score": 27.5,
+    "score": 31.1,
     "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2025-12-01",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2025-04-14",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "deepseek_r1_0528-openrouter",
+    "model_id": "claude-sonnet-4-5-20250929",
     "benchmark_id": "simpleqa",
-    "score": 27.4,
-    "config": "default",
+    "score": 30.7,
+    "config": "59K",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2025-05-28",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
+      "published": "2025-09-29",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 23.7,
+        "config": "default",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2025-09-29",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
   },
   {
-    "model_id": "qwen3.5-plus",
+    "model_id": "gpt-4o",
     "benchmark_id": "simpleqa",
     "score": 26,
     "config": "default",
@@ -600,138 +602,151 @@
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2026-02-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2024-08-06",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "claude-sonnet-5",
+    "model_id": "qwen3.5-plus",
     "benchmark_id": "simpleqa",
-    "score": 25,
-    "config": "xhigh",
+    "score": 25.4,
+    "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2026-06-30",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    },
-    "variants": [
-      {
-        "score": 22.3,
-        "config": "max",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2026-06-30",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "o4-mini",
-    "benchmark_id": "simpleqa",
-    "score": 23.9,
-    "config": "high",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-04-16",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    },
-    "variants": [
-      {
-        "score": 21.9,
-        "config": "low",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2025-04-16",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      }
-    ]
-  },
-  {
-    "model_id": "claude-sonnet-4-5-20250929",
-    "benchmark_id": "simpleqa",
-    "score": 23.6,
-    "config": "59K",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2025-09-29",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    },
-    "variants": [
-      {
-        "score": 13,
-        "config": "default",
-        "source": {
-          "kind": "aggregator_api",
-          "url": "https://epoch.ai/data/benchmark_data.zip",
-          "ref": "simpleqa_verified.csv",
-          "published": "2025-09-29",
-          "fetched_at": "2026-08-14T07:39:13.567Z"
-        }
-      }
-    ]
+      "published": "2026-02-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
   },
   {
     "model_id": "gpt-5-mini",
     "benchmark_id": "simpleqa",
-    "score": 21,
+    "score": 21.6,
     "config": "high",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-08-07",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
-    "model_id": "gpt-oss-120b",
+    "model_id": "o4-mini",
     "benchmark_id": "simpleqa",
-    "score": 13.9,
+    "score": 19.6,
+    "config": "low",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-04-16",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 18.8,
+        "config": "high",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2025-04-16",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "o3-mini",
+    "benchmark_id": "simpleqa",
+    "score": 15.3,
     "config": "high",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
-      "published": "2025-08-05",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
-    }
-  },
-  {
-    "model_id": "claude-3.5-haiku",
-    "benchmark_id": "simpleqa",
-    "score": 6.7,
-    "config": "default",
-    "source": {
-      "kind": "aggregator_api",
-      "url": "https://epoch.ai/data/benchmark_data.zip",
-      "ref": "simpleqa_verified.csv",
-      "published": "2024-10-22",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "published": "2025-01-31",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   },
   {
     "model_id": "claude-haiku-4-5-20251001",
     "benchmark_id": "simpleqa",
-    "score": 5.9,
-    "config": "32K",
+    "score": 13.2,
+    "config": "default",
     "source": {
       "kind": "aggregator_api",
       "url": "https://epoch.ai/data/benchmark_data.zip",
       "ref": "simpleqa_verified.csv",
       "published": "2025-10-15",
-      "fetched_at": "2026-08-14T07:39:13.567Z"
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    },
+    "variants": [
+      {
+        "score": 12.6,
+        "config": "32K",
+        "source": {
+          "kind": "aggregator_api",
+          "url": "https://epoch.ai/data/benchmark_data.zip",
+          "ref": "simpleqa_verified.csv",
+          "published": "2025-10-15",
+          "fetched_at": "2026-11-02T02:29:52.019Z"
+        }
+      }
+    ]
+  },
+  {
+    "model_id": "gpt-4-1-mini-2025-04-14",
+    "benchmark_id": "simpleqa",
+    "score": 12.7,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-04-14",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "claude-3-opus",
+    "benchmark_id": "simpleqa",
+    "score": 12.6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2024-02-29",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-4o-mini",
+    "benchmark_id": "simpleqa",
+    "score": 8.3,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2024-07-18",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
+    }
+  },
+  {
+    "model_id": "gpt-4-1-nano-2025-04-14",
+    "benchmark_id": "simpleqa",
+    "score": 6,
+    "config": "default",
+    "source": {
+      "kind": "aggregator_api",
+      "url": "https://epoch.ai/data/benchmark_data.zip",
+      "ref": "simpleqa_verified.csv",
+      "published": "2025-04-14",
+      "fetched_at": "2026-11-02T02:29:52.019Z"
     }
   }
 ]
