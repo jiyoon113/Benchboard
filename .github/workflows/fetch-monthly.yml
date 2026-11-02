@@ -2,35 +2,59 @@ name: Monthly benchmark refresh
 
 on:
   schedule:
-    # 08:00 UTC on the 1st of every month
+    # 08:00 UTC (17:00 KST) on the 1st of every month
     - cron: "0 8 1 * *"
   workflow_dispatch:
 
+# Serialize with regular Pages deployments, including the data commit.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 permissions:
   contents: write
-  pull-requests: write
+  pages: write
+  id-token: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
       - run: npm ci
-      - run: npm run fetch:all
-      - name: Open PR if data changed
-        uses: peter-evans/create-pull-request@v6
+      # CI gets credentials from Secrets, without requiring a local .env file.
+      - run: npx tsx scripts/fetch-all.ts
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+      - run: npm run build
+      - name: Commit refreshed scores
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/scores/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: monthly benchmark refresh"
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN pushes do not trigger deploy-pages.yml; deploy here.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          commit-message: "data: monthly benchmark refresh"
-          title: "Monthly benchmark refresh"
-          body: |
-            Automated monthly pull of non-deterministic leaderboards
-            (Arena, AlpacaEval, Arena-Hard, WildBench, LiveBench).
+          path: dist
 
-            Diff is just the JSON files under `data/scores/`.
-          branch: data/monthly-refresh
-          add-paths: data/scores/**
-          delete-branch: true
+  deploy:
+    needs: fetch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

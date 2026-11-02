@@ -15,8 +15,13 @@ deterministic: same source contents → same output. Unresolved model names
 are printed at the end of each run; add them to
 `data/_well-known-models.json` to capture more rows next time.
 
-A GitHub Action at [.github/workflows/fetch-daily.yml](.github/workflows/fetch-daily.yml)
-runs this every day at 08:00 UTC and opens a PR with the diff.
+A GitHub Action at [.github/workflows/fetch-monthly.yml](.github/workflows/fetch-monthly.yml)
+runs on the 1st of every month at 08:00 UTC (17:00 KST). It fetches scores,
+builds the site, commits changed scores to `main`, and deploys to GitHub Pages
+in the same workflow. It can also be started with `workflow_dispatch`.
+CI runs `npx tsx scripts/fetch-all.ts` without a local `.env`; set the optional
+`AA_API_KEY` repository secret to enable Artificial Analysis. LiveBench still
+requires its local snapshot. A failed fetch or build stops publication.
 
 ## 2. Tech-report ingest (deterministic scores from PDFs)
 
